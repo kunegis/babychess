@@ -1,0 +1,28 @@
+This is an historical archive of the program "BabyChess", which I wrote
+approximately between 1999 and 2006, i.e., during my time at TU Berlin.
+
+All files except 'README.2017' are original.  
+
+The program plays chess, and consists of an engine (the part that
+calculates moves), and a GUI written in GTK+.  The GUI was quite
+advanced for its time, bu the engine was never able to match other
+engines of the time such as XBoard, etc.
+
+It uses various GCC extensions of the era and is unlikely to compile
+nowadays without modifications.  The build system is custom, even though
+is has a './configure' file. 
+
+The original directory was called 'babychess-17.pre.9' to reflect the
+version number.  In fact, the version number of the software is *only*
+derived from the directory name, so you'll have to rename the directory
+or hack the build system if you want to compile it.  The last release
+was Version 16, as reflected in the GUI and documentation, but many
+features of Version 17 are already implemented.  Note also that the URLs
+pointing to my old web pages at TU Berlin are not working anymore.  The
+web site used to have screenshots and more material.  
+
+The program is provided "as is" for historical reasons -- I don't it to
+run again.  But of course it would be cool if it did.
+
+The software is Free Software, published under the GNU GPL (Version 2),
+see the file 'LICENSING'. 
