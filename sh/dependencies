@@ -1,0 +1,27 @@
+#! /bin/sed -f
+## Convert the output of gcc -M -MG to a list of dependencies. 
+
+## remove backslashes
+s/\\/ /
+
+## remove comments
+s|^ *#.*$||
+
+## remove the target name
+s/^\([-a-z_0-9.]*\.o\:\)//
+
+## make each filename be surrounded by spaces
+s/ /  /g
+s/^/ /g
+s/$/ /g
+
+## remove system headers (they begin with /)
+s| /[^ ]* | |g
+
+## Filenames that don't contain slashes were not found.  They are not
+## dependencies. 
+s/ \([^ /]*\.hh\) /  /g
+
+## files included as "../*.hh"
+s, \.\./\([^ ][^ ]*\) , \1 ,g
+

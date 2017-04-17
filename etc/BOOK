@@ -1,0 +1,212 @@
+The BabyChess book format
+=========================
+
+A "BabyChess book" is a file in an own binary format.  It contains one
+game of chess.  The file is designed to be accessed using mmap(), and is
+not portable across system with differing endianness, although the word
+size of the host is irrelevant. 
+
+All information that is stored in PGN can also be stored in a book:
+    - arbitrary starting position saved in FEN
+    - recursive subvariations
+    - comments
+    - numerical annotation glyphs
+
+A book always contains exactly one game. 
+
+Books can be manipulated on the command line using the program
+"babychess-book".  Examples:
+
+1) Convert a PGN file that contains one game to a BabyChess book:
+
+$ babychess-book -c a.book -m a.pgn
+
+  -c a.book :    Creates an empty book in "a.book".  That file is now
+                 memory mapped and subsequent commands work on that map. 
+  -m a.pgn  :    Merge the PGN file "a.pgn", which contains exactly one
+                 game.  The book now contains the game from "a.pgn". 
+
+
+2)  Convert a book to PGN:
+
+$ babychess-book -r a.book -D
+  
+  -r a.book   :  Open the file "a.book" for reading only. 
+  -D          :  Output the opened book as PGN.	    
+
+3) Dump the internal format:
+
+$ babychess-book -r a.book -d
+
+
+Internal format overview
+========================
+
+Access to books is implemented in the Book class in src/book.{cc,hh}. 
+
+BabyChess books are memory-mapped.  They are arrays of Book::Entry.  The
+first entry is the header and contains the number of entries in the whole
+file.  The other entries are distinguished by their type:
+       
+       - position:  a position in the game
+       - move:  a move of the game
+       - tag:  a tag
+       - string:  a string value
+
+Entries are indexed by their position in the array.  A position entry has
+pointers to the move before and after that position.  A move entry has
+pointer has pointers to the positions before and after that move.
+
+In the examples below, a square represents an entry and a line represents
+two entries that point to each other.  The first letter of an entry
+represents its type (H=head, P=position, M=move). 
+
+Example 1 (simple game):   1. e4 e5 2. Nf3
+
+[HEAD]--[P1]--[M e2-e4]--[P2]--[M e7-e5]--[P3]--[M g1-f3]
+
+Example 2 (subvariations):  1. e4 e5 (c5; Nf6)
+
+[HEAD]--[P1]--[M e2-e4]--[P2]--[M e7-e5]--[P3]
+                                 |
+			       [M c7-c5]--[P4]
+			         |
+			       [M g8-f6]--[P5]
+
+Since the position P2 cannot point to any number of move, all moves that
+come after P2 form a linked list.  Similarly, all moves that lead to a
+position form a linked list.  Therefore, each move is part of two linked
+lists, and thus contains four pointers.  
+
+Additionally, each move has direct pointers to the position before and
+after that move. 
+
+The move information itself is stored in one 32-bit integer that holds the
+from and to squares, the en-passant square, the promotion piece, and the
+captured piece type.
+
+Positions:  They contain pointers to the beginning of the "before" and
+"after" linked lists.  Each position also stores the en-passant square,
+the halfmove clock, and check status.  Finally each position has the score
+of the position (which may be used for various purposes), the NAG and a
+pointer to the comment (which is a string entry.)
+
+
+Detailed description
+====================
+
+Each entry consist of eight words.  Each word is exactly 32 bits
+(hardcoded) in the local endianness.  Some words are signed, others are
+not.  The first contains the flags, and determines the type of the entry.
+Exactly one of the bo_* flags must be set.  The meaning of the seven other
+words depends on the entry type. 
+
+The header entry
+----------------
+
+The first entry is special:  it is not identified by a flag.  Instead it
+contains typical header info:
+
+- magic:  Always contains "bch\x84".  These four bytes identify
+  BabyChess books.  If a 64 bit version ever exists, "bch\x88" will be
+  used.  The order of these bytes does _not_ depend on the system
+  endianness. 
+- version:  The first character contains the format version.  Always 0 at
+  the moment.  The other 3 chars are 0.
+- endianness:  Contains the unsigned integer 0x04030201, and can therefore
+  be used to determine the endianness.  (Only books with the correct
+  endianness can be mapped.)
+- size:  The size of the book in number of entries.
+- first:  a pointer to the position at the beginning of the game.  (This
+  is normally 1 but could be anything else.)  (This entry represents the
+  starting position, but doesn't tell what the starting position is.  This
+  is stored in "starting".)
+- starting:  pointer to a string containing the starting position in FEN
+  notation.  If 0, the game starts from the standard starting
+  position. 
+- tags:  pointer to a linked list of tag entries, representing all tags of
+  the game (they have the same meaning as in PGN.)
+- firstn:  unused (always 1)
+
+
+Position entries
+----------------
+
+Entry of type position contain:
+
+- flags:  bo_position is always set.  bo_check is set when the king of the
+  side to move is in check.
+- last:  pointer to a doubly linked list of move the lead to that
+  position.  All linked entries are moves, and they use their members
+  "lnext" and "lprevious" for this doubly linked list.  Only in the
+  starting position is last == 0.
+- current:  equivalently a doubly linked list of move made in this
+  position.  In the move structures, the fields "cnext" and "cprevious"
+  are used.
+- comment:  a pointer to a string entry which contains the comment to
+  this position.  0 if there is no comment.
+- score:  a signed 32-bit score.  This is lost when converting to PGN, and
+  can be used for various purposes internally. 
+- nag:  the numerical annotation glyph (NAG) of theis position.  0 means
+  no annotation glyph.  (See src/nag.cc)  Represented in PGN as "$N". 
+- ep:  if a pawn can be captured en-passant, the square of that square
+  (represented as and int as defined in src/square.hh)  0 if no e.p. move
+  is possible.
+- halfmove_clock:  The number of halfmoves since the last pawn move or
+  capture.  (As defined for the 50 move rule)
+
+
+Move entries
+------------
+
+- flags:  always bo_move
+- lnext, lprevious:  pointers of to next and previous elements of the
+  doubly linked list of moves that lead to a position.  lnext is 0 if this
+  is the last move in the list.  lprevious points to the position after
+  this move if this move is first in the list.
+- lcurrent, lprevious:  The same for the moves after a position. 
+- move:  the move in "small" format, as defined in src/move.hh.
+- before, after:  direct pointers to the positions before and after this
+  move. 
+
+
+String entries
+--------------
+
+Strings are stored as linked lists of string entries.  Pointers to strings
+from other entry types mean pointers to the first element of such a list. 
+
+- next:  The next element in the list, or 0 if this is the last element in
+  the list.
+- previous:  If this is the first element in the string list, a pointer to
+  the entry that owns this string.  Else a pointer to the previous string
+  entry in this list.
+- text[5]:  In the five remaining words, the string is stored.  It may be
+  shorter than 20 bytes by containing '\0'.  Only the last string entry in
+  a string list may contain '\0' here.  It does not when the length of the
+  overall string is a multiple of 20.
+
+
+Tags
+----
+
+The tags form a doubly linked list beginning at the head, and containing
+only tags.
+
+- next:  the next tag in the list, or 0 if this is the last tag in the
+  list.
+- previous:  the previous tag in the list or 0 if this is the first tag. 
+- name:  a pointer to a string entry containing the name of the tag
+- value:  a pointer to a string entry containing the value of the tag
+- name_string[3]:  If the name of the tag is not longer that 12
+  characters, the name is stored here and "name" is 0.  name_string
+  contains a '\0' if the name is shorter than 12 chars. 
+
+
+Holes
+-----
+
+A book contains no hole.  All entries are reachable from the head.  Since
+everything is linked in both directions, entries can always be moved
+around.  If an entry is deleted, the last entry of the book is moved to
+the hole.  (Currently entries are never deleted.)

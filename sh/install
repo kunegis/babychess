@@ -1,0 +1,176 @@
+#!/bin/sh
+##
+## Install BabyChess from a source release non-interactively.
+##
+## Options are passed through the environment:
+##
+## $install_dir
+##     Base installation dir (e.g. "/usr" "/home/jerome").  Appended to
+##     $install_root.  
+##
+## $install_root
+##     Prepended to $install_dir.  When installing programs, $install_root is
+##     empty.  When not empty, the directory structure is built there.  Not
+##     terminated by '/'.  (Used to build RPMs)  
+##
+## $skip_home
+##     If not empty, don't write files in home directories (e.g. links in
+##     menues)  
+##
+
+. sh/echo-n.sh
+. sh/version-number.sh
+. sh/verbose.sh
+. sh/menues.sh
+. sh/tmp.sh
+
+if [ -z "$install_dir" ]
+then
+    install_dir=/usr
+    [ "$install_root" -o -w $install_dir ] || install_dir=$HOME
+fi
+
+[ "$install_root" -o -w $install_dir ] || {
+    echo >&2 "*** cannot write to installation directory $install_dir"
+    exit 1
+}
+
+echo >&4 "Installing in \"$install_dir\"."
+
+install_base=
+
+##
+## Menu entries
+##
+gnome_menu_dir="$install_root$gnome_main_menu_dir"
+kde_menu_dir="$install_root$kde_main_menu_dir"
+
+if [ -z "$install_root"                \
+     -a \! -w "$gnome_main_menu_dir"   \
+     -a -z "$skip_home" ]
+then
+    gnome_menu_dir="$gnome_home_menu_dir"
+fi
+
+if [ -z "$install_root"              \
+     -a \! -w "$kde_main_menu_dir"   \
+     -a -z "$skip_home" ]
+then
+    kde_menu_dir="$kde_home_menu_dir"
+fi
+
+##
+## Desktop icons
+##
+if [ -z "$skip_home" ]
+then
+    gnome_desktop_dir="$HOME/.gnome-desktop"
+    kde_desktop_dir="$HOME/Desktop"
+else
+    gnome_desktop_dir=
+    kde_desktop_dir=
+fi
+
+##
+## Per-program install
+##
+programs="`ls bin/* | grep '^[^.]*$'`"
+
+echo >&4 "Programs to install:  $programs"
+
+for program in $programs
+do
+    sh/install-file $program "$install_root$install_dir/$program"
+done
+
+
+##
+## Desktop and menu links
+##
+tmp_entry=$TMP/${$}_entry
+echo "\
+[Desktop Entry]
+Name=BabyChess
+Comment=A chess application
+Exec=$install_dir/bin/babychess
+Terminal=0
+Type=Application
+Icon=$install_dir/share/babychess/babychess.png
+MimeType=application/x-pgn
+" >$tmp_entry
+
+sh/install-file $tmp_entry "$gnome_menu_dir/babychess.desktop"
+sh/install-file $tmp_entry "$kde_menu_dir/babychess.desktop"
+
+[ "$gnome_desktop_dir" ] && 
+    sh/install-file $tmp_entry "$gnome_desktop_dir/babychess.desktop"
+[ "$kde_desktop_dir" ]   &&
+    sh/install-file $tmp_entry "$kde_desktop_dir/babychess.desktop"
+
+sh/install-file babychess.png $install_root$install_dir/share/babychess/$icon_file
+
+##
+## Distribution files
+##
+for file in AUTHORS README COPYING LICENSING ; do
+    sh/install-file $file $install_root$install_dir/share/babychess/$file
+done
+
+##
+## share/ files
+##
+if grep >/dev/null 'build_without_gui:=1' conf.make ; then
+    modules=opening_book
+else
+    modules="`ls -d share/* | grep -v /test | sed s,share/,,g`"
+fi
+
+echo >&4 "Modules are:     $modules"
+
+sh/do rm -rf $install_root$install_dir/share/babychess/share
+install -d $install_root$install_dir/share/babychess/share
+
+for module in $modules
+do
+    if [ -d share/$module ]
+    then
+	sh/do cp -r share/$module $install_root$install_dir/share/babychess/share/
+    fi
+done
+sh/do chmod -R a+r $install_root$install_dir/share/babychess/share/
+find $install_root$install_dir/share/babychess/share/ -type d | xargs chmod a+x
+
+
+##
+## Mime entries
+##
+mimelnk_dir=$install_root$main_mimelnk_dir
+if [ -z "$install_prefix" -a \! -w $mimelnk_dir ]
+then
+    mimelnk_dir=$home_mimelnk_dir
+fi
+
+for file in mimelnk/*.desktop
+do
+    name=$TMP/$$.mime
+    sed s,@ICON@,$install_dir/share/babychess/babychess.png, <$file >$name
+    end="`basename $file`"
+    sh/install-file $name $mimelnk_dir/application/$end
+done
+
+##
+## Translations
+##
+for file in po/*.po ; do
+    language=`echo $file | sed 's,po/\(.*\)\.po,\1,'`
+    sh/install-file po/$language/LC_MESSAGES/babychess.mo \
+       $install_root$install_dir/share/locale/$language/LC_MESSAGES/babychess.mo
+done
+
+##
+## The Manpage
+##
+tmp_file=$TMP/babychess.sh.install.$$
+<man/babychess.6 gzip >$tmp_file
+sh/install-file $tmp_file $install_root$install_dir/share/man/man6/babychess.6.gz
+

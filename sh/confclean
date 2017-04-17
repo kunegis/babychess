@@ -1,0 +1,4 @@
+#! /bin/sh
+
+rm -rf config.hh conf.make man/babychess.6
+sh/distclean

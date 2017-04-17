@@ -1,0 +1,55 @@
+Environment variables not documented in README:
+
+The default (when none of these variables is set) is used to develop
+BabyChess.  ./configure sets them to correct values for installation. 
+
+$build_type
+	Determines the build type, possible values are:
+
+        - "":  Build a debug version.  Debugging flags are set for GCC.  All
+  	  test programs are compiled. 
+	- "optimize":  An optimized version is built.  The macro "NDEBUG" is
+  	  defined, and optimization flags are passed to the compiler.   (set by
+  	  ./configure) 
+	- "none":  Don't define any special macros or flags for compilation. 
+	- "profile":  Used for profiling.  Adds "-pg" to the compilation flags
+   	  and don't strip symbols. 
+
+$build_once
+	Whether a program should be compiled at once or each module
+	separately. 
+
+	- "":  Each module is compiled separately into an object file in bin/.
+	       All object files are then linked together.  Used for
+	       development.  This is faster when recompiling everything when
+	       just little has changed in the source. 
+	- "1": At once.  Used for fastest compiling.  Files of the form
+	       dep/babychess*.cc are produced which include all necessary .cc
+	       files in src/.  These files are then compiled at once. 
+
+$build_without_test
+	If set, don't compile the test and debug programs (set by ./configure)   
+
+$verbose
+	The verbose level.  If empty, be quiet.  Else a number
+        indicating the verbosity level.  1 is "normal", 2 is extremely
+        verbose.  Set to 1 by ./configure. 
+
+$BABYCHESS_VERSION_NUMBER	
+$BABYCHESS_E_MAIL
+$BABYCHESS_WEB_SITE
+	Set these to change the info displayed by --version and --help.  Used
+	at configure time. 
+
+Macros:
+	SETTINGS_DIR_NAME
+		Name of the config dir in the home directory, defaults
+		to ".babychess".  
+
+
+To make a source release:   sh/dist
+
+
+Programs to emulate:
+	 gedit
+	 inkscape

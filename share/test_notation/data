@@ -1,0 +1,28 @@
+//
+// This file contains the list of strings included by
+// src/babychess-test-notation.cc.  It is processed by
+// sh/write-test-notation-data to give bin/test_notation_data.c. 
+//
+// Move names are separated by commas.  Whitespace not inside moves is
+// ignored.  C++ comments are allowed on otherwise empty lines. 
+//
+// The dashes are EN dashes in UTF-8.  The space before "e.p." is a non
+// breaking spaces in UTF-8.  
+//
+
+e4     ,e2–e4   ,Pe4     ,Pe2–e4   ,e4       ,e4    ,e4    ,e4     ,e2–e4    ,Pe2–e4    ,e4     ,e4     ,e2–e4
+Nf3    ,Ng1–f3  ,Nf3     ,Ng1–f3   ,Nf3      ,Nf3   ,Nf3   ,Nf3    ,Ng1–f3   ,Ng1–f3    ,Nf3    ,Nf3    ,Ng1–f3
+exd5   ,e4xd5   ,Pexd5   ,Pe4xd5   ,exd5     ,exd5  ,ed5   ,ed5x   ,e4xd5    ,Pe4xPd5   ,exd5   ,exd5   ,e4xd5
+exd6   ,e5xd6   ,Pexd6   ,Pe5xd6   ,exd6 e.p.,exd6  ,ed6   ,ed6x   ,e5xd6    ,Pe5xPd6   ,exd6   ,exd6   ,e5xd6
+Bxf7+  ,Bc4xf7+ ,Bxf7+   ,Bc4xf7+  ,Bxf7+    ,Bxf7  ,Bf7+  ,Bf7x+  ,Bc4xf7+  ,Bc4xPf7+  ,Bxf7+  ,Bxf7+  ,Bc4xf7+
+Rxa8   ,Ra1xa8  ,Rxa8    ,Ra1xa8   ,Rxa8     ,Rxa8  ,Ra8   ,Ra8x   ,Ra1xNa8  ,Ra1xNa8   ,Rxa8   ,Rxa8   ,Ra1xa8
+Nd6+   ,Ne4–d6+ ,Nd6+    ,Ne4–d6+  ,Nd6+     ,Nd6   ,Nd6+  ,Nd6+   ,Ne4–d6+  ,Ne4–d6+   ,Nd6++  ,Nd6+   ,Ne4–d6+
+O-O    ,O-O     ,O-O     ,O-O      ,O-O      ,O-O   ,O-O   ,O-O    ,O-O      ,O-O       ,O-O    ,Kg1    ,Ke1–g1
+O-O-O  ,O-O-O   ,O-O-O   ,O-O-O    ,O-O-O    ,O-O-O ,O-O-O ,O-O-O  ,O-O-O    ,O-O-O     ,O-O-O  ,Kc8    ,Ke8–c8
+h8=Q   ,h7–h8=Q ,Ph8=Q   ,Ph7–h8=Q ,h8=Q     ,h8=Q  ,h8=Q  ,h8=Q   ,h7–h8=Q  ,Ph7–h8=Q  ,h8=Q   ,h8=Q   ,h7–h8=Q
+bxa1=N+,b2xa1=N+,Pbxa1=N+,Pb2xa1=N+,bxa1=N+  ,bxa1=N,ba1=N+,ba1x=N+,b2xRa1=N+,Pb2xRa1=N+,bxa1=N+,bxa1=N+,b2xa1=N+
+Nbd7   ,Nb8–d7  ,Nbd7    ,Nb8–d7   ,Nbd7     ,Nbd7  ,Nbd7  ,Nbd7   ,Nb8–d7   ,Nb8–d7    ,Nbd7   ,Nbd7   ,Nb8–d7
+R5e7   ,Re5–e7  ,R5e7    ,Re5–e7   ,R5e7     ,R5e7  ,R5e7  ,R5e7   ,Re5–e7   ,Re5–e7    ,R5e7   ,R5e7   ,Re5–e7
+Qd3b3  ,Qd3–b3  ,Qd3b3   ,Qd3–b3   ,Qd3b3    ,Qd3b3 ,Qd3b3 ,Qd3b3  ,Qd3–b3   ,Qd3–b3    ,Qd3b3  ,Qd3b3  ,Qd3–b3
+Qh4#   ,Qd8–h4# ,Qh4#    ,Qd8–h4#  ,Qh4#     ,Qh4   ,Qh4#  ,Qh4#   ,Qd8–h4#  ,Qd8–h4#   ,Qh4#   ,Qh4#   ,Qd8–h4#
+Bg7#   ,Bf6–g7# ,Bg7#    ,Bf6–g7#  ,Bg7#     ,Bg7   ,Bg7#  ,Bg7#   ,Bf6–g7#  ,Bf6–g7#   ,Bg7#   ,Bg7#   ,Bf6–g7#

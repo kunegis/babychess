@@ -1,0 +1,8 @@
+#include "../src/babychess-test-format.cc"
+#include "../src/constant.cc"
+#include "../src/format.cc"
+#include "../src/main.cc"
+#include "../src/moveable.cc"
+#include "../src/pointer.cc"
+#include "../src/string.cc"
+#include "../src/verbose.cc"

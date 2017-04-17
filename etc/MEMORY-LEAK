@@ -1,0 +1,36 @@
+How To Detect Memory Leaks
+==========================
+
+1) Compile the program in question and bin/babychess-dbg-leak with
+   CXXFLAGS="-DLOG_MEMORY -DNDEBUG -g" and build_type="none".  The
+   malloc() & co functions are now hooked.  A log of all uses is made on
+   stderr.     
+
+2) Run the program that leaks and pipe stderr to a logfile.  Example: 
+
+   $ bin/baby-evaluator -d4 2>/tmp/log
+
+   (It is important to specify a depth using -d, or else
+   chess_evaluator would have to be stopped with SIGINT.  It has to
+   terminate by itself to have the chance to free memory by itself.)
+
+3) Run bin/babychess-dbg-leak on the logfile and generate the diagnosis:  
+   $ bin/baby-dbg-leak </tmp/log >/tmp/log2
+
+4) Look at /tmp/log2.  It should contain a list of memory chunks that
+   were never freed.  They are identified by their ID.  Pick one ID.
+   (Lower IDs were allocated first, so it might be good to pick a low
+   ID)  Note that if /tmp/log2 is empty then there were no leaks.
+   (Try running the program with another input file etc...)
+
+5) Go to src/main.cc and in the function my_malloc_hook(), change -1
+   to the ID picked before. 
+
+6) Use a debugger and set a breakpoint on one of the lines inside the
+   block in my_malloc_hook() that is only reached when allocating the
+   offending memory. 
+
+7) Run the program in the debugger with the same arguments as before.
+   The debugger should now stop at the offending malloc().  
+
+8) Find out why this memory is not released and fix the bug. 

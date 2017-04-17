@@ -1,0 +1,11 @@
+#! /bin/sh
+
+modules="board_theme notation"
+
+for module in $modules ; do
+    cd share/$module
+    for file in * ; do
+	echo gettext\(\"$file\"\)\;
+    done
+    cd ../..
+done

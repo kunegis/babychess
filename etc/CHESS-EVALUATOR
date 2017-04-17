@@ -1,0 +1,92 @@
+The Chess Evaluator Specification
+=================================
+
+The two programs babychess-evaluator and babychess-xboard-evaluator
+implement a so-called evaluator.  This is the specification for these
+programs.  
+
+Overview
+--------
+
+A chess evaluator is a program that is invoked with a chess position
+as its argument.  It calculates the evaluation of the position and
+prints evaluation information on its standard output as it is found.  
+
+An evaluator differs from a chess engine, as it only evaluates one
+position, and is killed when it is not needed anymore.   Engines play whole
+games of chess. 
+
+An evaluator need not deal with synchronisation issues, as it only
+calculates, and doesn't read its input.  
+
+The position is given via the command line in FEN notation. 
+
+Non-parallel chess algorithms should be implementeable as a chess
+evaluator without the use of threads, polling or signals. 
+
+
+Invocation
+----------
+
+babychess-evaluator  -p "POSITION"
+
+POSITION is the position to analyze in FEN notation.  If no position
+is specified, analyze the initial position.  The position is passed as
+a single argument that contains spaces. 
+
+Moves in the evaluator output are given in simple chess notation (e2e4, g1f3,
+e1g1, c7c8q).  
+
+Evaluation is given in chess evaluation notation as documented in
+"etc/CHESS-EVALUATION".   
+
+
+Output
+------
+
+An evaluator writes its evaluation on standard output one line at a
+time.  Each line begins with a keyword.  The program may output other
+keywords that are not listed here ; these will be ignored by the
+parent process.  New keywords can be added without breaking backward 
+compatibility. 
+
+
+Keywords
+--------
+
+depth N
+  
+      Begin analysis at depth N.
+
+main MOVE
+
+      The new main variation (only one move is given) 
+
+move MOVE EVALUATION
+
+      Evaluation of MOVE.  
+
+score EVALUATION
+
+      The evaluation of the position is EVALUATION. 
+
+knots KNOTS
+
+      Number of knots calculated.  (Should be output about each second.)
+
+pid PID...
+
+      List of child processes still running.  (By now, evaluators can have only
+      one child process.)  This information is necessary to calculate the
+      running time. 
+
+
+Signals
+-------
+
+A SIGUSR1 is send to the evaluator to make it stop.  The evaluator must stop
+itself and all it’s children when it receives SIGUSR1. 
+
+When the evaluator receives SIGCONT, it must continue all it’s children (by
+sending them SIGCONT). 
+

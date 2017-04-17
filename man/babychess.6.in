@@ -1,0 +1,49 @@
+.TH babychess "6" "@DATE@" "babychess @VERSION_NUMBER@" "Games"
+.SH NAME
+babychess \- a GUI chess application
+.SH SYNOPSIS
+\fBbabychess\fP
+.br
+\fBbabychess\fP --play
+.br
+\fBbabychess\fP --internet
+.br
+\fBbabychess\fP --edit-game-archive [\fIPGN-FILE\fR]
+.br
+\fBbabychess\fP --edit-game [\fIPGN-FILE\fR]
+.br
+\fBbabychess\fP --edit-position [\fIFEN-FILE\fR]
+
+.SH DESCRIPTION
+.PP
+BabyChess is a graphical chess application.  It can be used to play games
+against chess engines, play chess on the internet, and edit PGN and FEN files.
+It also includes it's own chess engine. 
+.TP
+\fBbabychess\fP
+Open the start window giving access to all functionality.
+.TP
+\fBbabychess\fP --play
+Play a local game of chess.  Players can be humans or chess engines running on
+the local computer.
+.TP
+\fBbabychess\fP --internet
+Play chess on the internet.  BabyChess will prompt for the name and port of an
+internet chess server, and for a username and password.  Once logged in, games
+can be played against other human players.
+.TP
+\fBbabychess\fP --edit-game-archive [\fIPGN-FILE\fR]
+Open a PGN file for viewing or editing.  The PGN file may contain any number of
+chess games.  If the filename is omitted, open a new chess game archive
+containing zero games.
+.TP
+\fBbabychess\fP --edit-game [\fIPGN-FILE\fR]
+Open a PGN file that contains exactly one game for viewing and editing.  If
+the filename is omitted, open a new game from the standard starting position. 
+.TP
+\fBbabychess\fP --edit-position [\fIFEN-FILE\fR]
+Open a FEN file containing exactly one position for viewing and editing.  If
+the filename is omitted, edit the standard starting position.
+
+.SH AUTHOR
+\fBBabyChess\fP was conceived and developed by Jerome KUNEGIS.

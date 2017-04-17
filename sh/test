@@ -1,0 +1,48 @@
+#! /bin/sh
+##
+## Perform all tests
+## Everything must be build
+##
+
+. sh/verbose.sh
+
+error_count=0
+
+##
+## C++ test programs
+##
+for program in src/babychess-test-*.cc 
+do
+    bin="`echo $program | sed 's,src/\([^.]*\)\.cc,bin/\1,'`"
+    >&4 sh/do $bin
+    if [ $? != 0 ] 
+    then
+	echo >&2 "*** error in $bin"
+	error_count=`expr $error_count + 1`
+    fi
+done
+
+##
+## Test scripts
+##
+for script in sh/test-*[!~]
+do
+    sh/do $script
+    if [ $? != 0 ] 
+    then
+	echo >&2 "*** error in $script"
+	error_count=`expr $error_count + 1`
+    fi
+done
+
+##
+## Summary
+##
+if [ $error_count = 0 ]
+then
+    echo >&4 'All tests passed.'
+    exit 0
+else
+    echo >&2 "Test failed with $error_count error(s)."
+    exit 1
+fi

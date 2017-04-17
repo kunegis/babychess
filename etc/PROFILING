@@ -1,0 +1,8 @@
+Profiling
+=========
+
+1) Compile with build_type=profile  (and build_once=1) 
+
+2) Run the program.
+
+3) $ gprof bin/babychess*

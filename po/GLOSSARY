@@ -1,0 +1,181 @@
+Glossary
+========
+
+List of words, with synonyms to avoid and translations:
+
+WORD
+def:definition or explanation
+ex:EXAMPLE
+not:SYNONYMS TO AVOID
+.LANGUAGE-CODE:TRANSLATION
+
+--------------------------------------
+ADD
+.de:hinzufügen
+.fr:ajouter
+
+APPEND 
+ex:Appending an element at the end of a list.  
+.de:anhängen
+.fr:ajouter
+
+CANCEL
+.de:abbrechen
+.fr:annuler
+
+CLEAR
+def:To make empty, to empty
+ex:clear the position (in the sense of removing all pieces)
+not:reset (which in a position means revert to initial state, i.e. the
+    starting position)
+.de:löschen
+.fr:effacer
+
+COUNTERGAMBIT
+not:counter-gambit
+.de:Gegengambit
+.fr:contre-gambit
+
+CUSTOM
+.de:ander ??
+.fr:
+
+DUMP
+
+ENGINE
+.de:Engine ??
+.fr:moteur
+
+FILE
+def:An object in the file system.  Don't use "file" when "filename" is
+    meant. 
+.de:Datei
+.fr:Fichier
+
+FILENAME
+def:The name of a file.  The word "file" refers to the file itself.  The
+    orthography in one word is recommended by the GNOME Human Interface
+    Guidelines. 
+not:file name, file-name
+.de:Dateiname
+.fr:Nom de fichier
+
+INTERNET CHESS
+def:Chess that is played on the internet
+ex:To play internet chess
+not:ICS (abbr. of Internet Chess Server)
+de:Internet-Schach
+fr:Échecs en réseau
+
+LOAD
+def:To read a file without remembering its name
+not:open
+de:laden
+fr:charger
+
+LOCATION
+def:When editing a game, the current point at which the user is seeing
+    the position.  Specified by a move number.
+ex:the current location in a game
+not:position (with always refers to the configuration of pieces on the
+    board) 
+
+OK
+.fr:valider
+
+OPTION
+ex:passing options to a program
+not:setting the options via the GUI, cf. settings, preferences
+
+PARSE
+def:to interpret a string.  Use only in source.
+ex:to parse a FEN string
+not:scan
+
+PREFERENCES
+def:preferences are global settings.  Many settings are only used as
+    preferences, i.e. they can only be set globally.  Always used in the
+    plural.  
+ex:the notation preferences
+.de:Einstellungen
+.fr:préférences
+
+REMOVE
+not:delete
+.de:entfernen
+.fr:enlever
+
+RESET
+def:to revert to the initial state.  
+ex:Resetting a position
+not:clear (which would mean removing all pieces from the position) 
+.de:Zurücksetzen
+
+SAVE
+.fr:sauvegarder
+.de:speichern
+
+SCORE
+ex:the score of a position
+not:evaluation
+.de:Bewertung
+.fr:score
+
+SETTINGS
+def:Something that can be configured via the GUI.  The word is rarely
+    used outside source code
+ex:Whether the board is turned is a settings
+de:Einstellungen
+fr:préférences
+
+_VIEW
+def:name of an item in the menubar
+de:_Ansicht
+fr:_Affichage
+
+WRITE
+def:to output text.  Used in source.
+not:print (reserved for printers)
+
+
+Pairs of antonyms
+=================
+
+open  / close
+alloc / free
+
+
+Capitilization
+==============
+
+The Human Iterface Guidelines distinguishes sentence and header
+capitalization.  In French and German, Header capitalization is not
+used. 
+
+
+
+Typography (using Unicode)
+==========
+
+Technical quotes are used for filenames etc., other quotes for normal
+sentences. 
+
+English:	"technical quote"
+		“other quote”
+
+Français :	«citation technique»
+		« autre citation »
+
+Deutsch:	»technischs Zitat«
+		„anderes Zitat“
+		
+Apostrophe:   l’apostrophe
+
+
+
+Commands
+========
+
+EN English:     imperative  Play  
+DE Deutsch:     infinitive  Spielen
+FR français:    infinitive  Jouer

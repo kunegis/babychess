@@ -1,0 +1,27 @@
+Accelerator Keys
+================
+
+
+Alt+Return	Properties
+Alt+Home	To the start
+Alt+End		To the end
+Alt+Left	Back
+Alt+Right	Forward
+
+Ctrl+C		Copy
+Ctrl+I		Login
+Ctrl+K		Seek
+Ctrl+L		Legal moves
+Ctrl+N		New
+Ctrl+O		Open
+Ctrl+Q		Quit
+Ctrl+R		Resign
+Ctrl+S		Save
+Ctrl+V		Paste
+Ctrl+W		Close
+Ctrl+X		Cut
+
+Ctrl+9		Start
+Ctrl+0		Pause
+Ctrl+3		Restart
+Ctrl+8		Play best move

@@ -1,0 +1,9 @@
+What You Can Do
+===============
+
+- Translate BabyChess to another language.  See po/README. 
+
+- Provide notations in other languages.  Create them in the notation
+  settings and save them.  A file will be created in
+  "~/.babychess/notation.saved/". 
+

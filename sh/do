@@ -1,0 +1,17 @@
+#!/bin/sh
+##
+## Execute parameters as command and echo the command when in verbose
+## mode.   
+##
+## May not work if command contains quoting.  
+##
+
+. sh/verbose.sh
+
+echo >&4 "$@"
+
+"$@"
+
+##
+## Exit code is that of program executed. 
+##

@@ -1,0 +1,39 @@
+Patching BabyChess
+==================
+
+If you modify BabyChess, please send (useful) patches to the mailing
+list.   
+
+When you make a patch, duplicate the source directory.  Keep the
+original version in order to make the patch.  In this example, assume
+the version you will work on is 1.2.3: 
+
+	cp -r babychess-1.2.3 babychess-1.2.3-xyz
+
+"xyz" is the name of the patch.  
+
+Then you can make changes inside "babychess-1.2.3-xyz".  Compile and test as
+described in "etc/README".  
+
+When the changes work, clean the patch directory:
+
+	cd babychess-1.2.3-xyz && cook distclean
+
+Check whether there are non-source file like "core" and remove them.      
+
+Then you can create the patch.  Use:
+
+	diff -rcP babychess-1.2.3.xyz babychess-1.2.3-xyz >babychess-1.2.3-xyz.diff
+
+"-P" is a GNU extension and works only with GNU Diff.  You don't need
+it if you haven't created new files.  Renaming files won't work. 
+
+Please comment changes.  
+
+To apply a patch, use "patch -c1" inside the BabyChess directory. 
+
+Please send patches to the mailing list. 
+
+Thank you for contributing to the BabyChess project. 
+
+

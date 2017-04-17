@@ -1,0 +1,11 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+1. e4 $1 e5 2. Nf3 $2 Nc6 3. Bc4 $3 Bc5 4. O-O $4 Nf6 5. Nc3 $5 d6 6. d3 $6 O-O
+7. Bg5 $7 Bg4 8. Nd5 $10 Bxf3 9. Qxf3 $22 Nd4 10. Qd1 $36 c6 *
+

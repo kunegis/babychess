@@ -1,0 +1,6 @@
+The "sh" directory contains scripts.
+
+File whose name end in ".sh" are not executable.  They are included from other
+shell scripts with the "." command.    
+
+Files without the extension are executable.

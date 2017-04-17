@@ -1,0 +1,6 @@
+A reminder of RPM commands:
+
+rpm -qpl babychess-15-1.rpm  # list files in the RPM
+rpm -q babychess             # check whether BabyChess is installed
+rpm -i babychess-15-1.rpm    # install the RPM
+rpm -e babychess             # remove the BabyChess package

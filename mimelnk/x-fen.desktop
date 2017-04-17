@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-fen
+Icon=@ICON@
+Comment=Chess Position
+Patterns=*.fen;*.FEN

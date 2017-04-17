@@ -1,0 +1,30 @@
+Comment format
+==============
+
+Comments in openings.pgn are a list of opening names for that move.  If several
+names are known, they are separated by a semicolon.  
+
+Name are written in sentence capitalization. 
+
+The complete opening name is found by concatenating all comments in the current
+move list, e.g.:  After 1.e4 c5, the comment is "Sicilian Defense" and after
+1.e4 c5 2.Nf3 Nc6 it's "Nimzovitch Variation".  The full opening name will then
+be "Nimzovich Variation, Sicilian Defense". 
+
+Each opening name may begin with:
+
+* An asterisk indicates that the opening name is overidden by a name that comes
+  later in the game.  E.g.:  1.e4 is called "King Pawn Game", but after 1...c5
+  the opening is called "Sicilian". 
+
++ A plus sign "eats" previous opening names.  E.g., 1.e4 e5 2.Nf3 Nc6 3.Bc4 is
+  "Italian Game", but after that 3...Nf6 is "+Two Knights Defense", because the 
+  resulting game is never called an italian game. 
+
+COMMENT = [ "+" | {"*"}] NAME { ";" NAME }
+NAME    = _ "(" STRING ")" |
+	  TYPE "(" NAME ")"   
+TYPE    = <see source>
+
+
+

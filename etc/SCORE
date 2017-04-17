@@ -1,0 +1,78 @@
+Chess Score Notation
+====================
+
+When a chess program analyses a chess position, it calculates a score
+of the position.  A score is a number describing the goodness of the
+position.  A score of zero means the position is even, i.e. both side
+have equal chances to win.  A score greater than zero means the side
+to move is better, a negative number means the side not to move is
+better. 
+
+
+The Notation
+------------
+
+The score is given in centipawns from the viewpoint of the side that
+is to move.  The evaluation is always an integer.  One pawn is worth
+100 centipawns.  The value of other pieces and position elements are
+chosen by the engine. 
+
+If the position is found to be mate, another notation is used.  If the
+position is mate in N moves, then the evaluation is #N.  If the side
+to move will be checkmated in N moves after its next move, the
+notation is %N.  
+
+In addition to the textual representation, PGN specifies exact numeric
+values for the mates.  A score can be represented in an 16 bit signed
+integer.  The value corresponds to the score, except for mates.  See
+below.  PGN specifies -32767 as the score of a position that is not legal, but
+BabyChess uses it for positions that are mate, which PGN doesn’t mention.    
+
+
+Examples
+--------
+
+{N}   Numerical representation.
+"NNN" Representation as string.
+
+
+* White is to move, and the position is equal
+
+{0}		"0"
+
+* White is to move and has one pawn in advance over black 
+
+{100}		"100"
+
+* White is to move and black has one pawn in advance over white 
+
+{-100}		"-100"
+
+* Black is to move and leads whith one pawn over white 
+
+{100}		"100"
+
+* Only two kings on the board 
+
+{0}		"0"
+
+* Position after 1. e4 e5 2. Qh5 Ke7
+
+{32766}		"#1"
+
+* Position after 1. e4 e5 2. Nf3 d6 3. Nc3 Nf6 4. Bc4 Bg4 5. Nxe5 Bxd1
+  6. Bxf7 
+
+{-32765}	"%1"
+
+* Position after 1. e4 e5 2. Nf3 d6 3. Nc3 Nf6 4. Bc4 Bg4 5. Nxe5 Bxd1 
+ 
+{32764}	 	"#2"
+
+* A checkmate position, e.g. after 1. f4 e5 2. g4 Qh4 
+
+{-32767}	"%0"
+
+* A stalemate position
+
+{0}		"0"

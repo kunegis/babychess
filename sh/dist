@@ -1,0 +1,22 @@
+#! /bin/sh
+## 
+## Make BabyChess ready for distribution 
+
+. sh/verbose.sh
+
+build_once=1
+export build_once
+
+sh/develclean
+
+${MAKE:-make} pofiles depfiles
+
+sh/confclean
+
+chmod -R go-rwx .
+
+name="`basename $PWD`" 
+export name
+echo >&4 Name=$name
+
+#cd .. && tar cf $name.tar $name && bzip2 -f $name.tar

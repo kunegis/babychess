@@ -1,0 +1,44 @@
+This is an overview of the GAME module. 
+
+[ Note:  the Game class is now deprecated and will be replaced by memory-mapped
+  books.  (using the Book class) ]
+
+Implementation of the Game class
+================================
+
+A game consists of: 
+
+  - game information (player names, etc.), implemented as a hash table
+    of strings
+  - an initial position 
+  - a main variation  (which itself consists of a list of moves,
+    comments, NAGs, and subvariations) 
+  - a current location in the game, consisting of a stack of
+    locations in variations 
+  - a list of legal moves in the current position 
+
+Terminology:
+
+  Main variation:  The top level variation  (= game.variation) 
+  Current variation:  The last variation on the stack (=
+                      game.variation_stack[-1]). 
+  Overall variation:  All played moves up to the current location,
+                      and the rest of the current variation. 
+  Subvariation:  Any variation except the main variation. 
+
+A game is said to be normalized if the following holds:
+
+  - There are no subvariation of length 0. 
+  - There are no subvariation at position 0 of subvariations.  Such
+    variations can be reparented to make the game normalized.
+    Example: 
+
+     1. e4 (d4 (c4))  -->  1. e4 (d4) (c4) 
+
+  - The location must not be at the beginning of a subvariation.  In
+    other words:  *variation_stack == 0 || variation_stack[-1] != 0 
+
+To the user, only normalized games are presented.  However,
+PGN files may be non-normalized.  A game can be normalized by
+calling Normalize().  Functions that may introduce non-normalized
+elements are documented as such. 

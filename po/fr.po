@@ -1,0 +1,4969 @@
+# translation of fr.po to
+# Copyright (C) 2004, 2005 Free Software Foundation, Inc.
+# , 2004.
+# , 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-26 20:30+0100\n"
+"PO-Revision-Date: 2005-09-16 20:17+0200\n"
+"Last-Translator: \n"
+"Language-Team:  <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+
+#: src/board_colors_editor.hh:16
+msgid "Board Colors"
+msgstr "Couleurs de l’échiquier"
+
+#: src/board.hh:310
+msgid "_Board"
+msgstr "_Échiquier"
+
+#: src/board.hh:312
+msgid "_Turn Board"
+msgstr "_Tourner l’échiquier"
+
+#: src/board.hh:314
+msgid "Hide the _Frame"
+msgstr "Cacher le _cadre"
+
+#: src/board.hh:316
+msgid "T_utor Mode"
+msgstr "Mode _tuteur"
+
+#: src/board.hh:318
+msgid "Don’t Highlight the Last Move"
+msgstr "Ne pas montrer le _dernier coup"
+
+#: src/board.hh:322
+msgid "_Board Colors"
+msgstr "Couleurs de l’_échiquier"
+
+#: src/engine_editor.hh:29
+msgid "Choose an Engine"
+msgstr "Choisir un moteur"
+
+#: src/evaluator_settings_editor.hh:17
+msgid "Engine Preferences"
+msgstr "Préférences du moteur"
+
+#. Note:  The menu item "Play main move" generates the message
+#. * "play_best", which is by default not sent back to the evaluator
+#. * widget.
+#: src/evaluator_widget.hh:119
+msgid "_Engine"
+msgstr "_Moteur"
+
+#: src/evaluator_widget.hh:121
+msgid "_Start"
+msgstr "_Marche"
+
+#: src/evaluator_widget.hh:123 src/play_window.cc:33
+msgid "_Pause"
+msgstr "_Pause"
+
+#: src/evaluator_widget.hh:125
+msgid "R_estart"
+msgstr "_Redémarrer"
+
+#: src/evaluator_widget.hh:127
+msgid "P_lay Main Move"
+msgstr "_Jouer le coup principal"
+
+#: src/evaluator_widget.hh:131
+msgid "Choose an _Engine"
+msgstr "Choisir un _moteur"
+
+#: src/evaluator_widget.hh:133 src/opening_widget.hh:71
+msgid "_Preferences"
+msgstr "_Préférences"
+
+#: src/evaluator_widget.hh:137
+msgid "_Never Start Engine"
+msgstr "Ne _jamais démarrer le moteur"
+
+#: src/evaluator_widget.hh:139
+msgid "_Start Engine After Each User Move"
+msgstr "_Démarrer le moteur après chaque coup d’utilisateur"
+
+#: src/evaluator_widget.hh:141
+msgid "_Always Start Engine"
+msgstr "_Toujours démarrer le moteur"
+
+#. Verb
+#: src/export_options_editor.hh:16
+msgid "Export"
+msgstr "Exporter"
+
+#: src/game_archive_editor.hh:42
+msgid "Chess Game Archive"
+msgstr "Archive de parties d’échecs"
+
+#: src/game_archive_editor.hh:52
+msgid "New chess game archive"
+msgstr "Nouvel archive de parties"
+
+#: src/game_archive_editor.hh:53
+msgid "Open a chess game archive"
+msgstr "Ouvrir un archive de parties d’échecs"
+
+#: src/game_archive_editor.hh:54
+msgid "Save the chess game archive"
+msgstr "Sauvegarder l’archive de parties d’échecs"
+
+#: src/game_editor.hh:88
+msgid "Chess Game"
+msgstr "Partie d’échecs"
+
+#: src/game_editor.hh:103 src/internet_window.cc:351 src/play_window.cc:67
+msgid "New game"
+msgstr "Nouvelle partie"
+
+#: src/game_editor.hh:104
+msgid "Open a game"
+msgstr "Ouvrir une partie"
+
+#: src/game_editor.hh:105
+msgid "Save this game"
+msgstr "Sauvegarder cette partie"
+
+#: src/game_info_editor.hh:19
+msgid "Game Properties"
+msgstr "Propriétés de la partie"
+
+#: src/help_menu.hh:11
+msgid "_Help"
+msgstr "_Aide"
+
+#: src/help_menu.hh:13 src/start_window.cc:57
+msgid "_About"
+msgstr "_À propos"
+
+#: src/internet_account_editor.hh:14
+msgid "Internet Chess Account"
+msgstr "Compte d’échecs Internet"
+
+#: src/internet_account_editor.hh:22
+msgid "_Login"
+msgstr "Se _connecter"
+
+#: src/internet_interaction_window.hh:39
+msgid "Internet Chess Messages"
+msgstr "Messages d’échecs Internet"
+
+#: src/notation_editor.hh:15
+msgid "Choose Notation"
+msgstr "Choisir la notation"
+
+#: src/notation_settings_editor.hh:15
+msgid "Notation Preferences"
+msgstr "Préférences de la notation"
+
+#: src/opening_settings_editor.hh:15
+msgid "Opening Preferences"
+msgstr "Préférences des ouvertures"
+
+#: src/opening_widget.hh:63
+msgid "_Openings"
+msgstr "_Ouvertures"
+
+#: src/opening_widget.hh:65 src/opening_settings_editor.cc:11
+msgid "Show _subvariation names"
+msgstr "Montrer les noms des _sous-variantes"
+
+#: src/opening_widget.hh:67 src/opening_settings_editor.cc:12
+msgid "Show _alternative names"
+msgstr "Montrer les noms _alternatifs"
+
+#: src/play_info_editor.hh:14
+msgid "Choose Players"
+msgstr "Choisir les joueurs"
+
+#: src/play_info_editor.hh:27 src/start_window.cc:15
+msgid "_Play"
+msgstr "_Jouer"
+
+#: src/position_editor.hh:85
+msgid "Chess Position"
+msgstr "Position d’échecs"
+
+#: src/position_editor.hh:93
+msgid "New position"
+msgstr "Nouvelle position"
+
+#: src/position_editor.hh:94
+msgid "Open a position"
+msgstr "Ouvrir une position"
+
+#: src/position_editor.hh:95
+msgid "Save this position"
+msgstr "Sauvegarder cette position"
+
+#: src/time_widget.hh:16
+msgid "Total _time (min)"
+msgstr "_Temps total (min)"
+
+#. The compile date in local format
+#: src/version_number.hh:10
+msgid "Copyright © 2000-2005 Jérôme KUNEGIS"
+msgstr "Copyright © 2000-2005 Jérôme KUNEGIS"
+
+#: src/about.cc:41
+msgid "translator-credits"
+msgstr "Jérôme KUNEGIS <http://user.cs.tu-berlin.de/~kunegis/>"
+
+#: src/about.cc:44
+#, c-format
+msgid ""
+"A chess application\n"
+"from %s"
+msgstr ""
+"Une application d’échecs\n"
+"du %s"
+
+#: src/about.cc:47
+#, fuzzy
+msgid "Debug version (NDEBUG not defined)"
+msgstr "Version de débogage (NDEBUG non défini)\n"
+
+#: src/arg.cc:21
+#, c-format
+msgid "Send bug reports to %s"
+msgstr "Envoyez les rapports de bogues à %s"
+
+#: src/arg.cc:22
+#, c-format
+msgid "Visit the website at %s"
+msgstr "Visitez le site web sur %s"
+
+#: src/arg.cc:31
+msgid "Meta-options:"
+msgstr "Méta-options :"
+
+#: src/arg.cc:32
+msgid "Print a short help"
+msgstr "Afficher une courte aide"
+
+#: src/arg.cc:33
+msgid "Print program version number"
+msgstr "Afficher le numéro de version du programme"
+
+#: src/arg.cc:47
+#, c-format
+msgid "Debug version (NDEBUG not defined)\n"
+msgstr "Version de débogage (NDEBUG non défini)\n"
+
+#: src/arg.cc:50
+#, c-format
+msgid "Compiled %s"
+msgstr "Compilé le %s"
+
+#: src/arg.cc:56
+msgid "BabyChess is free software and comes with no warranty."
+msgstr "BabyChess est un logiciel libre distribué sans aucune garantie."
+
+#: src/arg.cc:57
+msgid "Conceived and developed by Jérôme KUNEGIS."
+msgstr "Conçu et développé par Jérôme KUNEGIS."
+
+#: src/babychess-book.cc:27
+#, c-format
+msgid "Creating \"%s\""
+msgstr "Créer «%s»"
+
+#: src/babychess-book.cc:31
+#, c-format
+msgid "Opening \"%s\""
+msgstr "Ouvrir «%s»"
+
+#: src/babychess-book.cc:35
+msgid "Opening an anonymous book"
+msgstr "Ouvrir un livre anonyme"
+
+#: src/babychess-book.cc:40 src/babychess-book.cc:49 src/babychess-book.cc:74
+msgid "No book loaded"
+msgstr "Aucun livre chargé"
+
+#: src/babychess-book.cc:41 src/babychess-book.cc:50
+msgid "Dumping"
+msgstr "Imprimer"
+
+#: src/babychess-book.cc:61
+msgid "Printing game as text"
+msgstr "Imprime la partie en texte"
+
+#: src/babychess-book.cc:67
+msgid "Printing game as HTML"
+msgstr "Imprime la partie en HTML"
+
+#: src/babychess-book.cc:75
+msgid "Merging PGN"
+msgstr ""
+
+#: src/babychess-book.cc:81
+#, c-format
+msgid "Reading \"%s\""
+msgstr "Lire «%s»"
+
+#: src/babychess-book.cc:94
+#, c-format
+msgid "No book was loaded.  Try using --help.\n"
+msgstr "Aucun livre chargé.  Essayez --help.\n"
+
+#: src/babychess-book.cc:115
+msgid "Manipulate BabyChess books"
+msgstr "Manipule des livres BabyChess"
+
+#: src/babychess-book.cc:116
+msgid "Open or create a BabyChess book, and execute commands."
+msgstr "Ouvre ou crée un livre BabyChess, et exécute des commandes."
+
+#: src/babychess-book.cc:117
+msgid "Commands"
+msgstr "Commandes"
+
+#: src/babychess-book.cc:118 src/babychess-book.cc:120
+#: src/babychess-book.cc:127
+msgid "FILE"
+msgstr "FICHIER"
+
+#: src/babychess-book.cc:119
+msgid "Create a new book"
+msgstr "Crée un nouveau livre"
+
+#: src/babychess-book.cc:121
+msgid "Open a book for reading only"
+msgstr "Ouvre un livre en lecture seule"
+
+#: src/babychess-book.cc:122
+msgid "Create an anonymous book"
+msgstr "Crée un livre anonyme"
+
+#: src/babychess-book.cc:123
+msgid "Dump book content"
+msgstr ""
+
+#: src/babychess-book.cc:124
+msgid "Print the book as PGN"
+msgstr "Imprime le livre sous forme PGN"
+
+#: src/babychess-book.cc:125
+msgid "Print the book as text"
+msgstr "Imprime le livre sous forme de texte"
+
+#: src/babychess-book.cc:126
+msgid "Print the book as HTML"
+msgstr "Imprime le livre en HTML"
+
+#: src/babychess-book.cc:128
+msgid "Merge a PGN file"
+msgstr "Ajouter un fichier PGN"
+
+#: src/babychess-book.cc:129
+msgid "Set the scores of all positions to the number of subsequent positions"
+msgstr ""
+"Donne à chaque position comme score le nombre de position qui la suivent"
+
+#: src/babychess.cc:46
+#, c-format
+msgid "Cannot open \"%s\":  %s"
+msgstr "Ne peut ouvrir «%s» :  %s"
+
+#: src/babychess.cc:123
+msgid "No such mode"
+msgstr "Pas de tel mode"
+
+#: src/babychess.cc:149
+msgid ""
+"BabyChess, a GUI chess application.  Whithout arguments, show\n"
+"the start window giving access to all functionality.  To start\n"
+"in a specific mode, pass the name of the mode as the first argument:\n"
+msgstr ""
+"BabyChess, une application graphique d’échecs.  Sans arguments, montre\n"
+"la fenêtre de départ d’où sont accessibles toutes les fonctions.  Pour\n"
+"un mode spécifique, passez comme premier argument :\n"
+
+#: src/babychess.cc:152
+msgid "Play a local game of chess"
+msgstr "Jouer une partie d’échecs locale"
+
+#: src/babychess.cc:153
+msgid "Play internet chess"
+msgstr "Jouer aux échecs sur Internet"
+
+#: src/babychess.cc:154
+msgid ""
+"To edit a file, pass the file type and the filename.  The\n"
+"filename is optional.  If not given, open a new object of the\n"
+"specified type:\n"
+msgstr ""
+"Donnez comme argument le nom du fichier à éditer.  Sans nom de fichier\n"
+"passé, un document vide sera ouvert.\n"
+
+#: src/babychess.cc:157
+msgid "PGN-FILE"
+msgstr "FICHIER-PGN"
+
+#: src/babychess.cc:158
+msgid "Edit a PGN file"
+msgstr "Éditer un fichier PGN"
+
+#: src/babychess.cc:159
+msgid "SINGLE-PGN-FILE"
+msgstr "FICHIER-PGN-SIMPLE"
+
+#: src/babychess.cc:160
+msgid "FEN-POSITION"
+msgstr "POSITION-FEN"
+
+#: src/babychess.cc:161
+msgid "Edit a PGN file that contains just one game"
+msgstr "Éditer un fichier FEN contenant une seule position"
+
+#: src/babychess.cc:162
+msgid "FEN-FILE"
+msgstr "FICHIER-FEN"
+
+#: src/babychess.cc:163
+msgid "Edit a FEN file with just one position"
+msgstr "Éditer un fichier FEN avec qu’une seule position"
+
+#: src/babychess.cc:164
+msgid ""
+"Use -a to open a file anonymously, i.e. don't remember\n"
+"its filename.\n"
+msgstr ""
+"Passez -a comme option pour ouvrir un fichier de façon anonyme,\n"
+"c’est-à-dire que son nom sera oublié.\n"
+
+#: src/babychess-engine.cc:29
+#, c-format
+msgid "This program implements an XBoard engine.  See %s"
+msgstr "Ce programme implémente un moteur XBoard.  Voir %s"
+
+#: src/babychess-engine.cc:34
+msgid "The BabyChess XBoard engine"
+msgstr "Le moteur XBoard de BabyChess"
+
+#: src/babychess-evaluator.cc:392
+msgid "Verbose mode output"
+msgstr "Mode de sortie verbose"
+
+#: src/babychess-evaluator.cc:393 src/babychess-evaluator.cc:395
+msgid "SCORE"
+msgstr "SCORE"
+
+#: src/babychess-evaluator.cc:394
+msgid "Score of position from the perspective of the side to move"
+msgstr "Score de la position vu du côté qui a le trait"
+
+#: src/babychess-evaluator.cc:396
+msgid "Score of position after calculation"
+msgstr "Score de la position après le calcul"
+
+#: src/babychess-evaluator.cc:397 src/babychess-evaluator.cc:399
+msgid "MOVE"
+msgstr "COUP"
+
+#: src/babychess-evaluator.cc:398
+msgid "MOVE is played"
+msgstr "COUP est joué"
+
+#: src/babychess-evaluator.cc:400
+msgid "MOVE is taken back"
+msgstr "COUP est repris"
+
+#: src/babychess-evaluator.cc:406
+#, c-format
+msgid "\tInteractive mode:  Enter \"quit\" to exit.\n"
+msgstr "\tMode interactif:  Entrez « quit » pour sortir.\n"
+
+#: src/babychess-evaluator.cc:427
+msgid "Error"
+msgstr "Érreur"
+
+#: src/babychess-evaluator.cc:429
+msgid "invalid FEN position"
+msgstr "position FEN invalide"
+
+#: src/babychess-evaluator.cc:501
+msgid "The BabyChess evaluator"
+msgstr "L’évaluateur BabyChess"
+
+#: src/babychess-evaluator.cc:502
+msgid ""
+"Analyze a chess position, and output thinking information.  Stop as soon as "
+"a mate is found."
+msgstr ""
+"Analyse une position d’échecs, et affiche de informations de l’analyse.  "
+"Arrête quand un mat est trouvé."
+
+#: src/babychess-evaluator.cc:504 src/babychess-format.cc:22
+#: src/babychess-xboard-evaluator.cc:83
+msgid "Options:"
+msgstr "Options :"
+
+#: src/babychess-evaluator.cc:505 src/babychess-xboard-evaluator.cc:84
+msgid "POSITION"
+msgstr "POSITION"
+
+#: src/babychess-evaluator.cc:506 src/babychess-xboard-evaluator.cc:85
+msgid ""
+"The position to analyze, in FEN notation.  If not specified, use the "
+"standard starting position."
+msgstr ""
+"La position à analyser en notation FEN.  Si elle n’est pas donnée, utilise "
+"la position de départ standard."
+
+#: src/babychess-evaluator.cc:508
+msgid ""
+"Verbose mode.  Write additional analyze information on the error output."
+msgstr ""
+"Mode verbose.  Affiche de informations d’analyse suuplémentaires sur la "
+"sortie d’erreur."
+
+#: src/babychess-evaluator.cc:509
+msgid "Interactive mode.  Read one line of input before each step."
+msgstr "Mode interactif.  Lis une ligne d’entrée avant chaque étape."
+
+#: src/babychess-evaluator.cc:510
+msgid "DEPTH"
+msgstr "PROFONDEUR"
+
+#: src/babychess-evaluator.cc:511
+msgid ""
+"Calculate up to depth DEPTH.  A value of -1 indicates to not stop.  Default "
+"is -1."
+msgstr ""
+"Calcule jusqu’à PROFONDEUR.  Une valeur de -1 indique de ne pas s’arrêter.  "
+"La valeur par défault est -1."
+
+#: src/babychess-format.cc:20
+msgid "The BabyChess formatting program"
+msgstr "Le programme de formatage BabyChess"
+
+#: src/babychess-format.cc:21
+msgid "Take a PGN or FEN file and export it to text or HTML."
+msgstr ""
+
+#: src/babychess-xboard-evaluator.cc:51
+msgid "No engine specified"
+msgstr "Aucun moteur n’a été donné"
+
+#: src/babychess-xboard-evaluator.cc:78
+msgid "This program implements a BabyChess evaluator using an XBoard engine."
+msgstr ""
+"Ce programme implémente un évaluateur BabyChess en utilisant un moteur "
+"XBoard."
+
+#: src/babychess-xboard-evaluator.cc:79
+msgid "Invocation:"
+msgstr "Invocation :"
+
+#: src/babychess-xboard-evaluator.cc:81
+msgid "XBOARD-ENGINE-PROGRAM-NAME"
+msgstr "NOM-DU-MOTEUR-XBOARD"
+
+#: src/babychess-xboard-evaluator.cc:82
+msgid "OPTIONS"
+msgstr "OPTIONS"
+
+#: src/babychess-xboard-evaluator.cc:87
+msgid "Enabled verbose mode"
+msgstr "Mode verbose activé"
+
+#: src/board.cc:1355
+msgid "(empty square)"
+msgstr "(case vide)"
+
+#: src/board.cc:1364
+msgid "(it’s not black’s turn)"
+msgstr "(ce n’est pas aux noirs)"
+
+#: src/board.cc:1365
+msgid "(it’s not white’s turn)"
+msgstr "(ce n’est pas aux blancs)"
+
+#: src/board_colors_editor.cc:13
+msgid "Colors"
+msgstr "Couleurs"
+
+#: src/board_colors_editor.cc:19
+msgid "_Light squares"
+msgstr "Cases _blanches"
+
+#: src/board_colors_editor.cc:20
+msgid "_Dark squares"
+msgstr "Cases _noires"
+
+#: src/board_colors_editor.cc:21
+msgid "Last _move"
+msgstr "Dernier _coup"
+
+#: src/board_colors_editor.cc:22
+msgid "_Frame"
+msgstr "_Cadre"
+
+#: src/board_colors_editor.cc:23
+msgid "_Selected squares"
+msgstr "Cases _marquées"
+
+#: src/board_colors_editor.cc:24
+msgid "Fr_ame text color"
+msgstr "Couleur du texte du c_adre"
+
+#: src/board_colors_editor.cc:25
+msgid "Square _text color"
+msgstr "Couleur du _texte de case"
+
+#: src/board_colors_editor.cc:26
+msgid "Tutor mode “_no” square"
+msgstr "Cases « _non » du tuteur"
+
+#: src/board_colors_editor.cc:36
+msgid "R_iffled dark squares"
+msgstr "Cases noires _rayées"
+
+#. can't create new position:  already
+#. * moves.
+#. different starting position
+#: src/book.cc:118 src/book.cc:128 src/book.cc:146
+msgid "Different starting position"
+msgstr "Position de départ différente"
+
+#: src/book.cc:388
+msgid "Book already open"
+msgstr "Livre déjà ouvert"
+
+#: src/book.cc:403
+msgid "Data is not a book of the correct size"
+msgstr "Les données ne représentent pas un livre de la taille correcte"
+
+#: src/book.cc:409
+#, c-format
+msgid "Version %d is not supported"
+msgstr "La version %d n’est pas supportée"
+
+#: src/book.cc:415
+msgid "Book has incompatible endianness"
+msgstr "Le livre possède une endianité imcompatible"
+
+#: src/book.cc:424
+msgid "Book has wrong size"
+msgstr "Le livre n’a pas la bonne taille"
+
+#: src/conf.cc:141
+msgid "Saved settings"
+msgstr "Préférences sauvegardées"
+
+#: src/conf.cc:202 src/document_editor.cc:216 src/document_editor.cc:247
+#: src/play_window.cc:29
+msgid "_Save"
+msgstr "_Sauvegarder"
+
+#: src/conf.cc:207
+msgid "_Remove"
+msgstr "_Enlever"
+
+#: src/conf.cc:391
+msgid "Changed"
+msgstr "Modifé"
+
+#: src/document_editor.cc:99
+#, c-format
+msgid "Cannot open \"%s\""
+msgstr "Ne peut ouvrir «%s»"
+
+#: src/document_editor.cc:208 src/document_editor.cc:237 src/play_window.cc:27
+msgid "_New"
+msgstr "_Nouveau"
+
+#: src/document_editor.cc:210 src/document_editor.cc:239
+msgid "_Open"
+msgstr "_Ouvrir"
+
+#: src/document_editor.cc:214 src/document_editor.cc:243
+msgid "_Clear"
+msgstr "_Effacer"
+
+#: src/document_editor.cc:220 src/document_editor.cc:253
+msgid "_Export"
+msgstr "_Exporter"
+
+#: src/document_editor.cc:224 src/document_editor.cc:257
+msgid "Proper_ties"
+msgstr "Proprié_tés"
+
+#: src/document_editor.cc:228
+msgid "_OK"
+msgstr "_Valider"
+
+#: src/document_editor.cc:230
+msgid "_Apply"
+msgstr "_Appliquer"
+
+#: src/document_editor.cc:232
+msgid "_Cancel"
+msgstr "_Annuler"
+
+#: src/document_editor.cc:245
+msgid "_Load"
+msgstr "_Charger"
+
+#: src/document_editor.cc:249
+msgid "Save _As..."
+msgstr "Sauvegarder _sous..."
+
+#: src/document_editor.cc:261 src/play_window.cc:43
+msgid "_Close"
+msgstr "_Fermer"
+
+#: src/document_editor.cc:454
+msgid "OK"
+msgstr "Valider"
+
+#: src/document_editor.cc:455
+msgid "Apply"
+msgstr "Appliquer"
+
+#: src/document_editor.cc:456
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/document_editor.cc:458
+msgid "Clear"
+msgstr "Effacer"
+
+#: src/document_editor.cc:483
+#, c-format
+msgid "Cannot save \"%s\""
+msgstr "Ne peut sauvegarder «%s»"
+
+#: src/document_editor.cc:495
+msgid "If you don’t save, changes will be discarded."
+msgstr "Si vous ne sauvegardez pas, les changements seront perdus."
+
+#: src/document_editor.cc:503
+msgid "Use the document?"
+msgstr "Utiliser le document ?"
+
+#: src/document_editor.cc:504
+msgid "Close _without Using"
+msgstr "Fermer _sans utiliser"
+
+#: src/document_editor.cc:505
+msgid "_Use"
+msgstr "_Utiliser"
+
+#: src/document_editor.cc:506
+msgid "If you don’t use the document, changes will be discarded."
+msgstr "Si vous n’utilisez pas le document, les changements seront perdus."
+
+#: src/document_editor.cc:511
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "Sauvegarder les changements au document «%s» avant de fermer ?"
+
+#: src/document_editor.cc:514
+msgid "Save the document before closing?"
+msgstr "Sauvegarger le document avant de fermer ?"
+
+#: src/document_editor.cc:515
+msgid "Close _without Saving"
+msgstr "Fermer _sans sauvegarder"
+
+#: src/document_editor.cc:521
+msgid "Load file?"
+msgstr "Charger le fichier ?"
+
+#: src/document_editor.cc:522
+msgid "_Load File"
+msgstr "_Charger le fichier"
+
+#: src/document_editor.cc:524
+msgid "If you load a file, changes will be discarded."
+msgstr "Si vous chargez un fichier, les changements seront abandonnés."
+
+#: src/document_editor.cc:529
+#, c-format
+msgid "Save changes to document \"%s\"?"
+msgstr "Sauvegarder les changements au document «%s» ?"
+
+#: src/document_editor.cc:532
+msgid "Save the document?"
+msgstr "Sauvegarder le document ?"
+
+#: src/document_editor.cc:533
+msgid "Load File _without Saving"
+msgstr "Charger le fichier _sans sauvegarder"
+
+#: src/document_editor.cc:539
+msgid "Clear the document?"
+msgstr "Effacer le document ?"
+
+#: src/document_editor.cc:540
+msgid "_Clear Document"
+msgstr "_Effacer le document"
+
+#: src/document_editor.cc:542
+msgid "If you clear, changes will be discarded."
+msgstr "Si vous effacer, les changements seront perdus."
+
+#: src/document_editor.cc:547
+#, c-format
+msgid "Save changes to document \"%s\" before clearing?"
+msgstr "Sauvegarder les changements au document «%s» avant d’effacer ?"
+
+#: src/document_editor.cc:550
+msgid "Save the document before clearing?"
+msgstr "Sauvegarder le document avant d’effacer ?"
+
+#: src/document_editor.cc:551
+msgid "Clear _without Saving"
+msgstr "Fermer _sans sauvegarder"
+
+#: src/engine_editor.cc:11
+msgid "Engine type"
+msgstr "Type de moteur"
+
+#: src/engine_editor.cc:14
+msgid "An _XBoard compatible engine"
+msgstr "Un moteur compatible à _XBoard"
+
+#: src/engine_editor.cc:16
+msgid "_XBoard engine"
+msgstr "Moteur _XBoard"
+
+#: src/engine_editor.cc:70
+msgid "Add _XBoard Engine"
+msgstr "Ajouter un moteur _XBoard"
+
+#: src/engine_editor.cc:73
+msgid "_Search XBoard engines"
+msgstr "_Rechercher des moteurs XBoard"
+
+#: src/engine_menu.cc:19
+#, fuzzy
+msgid "_Edit..."
+msgstr "Éditer..."
+
+#: src/entry.cc:50 src/game_info_editor.cc:29 src/game_info_editor.cc:31
+#: src/game_info_editor.cc:34 src/game_info_editor.cc:36
+#: src/game_info_editor.cc:38 src/game_info_editor.cc:40
+#: src/game_info_editor.cc:43 src/labeled_entry_table.cc:23
+#: src/labeled_spin_button.cc:14 src/position_editor.cc:173
+msgid ":"
+msgstr " :"
+
+#: src/error.cc:25
+#, c-format
+msgid "\"%s\""
+msgstr "« %s »"
+
+#: src/error.cc:26
+#, c-format
+msgid "%s:  %s"
+msgstr "%s :  %s"
+
+#. Start
+#: src/evaluator_settings_editor.cc:10
+msgid "Mode"
+msgstr "Mode"
+
+#: src/evaluator_settings_editor.cc:13
+msgid "_Off"
+msgstr ""
+
+#: src/evaluator_settings_editor.cc:14
+#, fuzzy
+msgid "_Analyze"
+msgstr "/Partie/_Analyser"
+
+#: src/evaluator_settings_editor.cc:15
+msgid "Engine plays _one side"
+msgstr "Le moteur joue un côté"
+
+#: src/evaluator_settings_editor.cc:16
+#, fuzzy
+msgid "Engine plays _both sides"
+msgstr "Type de moteur"
+
+#. start_chooser() << _("_Never")
+#. << _("After each _user move")
+#. << _("_Always");
+#. start_chooser->Set_Selection(settings.start);
+#. Timing
+#: src/evaluator_settings_editor.cc:24
+msgid "Stop the Engine"
+msgstr "Arrêter le moteur"
+
+#: src/evaluator_settings_editor.cc:27
+msgid "_Never"
+msgstr "_Jamais"
+
+#: src/evaluator_settings_editor.cc:28
+msgid "After a _fixed time"
+msgstr "Après un temps _fixe"
+
+#: src/evaluator_settings_editor.cc:29
+msgid "After a fixed _depth"
+msgstr "Après une profon_deur fixe"
+
+#: src/evaluator_settings_editor.cc:34
+msgid "_Time"
+msgstr "_Temps"
+
+#: src/evaluator_settings_editor.cc:40
+msgid "_Depth"
+msgstr "_Profondeur"
+
+#: src/evaluator_settings_editor.cc:50
+msgid "Run engine with high _priority"
+msgstr "Donner une haute _priorité au moteur"
+
+#: src/evaluator_widget.cc:70
+msgid "Realtime:"
+msgstr "Temps réel :"
+
+#: src/evaluator_widget.cc:77
+msgid "CPU:"
+msgstr "Processeur :"
+
+#: src/evaluator_widget.cc:117
+msgid "Cannot start the engine"
+msgstr "Ne peut démarrer le moteur"
+
+#: src/evaluator_widget.cc:140
+msgid "single move"
+msgstr "coup unique"
+
+#: src/evaluator_widget.cc:141 src/evaluator_widget.cc:161
+#: src/evaluator_widget.cc:331
+msgid "finished"
+msgstr "terminé"
+
+#: src/evaluator_widget.cc:160
+msgid "book"
+msgstr "livre"
+
+#: src/evaluator_widget.cc:312
+msgid "KT"
+msgstr "Nd"
+
+#: src/evaluator_widget.cc:352
+msgid "multiplication sign:×"
+msgstr ":×"
+
+#: src/evaluator_widget.cc:359 src/evaluator_widget.cc:368
+msgid "running"
+msgstr "marche"
+
+#: src/evaluator_widget.cc:368
+msgid "pause"
+msgstr "arrêt"
+
+#: src/evaluator_widget.cc:402
+msgid "infinite:inf"
+msgstr ":inf"
+
+#: src/evaluator_widget.cc:438
+msgid "Start"
+msgstr "Démarrer"
+
+#: src/evaluator_widget.cc:438
+msgid "Start the engine"
+msgstr "Démarrer le moteur"
+
+#: src/evaluator_widget.cc:440
+msgid "Pause"
+msgstr "Interrompu"
+
+#: src/evaluator_widget.cc:440
+msgid "Pause the engine"
+msgstr "Interrompre le moteur"
+
+#: src/evaluator_widget.cc:442
+msgid "Play"
+msgstr "Jouer"
+
+#: src/evaluator_widget.cc:443
+msgid "Play the engine’s current best move"
+msgstr "Joue le meilleur coup actuel du moteur"
+
+#: src/evaluator_xboard_server.cc:13
+#, c-format
+msgid "Starting \"%s\""
+msgstr "Demarre «%s»"
+
+#: src/export_options_editor.cc:13
+msgid "_HTML"
+msgstr "_HTML"
+
+#: src/export_options_editor.cc:14
+msgid "_Text"
+msgstr "_Texte"
+
+#: src/fatal.cc:15
+#, c-format
+msgid "%s: *** error:  %s:  %s\n"
+msgstr "%s : *** erreur :  %s :  %s\n"
+
+#: src/fatal.cc:16
+#, c-format
+msgid "%s: *** error:  %s\n"
+msgstr "%s : *** erreur :  %s\n"
+
+#: src/fen.cc:178 src/fen.cc:192
+msgid "More than eight squares on one row"
+msgstr "Plus de huit cases sur une rangée"
+
+#: src/fen.cc:200 src/fen.cc:236
+#, c-format
+msgid "Invalid character \"%s\" in the first field"
+msgstr "Caractère invalide «%s» dans le premier champs"
+
+#: src/fen.cc:220 src/fen.cc:252
+msgid "Less than eight squares on one row"
+msgstr "Moins de huit cases sur une rangée"
+
+#: src/fen.cc:225
+msgid "More than eight rows"
+msgstr "Plus de huit rangées"
+
+#: src/fen.cc:246
+msgid "Less than eight rows"
+msgstr "Moins de huit rangées"
+
+#: src/file_dialog.cc:25
+msgid "Open"
+msgstr "Ouvrir"
+
+#: src/file_dialog.cc:26
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: src/file_dialog.cc:27
+msgid "Insert"
+msgstr "Insérer"
+
+#: src/file_dialog.cc:85
+#, c-format
+msgid "A file named \"%s\" already exists."
+msgstr "Un fichier nommé «%s» existe déjà."
+
+#: src/file_dialog.cc:92
+msgid "_Don’t Replace"
+msgstr "Ne _pas remplacer"
+
+#: src/file_dialog.cc:93
+msgid "_Replace"
+msgstr "_Remplacer"
+
+#. the file
+#: src/file_dialog.cc:95
+msgid "Do you want to replace it with the one you are saving?"
+msgstr "Voulez-vous le remplacer avec celui que vous sauvegardez ?"
+
+#: src/format_time.cc:33
+msgid "days"
+msgstr "jours"
+
+#: src/game_archive_editor.cc:13 src/game_editor.cc:46
+#: src/position_editor.cc:27
+msgid "_File"
+msgstr "_Fichier"
+
+#: src/game_archive_editor.cc:15
+msgid "_Archive"
+msgstr "_Archive"
+
+#: src/game_archive_editor.cc:17
+msgid "_Add Game"
+msgstr "_Ajouter une partie"
+
+#: src/game_archive_editor.cc:19
+msgid "_Remove Game"
+msgstr "_Enlever la partie"
+
+#: src/game_archive_editor.cc:21
+msgid "_Edit Game"
+msgstr "_Éditer la partie"
+
+#: src/game_archive_editor.cc:25
+msgid "I_nsert File..."
+msgstr "I_nsérer un fichier..."
+
+#: src/game_archive_editor.cc:46
+msgid "Add a new game"
+msgstr "Ajouter une nouvelle partie"
+
+#: src/game_archive_editor.cc:49
+msgid "Remove the selected game"
+msgstr "Enlever la partie marquée"
+
+#: src/game_archive_editor.cc:50
+msgid "Edit"
+msgstr "Éditer"
+
+#: src/game_archive_editor.cc:52
+msgid "Edit the selected game"
+msgstr "Éditer la partie marquée"
+
+#: src/game_archive_editor.cc:57
+msgid "#"
+msgstr "№"
+
+#: src/game_archive_editor.cc:58
+msgid "Result"
+msgstr "Résultat"
+
+#: src/game_archive_editor.cc:59 src/players_display.cc:102
+#: src/player_widget.cc:17
+msgid "player:White"
+msgstr ":Blancs"
+
+#: src/game_archive_editor.cc:60 src/players_display.cc:102
+#: src/player_widget.cc:17
+msgid "player:Black"
+msgstr ":Noirs"
+
+#: src/game_archive_editor.cc:61
+msgid "Event"
+msgstr "Événement"
+
+#: src/game_archive_editor.cc:62
+msgid "Round"
+msgstr "Partie №"
+
+#: src/game_archive_editor.cc:63
+msgid "Date"
+msgstr "Date"
+
+#: src/game_archive_editor.cc:64
+msgid "Site"
+msgstr "Lieu"
+
+#: src/game_archive_editor.cc:164
+#, c-format
+msgid "%d game"
+msgid_plural "%d games"
+msgstr[0] "%d partie"
+msgstr[1] "%d parties"
+
+#: src/game_archive_editor.cc:294
+#, c-format
+msgid "Cannot insert \"%s\""
+msgstr "Ne peut insérer «%s»"
+
+#: src/game_archive_editor.cc:391 src/game_editor.cc:1102
+#: src/position_editor.cc:759
+msgid "Modified"
+msgstr "Modifié"
+
+#: src/game_archive_editor.cc:402
+msgid "Game"
+msgstr "Partie"
+
+#: src/game.cc:602
+msgid "Starting position"
+msgstr "Position de départ"
+
+#: src/game.cc:646
+msgid "White is checkmate"
+msgstr "Les blancs sont mat"
+
+#: src/game.cc:647
+msgid "Black is checkmate"
+msgstr "Les noirs sont mat"
+
+#: src/game.cc:651
+msgid "White is stalemate"
+msgstr "Les blancs sont pat"
+
+#: src/game.cc:652
+msgid "Black is stalemate"
+msgstr "Les noirs sont pat"
+
+#: src/game.cc:659
+msgid "White is in check"
+msgstr "Les blancs sont en échec"
+
+#: src/game.cc:660
+msgid "Black is in check"
+msgstr "Les noirs sont en échec"
+
+#: src/game.cc:664 src/game_text.cc:144 src/internet_window.cc:335
+msgid "White to move"
+msgstr "Aux blancs"
+
+#: src/game.cc:665 src/game_text.cc:144 src/internet_window.cc:336
+msgid "Black to move"
+msgstr "Aux noirs"
+
+#: src/game_editor.cc:36 src/internet_window.cc:49 src/play_window.cc:48
+#: src/position_editor.cc:39
+#, fuzzy
+msgid "_Choose Notation"
+msgstr "_Choisir la _notation"
+
+#: src/game_editor.cc:38 src/internet_window.cc:51 src/play_window.cc:50
+#: src/position_editor.cc:41
+msgid "_Notation Preferences"
+msgstr "Préférences de la _notation"
+
+#: src/game_editor.cc:48 src/internet_window.cc:41 src/play_window.cc:46
+#: src/position_editor.cc:29
+msgid "_View"
+msgstr "_Affichage"
+
+#: src/game_editor.cc:50 src/internet_window.cc:45 src/position_editor.cc:31
+msgid "_Legal Moves"
+msgstr "Coups _légaux"
+
+#: src/game_editor.cc:52
+#, fuzzy
+msgid "_Evaluator Process"
+msgstr "/Affichage/Procès _évaluateur"
+
+#: src/game_editor.cc:54
+#, fuzzy
+msgid "_Comment"
+msgstr "Commentaire"
+
+#: src/game_editor.cc:56 src/position_editor.cc:35
+#, fuzzy
+msgid "Hide the Side _Bar"
+msgstr "/Affichage/Cacher la _barre latérale"
+
+#: src/game_editor.cc:62 src/internet_window.cc:54 src/play_window.cc:26
+msgid "_Game"
+msgstr "_Partie"
+
+#: src/game_editor.cc:64
+#, fuzzy
+msgid "New Starting _Position"
+msgstr "Position de départ"
+
+#: src/game_editor.cc:68
+#, fuzzy
+msgid "Go to the _Start"
+msgstr "/Partie/Au _début"
+
+#: src/game_editor.cc:70
+#, fuzzy
+msgid "Go _Back One Move"
+msgstr "/Partie/Reprendre le _dernier coup"
+
+#: src/game_editor.cc:72
+#, fuzzy
+msgid "Go _Forward One Move"
+msgstr "Avancer d’un coup"
+
+#: src/game_editor.cc:74
+#, fuzzy
+msgid "Go to the _End"
+msgstr "/Partie/À la _fin"
+
+#: src/game_editor.cc:78
+msgid "Remove _End of Variation"
+msgstr "Enlever la _fin de la variante"
+
+#: src/game_editor.cc:80
+msgid "Remove _Variation"
+msgstr "Enlever la _variante"
+
+#: src/game_editor.cc:82
+#, fuzzy
+msgid "_Reparent Variation"
+msgstr "/Partie/_Reparenter la variante"
+
+#: src/game_editor.cc:84
+#, fuzzy
+msgid "Reparent Variation as _Main"
+msgstr "/Partie/_Reparenter la variante en tant que principale"
+
+#: src/game_editor.cc:86
+#, fuzzy
+msgid "Leave _Variation"
+msgstr "/Partie/_Quitter la variante"
+
+#: src/game_editor.cc:103
+#, fuzzy
+msgid "Go to the start of the game"
+msgstr "Au début de la partie"
+
+#: src/game_editor.cc:104
+#, fuzzy
+msgid "Go back one move"
+msgstr "/Partie/Reprendre le _dernier coup"
+
+#: src/game_editor.cc:106
+#, fuzzy
+msgid "Go forward one move"
+msgstr "Avancer d’un coup"
+
+#: src/game_editor.cc:107
+#, fuzzy
+msgid "Go to the end of the game"
+msgstr "À la fin de la partie"
+
+#: src/game_editor.cc:111
+msgid "Start / stop the engine"
+msgstr "Démarrer / arrêter le moteur"
+
+#: src/game_editor.cc:160
+msgid "Comment"
+msgstr "Commentaire"
+
+#: src/game_editor.cc:168
+msgid "Diagram"
+msgstr "Diagramme"
+
+#: src/game_editor.cc:172
+msgid "no annotation"
+msgstr "sans annotation"
+
+#: src/game_editor.cc:180
+msgid "another glpyh"
+msgstr "autre glyphe"
+
+#: src/game_editor.cc:260
+msgid "Set Up Position"
+msgstr "Nouvelle position"
+
+#: src/game_editor.cc:1049
+msgid "White"
+msgstr "Blanc"
+
+#: src/game_editor.cc:1053
+msgid "Black"
+msgstr "Noir"
+
+#: src/game_editor.cc:1274
+#, c-format
+msgid "Subvariation level %d"
+msgstr "Niveau %d de sous-variante"
+
+#: src/game_editor.cc:1275 /tmp/babychess.po.cc:278
+msgid "Main variation"
+msgstr "Variante principale"
+
+#: src/game_info_editor.cc:17
+#, fuzzy
+msgid "Game tags"
+msgstr "Partie"
+
+#: src/game_info_editor.cc:29
+msgid "player:_White"
+msgstr ":_Blancs"
+
+#: src/game_info_editor.cc:31
+msgid "player:_Black"
+msgstr ":_Noirs"
+
+#: src/game_info_editor.cc:34
+msgid "_Event"
+msgstr "_Événement"
+
+#: src/game_info_editor.cc:36
+msgid "_Site"
+msgstr "_Lieu"
+
+#: src/game_info_editor.cc:38
+msgid "_Date"
+msgstr "_Date"
+
+#: src/game_info_editor.cc:40
+msgid "_Round"
+msgstr "P_artie №"
+
+#: src/game_info_editor.cc:43 src/position_editor.cc:122
+msgid "_First move number"
+msgstr "Numéro du _premier coup"
+
+#: src/game_info_editor.cc:52
+msgid "Game outcome"
+msgstr "Résultat de la partie"
+
+#: src/game_info_editor.cc:54
+msgid "_White victory"
+msgstr "Victoire des _blancs"
+
+#: src/game_info_editor.cc:55
+msgid "_Draw"
+msgstr "_Nulle"
+
+#: src/game_info_editor.cc:56
+msgid "_Black victory"
+msgstr "Victoire des _noirs"
+
+#: src/game_info_editor.cc:57
+msgid "_Unfinished"
+msgstr "_Inachevée"
+
+#: src/game_stream.cc:17
+msgid "Archive contains more than one game"
+msgstr "L’archive contient plus d’une partie"
+
+#: src/gui_execute.cc:37
+#, c-format
+msgid "Cannot execute \"%s\""
+msgstr "Ne peut exécuter «%s»"
+
+#: src/internet_account_editor.cc:12
+msgid "_Host"
+msgstr "_Serveur"
+
+#: src/internet_account_editor.cc:13
+msgid "_Port"
+msgstr "_Port"
+
+#: src/internet_account_editor.cc:14
+msgid "_User"
+msgstr "_Utilisateur"
+
+#: src/internet_account_editor.cc:15
+msgid "Pass_word"
+msgstr "_Mot de passe"
+
+#: src/internet.cc:95
+msgid "Sent password"
+msgstr "Mot de passe envoyé"
+
+#: src/internet_interaction_window.cc:32
+msgid "_Append messages"
+msgstr "_Attacher les messages"
+
+#. Window title
+#: src/internet_window.cc:22 src/internet_window.cc:475
+msgid "Internet Chess"
+msgstr "Échecs sur Internet"
+
+#: src/internet_window.cc:30
+#, fuzzy
+msgid "_Connection"
+msgstr "/_Connexion"
+
+#: src/internet_window.cc:32
+#, fuzzy
+msgid "Log_in"
+msgstr "Se connecter"
+
+#: src/internet_window.cc:34
+#, fuzzy
+msgid "Log_out"
+msgstr "Se déconnecter"
+
+#: src/internet_window.cc:38
+#, fuzzy
+msgid "_Quit"
+msgstr "_Lieu"
+
+#: src/internet_window.cc:43
+#, fuzzy
+msgid "_Messages"
+msgstr "/Affichage/_Messages"
+
+#: src/internet_window.cc:56
+#, fuzzy
+msgid "_Seek"
+msgstr "À la recherche"
+
+#: src/internet_window.cc:58 src/play_window.cc:37
+#, fuzzy
+msgid "_Resign"
+msgstr "/Partie/_Abandonner"
+
+#: src/internet_window.cc:69
+msgid "Login"
+msgstr "Se connecter"
+
+#: src/internet_window.cc:70
+msgid "Log into an internet chess server"
+msgstr "Se connecter à un serveur d’échecs Internet"
+
+#: src/internet_window.cc:71
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: src/internet_window.cc:72
+msgid "Log out of the internet chess server"
+msgstr "Se déconnecter du serveur d’échecs Internet"
+
+#: src/internet_window.cc:159
+msgid "Logged out"
+msgstr "Déconnecté"
+
+#: src/internet_window.cc:267
+msgid "Seeking"
+msgstr "À la recherche"
+
+#: src/internet_window.cc:309
+#, c-format
+msgid "Cannot connect to %s"
+msgstr "Ne peut connecter à %s"
+
+#: src/internet_window.cc:362
+msgid "Black wins"
+msgstr "Les noirs gagnent"
+
+#: src/internet_window.cc:363
+msgid "Draw"
+msgstr "Nulle"
+
+#: src/internet_window.cc:364
+msgid "White wins"
+msgstr "Les blancs gagnent"
+
+#: src/internet_window.cc:365
+msgid "Aborted"
+msgstr "Annulé"
+
+#: src/internet_window.cc:471
+#, c-format
+msgid "Connected to %s"
+msgstr "Connecté à %s"
+
+#: src/internet_window.cc:472
+msgid "Not connected"
+msgstr "Non connecté"
+
+#. Number of legal moves
+#: src/legal_info_widget.cc:20
+#, c-format
+msgid "%d legal move"
+msgid_plural "%d legal moves"
+msgstr[0] "%d coup légal"
+msgstr[1] "%d coups légaux"
+
+#: src/legal_info_widget.cc:42
+msgid "Castlings:"
+msgstr "Roques :"
+
+#: src/legal_info_widget.cc:46
+msgid "No castlings"
+msgstr "Pas de roques"
+
+#: src/legal_info_widget.cc:50
+msgid "Draw clock:"
+msgstr "Compteur de demi-coups :"
+
+#: src/legal_info_widget.cc:55
+msgid "draw"
+msgstr "nulle"
+
+#. 1
+#: src/nag.cc:26
+msgid "good move"
+msgstr "bon coup"
+
+#: src/nag.cc:27
+msgid "poor move"
+msgstr "mauvais coup"
+
+#. 3
+#. There are four Unicode characters representing the next
+#. * four, but the normal representation looks better.
+#: src/nag.cc:32
+msgid "very good move"
+msgstr "très bon coup"
+
+#: src/nag.cc:33
+msgid "a blunder"
+msgstr "une erreur grave"
+
+#: src/nag.cc:34
+msgid "speculative move"
+msgstr "coup spéculatif"
+
+#: src/nag.cc:35
+msgid "questionable move"
+msgstr "coup disputable"
+
+#. 7
+#: src/nag.cc:38
+msgid "forced move"
+msgstr "coup forcé"
+
+#. synonym:  only move
+#: src/nag.cc:40
+msgid "singular move"
+msgstr "coup unique"
+
+#: src/nag.cc:41
+msgid "worst move"
+msgstr "coup pire"
+
+#. 10
+#: src/nag.cc:44
+msgid "drawish position"
+msgstr "position plutôt nulle"
+
+#: src/nag.cc:45
+msgid "equal chances, quiet position"
+msgstr "chances égales, position calme"
+
+#: src/nag.cc:46
+msgid "equal chances, active position"
+msgstr "chances égales, position active"
+
+#: src/nag.cc:47
+msgid "unclear position"
+msgstr "position peu claire"
+
+#. 14
+#: src/nag.cc:50
+msgid "White has a slight advantage"
+msgstr "Les blancs ont un léger avantage"
+
+#. on top of each other 2A72 ⩲
+#: src/nag.cc:52
+msgid "Black has a slight advantage"
+msgstr "Les noirs ont un léger avantage"
+
+#. on top of each other 2A71 ⩱
+#. 16
+#: src/nag.cc:56
+msgid "White has a moderate advantage"
+msgstr "Les blancs ont un avantage modéré"
+
+#: src/nag.cc:57
+msgid "Black has a moderate advantage"
+msgstr "Les noirs ont un avantage modéré"
+
+#. 18
+#. in the following we use the correct Unicode minus sign
+#: src/nag.cc:61
+msgid "White has a decisive advantage"
+msgstr "Les blancs ont un avantage décisif"
+
+#: src/nag.cc:62
+msgid "Black has a decisive advantage"
+msgstr "Les noirs ont un avantage décisif"
+
+#: src/nag.cc:63
+msgid "White has a crushing advantage"
+msgstr "Les blancs ont un avantage écrasant"
+
+#: src/nag.cc:64
+msgid "Black has a crushing advantage"
+msgstr "Les noirs ont un avantage écrasant"
+
+#. 22
+#: src/nag.cc:67
+msgid "White is in Zugzwang"
+msgstr "Les blancs sont en zugzwang"
+
+#: src/nag.cc:68
+msgid "Black is in Zugzwang"
+msgstr "Les noirs sont en zugzwang"
+
+#: src/nag.cc:70
+msgid "White has a slight space advantage"
+msgstr "Les blancs ont légèrement plus d’espace"
+
+#: src/nag.cc:71
+msgid "Black has a slight space advantage"
+msgstr "Les noirs ont légèrement plus d’espace"
+
+#. 26
+#: src/nag.cc:74
+msgid "White has a moderate space advantage"
+msgstr "Les blancs ont légèrement plus d’espace"
+
+#: src/nag.cc:75
+msgid "Black has a moderate space advantage"
+msgstr "Les noirs ont légèrement plus d’espace"
+
+#: src/nag.cc:77
+msgid "White has a decisive space advantage"
+msgstr "Les blancs ont décisivement plus d’espace"
+
+#: src/nag.cc:78
+msgid "Black has a decisive space advantage"
+msgstr "Les noirs ont décisivement plus d’espace"
+
+#: src/nag.cc:79
+msgid "White has a slight time (development) advantage"
+msgstr "Les blancs sont légèrement mieux développés"
+
+#: src/nag.cc:80
+msgid "Black has a slight time (development) advantage"
+msgstr "Les noirs sont légèrement mieux développés"
+
+#. 32
+#: src/nag.cc:83
+msgid "White has a moderate time (development) advantage"
+msgstr "Les blancs sont légèrement mieux développés"
+
+#: src/nag.cc:84
+msgid "Black has a moderate time (development) advantage"
+msgstr "Les noirs sont légèrement mieux développés"
+
+#: src/nag.cc:86
+msgid "White has a decisive time (development) advantage"
+msgstr "Les blancs sont décisivement mieux développés"
+
+#: src/nag.cc:87
+msgid "Black has a decisive time (development) advantage"
+msgstr "Les noirs sont décisivement mieux développés"
+
+#. 36
+#: src/nag.cc:90
+msgid "White has the initiative"
+msgstr "Les blancs ont l’initiative"
+
+#: src/nag.cc:91
+msgid "Black has the initiative"
+msgstr "Les noirs ont l’initiative"
+
+#: src/nag.cc:93
+msgid "White has a lasting initiative"
+msgstr "Les blancs ont une initiative durable"
+
+#: src/nag.cc:94
+msgid "Black has a lasting initiative"
+msgstr "Les noirs ont une initiative durable"
+
+#. 40
+#: src/nag.cc:97
+msgid "White has the attack"
+msgstr "Les blancs sont à l’attaque"
+
+#: src/nag.cc:98
+msgid "Black has the attack"
+msgstr "Les noirs sont à l’attaque"
+
+#: src/nag.cc:100
+msgid "White has insufficient compensation for material deficit"
+msgstr "Les blancs n’ont pas assez de compensation pour le déficit matériel"
+
+#: src/nag.cc:101
+msgid "Black has insufficient compensation for material deficit"
+msgstr "Les noirs n’ont pas assez de compensation pour le déficit matériel"
+
+#. 44
+#. These two don't seem to be included in Unicode.
+#: src/nag.cc:105
+msgid "White has sufficient compensation for material deficit"
+msgstr "Les blancs ont assez de compensation pour le déficit matériel"
+
+#. infinity above equal sign
+#: src/nag.cc:107
+msgid "Black has sufficient compensation for material deficit"
+msgstr "Les noirs ont assez de compensation pour le déficit matériel"
+
+#. The name of the file in share/notation that is
+#. * used by default.
+#: src/notation.cc:47
+msgid "local notation name:English"
+msgstr ":French"
+
+#: src/notation_editor.cc:16
+msgid "_En passant"
+msgstr "_En passant"
+
+#: src/notation_editor.cc:17
+msgid "_Short castling"
+msgstr "_Petit roque"
+
+#: src/notation_editor.cc:18
+msgid "_Long castling"
+msgstr "_Long roque"
+
+#: src/notation_editor.cc:19
+msgid "_Pawn"
+msgstr "_Pion"
+
+#: src/notation_editor.cc:20
+msgid "K_night"
+msgstr "_Cavalier"
+
+#: src/notation_editor.cc:21
+msgid "_Bishop"
+msgstr "_Fou"
+
+#: src/notation_editor.cc:22
+msgid "_Rook"
+msgstr "_Tour"
+
+#: src/notation_editor.cc:23
+msgid "_Queen"
+msgstr "_Dame"
+
+#: src/notation_editor.cc:24
+msgid "_King"
+msgstr "_Roi"
+
+#: src/notation_editor.cc:25
+msgid "_Capture"
+msgstr "_Prise"
+
+#: src/notation_editor.cc:26
+msgid "_Promotion"
+msgstr "_Promotion"
+
+#: src/notation_editor.cc:27
+msgid "_White"
+msgstr "_Blanc"
+
+#: src/notation_editor.cc:28
+msgid "_Black"
+msgstr "_Noir"
+
+#: src/notation_editor.cc:29
+msgid "_Check"
+msgstr "_Échec"
+
+#: src/notation_editor.cc:30
+msgid "_File characters"
+msgstr "Symboles pour les _lignes"
+
+#: src/notation_editor.cc:33
+msgid "Symbols"
+msgstr "Symboles"
+
+#: src/notation_settings_editor.cc:10
+msgid "Notation type"
+msgstr "Type de notation"
+
+#: src/notation_settings_editor.cc:12
+#, fuzzy
+msgid "_Short"
+msgstr "_Port"
+
+#: src/notation_settings_editor.cc:13
+#, fuzzy
+msgid "_Long"
+msgstr "Se _connecter"
+
+#: src/notation_settings_editor.cc:15
+msgid "Options"
+msgstr "Options"
+
+#: src/notation_settings_editor.cc:21
+msgid "Show the _pawn sign"
+msgstr "Montrer le symbole des _pions"
+
+#: src/notation_settings_editor.cc:22
+#, fuzzy
+msgid "Don’t indicate _en passant captures"
+msgstr "Indiquez les prises _en passant"
+
+#: src/notation_settings_editor.cc:23
+#, fuzzy
+msgid "Don’t show _check and mate"
+msgstr "Indiquer les échecs et les mat"
+
+#: src/notation_settings_editor.cc:24
+#, fuzzy
+msgid "No _capture sign in short notation"
+msgstr "Signe de _prise en notation courte"
+
+#: src/notation_settings_editor.cc:25
+msgid "Capture sign at the _end in short notation"
+msgstr "Signe de prise à la _fin en notation courte"
+
+#: src/notation_settings_editor.cc:26
+#, fuzzy
+msgid "Display the _captured piece in long notation"
+msgstr "Indiquer les pièces _prises"
+
+#: src/notation_settings_editor.cc:27
+#, fuzzy
+msgid "Don’t indicate _double check"
+msgstr "Indiquer l’échec _double"
+
+#: src/notation_settings_editor.cc:28
+msgid "Don’t use _castling symbols"
+msgstr "Ne pas utiliser de symboles pour les _roques"
+
+#: src/opening_book.cc:202
+msgid "(in book)"
+msgstr "(dans le livre)"
+
+#: src/opening_book.cc:314
+#, c-format
+msgid "%s Attack"
+msgstr "Attaque %s"
+
+#: src/opening_book.cc:315
+#, c-format
+msgid "%s Defense"
+msgstr "Défense %s"
+
+#: src/opening_book.cc:316
+#, c-format
+msgid "%s Move"
+msgstr "Coup %s"
+
+#: src/opening_book.cc:317
+#, c-format
+msgid "%s Formation"
+msgstr "Formation %s"
+
+#: src/opening_book.cc:318
+#, c-format
+msgid "%s Gambit"
+msgstr "Gambit %s"
+
+#: src/opening_book.cc:319
+#, c-format
+msgid "%s Line"
+msgstr "Ligne %s"
+
+#: src/opening_book.cc:320
+#, c-format
+msgid "%s Mate"
+msgstr "Mat %s"
+
+#: src/opening_book.cc:321
+#, c-format
+msgid "%s Opening"
+msgstr "Ouverture %s"
+
+#: src/opening_book.cc:322
+#, c-format
+msgid "%s System"
+msgstr "Système %s"
+
+#: src/opening_book.cc:323
+#, c-format
+msgid "%s Trap"
+msgstr "Piège %s"
+
+#: src/opening_book.cc:324
+#, c-format
+msgid "%s Variation"
+msgstr "Variante %s"
+
+#: src/opening_book.cc:326
+#, c-format
+msgid "Anti-%s"
+msgstr "anti-%s"
+
+#: src/opening_book.cc:327
+#, c-format
+msgid "Classical %s"
+msgstr "%s classique"
+
+#: src/opening_book.cc:328
+#, c-format
+msgid "Counter-%s"
+msgstr "Contre-%s"
+
+#: src/opening_book.cc:329
+#, c-format
+msgid "%s Deferred"
+msgstr "%s retardé"
+
+#: src/opening_book.cc:330
+#, c-format
+msgid "Semi-%s"
+msgstr "semi-%s"
+
+#: src/opening_book.cc:331
+#, c-format
+msgid "Delayed %s"
+msgstr "%s retardé"
+
+#: src/opening_book.cc:332
+#, c-format
+msgid "Modern %s"
+msgstr "%s moderne"
+
+#: src/opening_book.cc:333
+#, c-format
+msgid "Closed %s"
+msgstr "%s fermé"
+
+#: src/opening_book.cc:334
+#, c-format
+msgid "Primitive %s"
+msgstr "%s primitif"
+
+#: src/opening_book.cc:335
+#, c-format
+msgid "Neo-%s"
+msgstr "néo-%s"
+
+#: src/opening_book.cc:336
+#, c-format
+msgid "Open %s"
+msgstr "%s ouvert"
+
+#: src/opening_book.cc:337
+#, c-format
+msgid "Pseudo-%s"
+msgstr "pseudo-%s"
+
+#: src/opening_book.cc:338
+#, c-format
+msgid "%s Reversed"
+msgstr "%s inversé"
+
+#: src/opening_book.cc:339
+#, c-format
+msgid "Improved %s"
+msgstr "%s amélioré"
+
+#: src/opening_book.cc:340
+#, c-format
+msgid "Accelerated %s"
+msgstr "%s accéléré"
+
+#: src/opening_book.cc:341
+#, c-format
+msgid "Old %s"
+msgstr "ancien %s"
+
+#: src/opening_book.cc:343
+#, c-format
+msgid "%s Counterattack"
+msgstr "Contre-attaque %s"
+
+#: src/opening_book.cc:344
+#, c-format
+msgid "%s Countergambit"
+msgstr "Contre-gambit %s"
+
+#: src/owned_color_editor.cc:18
+msgid "Choose a Color"
+msgstr "Choisir une couleur"
+
+#: src/pgn.cc:370
+msgid "Game is empty"
+msgstr "La partie est vide"
+
+#: src/piece_name.cc:6
+msgid "Pawn"
+msgstr "Pion"
+
+#: src/piece_name.cc:7
+msgid "Knight"
+msgstr "Cavalier"
+
+#: src/piece_name.cc:8
+msgid "Bishop"
+msgstr "Fou"
+
+#: src/piece_name.cc:9
+msgid "Rook"
+msgstr "Tour"
+
+#: src/piece_name.cc:10
+msgid "Queen"
+msgstr "Dame"
+
+#: src/piece_name.cc:11
+msgid "King"
+msgstr "Roi"
+
+#: src/player_widget.cc:29
+msgid "_Human"
+msgstr "_Humain"
+
+#: src/player_widget.cc:31
+msgid "_Engine:"
+msgstr "_Moteur :"
+
+#: src/player_widget.cc:37
+msgid "Player _name"
+msgstr "_Nom du joueur"
+
+#: src/play_info_editor.cc:28
+msgid "_Swap Players"
+msgstr "_Échanger les joueurs"
+
+#: src/play_window.cc:19
+msgid "Play Chess"
+msgstr "Jouer aux échecs"
+
+#: src/play_window.cc:35
+#, fuzzy
+msgid "Take _Back Last Move"
+msgstr "/Partie/Reprendre le _dernier coup"
+
+#: src/play_window.cc:39
+msgid "Open Game in Game _Editor"
+msgstr ""
+
+#: src/play_window.cc:69
+#, fuzzy
+msgid "Save the game"
+msgstr "Sauvegarder cette partie"
+
+#: src/play_window.cc:72
+#, fuzzy
+msgid "Pause the game"
+msgstr "Interrompre le moteur"
+
+#: src/play_window.cc:74
+msgid "Take back last move"
+msgstr "Reprendre le dernier coup"
+
+#: src/play_window.cc:138
+msgid "Save the game before beginning a new game?"
+msgstr "Sauvegarder la partie avant de commencer une nouvelle partie ?"
+
+#: src/play_window.cc:141
+msgid "_Don’t save"
+msgstr "Ne _pas sauvegarder"
+
+#: src/play_window.cc:143 src/play_window.cc:488
+msgid "If you don’t save, the game just played will be discarded."
+msgstr "Si vous ne sauvegardez pas, la partie jouée sera perdue."
+
+#: src/play_window.cc:168
+#, c-format
+msgid "Cannot start %s"
+msgstr "Ne peut démarrer %s"
+
+#: src/play_window.cc:264
+#, c-format
+msgid "Saving \"%s\""
+msgstr "Sauvegarder «%s»"
+
+#: src/play_window.cc:388
+msgid "Cannot open game"
+msgstr "Ne peut ouvrir la partie"
+
+#: src/play_window.cc:483
+msgid "Save the game before closing?"
+msgstr "Sauvegarder la partie avant de fermer ?"
+
+#: src/play_window.cc:486
+msgid "Close _without saving"
+msgstr "Fermer _sans sauvegarder"
+
+#: src/position.cc:557 src/position.cc:566
+#, c-format
+msgid "Pawn on %s"
+msgstr "Pion sur %s"
+
+#: src/position.cc:586
+msgid "No white king"
+msgstr "Pas de roi blanc"
+
+#: src/position.cc:591
+msgid "Multiple white kings"
+msgstr "Plusieurs rois blancs"
+
+#: src/position.cc:596
+msgid "No black king"
+msgstr "Pas de roi noir"
+
+#: src/position.cc:601
+msgid "Multiple black kings"
+msgstr "Plusieurs rois noirs"
+
+#: src/position.cc:619
+#, c-format
+msgid "White king on %s is in capture"
+msgstr "Le roi blanc sur %s est en prise"
+
+#: src/position.cc:620
+#, c-format
+msgid "Black king on %s is in capture"
+msgstr "Le roi noir sur %s est en prise"
+
+#: src/position.cc:640
+msgid "Last double pawn move is not legal"
+msgstr "La dernière avance double de pion n’est pas légale"
+
+#: src/position_editor.cc:33
+#, fuzzy
+msgid "_FEN Notation"
+msgstr "/Affichage/Notation _FEN"
+
+#: src/position_editor.cc:43
+#, fuzzy
+msgid "_Position"
+msgstr "/_Position"
+
+#. the verb to empty
+#: src/position_editor.cc:45
+msgid "_Empty"
+msgstr "_Vider"
+
+#: src/position_editor.cc:47
+#, fuzzy
+msgid "_Invert"
+msgstr "Insérer"
+
+#: src/position_editor.cc:49
+#, fuzzy
+msgid "_Mirror"
+msgstr "Érreur"
+
+#: src/position_editor.cc:53
+#, fuzzy
+msgid "New _Game From This Position"
+msgstr "/Position/Nouvelle _partie à partir de cette position"
+
+#: src/position_editor.cc:71
+#, fuzzy
+msgid "Remove all pieces"
+msgstr "_Enlever la partie"
+
+#. Color
+#: src/position_editor.cc:79
+msgid "To move"
+msgstr "Trait"
+
+#: src/position_editor.cc:82
+msgid "to move:_White"
+msgstr ":Aux _blancs"
+
+#: src/position_editor.cc:83
+msgid "to move:_Black"
+msgstr ":Aux _noirs"
+
+#: src/position_editor.cc:88
+msgid "_Last move:"
+msgstr "_Dernier coup :"
+
+#. Castlings
+#: src/position_editor.cc:99
+msgid "Possible castlings"
+msgstr "Roques possibles"
+
+#: src/position_editor.cc:129
+msgid "_Halfmove clock:"
+msgstr "Compteur de _demi-coups :"
+
+#. Type
+#: src/position_editor.cc:136
+msgid "Add piece"
+msgstr "Ajouter une pièce"
+
+#: src/position_editor.cc:180
+msgid "Set"
+msgstr "Mettre"
+
+#: src/position_editor.cc:314
+msgid "FEN error"
+msgstr "Erreur FEN"
+
+#: src/position_editor.cc:499
+msgid "Position is legal"
+msgstr "Position légale"
+
+#: src/position_editor.cc:594
+msgid "Another move"
+msgstr "Un autre coup"
+
+#: src/position_widget.cc:13
+#, fuzzy
+msgid "_Change"
+msgstr "Annuler"
+
+#: src/position_widget.cc:31
+#, fuzzy
+msgid "Starting position:"
+msgstr "Position de départ"
+
+#: src/position_widget.cc:32
+msgid "custom"
+msgstr ""
+
+#: src/position_widget.cc:32
+#, fuzzy
+msgid "default"
+msgstr "Résultat"
+
+#: src/position_widget.cc:51
+#, fuzzy
+msgid "Custom Position"
+msgstr "Position d’échecs"
+
+#: src/score.cc:35
+#, c-format
+msgid "probably is mate in %d"
+msgstr "est probablement mat en %d"
+
+#: src/score.cc:42
+#, c-format
+msgid "is mate in %d"
+msgstr "est mat en %d"
+
+#: src/score.cc:53
+#, c-format
+msgid "mate in %d"
+msgstr "mat en %d"
+
+#: src/score.cc:60
+#, c-format
+msgid "probably mate in %d"
+msgstr "mat probable en %d"
+
+#: src/start_window.cc:16
+msgid "Play on the _internet"
+msgstr "Jouer sur _Internet"
+
+#: src/start_window.cc:17
+msgid "New game _archive"
+msgstr "Nouvel _archive de parties"
+
+#: src/start_window.cc:18
+msgid "New _game"
+msgstr "Nouvelle _partie"
+
+#: src/start_window.cc:19
+msgid "New _position"
+msgstr "Nouvelle _position"
+
+#: /tmp/babychess.po.cc:1
+msgid "Black and White"
+msgstr "Noir et blanc"
+
+#: /tmp/babychess.po.cc:2
+msgid "Blue"
+msgstr "Bleu"
+
+#: /tmp/babychess.po.cc:3
+msgid "Circus"
+msgstr "Cirque"
+
+#: /tmp/babychess.po.cc:4
+msgid "Green"
+msgstr "Vert"
+
+#: /tmp/babychess.po.cc:5
+msgid "Red"
+msgstr "Rouge"
+
+#: /tmp/babychess.po.cc:6
+msgid "Riffled"
+msgstr "Rayé"
+
+#: /tmp/babychess.po.cc:7
+msgid "Wood"
+msgstr "Bois"
+
+#: /tmp/babychess.po.cc:8
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: /tmp/babychess.po.cc:9
+msgid "English"
+msgstr "Anglais"
+
+#: /tmp/babychess.po.cc:10
+msgid "Figurine"
+msgstr "Figurine"
+
+#: /tmp/babychess.po.cc:11
+msgid "French"
+msgstr "Français"
+
+#: /tmp/babychess.po.cc:12
+msgid "German"
+msgstr "Allemand"
+
+#: /tmp/babychess.po.cc:13
+msgid "Greek"
+msgstr "Grec"
+
+#: /tmp/babychess.po.cc:14
+msgid "Italian"
+msgstr "Italien"
+
+#: /tmp/babychess.po.cc:15
+msgid "Polish"
+msgstr "Polonais"
+
+#: /tmp/babychess.po.cc:16
+msgid "Russian"
+msgstr "Russe"
+
+#: /tmp/babychess.po.cc:17
+msgid "Standard algebraic"
+msgstr "Algébrique standard"
+
+#: /tmp/babychess.po.cc:18
+msgid "Turkish"
+msgstr "Turc"
+
+#: /tmp/babychess.po.cc:20
+msgid "King pawn game"
+msgstr "Ouverture du pion du roi"
+
+#: /tmp/babychess.po.cc:21
+msgid "Queen pawn game"
+msgstr "Ouverture du pion de la dame"
+
+#: /tmp/babychess.po.cc:22
+msgid "Indian defense"
+msgstr "Défense indienne"
+
+#: /tmp/babychess.po.cc:23
+msgid "Double queen pawn game"
+msgstr "Ouverture double du pion de la dame"
+
+#: /tmp/babychess.po.cc:24
+msgid "Queen’s gambit"
+msgstr "Gambit de la dame"
+
+#: /tmp/babychess.po.cc:25 /tmp/babychess.po.cc:34 /tmp/babychess.po.cc:64
+#: /tmp/babychess.po.cc:136 /tmp/babychess.po.cc:163 /tmp/babychess.po.cc:226
+#: /tmp/babychess.po.cc:264 /tmp/babychess.po.cc:577 /tmp/babychess.po.cc:670
+#: /tmp/babychess.po.cc:707 /tmp/babychess.po.cc:821 /tmp/babychess.po.cc:855
+#: /tmp/babychess.po.cc:904 /tmp/babychess.po.cc:912 /tmp/babychess.po.cc:934
+#: /tmp/babychess.po.cc:999 /tmp/babychess.po.cc:1065
+msgid "Chigorin"
+msgstr "Tchigorine"
+
+#: /tmp/babychess.po.cc:26
+msgid "Dutch system"
+msgstr "Système hollandais"
+
+#: /tmp/babychess.po.cc:27
+msgid "Fianchetto Defense"
+msgstr "Défense fianchetto"
+
+#: /tmp/babychess.po.cc:28 /tmp/babychess.po.cc:986
+msgid "Irish gambit"
+msgstr "Gambit irlandais"
+
+#: /tmp/babychess.po.cc:29 /tmp/babychess.po.cc:32
+msgid "Veresov"
+msgstr "Vérésov"
+
+#: /tmp/babychess.po.cc:30 /tmp/babychess.po.cc:42 /tmp/babychess.po.cc:180
+#: /tmp/babychess.po.cc:338 /tmp/babychess.po.cc:819 /tmp/babychess.po.cc:820
+#: /tmp/babychess.po.cc:833 /tmp/babychess.po.cc:840 /tmp/babychess.po.cc:856
+#: /tmp/babychess.po.cc:970 /tmp/babychess.po.cc:994 /tmp/babychess.po.cc:1045
+msgid "Classical defense"
+msgstr "Défense classique"
+
+#: /tmp/babychess.po.cc:31 /tmp/babychess.po.cc:781
+msgid "Two knights system"
+msgstr "Système des deux cavaliers"
+
+#: /tmp/babychess.po.cc:33 /tmp/babychess.po.cc:130 /tmp/babychess.po.cc:152
+#: /tmp/babychess.po.cc:422 /tmp/babychess.po.cc:525 /tmp/babychess.po.cc:897
+#: /tmp/babychess.po.cc:898 /tmp/babychess.po.cc:974
+msgid "Symmetrical variation"
+msgstr "Variante symétrique"
+
+#: /tmp/babychess.po.cc:35 /tmp/babychess.po.cc:250 /tmp/babychess.po.cc:255
+msgid "London system"
+msgstr "Système londonien"
+
+#: /tmp/babychess.po.cc:36
+msgid "Queen’s bishop opening"
+msgstr "Ouverture du fou de la dame"
+
+#: /tmp/babychess.po.cc:37 /tmp/babychess.po.cc:259 /tmp/babychess.po.cc:661
+#: /tmp/babychess.po.cc:909
+msgid "Poisoned pawn variation"
+msgstr "Variante du pion empoisonné"
+
+#: /tmp/babychess.po.cc:38
+msgid "Pseudo-Catalan variation"
+msgstr "Variante pseudo-catalane"
+
+#: /tmp/babychess.po.cc:39
+msgid "Queen’s gambit deferred"
+msgstr "Gambit de la dame retardé"
+
+#: /tmp/babychess.po.cc:40 /tmp/babychess.po.cc:43 /tmp/babychess.po.cc:63
+#: /tmp/babychess.po.cc:294
+msgid "Accepted"
+msgstr "Accepté"
+
+#: /tmp/babychess.po.cc:41
+msgid "Bishop defense"
+msgstr "Défense du fou"
+
+#: /tmp/babychess.po.cc:44 /tmp/babychess.po.cc:494 /tmp/babychess.po.cc:495
+#: /tmp/babychess.po.cc:543
+msgid "Polish gambit"
+msgstr "Gambit polonais"
+
+#: /tmp/babychess.po.cc:45 /tmp/babychess.po.cc:49 /tmp/babychess.po.cc:56
+#: /tmp/babychess.po.cc:228 /tmp/babychess.po.cc:251 /tmp/babychess.po.cc:286
+#: /tmp/babychess.po.cc:313 /tmp/babychess.po.cc:325 /tmp/babychess.po.cc:367
+#: /tmp/babychess.po.cc:470 /tmp/babychess.po.cc:487 /tmp/babychess.po.cc:504
+#: /tmp/babychess.po.cc:518 /tmp/babychess.po.cc:598 /tmp/babychess.po.cc:604
+#: /tmp/babychess.po.cc:631 /tmp/babychess.po.cc:679 /tmp/babychess.po.cc:680
+#: /tmp/babychess.po.cc:685 /tmp/babychess.po.cc:701 /tmp/babychess.po.cc:727
+#: /tmp/babychess.po.cc:728 /tmp/babychess.po.cc:789 /tmp/babychess.po.cc:798
+#: /tmp/babychess.po.cc:808 /tmp/babychess.po.cc:810 /tmp/babychess.po.cc:891
+#: /tmp/babychess.po.cc:893 /tmp/babychess.po.cc:903 /tmp/babychess.po.cc:910
+#: /tmp/babychess.po.cc:911 /tmp/babychess.po.cc:973 /tmp/babychess.po.cc:989
+#: /tmp/babychess.po.cc:1037
+msgid "Nimzovich"
+msgstr "Nimzovich"
+
+#: /tmp/babychess.po.cc:46 /tmp/babychess.po.cc:57 /tmp/babychess.po.cc:58
+#: /tmp/babychess.po.cc:101 /tmp/babychess.po.cc:144 /tmp/babychess.po.cc:146
+#: /tmp/babychess.po.cc:147 /tmp/babychess.po.cc:412 /tmp/babychess.po.cc:846
+msgid "Vienna variation"
+msgstr "Variante viennoise"
+
+#: /tmp/babychess.po.cc:47 /tmp/babychess.po.cc:158
+msgid "Endgame variation"
+msgstr "Variante de find de partie"
+
+#: /tmp/babychess.po.cc:48
+msgid "Simple variation"
+msgstr "Variante simple"
+
+#: /tmp/babychess.po.cc:50
+msgid "Netherlands variation"
+msgstr "Variante hollandaise"
+
+#: /tmp/babychess.po.cc:51
+msgid "Karlsruhe defense"
+msgstr "Défense de Karlsruhe"
+
+#: /tmp/babychess.po.cc:52 /tmp/babychess.po.cc:108 /tmp/babychess.po.cc:135
+#: /tmp/babychess.po.cc:159 /tmp/babychess.po.cc:176 /tmp/babychess.po.cc:241
+#: /tmp/babychess.po.cc:463 /tmp/babychess.po.cc:823 /tmp/babychess.po.cc:932
+#: /tmp/babychess.po.cc:967 /tmp/babychess.po.cc:972 /tmp/babychess.po.cc:1062
+msgid "Bogolyubov"
+msgstr "Bogolyubov"
+
+#: /tmp/babychess.po.cc:53
+msgid "Rook pawn defense"
+msgstr "Défense du pion de la tour"
+
+#: /tmp/babychess.po.cc:54
+msgid "Gunderam’s second defense"
+msgstr "Seconde défense de Gunderam"
+
+#: /tmp/babychess.po.cc:55
+msgid "Mad dog attack"
+msgstr "Attaque du chien fou"
+
+#: /tmp/babychess.po.cc:59
+msgid "Weinsbach declination"
+msgstr "Déclination Weinsbach"
+
+#: /tmp/babychess.po.cc:60
+msgid "Siberian attack"
+msgstr "Attaque sibérienne"
+
+#: /tmp/babychess.po.cc:61 /tmp/babychess.po.cc:98 /tmp/babychess.po.cc:295
+#: /tmp/babychess.po.cc:336 /tmp/babychess.po.cc:774
+msgid "Bishop attack"
+msgstr "Attaque du fou"
+
+#: /tmp/babychess.po.cc:62
+msgid "Zürich gambit"
+msgstr "Gambit zürichois"
+
+#: /tmp/babychess.po.cc:65 /tmp/babychess.po.cc:75 /tmp/babychess.po.cc:78
+#: /tmp/babychess.po.cc:94 /tmp/babychess.po.cc:125 /tmp/babychess.po.cc:127
+#: /tmp/babychess.po.cc:360 /tmp/babychess.po.cc:377 /tmp/babychess.po.cc:399
+#: /tmp/babychess.po.cc:606 /tmp/babychess.po.cc:676 /tmp/babychess.po.cc:711
+#: /tmp/babychess.po.cc:720 /tmp/babychess.po.cc:760 /tmp/babychess.po.cc:889
+#: /tmp/babychess.po.cc:933 /tmp/babychess.po.cc:971 /tmp/babychess.po.cc:991
+#: /tmp/babychess.po.cc:1013
+msgid "Exchange variation"
+msgstr "Variante d’échange"
+
+#: /tmp/babychess.po.cc:66
+msgid "Modern gambit"
+msgstr "Gambit moderne"
+
+#: /tmp/babychess.po.cc:67 /tmp/babychess.po.cc:74 /tmp/babychess.po.cc:85
+#: /tmp/babychess.po.cc:86 /tmp/babychess.po.cc:109 /tmp/babychess.po.cc:110
+#: /tmp/babychess.po.cc:121 /tmp/babychess.po.cc:133 /tmp/babychess.po.cc:145
+#: /tmp/babychess.po.cc:160 /tmp/babychess.po.cc:171 /tmp/babychess.po.cc:175
+#: /tmp/babychess.po.cc:182 /tmp/babychess.po.cc:211 /tmp/babychess.po.cc:214
+#: /tmp/babychess.po.cc:227 /tmp/babychess.po.cc:270 /tmp/babychess.po.cc:350
+#: /tmp/babychess.po.cc:368 /tmp/babychess.po.cc:405 /tmp/babychess.po.cc:646
+#: /tmp/babychess.po.cc:647 /tmp/babychess.po.cc:665 /tmp/babychess.po.cc:686
+#: /tmp/babychess.po.cc:704 /tmp/babychess.po.cc:726 /tmp/babychess.po.cc:751
+#: /tmp/babychess.po.cc:764 /tmp/babychess.po.cc:881 /tmp/babychess.po.cc:962
+#: /tmp/babychess.po.cc:1014 /tmp/babychess.po.cc:1015
+msgid "Alekhine"
+msgstr "Alékhine"
+
+#: /tmp/babychess.po.cc:68
+msgid "Normal line"
+msgstr "Ligne normale"
+
+#: /tmp/babychess.po.cc:69 /tmp/babychess.po.cc:84 /tmp/babychess.po.cc:151
+#: /tmp/babychess.po.cc:218 /tmp/babychess.po.cc:565 /tmp/babychess.po.cc:575
+#: /tmp/babychess.po.cc:634 /tmp/babychess.po.cc:705 /tmp/babychess.po.cc:709
+#: /tmp/babychess.po.cc:710 /tmp/babychess.po.cc:811 /tmp/babychess.po.cc:872
+#: /tmp/babychess.po.cc:874 /tmp/babychess.po.cc:882 /tmp/babychess.po.cc:894
+#: /tmp/babychess.po.cc:926 /tmp/babychess.po.cc:951 /tmp/babychess.po.cc:952
+#: /tmp/babychess.po.cc:1003 /tmp/babychess.po.cc:1004
+#: /tmp/babychess.po.cc:1018 /tmp/babychess.po.cc:1019
+#: /tmp/babychess.po.cc:1026
+msgid "Alapin"
+msgstr "Alapine"
+
+#: /tmp/babychess.po.cc:70 /tmp/babychess.po.cc:120 /tmp/babychess.po.cc:206
+#: /tmp/babychess.po.cc:285 /tmp/babychess.po.cc:288 /tmp/babychess.po.cc:289
+#: /tmp/babychess.po.cc:300 /tmp/babychess.po.cc:303 /tmp/babychess.po.cc:356
+#: /tmp/babychess.po.cc:424 /tmp/babychess.po.cc:427 /tmp/babychess.po.cc:579
+#: /tmp/babychess.po.cc:601 /tmp/babychess.po.cc:648 /tmp/babychess.po.cc:655
+#: /tmp/babychess.po.cc:660 /tmp/babychess.po.cc:666 /tmp/babychess.po.cc:762
+#: /tmp/babychess.po.cc:763 /tmp/babychess.po.cc:1006
+#: /tmp/babychess.po.cc:1021
+msgid "Fianchetto variation"
+msgstr "Variante de fianchetto"
+
+#: /tmp/babychess.po.cc:71
+msgid "Slav defense"
+msgstr "Défense slave"
+
+#: /tmp/babychess.po.cc:72 /tmp/babychess.po.cc:87 /tmp/babychess.po.cc:446
+#: /tmp/babychess.po.cc:779 /tmp/babychess.po.cc:787
+msgid "Czech defense"
+msgstr "Défense tchèque"
+
+#: /tmp/babychess.po.cc:73
+msgid "Modern line"
+msgstr "Ligne moderne"
+
+#: /tmp/babychess.po.cc:76
+msgid "Slav pawn game"
+msgstr "Ouverture du pion slave"
+
+#: /tmp/babychess.po.cc:77
+msgid "Slav bishop game"
+msgstr "Ouverture du fou slave"
+
+#: /tmp/babychess.po.cc:79 /tmp/babychess.po.cc:102 /tmp/babychess.po.cc:401
+#: /tmp/babychess.po.cc:879 /tmp/babychess.po.cc:1025
+msgid "Three knights variation"
+msgstr "Variante des trois cavaliers"
+
+#: /tmp/babychess.po.cc:80
+msgid "Two knights attack"
+msgstr "Attaque des deux cavaliers"
+
+#: /tmp/babychess.po.cc:81
+msgid "Advance system"
+msgstr "Système d’avance"
+
+#: /tmp/babychess.po.cc:82 /tmp/babychess.po.cc:129 /tmp/babychess.po.cc:580
+#: /tmp/babychess.po.cc:587
+msgid "Chameleon variation"
+msgstr "Variante du chaméléon"
+
+#: /tmp/babychess.po.cc:83 /tmp/babychess.po.cc:90 /tmp/babychess.po.cc:492
+#: /tmp/babychess.po.cc:521 /tmp/babychess.po.cc:708
+msgid "Dutch variation"
+msgstr "Variante hollandaise"
+
+#: /tmp/babychess.po.cc:88
+msgid "Wiesbaden variation"
+msgstr "Variante Wiesbaden"
+
+#: /tmp/babychess.po.cc:89
+msgid "Sharp line"
+msgstr "Ligne aiguë"
+
+#: /tmp/babychess.po.cc:91 /tmp/babychess.po.cc:284
+msgid "Main line"
+msgstr "Variante principale"
+
+#: /tmp/babychess.po.cc:92 /tmp/babychess.po.cc:100
+msgid "Quiet variation"
+msgstr "Variante calme"
+
+#: /tmp/babychess.po.cc:93 /tmp/babychess.po.cc:568
+msgid "Pin defense"
+msgstr "Défense du clouage"
+
+#: /tmp/babychess.po.cc:95
+msgid "Symmetrical line"
+msgstr "Ligne symétrique"
+
+#: /tmp/babychess.po.cc:96
+msgid "Orthodox defense"
+msgstr "Défense orthodoxe"
+
+#: /tmp/babychess.po.cc:97 /tmp/babychess.po.cc:207 /tmp/babychess.po.cc:673
+msgid "Queen’s knight variation"
+msgstr "Variante du cavalier de la dame"
+
+#: /tmp/babychess.po.cc:99 /tmp/babychess.po.cc:315 /tmp/babychess.po.cc:578
+#: /tmp/babychess.po.cc:843
+msgid "Traditional variation"
+msgstr "Variante traditionnelle"
+
+#: /tmp/babychess.po.cc:103 /tmp/babychess.po.cc:179 /tmp/babychess.po.cc:275
+#: /tmp/babychess.po.cc:298 /tmp/babychess.po.cc:524 /tmp/babychess.po.cc:607
+#: /tmp/babychess.po.cc:716 /tmp/babychess.po.cc:731 /tmp/babychess.po.cc:757
+#: /tmp/babychess.po.cc:836
+msgid "Modern variation"
+msgstr "Variante moderne"
+
+#: /tmp/babychess.po.cc:104 /tmp/babychess.po.cc:169
+msgid "Knight defense"
+msgstr "Défense du cavalier"
+
+#: /tmp/babychess.po.cc:105
+msgid "Westphalian variation"
+msgstr "Variante de Westphalie"
+
+#: /tmp/babychess.po.cc:106
+msgid "Capablanca anti-Cambridge Springs variation"
+msgstr "Variante anti-Cambridge Springs de Capablanca"
+
+#: /tmp/babychess.po.cc:107 /tmp/babychess.po.cc:358 /tmp/babychess.po.cc:397
+#: /tmp/babychess.po.cc:407 /tmp/babychess.po.cc:512
+msgid "Yugoslav variation"
+msgstr "Variante yougoslave"
+
+#: /tmp/babychess.po.cc:111
+msgid "Dutch and Peruvian variation"
+msgstr "Variante hollandaise et péruvienne"
+
+#: /tmp/babychess.po.cc:112
+msgid "Venice variation"
+msgstr "Variante de Venise"
+
+#: /tmp/babychess.po.cc:113 /tmp/babychess.po.cc:114
+msgid "Neo-orthodox variation"
+msgstr "Variante néo-orthodoxe"
+
+#: /tmp/babychess.po.cc:115 /tmp/babychess.po.cc:381 /tmp/babychess.po.cc:384
+msgid "Orthodox variation"
+msgstr "Variante orthodoxe"
+
+#: /tmp/babychess.po.cc:116 /tmp/babychess.po.cc:691 /tmp/babychess.po.cc:700
+msgid "Swiss variation"
+msgstr "Variante suisse"
+
+#: /tmp/babychess.po.cc:117 /tmp/babychess.po.cc:123
+msgid "Karlsbad variation"
+msgstr "Variante de Karlsbad"
+
+#: /tmp/babychess.po.cc:118
+msgid "Tempo-struggle variation"
+msgstr "Variante du gain de tempo"
+
+#: /tmp/babychess.po.cc:119
+msgid "Capablanca freeing maneuver"
+msgstr "Manœuvre d’échappe de Capablanca"
+
+#: /tmp/babychess.po.cc:122 /tmp/babychess.po.cc:209 /tmp/babychess.po.cc:280
+#: /tmp/babychess.po.cc:310 /tmp/babychess.po.cc:317 /tmp/babychess.po.cc:330
+#: /tmp/babychess.po.cc:361 /tmp/babychess.po.cc:383 /tmp/babychess.po.cc:520
+#: /tmp/babychess.po.cc:643 /tmp/babychess.po.cc:650 /tmp/babychess.po.cc:651
+#: /tmp/babychess.po.cc:664 /tmp/babychess.po.cc:703 /tmp/babychess.po.cc:722
+#: /tmp/babychess.po.cc:812 /tmp/babychess.po.cc:863
+msgid "Classical variation"
+msgstr "Variante classique"
+
+#: /tmp/babychess.po.cc:124 /tmp/babychess.po.cc:141 /tmp/babychess.po.cc:212
+#: /tmp/babychess.po.cc:213 /tmp/babychess.po.cc:215 /tmp/babychess.po.cc:322
+#: /tmp/babychess.po.cc:328 /tmp/babychess.po.cc:331 /tmp/babychess.po.cc:339
+#: /tmp/babychess.po.cc:345 /tmp/babychess.po.cc:411 /tmp/babychess.po.cc:413
+#: /tmp/babychess.po.cc:430 /tmp/babychess.po.cc:431 /tmp/babychess.po.cc:433
+#: /tmp/babychess.po.cc:481 /tmp/babychess.po.cc:485 /tmp/babychess.po.cc:581
+#: /tmp/babychess.po.cc:582 /tmp/babychess.po.cc:682 /tmp/babychess.po.cc:730
+#: /tmp/babychess.po.cc:735 /tmp/babychess.po.cc:737 /tmp/babychess.po.cc:837
+msgid "Botvinnik"
+msgstr "Botvinnik"
+
+#: /tmp/babychess.po.cc:126 /tmp/babychess.po.cc:199 /tmp/babychess.po.cc:406
+#: /tmp/babychess.po.cc:410 /tmp/babychess.po.cc:690
+msgid "Russian variation"
+msgstr "Variante russe"
+
+#: /tmp/babychess.po.cc:128
+msgid "Positional line"
+msgstr "Ligne positionnelle"
+
+#: /tmp/babychess.po.cc:131 /tmp/babychess.po.cc:148
+msgid "Semi-Slav defense"
+msgstr "Défense semi-slave"
+
+#: /tmp/babychess.po.cc:132 /tmp/babychess.po.cc:170 /tmp/babychess.po.cc:205
+#: /tmp/babychess.po.cc:269 /tmp/babychess.po.cc:335 /tmp/babychess.po.cc:372
+#: /tmp/babychess.po.cc:389
+msgid "Normal variation"
+msgstr "Variante normale"
+
+#: /tmp/babychess.po.cc:134
+msgid "Center variation"
+msgstr "Variante centrale"
+
+#: /tmp/babychess.po.cc:137
+msgid "Neo-Meran variation"
+msgstr "Variante néo-mérane"
+
+#: /tmp/babychess.po.cc:138
+msgid "Old Variation"
+msgstr "Ancienne variante"
+
+#: /tmp/babychess.po.cc:139
+msgid "Semi-Slav defense accepted"
+msgstr "Défense semi-slave acceptée"
+
+#: /tmp/babychess.po.cc:140
+msgid "Anti-Moscow gambit"
+msgstr "Gambit anti-moscovite"
+
+#: /tmp/babychess.po.cc:142
+msgid "Anti-Meran gambit"
+msgstr "Gambit anti-merano"
+
+#: /tmp/babychess.po.cc:143 /tmp/babychess.po.cc:188 /tmp/babychess.po.cc:975
+msgid "Alatortsev"
+msgstr "Alatortsev"
+
+#: /tmp/babychess.po.cc:149
+msgid "Slave Stonewall Opening"
+msgstr "Ouverture Stonewall slave"
+
+#: /tmp/babychess.po.cc:150
+msgid "Beliavsky"
+msgstr "Béliavski"
+
+#: /tmp/babychess.po.cc:153 /tmp/babychess.po.cc:423 /tmp/babychess.po.cc:440
+#: /tmp/babychess.po.cc:473 /tmp/babychess.po.cc:671 /tmp/babychess.po.cc:674
+#: /tmp/babychess.po.cc:712 /tmp/babychess.po.cc:714 /tmp/babychess.po.cc:772
+msgid "Two knights variation"
+msgstr "Variante des deux cavaliers"
+
+#: /tmp/babychess.po.cc:154
+msgid "Prague variation"
+msgstr "Variante de Prague"
+
+#: /tmp/babychess.po.cc:155
+msgid "Swedish variation"
+msgstr "Variante suédoise"
+
+#: /tmp/babychess.po.cc:156
+msgid "Normal position"
+msgstr "Position normale"
+
+#: /tmp/babychess.po.cc:157 /tmp/babychess.po.cc:499 /tmp/babychess.po.cc:599
+#: /tmp/babychess.po.cc:677 /tmp/babychess.po.cc:687 /tmp/babychess.po.cc:706
+#: /tmp/babychess.po.cc:729
+msgid "Advance variation"
+msgstr "Variante d’avance"
+
+#: /tmp/babychess.po.cc:161 /tmp/babychess.po.cc:165
+msgid "Baltic defense"
+msgstr "Défense baltique"
+
+#: /tmp/babychess.po.cc:162
+msgid "Queen attack"
+msgstr "Attaque de la dame"
+
+#: /tmp/babychess.po.cc:164
+msgid "Pseudo-Slav variation"
+msgstr "Variante pseudo-slave"
+
+#: /tmp/babychess.po.cc:166
+msgid "Argentinian gambit"
+msgstr "Gambit argentin"
+
+#: /tmp/babychess.po.cc:167
+msgid "Austrian defense"
+msgstr "Défense autrichienne"
+
+#: /tmp/babychess.po.cc:168
+msgid "Symmetrical defense"
+msgstr "Défense symétrique"
+
+#: /tmp/babychess.po.cc:172
+msgid "Parisian defense"
+msgstr "Défense parisienne"
+
+#: /tmp/babychess.po.cc:173 /tmp/babychess.po.cc:193 /tmp/babychess.po.cc:230
+#: /tmp/babychess.po.cc:364 /tmp/babychess.po.cc:374 /tmp/babychess.po.cc:767
+#: /tmp/babychess.po.cc:834 /tmp/babychess.po.cc:961
+msgid "Modern defense"
+msgstr "Défense moderne"
+
+#: /tmp/babychess.po.cc:174
+msgid "Old variation"
+msgstr "Ancienne variante"
+
+#: /tmp/babychess.po.cc:177
+msgid "Mannheim variation"
+msgstr "Variante Mannheim"
+
+#: /tmp/babychess.po.cc:178
+msgid "Traditional system"
+msgstr "Système traditionnel"
+
+#: /tmp/babychess.po.cc:181
+msgid "Development variation"
+msgstr "Variante de développement"
+
+#: /tmp/babychess.po.cc:183
+msgid "Russian gambit"
+msgstr "Gambit russe"
+
+#: /tmp/babychess.po.cc:184
+msgid "Accelerated fianchetto"
+msgstr "Fianchetto accéléré"
+
+#: /tmp/babychess.po.cc:185
+msgid "Counter fianchetto variation"
+msgstr "Contre-variante de fianchetto"
+
+#: /tmp/babychess.po.cc:186 /tmp/babychess.po.cc:425 /tmp/babychess.po.cc:486
+#: /tmp/babychess.po.cc:602 /tmp/babychess.po.cc:617 /tmp/babychess.po.cc:929
+#: /tmp/babychess.po.cc:947
+msgid "Four knights variation"
+msgstr "Variante des quatre cavaliers"
+
+#: /tmp/babychess.po.cc:187
+msgid "Slav gambit"
+msgstr "Gambit slave"
+
+#: /tmp/babychess.po.cc:189
+msgid "Rat defense"
+msgstr "Défense du rat"
+
+#: /tmp/babychess.po.cc:190 /tmp/babychess.po.cc:271
+msgid "Old Indian defense"
+msgstr "Ancienne défense indienne"
+
+#: /tmp/babychess.po.cc:191
+msgid "English rat"
+msgstr "Rat anglais"
+
+#: /tmp/babychess.po.cc:192 /tmp/babychess.po.cc:221
+msgid "Lisbon gambit"
+msgstr "Gambit de Lisbonne"
+
+#: /tmp/babychess.po.cc:194 /tmp/babychess.po.cc:848
+msgid "Kotov"
+msgstr "Kotov"
+
+#: /tmp/babychess.po.cc:195 /tmp/babychess.po.cc:223 /tmp/babychess.po.cc:234
+#: /tmp/babychess.po.cc:262 /tmp/babychess.po.cc:268 /tmp/babychess.po.cc:323
+#: /tmp/babychess.po.cc:453 /tmp/babychess.po.cc:502 /tmp/babychess.po.cc:533
+#: /tmp/babychess.po.cc:567 /tmp/babychess.po.cc:585 /tmp/babychess.po.cc:662
+#: /tmp/babychess.po.cc:791 /tmp/babychess.po.cc:806 /tmp/babychess.po.cc:807
+#: /tmp/babychess.po.cc:841 /tmp/babychess.po.cc:854 /tmp/babychess.po.cc:948
+#: /tmp/babychess.po.cc:992
+msgid "accepted"
+msgstr "accepté"
+
+#: /tmp/babychess.po.cc:196
+msgid "Benoni-Indian defense"
+msgstr "Indienne Benoni"
+
+#: /tmp/babychess.po.cc:197
+msgid "Pawn thrust variation"
+msgstr "Variante de poussée de pions"
+
+#: /tmp/babychess.po.cc:198
+msgid "Blockade variation"
+msgstr "Variante de bloquade"
+
+#: /tmp/babychess.po.cc:200
+msgid "Franco-Sicilian opening"
+msgstr "Ouverture franco-sicilienne"
+
+#: /tmp/babychess.po.cc:201
+msgid "Snail variation"
+msgstr "Variante de l’escargot"
+
+#: /tmp/babychess.po.cc:202
+msgid "Kingside move order"
+msgstr "Ordre de coups de l’aile roi"
+
+#: /tmp/babychess.po.cc:203 /tmp/babychess.po.cc:293
+msgid "Vulture defense"
+msgstr "Défense du vautour"
+
+#: /tmp/babychess.po.cc:204
+msgid "Dutch defense"
+msgstr "Défense hollandaise"
+
+#: /tmp/babychess.po.cc:208 /tmp/babychess.po.cc:329 /tmp/babychess.po.cc:683
+msgid "Leningrad variation"
+msgstr "Variante de Leningrad"
+
+#: /tmp/babychess.po.cc:210
+msgid "Nimzo-Dutch variation"
+msgstr "Variante Nimzo-hollandaise"
+
+#: /tmp/babychess.po.cc:216
+msgid "Fluid formation"
+msgstr "Formation fluide"
+
+#: /tmp/babychess.po.cc:217
+msgid "Warsaw variation"
+msgstr "Variante de varsovie"
+
+#: /tmp/babychess.po.cc:219 /tmp/babychess.po.cc:773
+msgid "Anti-modern variation"
+msgstr "Variante anti-moderne"
+
+#: /tmp/babychess.po.cc:220
+msgid "Dutch-Indian variation"
+msgstr "Variante indo-hollandaise"
+
+#: /tmp/babychess.po.cc:222 /tmp/babychess.po.cc:445
+msgid "Korchnoi"
+msgstr "Kortchnoï"
+
+#: /tmp/babychess.po.cc:224
+msgid "American gambit"
+msgstr "Gambit américain"
+
+#: /tmp/babychess.po.cc:225
+msgid "Blackmar’s second gambit"
+msgstr "Second gambit de Blackmar"
+
+#: /tmp/babychess.po.cc:229 /tmp/babychess.po.cc:461
+msgid "Anglo-Slav opening"
+msgstr "Ouverture anglo-slave"
+
+#: /tmp/babychess.po.cc:231
+msgid "Lizard defense"
+msgstr "Défense du lézard"
+
+#: /tmp/babychess.po.cc:232
+msgid "Neo-modern defense"
+msgstr "Défense néo-moderne"
+
+#: /tmp/babychess.po.cc:233
+msgid "Pterodactyl variation"
+msgstr "Variante du ptérodactyle"
+
+#: /tmp/babychess.po.cc:235 /tmp/babychess.po.cc:244 /tmp/babychess.po.cc:296
+#: /tmp/babychess.po.cc:454 /tmp/babychess.po.cc:534 /tmp/babychess.po.cc:564
+#: /tmp/babychess.po.cc:955
+msgid "declined"
+msgstr "refusé"
+
+#: /tmp/babychess.po.cc:236
+msgid "Franco-Sicilian defense"
+msgstr "Français"
+
+#: /tmp/babychess.po.cc:237
+msgid "Franco-Sicilian hybrid"
+msgstr "Hybride franco-sicilien"
+
+#: /tmp/babychess.po.cc:238
+msgid "Kangaroo defense"
+msgstr "Défense du kangourou"
+
+#: /tmp/babychess.po.cc:239
+msgid "Franco-Indian defense"
+msgstr "Défense franco-indienne"
+
+#: /tmp/babychess.po.cc:240
+msgid "Transpositional variation"
+msgstr "Variante de transposition"
+
+#: /tmp/babychess.po.cc:242
+msgid "Zaire defense"
+msgstr "Défense zaïroise"
+
+#: /tmp/babychess.po.cc:243
+msgid "Lithuanian variation"
+msgstr "Variante lituanienne"
+
+#: /tmp/babychess.po.cc:245
+msgid "Stockholm variation"
+msgstr "Variante de Stockholm"
+
+#: /tmp/babychess.po.cc:246 /tmp/babychess.po.cc:451
+msgid "English defense"
+msgstr "Défense anglaise"
+
+#: /tmp/babychess.po.cc:247 /tmp/babychess.po.cc:253
+msgid "Polish defense"
+msgstr "Défense polonaise"
+
+#: /tmp/babychess.po.cc:248 /tmp/babychess.po.cc:304
+msgid "East-Indian defense"
+msgstr "Défense est-indienne"
+
+#: /tmp/babychess.po.cc:249
+msgid "Czech-Indian defense"
+msgstr "Défense tchéco-indienne"
+
+#: /tmp/babychess.po.cc:252 /tmp/babychess.po.cc:514
+msgid "Swiss gambit"
+msgstr "Gambit suisse"
+
+#: /tmp/babychess.po.cc:254
+msgid "King’s Indian variation"
+msgstr "Indienne du roi"
+
+#: /tmp/babychess.po.cc:256 /tmp/babychess.po.cc:500
+msgid "London variation"
+msgstr "Variante londonienne"
+
+#: /tmp/babychess.po.cc:257
+msgid "Basque opening"
+msgstr "Ouverture basque"
+
+#: /tmp/babychess.po.cc:258
+msgid "Trompovsky"
+msgstr "Trompovski"
+
+#: /tmp/babychess.po.cc:260 /tmp/babychess.po.cc:583
+msgid "Edge variation"
+msgstr "Variante du bord"
+
+#: /tmp/babychess.po.cc:261
+msgid "Bullfrog gambit"
+msgstr "Gambit de la grenouille taureau"
+
+#: /tmp/babychess.po.cc:263
+msgid "Maltese falcon variation"
+msgstr "Variante du falcon maltais"
+
+#: /tmp/babychess.po.cc:265
+msgid "Pawn push variation"
+msgstr "Variante de la poussée de pion"
+
+#: /tmp/babychess.po.cc:266
+msgid "West-Indian defense"
+msgstr "Défense ouest-indienne"
+
+#: /tmp/babychess.po.cc:267
+msgid "Budapest gambit"
+msgstr "Gambit de Budapest"
+
+#: /tmp/babychess.po.cc:272
+msgid "Aged gibbon gambit"
+msgstr "Gambit du vieux gibon"
+
+#: /tmp/babychess.po.cc:273
+msgid "Ukranian variation"
+msgstr "Variante ukrainienne"
+
+#: /tmp/babychess.po.cc:274
+msgid "Volga"
+msgstr "Volga"
+
+#: /tmp/babychess.po.cc:276
+msgid "Snake variation"
+msgstr "Variante du serpent"
+
+#: /tmp/babychess.po.cc:277
+msgid "King pawn line"
+msgstr "Ligne du pion du roi"
+
+#: /tmp/babychess.po.cc:279
+msgid "Pawn storm variation"
+msgstr "Variante de la poussée de pions"
+
+#: /tmp/babychess.po.cc:281 /tmp/babychess.po.cc:318 /tmp/babychess.po.cc:340
+#: /tmp/babychess.po.cc:391 /tmp/babychess.po.cc:400 /tmp/babychess.po.cc:482
+#: /tmp/babychess.po.cc:484 /tmp/babychess.po.cc:570 /tmp/babychess.po.cc:594
+#: /tmp/babychess.po.cc:610 /tmp/babychess.po.cc:611 /tmp/babychess.po.cc:612
+#: /tmp/babychess.po.cc:615 /tmp/babychess.po.cc:1028
+msgid "Taimanov"
+msgstr "Taimanov"
+
+#: /tmp/babychess.po.cc:282
+msgid "Bishop check variation"
+msgstr "Variante de l’échec du fou"
+
+#: /tmp/babychess.po.cc:283 /tmp/babychess.po.cc:373 /tmp/babychess.po.cc:758
+msgid "Four pawns attack"
+msgstr "Attaque des quatre pions"
+
+#: /tmp/babychess.po.cc:287 /tmp/babychess.po.cc:754
+msgid "Knight’s tour variation"
+msgstr "Variante du tour du cavalier"
+
+#: /tmp/babychess.po.cc:290
+msgid "Czech Benoni defense"
+msgstr "Défense Benoni tchèque"
+
+#: /tmp/babychess.po.cc:291
+msgid "Czech variation"
+msgstr "Variante tchèque"
+
+#: /tmp/babychess.po.cc:292
+msgid "King’s Indian system"
+msgstr "Système indien du roi"
+
+#: /tmp/babychess.po.cc:297 /tmp/babychess.po.cc:314 /tmp/babychess.po.cc:489
+msgid "Quiet line"
+msgstr "Ligne calme"
+
+#: /tmp/babychess.po.cc:299
+msgid "Pawn return variation"
+msgstr "Variante de retour de pion"
+
+#: /tmp/babychess.po.cc:301
+msgid "Central storming variation"
+msgstr "Variante d’attaque centrale"
+
+#: /tmp/babychess.po.cc:302
+msgid "King walk variation"
+msgstr "Variante de la marche du roi"
+
+#: /tmp/babychess.po.cc:305
+msgid "Catalan opening"
+msgstr "Ouverture catalane"
+
+#: /tmp/babychess.po.cc:306
+msgid "Anti-Nimzovich-Indian variation"
+msgstr "Variante anti-Nimzo-Indienne"
+
+#: /tmp/babychess.po.cc:307
+msgid "Bogolyubov-Indian defense"
+msgstr "Indienne Bogolyoubov"
+
+#: /tmp/babychess.po.cc:308 /tmp/babychess.po.cc:354
+msgid "Queen’s Indian defense"
+msgstr "Indienne de la dame"
+
+#: /tmp/babychess.po.cc:309 /tmp/babychess.po.cc:344 /tmp/babychess.po.cc:382
+#: /tmp/babychess.po.cc:576 /tmp/babychess.po.cc:681 /tmp/babychess.po.cc:713
+#: /tmp/babychess.po.cc:924 /tmp/babychess.po.cc:941
+msgid "Closed variation"
+msgstr "Variante fermée"
+
+#: /tmp/babychess.po.cc:311
+msgid "Fianchetto system"
+msgstr "Système du fianchetto"
+
+#: /tmp/babychess.po.cc:312
+msgid "Fianchetto traditional variation"
+msgstr "Variante traditionnelle du fianchetto"
+
+#: /tmp/babychess.po.cc:316
+msgid "Anti-Queen’s Indian system"
+msgstr "Système anti-indienne de la dame"
+
+#: /tmp/babychess.po.cc:319 /tmp/babychess.po.cc:320 /tmp/babychess.po.cc:613
+#: /tmp/babychess.po.cc:725
+msgid "Kasparov"
+msgstr "Kasparov"
+
+#: /tmp/babychess.po.cc:321 /tmp/babychess.po.cc:438 /tmp/babychess.po.cc:614
+#: /tmp/babychess.po.cc:623 /tmp/babychess.po.cc:1000
+msgid "Hedgehog variation"
+msgstr "Variante de l’hérisson"
+
+#: /tmp/babychess.po.cc:324
+msgid "Dzindzi-Indian defense"
+msgstr "Indienne Dzindzi"
+
+#: /tmp/babychess.po.cc:326
+msgid "Nimzo-Indian defense"
+msgstr "Indienne Nimzovitch"
+
+#: /tmp/babychess.po.cc:327 /tmp/babychess.po.cc:426 /tmp/babychess.po.cc:478
+msgid "Three knights system"
+msgstr "Système des trois cavaliers"
+
+#: /tmp/babychess.po.cc:332 /tmp/babychess.po.cc:935 /tmp/babychess.po.cc:1002
+#: /tmp/babychess.po.cc:1044
+msgid "Berlin variation"
+msgstr "Variante berlinoise"
+
+#: /tmp/babychess.po.cc:333
+msgid "Zürich variation"
+msgstr "Variante zürichoise"
+
+#: /tmp/babychess.po.cc:334
+msgid "Old Zürich variation"
+msgstr "Ancienne variante zürichoise"
+
+#: /tmp/babychess.po.cc:337
+msgid "Parma variation"
+msgstr "Variante de Parme"
+
+#: /tmp/babychess.po.cc:341 /tmp/babychess.po.cc:642 /tmp/babychess.po.cc:649
+#: /tmp/babychess.po.cc:718 /tmp/babychess.po.cc:734 /tmp/babychess.po.cc:736
+#: /tmp/babychess.po.cc:765 /tmp/babychess.po.cc:785 /tmp/babychess.po.cc:862
+msgid "Panov"
+msgstr "Panov"
+
+#: /tmp/babychess.po.cc:342
+msgid "English hybrid variation"
+msgstr "Variante anglaise hybride"
+
+#: /tmp/babychess.po.cc:343
+msgid "Neo-Indian attack"
+msgstr "Attaque néo-indienne"
+
+#: /tmp/babychess.po.cc:346 /tmp/babychess.po.cc:920 /tmp/babychess.po.cc:998
+#: /tmp/babychess.po.cc:1040
+msgid "Open variation"
+msgstr "Variante ouverte"
+
+#: /tmp/babychess.po.cc:347
+msgid "Open defense"
+msgstr "Défense ouverte"
+
+#: /tmp/babychess.po.cc:348
+msgid "Classical line"
+msgstr "Ligne classique"
+
+#: /tmp/babychess.po.cc:349
+msgid "Modern sharp variation"
+msgstr "Variante moderne aiguë"
+
+#: /tmp/babychess.po.cc:351 /tmp/babychess.po.cc:825
+msgid "Hungarian gambit"
+msgstr "Gambit hongrois"
+
+#: /tmp/babychess.po.cc:352
+msgid "Mexican defense"
+msgstr "Défense méxicaine"
+
+#: /tmp/babychess.po.cc:353
+msgid "Pyrenées gambit"
+msgstr "Gambit pyrénéen"
+
+#: /tmp/babychess.po.cc:355
+msgid "Sämisch-Indian Defense"
+msgstr "Indienne Sämisch"
+
+#: /tmp/babychess.po.cc:357 /tmp/babychess.po.cc:359 /tmp/babychess.po.cc:1051
+msgid "Counterthrust variation"
+msgstr "Variante de contre-poussée"
+
+#: /tmp/babychess.po.cc:362 /tmp/babychess.po.cc:697
+msgid "Delayed exchange variation"
+msgstr "Variante d’échange retardé"
+
+#: /tmp/babychess.po.cc:363
+msgid "Original defense"
+msgstr "Défense originale"
+
+#: /tmp/babychess.po.cc:365
+msgid "Ultra-delayed exchange variation"
+msgstr "Variante d’échange ultra-retardée"
+
+#: /tmp/babychess.po.cc:366
+msgid "Danube gambit"
+msgstr "Gambit du Danube"
+
+#: /tmp/babychess.po.cc:369 /tmp/babychess.po.cc:443
+msgid "King’s knight variation"
+msgstr "Variante du cavalier du roi"
+
+#: /tmp/babychess.po.cc:370
+msgid "Grünfeld-Indian defense"
+msgstr "Indienne Grünfeld"
+
+#: /tmp/babychess.po.cc:371
+msgid "King’s Indian defense"
+msgstr "Indienne du roi"
+
+#: /tmp/babychess.po.cc:375
+msgid "Six pawns attack"
+msgstr "Attaque des six pions"
+
+#: /tmp/babychess.po.cc:376
+msgid "Fluid attack"
+msgstr "Attaque fluide"
+
+#: /tmp/babychess.po.cc:378
+msgid "Dynamic attack"
+msgstr "Attaque dynamique"
+
+#: /tmp/babychess.po.cc:379
+msgid "Normal defense"
+msgstr "Défense normale"
+
+#: /tmp/babychess.po.cc:380 /tmp/babychess.po.cc:435 /tmp/babychess.po.cc:437
+msgid "Double fianchetto variation"
+msgstr "Variante du fianchetto double"
+
+#: /tmp/babychess.po.cc:385
+msgid "Kazakh variation"
+msgstr "Variante Kasaque"
+
+#: /tmp/babychess.po.cc:386
+msgid "Old system"
+msgstr "Ancien système"
+
+#: /tmp/babychess.po.cc:387 /tmp/babychess.po.cc:641
+msgid "Yugoslav attack"
+msgstr "Attaque Yougoslave"
+
+#: /tmp/babychess.po.cc:388
+msgid "Ukranian defense"
+msgstr "Défense ukrainienne"
+
+#: /tmp/babychess.po.cc:390
+msgid "Sokolov"
+msgstr "Sokolov"
+
+#: /tmp/babychess.po.cc:392
+msgid "Deferred fianchetto variation"
+msgstr "Variante du fianchetto repoussé"
+
+#: /tmp/babychess.po.cc:393 /tmp/babychess.po.cc:409
+msgid "Makagonov"
+msgstr "Makagonov"
+
+#: /tmp/babychess.po.cc:394
+msgid "Flexible defense"
+msgstr "Défense flexible"
+
+#: /tmp/babychess.po.cc:395
+msgid "Spanish defense"
+msgstr "Défense espagnole"
+
+#: /tmp/babychess.po.cc:396
+msgid "Delayed fianchetto variation"
+msgstr "Variante de fianchetto retardé"
+
+#: /tmp/babychess.po.cc:398 /tmp/babychess.po.cc:780
+msgid "Classical system"
+msgstr "Système classique"
+
+#: /tmp/babychess.po.cc:402 /tmp/babychess.po.cc:596 /tmp/babychess.po.cc:786
+msgid "Quiet system"
+msgstr "Système calme"
+
+#: /tmp/babychess.po.cc:403
+msgid "Russian system"
+msgstr "Système russe"
+
+#: /tmp/babychess.po.cc:404 /tmp/babychess.po.cc:624
+msgid "Hungarian variation"
+msgstr "Variante hongroise"
+
+#: /tmp/babychess.po.cc:408 /tmp/babychess.po.cc:483
+msgid "Hungarian attack"
+msgstr "Attaque hongroise"
+
+#: /tmp/babychess.po.cc:414
+msgid "Spike gambit"
+msgstr "Gambit de la pointe"
+
+#: /tmp/babychess.po.cc:415
+msgid "Classical main line"
+msgstr "Variante principale classique"
+
+#: /tmp/babychess.po.cc:416
+msgid "Modern main line"
+msgstr "Variante principale moderne"
+
+#: /tmp/babychess.po.cc:417 /tmp/babychess.po.cc:418
+msgid "Seville variation"
+msgstr "Variante de Séville"
+
+#: /tmp/babychess.po.cc:419
+msgid "Simagin’s lesser variation"
+msgstr "Variante Simaguine moindre"
+
+#: /tmp/babychess.po.cc:420
+msgid "English opening"
+msgstr "Ouverture anglaise"
+
+#: /tmp/babychess.po.cc:421
+msgid "King’s English opening"
+msgstr "Ouverture anglaise du roi"
+
+#: /tmp/babychess.po.cc:428
+msgid "Four knights system"
+msgstr "Système des quatre cavaliers"
+
+#: /tmp/babychess.po.cc:429
+msgid "Ultra-symmetrical variation"
+msgstr "Variante ultra-symétrique"
+
+#: /tmp/babychess.po.cc:432
+msgid "Full symmetry line"
+msgstr "Ligne de symétrie complète"
+
+#: /tmp/babychess.po.cc:434 /tmp/babychess.po.cc:595 /tmp/babychess.po.cc:605
+#: /tmp/babychess.po.cc:621
+msgid "Maroczy bind"
+msgstr "Étau de Maroczy"
+
+#: /tmp/babychess.po.cc:436 /tmp/babychess.po.cc:1030
+msgid "Wing variation"
+msgstr "Variante de l’aile"
+
+#: /tmp/babychess.po.cc:439
+msgid "Flexible formation"
+msgstr "Formation flexible"
+
+#: /tmp/babychess.po.cc:441
+msgid "Anglo-Indian defense"
+msgstr "Défense anglo-indienne"
+
+#: /tmp/babychess.po.cc:442
+msgid "English orangutan variation"
+msgstr "Variante anglaise de l’orang-outan"
+
+#: /tmp/babychess.po.cc:444
+msgid "Hedgehog system"
+msgstr "Système de l’hérisson"
+
+#: /tmp/babychess.po.cc:447
+msgid "Nimzo-English opening"
+msgstr "Ouverture Nimzo-anglaise"
+
+#: /tmp/babychess.po.cc:448
+msgid "Queen’s Indian formation"
+msgstr "Formation indienne de la dame"
+
+#: /tmp/babychess.po.cc:449 /tmp/babychess.po.cc:510
+msgid "Sicilian variation"
+msgstr "Variante sicilienne"
+
+#: /tmp/babychess.po.cc:450
+msgid "Great snake variation"
+msgstr "Variante du grand serpent"
+
+#: /tmp/babychess.po.cc:452
+msgid "Neo-Catalan variation"
+msgstr "Variante néo-catalane"
+
+#: /tmp/babychess.po.cc:455
+msgid "Anglo-Scandinivian defense"
+msgstr "Défense anglo-scandinave"
+
+#: /tmp/babychess.po.cc:456 /tmp/babychess.po.cc:472
+msgid "Anglo-Dutch defense"
+msgstr "Défense anglo-hollandaise"
+
+#: /tmp/babychess.po.cc:457
+msgid "Anglo-Polish-Dutch variation"
+msgstr "Variante anglo-polono-hollandaise"
+
+#: /tmp/babychess.po.cc:458
+msgid "English spike variation"
+msgstr "Variante de la pointer anglaise"
+
+#: /tmp/babychess.po.cc:459
+msgid "Porcupine variation"
+msgstr "Variante du porc-épic"
+
+#: /tmp/babychess.po.cc:460
+msgid "Anglo-Lithuanian variation"
+msgstr "Variante anglo-lituanienne"
+
+#: /tmp/babychess.po.cc:462 /tmp/babychess.po.cc:464
+msgid "Caro-Kann defensive system"
+msgstr "Système défensif Caro-Kann"
+
+#: /tmp/babychess.po.cc:465
+msgid "New York defensive system"
+msgstr "Système défensif de new-yorkais"
+
+#: /tmp/babychess.po.cc:466 /tmp/babychess.po.cc:468
+msgid "London defensive system"
+msgstr "Système défensif londonien"
+
+#: /tmp/babychess.po.cc:467
+msgid "Torre defensive system"
+msgstr "Système défensif Torre"
+
+#: /tmp/babychess.po.cc:469
+msgid "English queen variation"
+msgstr "Variante anglaise de la dame"
+
+#: /tmp/babychess.po.cc:471
+msgid "Reversed Sicilian opening"
+msgstr "Ouverture sicilienne inversée"
+
+#: /tmp/babychess.po.cc:474
+msgid "Fianchetto line"
+msgstr "Ligne du fianchetto"
+
+#: /tmp/babychess.po.cc:475
+msgid "Reversed dragon variation"
+msgstr "Variante du dragon inversée"
+
+#: /tmp/babychess.po.cc:476
+msgid "Macedonian variation"
+msgstr "Variante macédonienne"
+
+#: /tmp/babychess.po.cc:477
+msgid "General variation"
+msgstr "Variante générale"
+
+#: /tmp/babychess.po.cc:479 /tmp/babychess.po.cc:480
+msgid "Closed system"
+msgstr "Système fermé"
+
+#: /tmp/babychess.po.cc:488
+msgid "Kingside fianchetto variation"
+msgstr "Variante du fianchetto de l’aile roi"
+
+#: /tmp/babychess.po.cc:490 /tmp/babychess.po.cc:960 /tmp/babychess.po.cc:985
+msgid "Romanishin"
+msgstr "Romanichine"
+
+#: /tmp/babychess.po.cc:491
+msgid "Queen pawn defense"
+msgstr "Défense du pion de la dame"
+
+#: /tmp/babychess.po.cc:493
+msgid "Improved Lisitsin G"
+msgstr "Lisitsin G amélioré"
+
+#: /tmp/babychess.po.cc:496
+msgid "Myers Polish attack"
+msgstr "Attaque Myers polonaise"
+
+#: /tmp/babychess.po.cc:497 /tmp/babychess.po.cc:508 /tmp/babychess.po.cc:668
+msgid "King’s Indian attack"
+msgstr "Attaque indienne du roi"
+
+#: /tmp/babychess.po.cc:498
+msgid "Wing Blumenfeld variation"
+msgstr "Variante de l’aile de Blumenfeld"
+
+#: /tmp/babychess.po.cc:501
+msgid "Neo-Catalan opening"
+msgstr "Ouverture néo-catalane"
+
+#: /tmp/babychess.po.cc:503
+msgid "Penguin variation"
+msgstr "Variante du pingouin"
+
+#: /tmp/babychess.po.cc:505
+msgid "Old Indian attack"
+msgstr "Ancienne attaque indienne"
+
+#: /tmp/babychess.po.cc:506
+msgid "Potato variation"
+msgstr "Variante de la patate"
+
+#: /tmp/babychess.po.cc:507
+msgid "Reversed Mexican defense"
+msgstr "Défense mexicaine inversée"
+
+#: /tmp/babychess.po.cc:509
+msgid "Double fianchetto"
+msgstr "Fianchetto double"
+
+#: /tmp/babychess.po.cc:511 /tmp/babychess.po.cc:608
+msgid "French variation"
+msgstr "Variante française"
+
+#: /tmp/babychess.po.cc:513
+msgid "Dutch attack"
+msgstr "Attaque hollandaise"
+
+#: /tmp/babychess.po.cc:515
+msgid "Double duck variation"
+msgstr "Variante du canard double"
+
+#: /tmp/babychess.po.cc:516
+msgid "Pawn thrust attack"
+msgstr "Attaque de la poussée de pion"
+
+#: /tmp/babychess.po.cc:517
+msgid "Fool’s mate"
+msgstr "Mat du berger"
+
+#: /tmp/babychess.po.cc:519
+msgid "Queen’s fianchetto opening"
+msgstr "Ouverture du fianchetto de la dame"
+
+#: /tmp/babychess.po.cc:522 /tmp/babychess.po.cc:654 /tmp/babychess.po.cc:717
+msgid "English variation"
+msgstr "Variante anglaise"
+
+#: /tmp/babychess.po.cc:523
+msgid "Indian variation"
+msgstr "Variante indienne"
+
+#: /tmp/babychess.po.cc:526 /tmp/babychess.po.cc:775 /tmp/babychess.po.cc:802
+msgid "Polish variation"
+msgstr "Variante polonaise"
+
+#: /tmp/babychess.po.cc:527
+msgid "Paris opening"
+msgstr "Ouverture parisienne"
+
+#: /tmp/babychess.po.cc:528
+msgid "Drunken knight opening"
+msgstr "Ouverture du cavalier saoul"
+
+#: /tmp/babychess.po.cc:529 /tmp/babychess.po.cc:830
+msgid "Paris gambit"
+msgstr "Gambit de Paris"
+
+#: /tmp/babychess.po.cc:530
+msgid "Crazy cat variation"
+msgstr "Variante du chat fou"
+
+#: /tmp/babychess.po.cc:531
+msgid "Amsterdam attack"
+msgstr "Attaque d’Amsterdam"
+
+#: /tmp/babychess.po.cc:532
+msgid "Bouncing bishop variation"
+msgstr "Variante du fou rebondissant"
+
+#: /tmp/babychess.po.cc:535
+msgid "Short spike variation"
+msgstr "Variante de la pointe courte"
+
+#: /tmp/babychess.po.cc:536
+msgid "Double Grob variation"
+msgstr "Variante Grob double"
+
+#: /tmp/babychess.po.cc:537 /tmp/babychess.po.cc:959
+msgid "London defense"
+msgstr "Défense londonienne"
+
+#: /tmp/babychess.po.cc:538
+msgid "Irish attack"
+msgstr "Attaque irlandaise"
+
+#: /tmp/babychess.po.cc:539
+msgid "Polish attack"
+msgstr "Attaque polonaise"
+
+#: /tmp/babychess.po.cc:540
+msgid "Reversed Scandinavian opening"
+msgstr "Ouverture scandinave inversée"
+
+#: /tmp/babychess.po.cc:541
+msgid "Berlin gambit"
+msgstr "Gambit berlinois"
+
+#: /tmp/babychess.po.cc:542
+msgid "Amazon variation"
+msgstr "Variante amazonienne"
+
+#: /tmp/babychess.po.cc:544
+msgid "Venezuelan opening"
+msgstr "Ouverture vénézuélienne"
+
+#: /tmp/babychess.po.cc:545
+msgid "Reversed rat variation"
+msgstr "Variante du rat inversée"
+
+#: /tmp/babychess.po.cc:546
+msgid "Spike deferred variation"
+msgstr "Variante retardée de la pointe"
+
+#: /tmp/babychess.po.cc:547
+msgid "Myers spike attack"
+msgstr "Attaque de la pointe de Myers"
+
+#: /tmp/babychess.po.cc:548
+msgid "Pork chop opening"
+msgstr "Ouverture « pork chop »"
+
+#: /tmp/babychess.po.cc:549
+msgid "Hungarian opening"
+msgstr "Ouverture hongroise"
+
+#: /tmp/babychess.po.cc:550
+msgid "Lasker simul special"
+msgstr "Spécial de simuultanées Lasker"
+
+#: /tmp/babychess.po.cc:551
+msgid "Reversed Norwegian defense"
+msgstr "Défense norvégienne inversée"
+
+#: /tmp/babychess.po.cc:552
+msgid "Polish opening"
+msgstr "Ouverture polonaise"
+
+#: /tmp/babychess.po.cc:553
+msgid "Orangutan Opening"
+msgstr "Ouverture orang-outan"
+
+#: /tmp/babychess.po.cc:554
+msgid "Spike variation"
+msgstr "Variante de la pointe"
+
+#: /tmp/babychess.po.cc:555
+msgid "Outflank variation"
+msgstr "Variante de l’aile"
+
+#: /tmp/babychess.po.cc:556
+msgid "Polish spike"
+msgstr "Pointe polonaise"
+
+#: /tmp/babychess.po.cc:557
+msgid "Sodium attack"
+msgstr "Attaque sodium"
+
+#: /tmp/babychess.po.cc:558
+msgid "Global opening"
+msgstr "Ouverture globale"
+
+#: /tmp/babychess.po.cc:559
+msgid "Crab opening"
+msgstr "Ouverture du crabe"
+
+#: /tmp/babychess.po.cc:560
+msgid "Cologne gambit"
+msgstr "Gambit de Cologne"
+
+#: /tmp/babychess.po.cc:561
+msgid "Double king pawn game"
+msgstr "Ouverture double du pion du roi"
+
+#: /tmp/babychess.po.cc:562
+msgid "Sicilian defense"
+msgstr "Défense sicilienne"
+
+#: /tmp/babychess.po.cc:563
+msgid "Sicilian center game"
+msgstr "Ouverture centrale sicilienne"
+
+#: /tmp/babychess.po.cc:566
+msgid "Center formation"
+msgstr "Formation centrale"
+
+#: /tmp/babychess.po.cc:569
+msgid "Classical formation"
+msgstr "Formation classique"
+
+#: /tmp/babychess.po.cc:571
+msgid "Fianchetto defense"
+msgstr "Défense du fianchetto"
+
+#: /tmp/babychess.po.cc:572
+msgid "Push variation"
+msgstr "Variante de la poussée"
+
+#: /tmp/babychess.po.cc:573
+msgid "Scandinavian formation"
+msgstr "Formation scandinave"
+
+#: /tmp/babychess.po.cc:574
+msgid "Wing formation"
+msgstr "Formation de l’aile"
+
+#: /tmp/babychess.po.cc:584 /tmp/babychess.po.cc:597 /tmp/babychess.po.cc:672
+#: /tmp/babychess.po.cc:748 /tmp/babychess.po.cc:864
+msgid "Wing gambit"
+msgstr "Gambit de l’aile"
+
+#: /tmp/babychess.po.cc:586
+msgid "Chameleon sicilian"
+msgstr "Sicilien chaméléon"
+
+#: /tmp/babychess.po.cc:588
+msgid "King David’s opening"
+msgstr "Ouverture du roi David"
+
+#: /tmp/babychess.po.cc:589
+msgid "Queen fianchetto variation"
+msgstr "Variante du fianchetto de la dame"
+
+#: /tmp/babychess.po.cc:590
+msgid "Slow sicilian"
+msgstr "Sicilien lent"
+
+#: /tmp/babychess.po.cc:591
+msgid "Venice system"
+msgstr "Système de Venise"
+
+#: /tmp/babychess.po.cc:592
+msgid "Gambit line"
+msgstr "Ligne du gambit"
+
+#: /tmp/babychess.po.cc:593
+msgid "Normal system"
+msgstr "Système normal"
+
+#: /tmp/babychess.po.cc:600
+msgid "Accelerated dragon variation"
+msgstr "Variante du dragon accélérée"
+
+#: /tmp/babychess.po.cc:603 /tmp/babychess.po.cc:692 /tmp/babychess.po.cc:753
+#: /tmp/babychess.po.cc:1011
+msgid "Retreat variation"
+msgstr "Variante du retrait"
+
+#: /tmp/babychess.po.cc:609 /tmp/babychess.po.cc:635
+msgid "Wing gambit deferred"
+msgstr "Gambit de l’aile retardé"
+
+#: /tmp/babychess.po.cc:616
+msgid "American attack"
+msgstr "Attaque américaine"
+
+#: /tmp/babychess.po.cc:618
+msgid "Pin variation"
+msgstr "Variante du clouage"
+
+#: /tmp/babychess.po.cc:619
+msgid "Sicilian counter-attack"
+msgstr "Contre-attaque sicilienne"
+
+#: /tmp/babychess.po.cc:620
+msgid "Cobra variation"
+msgstr "Variante du cobra"
+
+#: /tmp/babychess.po.cc:622
+msgid "Swiss cheese variation"
+msgstr "Variante du fromage suisse"
+
+#: /tmp/babychess.po.cc:625
+msgid "Hyperaccelerated dragon variation"
+msgstr "Variante du dragon hyperaccélérée"
+
+#: /tmp/babychess.po.cc:626
+msgid "Sicilian Fred"
+msgstr "Sicilienne Fred"
+
+#: /tmp/babychess.po.cc:627
+msgid "Hyperaccelerated pterodactyl variation"
+msgstr "Variante du ptérodactyl hyperaccélérée"
+
+#: /tmp/babychess.po.cc:628
+msgid "Polish Gambit"
+msgstr "Gambit polonais"
+
+#: /tmp/babychess.po.cc:629
+msgid "Sicilian check variation"
+msgstr "Variante d’échec sicilien"
+
+#: /tmp/babychess.po.cc:630 /tmp/babychess.po.cc:637 /tmp/babychess.po.cc:689
+#: /tmp/babychess.po.cc:1042
+msgid "Moscow variation"
+msgstr "Variante de Moscou"
+
+#: /tmp/babychess.po.cc:632
+msgid "Main Line"
+msgstr "Variante principale"
+
+#: /tmp/babychess.po.cc:633
+msgid "Moscow Gambit"
+msgstr "Gambit moscovite"
+
+#: /tmp/babychess.po.cc:636
+msgid "Lazy knight variation"
+msgstr "Variante du cavalier fénéant"
+
+#: /tmp/babychess.po.cc:638 /tmp/babychess.po.cc:663
+msgid "Venice attack"
+msgstr "Attaque de Venise"
+
+#: /tmp/babychess.po.cc:639
+msgid "Dragon variation"
+msgstr "Variante du dragon"
+
+#: /tmp/babychess.po.cc:640 /tmp/babychess.po.cc:901
+msgid "Classical attack"
+msgstr "Attaque classique"
+
+#: /tmp/babychess.po.cc:644 /tmp/babychess.po.cc:656
+msgid "Amsterdam variation"
+msgstr "Variante d’Amsterdam"
+
+#: /tmp/babychess.po.cc:645
+msgid "Battery variation"
+msgstr "Variante de la batterie"
+
+#: /tmp/babychess.po.cc:652
+msgid "Flank variation"
+msgstr "Variante de l’aile"
+
+#: /tmp/babychess.po.cc:653 /tmp/babychess.po.cc:657
+msgid "English attack"
+msgstr "Attaque anglaise"
+
+#: /tmp/babychess.po.cc:658
+msgid "Anti-English variation"
+msgstr "Variante anti-anglaise"
+
+#: /tmp/babychess.po.cc:659
+msgid "Zagreb variation"
+msgstr "Variante de Zagreb"
+
+#: /tmp/babychess.po.cc:667
+msgid "French defense"
+msgstr "Défense française"
+
+#: /tmp/babychess.po.cc:669
+msgid "Bird invitation"
+msgstr "Invitation Bird"
+
+#: /tmp/babychess.po.cc:675
+msgid "Mediterranean defense"
+msgstr "Défense méditerranéenne"
+
+#: /tmp/babychess.po.cc:678
+msgid "Extended bishop swap"
+msgstr "Échange étendu de fous"
+
+#: /tmp/babychess.po.cc:684
+msgid "Open system"
+msgstr "Système ouvert"
+
+#: /tmp/babychess.po.cc:688
+msgid "Icelandic defense"
+msgstr "Défense islandaise"
+
+#: /tmp/babychess.po.cc:693
+msgid "Classical Variation"
+msgstr "Variante classique"
+
+#: /tmp/babychess.po.cc:694
+msgid "Poisoned Pawn variation"
+msgstr "Variante du pion empoisonné"
+
+#: /tmp/babychess.po.cc:695
+msgid "Positional main line"
+msgstr "Variante principale positionnelle"
+
+#: /tmp/babychess.po.cc:696
+msgid "Armenian line"
+msgstr "Ligne arménienne"
+
+#: /tmp/babychess.po.cc:698
+msgid "Fingerslip variation"
+msgstr "Variante d’erreur"
+
+#: /tmp/babychess.po.cc:699
+msgid "Kunin double gambit"
+msgstr "Gambit double de Kunin"
+
+#: /tmp/babychess.po.cc:702
+msgid "Frankfurt variation"
+msgstr "Variante de Francfort"
+
+#: /tmp/babychess.po.cc:715
+msgid "Retreat line"
+msgstr "Ligne de retrait"
+
+#: /tmp/babychess.po.cc:719
+msgid "Anti-Caro-Kann defense"
+msgstr "Défense anti-Caro-Kann"
+
+#: /tmp/babychess.po.cc:721 /tmp/babychess.po.cc:873
+msgid "Knight variation"
+msgstr "Variante du cavalier"
+
+#: /tmp/babychess.po.cc:723
+msgid "Finnish variation"
+msgstr "Variante finlaidaise"
+
+#: /tmp/babychess.po.cc:724 /tmp/babychess.po.cc:761 /tmp/babychess.po.cc:766
+#: /tmp/babychess.po.cc:1049 /tmp/babychess.po.cc:1050
+msgid "Karpov"
+msgstr "Karpov"
+
+#: /tmp/babychess.po.cc:732
+msgid "New Caro-Kann"
+msgstr "Nouveau Caro-Kann"
+
+#: /tmp/babychess.po.cc:733
+msgid "Fantasy variation"
+msgstr "Variante fantaisie"
+
+#: /tmp/babychess.po.cc:738
+msgid "Carlsbad line"
+msgstr "Ligne Karlsbad"
+
+#: /tmp/babychess.po.cc:739
+msgid "Scandinavian defense"
+msgstr "Défense scandinave"
+
+#: /tmp/babychess.po.cc:740
+msgid "Center counter"
+msgstr "Contre du centre"
+
+#: /tmp/babychess.po.cc:741
+msgid "closed"
+msgstr "fermé"
+
+#: /tmp/babychess.po.cc:742
+msgid "Icelandic gambit"
+msgstr "Gambit islandais"
+
+#: /tmp/babychess.po.cc:743
+msgid "Icelandic-Palme gambit"
+msgstr "Gambit Palme islandais"
+
+#: /tmp/babychess.po.cc:744
+msgid "Scandinavian gambit"
+msgstr "Gambit scandinave"
+
+#: /tmp/babychess.po.cc:745
+msgid "Panov transfer variation"
+msgstr "Variante de transfer Panov"
+
+#: /tmp/babychess.po.cc:746 /tmp/babychess.po.cc:845
+msgid "Portuguese variation"
+msgstr "Variante portugaise"
+
+#: /tmp/babychess.po.cc:747
+msgid "Portuguese gambit"
+msgstr "Gambit portugais"
+
+#: /tmp/babychess.po.cc:749
+msgid "Kiel variation"
+msgstr "Variante de Kiel"
+
+#: /tmp/babychess.po.cc:750
+msgid "Orthodox attack"
+msgstr "Attaque orthodoxe"
+
+#: /tmp/babychess.po.cc:752 /tmp/babychess.po.cc:794 /tmp/babychess.po.cc:835
+msgid "Scandinavian variation"
+msgstr "Variante scandinave"
+
+#: /tmp/babychess.po.cc:755 /tmp/babychess.po.cc:756
+msgid "Two pawns attack"
+msgstr "Attaque des deux pions"
+
+#: /tmp/babychess.po.cc:759 /tmp/babychess.po.cc:1029
+msgid "Chase variation"
+msgstr "Variante de la chasse"
+
+#: /tmp/babychess.po.cc:768
+msgid "King pawn fianchetto"
+msgstr "Fianchetto du pion du roi"
+
+#: /tmp/babychess.po.cc:769
+msgid "Fianchetto gambit"
+msgstr "Gambit Fianchetto"
+
+#: /tmp/babychess.po.cc:770
+msgid "Norwegian defense"
+msgstr "Défense norvégienne"
+
+#: /tmp/babychess.po.cc:771
+msgid "Pseudo-Austrian attack"
+msgstr "Attaque pseudo-autrichienne"
+
+#: /tmp/babychess.po.cc:776 /tmp/babychess.po.cc:803
+msgid "Three pawns attack"
+msgstr "Attaque des trois pions"
+
+#: /tmp/babychess.po.cc:777
+msgid "Small center variation"
+msgstr "Variante du petit centre"
+
+#: /tmp/babychess.po.cc:778
+msgid "Small center defense"
+msgstr "Défense du petit centre"
+
+#: /tmp/babychess.po.cc:782
+msgid "Austrian attack"
+msgstr "Attaque autrichienne"
+
+#: /tmp/babychess.po.cc:783
+msgid "Dragon formation"
+msgstr "Formation du dragon"
+
+#: /tmp/babychess.po.cc:784
+msgid "Chinese variation"
+msgstr "Variante chinoise"
+
+#: /tmp/babychess.po.cc:788
+msgid "Parma defense"
+msgstr "Défense de Parme"
+
+#: /tmp/babychess.po.cc:790
+msgid "Franco-Nimzovich variation"
+msgstr "Variante franco-Nimzovitch"
+
+#: /tmp/babychess.po.cc:792
+msgid "Pseudo-Spanish variation"
+msgstr "Variante pseudo-espagnole"
+
+#: /tmp/babychess.po.cc:793
+msgid "Aachen gambit"
+msgstr "Gambit d’Aachen"
+
+#: /tmp/babychess.po.cc:795
+msgid "French connection"
+msgstr "Connexion française"
+
+#: /tmp/babychess.po.cc:796
+msgid "Neo-Mongoloid defense"
+msgstr "Défense néo-mongoloïde"
+
+#: /tmp/babychess.po.cc:797
+msgid "Pirc connection"
+msgstr "Connexion Pirc"
+
+#: /tmp/babychess.po.cc:799
+msgid "Wild bull defense"
+msgstr "Défense du taurau fou"
+
+#: /tmp/babychess.po.cc:800
+msgid "Hippopotamus defense"
+msgstr "Défense de l’hippopotame"
+
+#: /tmp/babychess.po.cc:801
+msgid "Greek defense"
+msgstr "Défense grecque"
+
+#: /tmp/babychess.po.cc:804
+msgid "King’s knight opening"
+msgstr "Ouverture du cavalier du roi"
+
+#: /tmp/babychess.po.cc:805
+msgid "King’s gambit"
+msgstr "Gambit du roi"
+
+#: /tmp/babychess.po.cc:809
+msgid "Modern transfer"
+msgstr "Transfer moderne"
+
+#: /tmp/babychess.po.cc:813
+msgid "Classical couter-gambit"
+msgstr "Contre-gambit classique"
+
+#: /tmp/babychess.po.cc:814
+msgid "Queen’s knight defense"
+msgstr "Défense du cavalier de la dame"
+
+#: /tmp/babychess.po.cc:815
+msgid "Petrov"
+msgstr "Petrov"
+
+#: /tmp/babychess.po.cc:816
+msgid "Zilbermints double countergambit"
+msgstr "Contre-gambit double Zilbermints"
+
+#: /tmp/babychess.po.cc:817
+msgid "King’s knight gambit"
+msgstr "Gambit du cavalier du roi"
+
+#: /tmp/babychess.po.cc:818
+msgid "Bishop’s gambit"
+msgstr "Gambit du fou"
+
+#: /tmp/babychess.po.cc:822
+msgid "Prussian variation"
+msgstr "Variante prussienne"
+
+#: /tmp/babychess.po.cc:824
+msgid "Maurian defense"
+msgstr "Défense Maurienne"
+
+#: /tmp/babychess.po.cc:826
+msgid "Drunken king variation"
+msgstr "Variante du roi saoul"
+
+#: /tmp/babychess.po.cc:827
+msgid "King’s own variation"
+msgstr "Variante du roi"
+
+#: /tmp/babychess.po.cc:828
+msgid "Pawn’s Gambit"
+msgstr "Gambit du pion"
+
+#: /tmp/babychess.po.cc:829
+msgid "Lesser bishop’s gambit"
+msgstr "Gambit du mauvais fou"
+
+#: /tmp/babychess.po.cc:831
+msgid "Wild Cunningham gambit"
+msgstr "Gambit Cunningham sauvage"
+
+#: /tmp/babychess.po.cc:832
+msgid "Three pawns gambit"
+msgstr "Gambit des trois pions"
+
+#: /tmp/babychess.po.cc:838
+msgid "Osmolovsky"
+msgstr "Osmolovski"
+
+#: /tmp/babychess.po.cc:839 /tmp/babychess.po.cc:859 /tmp/babychess.po.cc:997
+msgid "Berlin defense"
+msgstr "Défense berlinoise"
+
+#: /tmp/babychess.po.cc:842
+msgid "Urusov"
+msgstr "Ourousov"
+
+#: /tmp/babychess.po.cc:844
+msgid "Calabrian gambit"
+msgstr "Gambit de Calabre"
+
+#: /tmp/babychess.po.cc:847
+msgid "Australian gambit"
+msgstr "Gambit australien"
+
+#: /tmp/babychess.po.cc:849
+msgid "Wild Muzio gambit"
+msgstr "Gambit Muzio sauvage"
+
+#: /tmp/babychess.po.cc:850
+msgid "Kling and Horwitz counterattack"
+msgstr "Contre-attaque King et Horwitz"
+
+#: /tmp/babychess.po.cc:851
+msgid "Double Muzio Gambit"
+msgstr "Gambit Muzio double"
+
+#: /tmp/babychess.po.cc:852
+msgid "Centre game"
+msgstr "Ouverture centrale"
+
+#: /tmp/babychess.po.cc:853
+msgid "Danish gambit"
+msgstr "Gambit danois"
+
+#: /tmp/babychess.po.cc:857
+msgid "Crocodile variation"
+msgstr "Variante du crocodile"
+
+#: /tmp/babychess.po.cc:858
+msgid "Bishop’s opening"
+msgstr "Ouverture du fou du roi"
+
+#: /tmp/babychess.po.cc:860
+msgid "Vienna hybrid"
+msgstr "Hybride viennois"
+
+#: /tmp/babychess.po.cc:861
+msgid "Warsaw gambit"
+msgstr "Gambit de Varsovie"
+
+#: /tmp/babychess.po.cc:865
+msgid "Scholar’s mate"
+msgstr "Mat scolaire"
+
+#: /tmp/babychess.po.cc:866
+msgid "McDonnell double gambit"
+msgstr "Double Gambit McDonnell"
+
+#: /tmp/babychess.po.cc:867
+msgid "Four pawns gambit"
+msgstr "Gambit des quatre pions"
+
+#: /tmp/babychess.po.cc:868
+msgid "Calabrese counter-gambit"
+msgstr "Contre-gambit de Calabre"
+
+#: /tmp/babychess.po.cc:869 /tmp/babychess.po.cc:885
+msgid "King’s gambit reversed"
+msgstr "Gambit du roi inversé"
+
+#: /tmp/babychess.po.cc:870
+msgid "Vienna game"
+msgstr "Ouverture viennoise"
+
+#: /tmp/babychess.po.cc:871 /tmp/babychess.po.cc:876
+msgid "Vienna gambit"
+msgstr "Gambit viennois"
+
+#: /tmp/babychess.po.cc:875
+msgid "Giraffe Attack"
+msgstr "Attaque de la giraffe"
+
+#: /tmp/babychess.po.cc:877
+msgid "Bishop variation"
+msgstr "Variante du fou"
+
+#: /tmp/babychess.po.cc:878
+msgid "Reversed Spanish opening"
+msgstr "Ouverture espagnole inversée"
+
+#: /tmp/babychess.po.cc:880
+msgid "Monster variation"
+msgstr "Variante du monstre"
+
+#: /tmp/babychess.po.cc:883
+msgid "Bavarian gambit"
+msgstr "Gambit bavarois"
+
+#: /tmp/babychess.po.cc:884
+msgid "Indian opening"
+msgstr "Ouverture indienne"
+
+#: /tmp/babychess.po.cc:886
+msgid "King’s head opening"
+msgstr "Ouverture de la tête du roi"
+
+#: /tmp/babychess.po.cc:887
+msgid "Portuguese opening"
+msgstr "Ouverture portugaise"
+
+#: /tmp/babychess.po.cc:888
+msgid "Tortoise opening"
+msgstr "Ouverture de la tortue"
+
+#: /tmp/babychess.po.cc:890
+msgid "Sharp variation"
+msgstr "Variante aiguë"
+
+#: /tmp/babychess.po.cc:892
+msgid "Improved Hanham variation"
+msgstr "Variante Hanham améliorée"
+
+#: /tmp/babychess.po.cc:895
+msgid "Petrov defense; Russian defense"
+msgstr "Défense russe; Défense Petrov"
+
+#: /tmp/babychess.po.cc:896
+msgid "Modern Attack"
+msgstr "Attaque moderne"
+
+#: /tmp/babychess.po.cc:899 /tmp/babychess.po.cc:979 /tmp/babychess.po.cc:1043
+msgid "Italian variation"
+msgstr "Variante italienne"
+
+#: /tmp/babychess.po.cc:900
+msgid "Petrov three knights game"
+msgstr "Ouverture des trois cavaliers"
+
+#: /tmp/babychess.po.cc:902
+msgid "French attack"
+msgstr "Attaque française"
+
+#: /tmp/babychess.po.cc:905
+msgid "Elephant gambit"
+msgstr "Gambit de l’éléphant"
+
+#: /tmp/babychess.po.cc:906
+msgid "Queen’s pawn countergambit"
+msgstr "Contre-gambit du pion de la dame"
+
+#: /tmp/babychess.po.cc:907
+msgid "Latvian gambit"
+msgstr "Gambit letton"
+
+#: /tmp/babychess.po.cc:908
+msgid "Corkscrew counter-gambit"
+msgstr "Contre-gambit tire-bouchon"
+
+#: /tmp/babychess.po.cc:913
+msgid "Queen’s defense"
+msgstr "Défense de la dame"
+
+#: /tmp/babychess.po.cc:914
+msgid "Brazilian defense"
+msgstr "Défense brésilienne"
+
+#: /tmp/babychess.po.cc:915
+msgid "Ruy Lopez; Spanish opening"
+msgstr "Ouverture espagnole;  Ouverture Ruy Lopez"
+
+#: /tmp/babychess.po.cc:916
+msgid "Italian game"
+msgstr "Ouverture italienne"
+
+#: /tmp/babychess.po.cc:917
+msgid "Two knights defense"
+msgstr "Défense des deux cavaliers"
+
+#: /tmp/babychess.po.cc:918
+msgid "Prussian game"
+msgstr "Ouverture prussienne"
+
+#: /tmp/babychess.po.cc:919
+msgid "Knight attack"
+msgstr "Attaque du cavalier"
+
+#: /tmp/babychess.po.cc:921
+msgid "Center play variation"
+msgstr "Variante du jeu central"
+
+#: /tmp/babychess.po.cc:922 /tmp/babychess.po.cc:958
+msgid "Scotch gambit"
+msgstr "Gambit écossais"
+
+#: /tmp/babychess.po.cc:923 /tmp/babychess.po.cc:954
+msgid "Scotch game"
+msgstr "Ouverture écossaise"
+
+#: /tmp/babychess.po.cc:925
+msgid "Double gambit accepted"
+msgstr "Gambit double accepté"
+
+#: /tmp/babychess.po.cc:927
+msgid "Yurdansky"
+msgstr "Yourdanksy"
+
+#: /tmp/babychess.po.cc:928
+msgid "Modern bishop’s opening"
+msgstr "Ouverture du fou moderne"
+
+#: /tmp/babychess.po.cc:930
+msgid "Transitional variation"
+msgstr "Variante de transition"
+
+#: /tmp/babychess.po.cc:931
+msgid "Magdeburg variation"
+msgstr "Variante de Magdebourg"
+
+#: /tmp/babychess.po.cc:936
+msgid "Fried liver attack"
+msgstr "Attaque du foie frit"
+
+#: /tmp/babychess.po.cc:937
+msgid "Blackburne shilling Gambit"
+msgstr "Gambit schilling de Blackburne"
+
+#: /tmp/babychess.po.cc:938
+msgid "Half Giuoco piano"
+msgstr "Demi Giuoco Piano"
+
+#: /tmp/babychess.po.cc:939
+msgid "Semi-Italian opening"
+msgstr "Ouverture semi-italienne"
+
+#: /tmp/babychess.po.cc:940
+msgid "Hungarian defense"
+msgstr "Défense hongroise"
+
+#: /tmp/babychess.po.cc:942
+msgid "Center holding variation"
+msgstr "Variante de la garde du centre"
+
+#: /tmp/babychess.po.cc:943 /tmp/babychess.po.cc:1057
+msgid "Center attack"
+msgstr "Attaque centrale"
+
+#: /tmp/babychess.po.cc:944
+msgid "Cracow variation"
+msgstr "Variante de Cracovie"
+
+#: /tmp/babychess.po.cc:945
+msgid "Bayonet attack"
+msgstr "Attaque bayonette"
+
+#: /tmp/babychess.po.cc:946
+msgid "Italian four knights variation"
+msgstr "Variante italienne des quatre cavaliers"
+
+#: /tmp/babychess.po.cc:949
+msgid "Pavlov"
+msgstr "Pavlov"
+
+#: /tmp/babychess.po.cc:950
+msgid "Slow variation"
+msgstr "Variante lente"
+
+#: /tmp/babychess.po.cc:953
+msgid "Compromised defense"
+msgstr "Défense compromise"
+
+#: /tmp/babychess.po.cc:956
+msgid "Double pawn sacrifice"
+msgstr "Double sacrifice de pion"
+
+#: /tmp/babychess.po.cc:957
+msgid "Sea-cadet mate"
+msgstr "Mat du cadet de mer"
+
+#: /tmp/babychess.po.cc:963
+msgid "Three knights game"
+msgstr "Ouverture des trois cavaliers"
+
+#: /tmp/babychess.po.cc:964
+msgid "Four knights game"
+msgstr "Ouverture des quatre cavaliers"
+
+#: /tmp/babychess.po.cc:965
+msgid "Gothic defense"
+msgstr "Défense gothique"
+
+#: /tmp/babychess.po.cc:966
+msgid "Scotch variation"
+msgstr "Variante écossaise"
+
+#: /tmp/babychess.po.cc:968 /tmp/babychess.po.cc:984
+msgid "Spanish variation"
+msgstr "Variante espagnole"
+
+#: /tmp/babychess.po.cc:969
+msgid "Double Ruy Lopez opening"
+msgstr "Ouverture espagnole double"
+
+#: /tmp/babychess.po.cc:976 /tmp/babychess.po.cc:977
+msgid "Metger unpin variation"
+msgstr "Variante de déclouage Metger"
+
+#: /tmp/babychess.po.cc:978
+msgid "Provincial opening"
+msgstr "Ouverture provinciale"
+
+#: /tmp/babychess.po.cc:980
+msgid "Belgrade gambit"
+msgstr "Gambit de Belgrade"
+
+#: /tmp/babychess.po.cc:981
+msgid "Inverted Hungarian opening"
+msgstr "Ouverture hongroise inversée"
+
+#: /tmp/babychess.po.cc:982
+msgid "Inverted Hanham opening"
+msgstr "Ouverture Hanham inversée"
+
+#: /tmp/babychess.po.cc:983
+msgid "English knights opening"
+msgstr "Ouverture des cavaliers anglais"
+
+#: /tmp/babychess.po.cc:987
+msgid "Dresden opening"
+msgstr "Ouverture de Dresde"
+
+#: /tmp/babychess.po.cc:988
+msgid "Paschman wing gambit"
+msgstr "Gambit de l’aile Paschman"
+
+#: /tmp/babychess.po.cc:990
+msgid "Center gambit"
+msgstr "Gambit central"
+
+#: /tmp/babychess.po.cc:993
+msgid "Soviet youth variation"
+msgstr "Variante de la jeunesse soviétique"
+
+#: /tmp/babychess.po.cc:995
+msgid "Spanish wing gambit"
+msgstr "Gambit de l’aile espagnol"
+
+#: /tmp/babychess.po.cc:996
+msgid "Benelux variation"
+msgstr "Variante du Bénélux"
+
+#: /tmp/babychess.po.cc:1001
+msgid "Fishing Pole variation"
+msgstr "Variante de la cane à pêche"
+
+#: /tmp/babychess.po.cc:1005 /tmp/babychess.po.cc:1064
+msgid "Smyslov"
+msgstr "Smislov"
+
+#: /tmp/babychess.po.cc:1007
+msgid "Bulgarian variation"
+msgstr "Variante bulgare"
+
+#: /tmp/babychess.po.cc:1008
+msgid "Frankfort variation"
+msgstr "Variante de Francfort"
+
+#: /tmp/babychess.po.cc:1009
+msgid "Spanish counter-gambit"
+msgstr "Contre-gambit espagnol"
+
+#: /tmp/babychess.po.cc:1010
+msgid "Nuremberg defense"
+msgstr "Défense de Nuremberg"
+
+#: /tmp/babychess.po.cc:1012
+msgid "Vinogradov"
+msgstr "Vinogradov"
+
+#: /tmp/babychess.po.cc:1016
+msgid "Romanovsky"
+msgstr "Romanovsky"
+
+#: /tmp/babychess.po.cc:1017
+msgid "King’s bishop variation"
+msgstr "Variante du fou du roi"
+
+#: /tmp/babychess.po.cc:1020
+msgid "Modern Steinitz defense"
+msgstr "Défense Steinitz moderne"
+
+#: /tmp/babychess.po.cc:1022
+msgid "Kopayev"
+msgstr "Kopayev"
+
+#: /tmp/babychess.po.cc:1023 /tmp/babychess.po.cc:1024
+#: /tmp/babychess.po.cc:1059
+msgid "Noah’s ark trap"
+msgstr "Piège de l’arche Noé"
+
+#: /tmp/babychess.po.cc:1027
+msgid "Graz variation"
+msgstr "Variante de Graz"
+
+#: /tmp/babychess.po.cc:1031
+msgid "Accelerated counterthrust variation"
+msgstr "Variante de contrepoussée accélérée"
+
+#: /tmp/babychess.po.cc:1032
+msgid "Nightingale gambit"
+msgstr "Gambit du rossignol"
+
+#: /tmp/babychess.po.cc:1033
+msgid "Fianchetto defense deferred"
+msgstr "Défense du fianchetto retardé"
+
+#: /tmp/babychess.po.cc:1034
+msgid "Cozio defense deferred"
+msgstr "Défense Cozio retardée"
+
+#: /tmp/babychess.po.cc:1035
+msgid "Bird’s defense deferred"
+msgstr "Défense Bird retardé"
+
+#: /tmp/babychess.po.cc:1036
+msgid "Classical defense deferred"
+msgstr "Défense classique retardée"
+
+#: /tmp/babychess.po.cc:1038
+msgid "Bayreuth variation"
+msgstr "Variante de Bayreuth"
+
+#: /tmp/babychess.po.cc:1039
+msgid "Exchange variation deferred"
+msgstr "Variante d’échange retardé"
+
+#: /tmp/babychess.po.cc:1041
+msgid "Estonian variation"
+msgstr "Variante estonienne"
+
+#: /tmp/babychess.po.cc:1046
+msgid "Breslau variation"
+msgstr "Variante de Breslau"
+
+#: /tmp/babychess.po.cc:1047
+msgid "St. Petersburg variation"
+msgstr "Variante de St Pétersbourg"
+
+#: /tmp/babychess.po.cc:1048
+msgid "Nenarokov"
+msgstr "Nénarokov"
+
+#: /tmp/babychess.po.cc:1052
+msgid "Wing attack"
+msgstr "Attaque de l’aile"
+
+#: /tmp/babychess.po.cc:1053
+msgid "Rabinovich"
+msgstr "Rabinovich"
+
+#: /tmp/babychess.po.cc:1054
+msgid "Russian defense"
+msgstr "Défense russe"
+
+#: /tmp/babychess.po.cc:1055
+msgid "Boleslavsky"
+msgstr "Boleslavsky"
+
+#: /tmp/babychess.po.cc:1056
+msgid "Lopez four knights opening"
+msgstr "Ouverture Lopez des quatre cavaliers"
+
+#: /tmp/babychess.po.cc:1058
+msgid "Basque gambit"
+msgstr "Gambit basque"
+
+#: /tmp/babychess.po.cc:1060
+msgid "Spanish Benoni"
+msgstr "Benoni espagnol"
+
+#: /tmp/babychess.po.cc:1061
+msgid "Lutikov"
+msgstr "Loutikov"
+
+#: /tmp/babychess.po.cc:1063
+msgid "Kholmov"
+msgstr "Kholmov"
+
+#: /tmp/babychess.po.cc:1066
+msgid "Yugoslav system"
+msgstr "Système yougoslave"
+
+#: /tmp/babychess.po.cc:1067
+#, fuzzy
+msgid "Tchigorin"
+msgstr "Tchigorine"
+
+#: /tmp/babychess.po.cc:1068
+msgid "Spassky"
+msgstr "Spassky"
+
+#~ msgid "New _Position"
+#~ msgstr "Nouvelle _position"
+
+#~ msgid "Other..."
+#~ msgstr "Autres..."
+
+#~ msgid "_Play move when found"
+#~ msgstr "_Jouer le coup trouvé"
+
+#~ msgid "Start engine when there is _one legal move"
+#~ msgstr "Démarrer le moteur lorsqu’il n’y a qu’_un seul coup légal"
+
+#~ msgid "After each _user move"
+#~ msgstr "Après chaque coup d’_utilisateur"
+
+#~ msgid "_Always"
+#~ msgstr "_Toujours"
+
+#~ msgid "_Board Theme"
+#~ msgstr "Thème de l’_échiquier"
+
+#~ msgid "Board Theme"
+#~ msgstr "Thème de l’échiquier"
+
+#~ msgid "Translator credits"
+#~ msgstr "Jérôme KUNEGIS <http://user.cs.tu-berlin.de/~kunegis/>"
+
+#, fuzzy
+#~ msgid "_Don’t Overwrite"
+#~ msgstr "Ne _pas sauvegarder"
+
+#~ msgid "File \"%s\" exists, overwrite it?"
+#~ msgstr "Le fichier « %s » existe, écraser ?"
+
+#~ msgid "Clear document _without saving"
+#~ msgstr "Effacer le document _sans sauvegarder"
+
+#~ msgid "If you don’t save, the game just played will be discarded"
+#~ msgstr "Si vous ne sauvegardez pas, la partie jouée sera perdue"
+
+#~ msgid "/Engine/_Start"
+#~ msgstr "/Moteur/_Démarrer"
+
+#~ msgid "/Engine/_Pause"
+#~ msgstr "/Moteur/_Pause"
+
+#~ msgid "/Engine/Choose an _Engine"
+#~ msgstr "/Moteur/Choisir un _moteur"
+
+#~ msgid "/Help/_About"
+#~ msgstr "/Aide/_À propos"
+
+#~ msgid "/Openings/Show _subvariation names"
+#~ msgstr "/Ouvertures/Montrer le nom des sous-variantes"
+
+#~ msgid "/Openings/Show _alternative names"
+#~ msgstr "/Ouvertures/Montrer les noms _alternatifs"
+
+#~ msgid "/Openings/_Preferences"
+#~ msgstr "/Ouvertures/_Préférences"
+
+#, fuzzy
+#~ msgid "/Archive/_Add Game"
+#~ msgstr "/Archive/_Ajouter une partie"
+
+#, fuzzy
+#~ msgid "/Archive/_Remove Game"
+#~ msgstr "/Archive/_Effacer la partie"
+
+#, fuzzy
+#~ msgid "/View/_Choose Notation"
+#~ msgstr "/Affichage/_Notation"
+
+#, fuzzy
+#~ msgid "/View/_Notation Preferences"
+#~ msgstr "/Affichage/Préférences de la _notation"
+
+#~ msgid "/View/_Comment"
+#~ msgstr "/Affichage/_Commentaire"
+
+#, fuzzy
+#~ msgid "/Game/New _Position"
+#~ msgstr "Nouvelle _position"
+
+#~ msgid "/Connection/Log_in"
+#~ msgstr "/Connexion/Se _connecter"
+
+#~ msgid "/Connection/Log_out"
+#~ msgstr "/Connexion/Se _déconnecter"
+
+#~ msgid "/Connection/_Quit"
+#~ msgstr "/Connexion/_Quitter"
+
+#~ msgid "/_View"
+#~ msgstr "/_Affichage"
+
+#~ msgid "/View/_Legal Moves"
+#~ msgstr "/Affichage/Coups _légaux"
+
+#~ msgid "/Game/_Seek"
+#~ msgstr "/Partie/_Chercher"
+
+#~ msgid "/Game/_New"
+#~ msgstr "/Partie/_Nouvelle"
+
+#~ msgid "/Game/_Save"
+#~ msgstr "/Partie/_Sauvegarder"
+
+#~ msgid "/Game/_Close"
+#~ msgstr "/Partie/_Fermer"
+
+#~ msgid "/Position/_Empty"
+#~ msgstr "/Position/_Vider"
+
+#~ msgid "/Position/_Invert"
+#~ msgstr "/Position/_Inverser"
+
+#~ msgid "/Position/_Mirror"
+#~ msgstr "/Position/_Réfléchir"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Fichier/_Nouveau"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Fichier/_Ouvrir"
+
+#~ msgid "/File/_Clear"
+#~ msgstr "/Fichier/_Effacer"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Fichier/_Sauvegarder"
+
+#~ msgid "/File/_OK"
+#~ msgstr "/Fichier/_Valider"
+
+#~ msgid "/File/_Apply"
+#~ msgstr "/Fichier/_Appliquer"
+
+#~ msgid "/File/_Cancel"
+#~ msgstr "/Fichier/_Annuler"
+
+#~ msgid "/File/_Load"
+#~ msgstr "/Fichier/_Charger"
+
+#~ msgid "/File/_Close"
+#~ msgstr "/Fichier/_Fermer"
+
+#, fuzzy
+#~ msgid "/Board/_Board theme"
+#~ msgstr "/Échiquier/Préférences de l’_échiquier"
+
+#~ msgid "/View/_Legal moves"
+#~ msgstr "/Affichage/Coups _légaux"
+
+#~ msgid "/Game/_Back"
+#~ msgstr "/Partie/En _arrière"
+
+#~ msgid "/Game/_Forward"
+#~ msgstr "/Partie/En _avant"
+
+#~ msgid "/Game/Edit the _position"
+#~ msgstr "/Partie/Éditer la _position"
+
+#~ msgid "Play moves from the _opening book"
+#~ msgstr "Jouer des coups de la bibliothèque d’_ouvertures"
+
+#, fuzzy
+#~ msgid "Black and White~"
+#~ msgstr "Noir et blanc"
+
+#, fuzzy
+#~ msgid "Blue~"
+#~ msgstr "Bleu"
+
+#, fuzzy
+#~ msgid "Circus~"
+#~ msgstr "Cirque"
+
+#, fuzzy
+#~ msgid "Green~"
+#~ msgstr "Vert"
+
+#, fuzzy
+#~ msgid "Red~"
+#~ msgstr "Rouge"
+
+#, fuzzy
+#~ msgid "Riffled~"
+#~ msgstr "Rayé"
+
+#, fuzzy
+#~ msgid "Wood~"
+#~ msgstr "Bois"

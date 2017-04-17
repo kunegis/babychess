@@ -1,0 +1,51 @@
+BabyChess 16
+============
+
+This is BabyChess, a chess application written mainly for GNU systems.
+It uses GTK+ for the GUI.  This release contains the following programs:  
+
+babychess
+	The GUI program
+
+babychess-evaluator
+	The chess evaluator (a non-interactive text program used by
+	the other programs)
+
+babychess-engine
+	The XBoard compatible engine 
+
+babychess-xboard-evaluator
+	Used internally to run XBoard engines
+
+babychess-book
+	A command line interface to the BabyChess book file format
+
+"babychess" has a manpage which gets installed along other files.  All
+programs support "--help". 
+
+
+Requirements
+------------
+
+The GUI program needs LibPNG, GTK+ 2.0 and GnomeUI to run.  For a list
+of requirements to compile BabyChess, see the file "INSTALL". 
+
+
+Operating systems
+-----------------
+
+This version of BabyChess was mainly developed on SuSE 9.1, 9.2 and 9.3.
+However, a UTF-8 locale is not mandatory.  Although this version was
+intended to also support Solaris, the port was not completed.  Some
+facilities for recognizing missing functions in non-GNU C libraries are
+present. 
+
+If you have problems compiling or running BabyChess on your platform,
+please ask on the mailing list. 
+
+Note:  The text files such as this file are coded in UTF-8. 
+
+___________________________________________________________________
+Mailing List:  baby-devel@nongnu.org
+WWW:           http://user.cs.tu-berlin.de/~kunegis/babychess/
+

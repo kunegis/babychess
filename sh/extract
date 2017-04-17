@@ -1,0 +1,15 @@
+#! /bin/sh
+
+<share/opening_book/openings.pgn sed '
+
+## put each translatable text on a single line and add quotes
+s/_(\([^)]*\))/\
+_("\1")\
+/g' |
+
+sed '
+
+## eliminate other lines
+/^[^_].*$/d'
+
+

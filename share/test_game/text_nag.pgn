@@ -1,0 +1,13 @@
+% Accept NAG in textual form.  Currently, they are only accepted if not
+% separated by space from the move. 
+1. e4!    e5  
+2. Nf3?   Nc6 
+3. Bc4!!  Bc5 
+4. O-O??  Nf6 
+5. Nc3!?  d6  
+6. d3?!   O-O 
+7. Bg5[]  Bg4 
+8. Nd5~   Bxf3 
+9. Qxf3@  Nd4  
+10. Qd1^  c6   
+

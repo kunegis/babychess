@@ -1,0 +1,16 @@
+#!/bin/sh
+##
+## Benchmark the chess evaluator
+##
+## Calculates in the starting position up to a fixed depth. 
+## bin/babychess-evaluator must be compiled.  
+##
+## Should take about 30 seconds. 
+##
+
+echo 'Benchmarking...'
+date
+uname -a
+gcc --version
+bin/babychess-evaluator --version
+1>/dev/null time bin/babychess-evaluator -d6

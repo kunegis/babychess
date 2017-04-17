@@ -1,0 +1,6 @@
+The manpage % is generated from %.in by replacing:
+
+@DATE@              by the release date
+@VERSION_NUMBER@    by the version number
+
+The manpages don't contain non-ascii characters and are not translated.   

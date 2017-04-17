@@ -1,0 +1,36 @@
+Test using sh/benchmark
+=======================
+
+(This info is out of date.)
+
+build_type=none
+build_once=1
+CXXFLAGS=-DNDEBUG <see below>
+LDFLAGS=-s
+
+CXXFLAGS			  t (s)
+                                  129.21
+-O1                               129.21
+-O2				  129.21
+-O3				   32.23   base
+-O3 -mathlon-xp			   28.90   arch.
+-O3 -fforce-addr		   32.73   -
+-O3 -fomit-frame-pointer	   32.12   =
+-O3 -foptimize-sibling-calls       32.18   =
+-O3 -fno-branch-count-reg	   32.13   =
+-O3 -funroll-loops		   30.79   +
+-O3 -funroll-all-loops		   31.75   +
+-O3 -funroll-loops \		   31.91
+    -funroll-all-loops		
+-O3 -fno-rtti			   32.17   =
+-O3 -march=athlon-xp \             28.23   ++
+    -funroll-loops
+
+build_type=release
+
+CXXFLAGS
+-march=athlon-xp -funroll-loops    29.00 -
+(-) -fno-implicit-inline-templates 28.90 -
+(-) -fno-inline-functions	   28.80 -
+(-) -fno-rtti			   28.37 =
+

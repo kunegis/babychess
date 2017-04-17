@@ -1,0 +1,33 @@
+Licensing
+=========
+
+BabyChess is Copyright © 2000, 2001, 2002, 2003, 2004, 2005 Jérôme KUNEGIS.   
+
+BabyChess is free software;  you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation;  either version 2 of the License, or (at
+your option) any later version.    
+
+BabyChess is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.    
+
+You should have received a copy of the GNU General Public License
+along with BabyChess;  if not, write to the Free Software Foundation,
+Inc., 675 Mass Ave, Cambridge, MA 02139, USA.       
+_______________________________________________________________________
+
+The GNU General Public License can be found in the file "COPYING" in
+this release.  
+_______________________________________________________________________
+
+All files contained in this release are part of BabyChess.  The GNU
+Coding Standards propose to put the above copyright notice at the top of
+each file.  I have chosen to only include it here, and only distribute
+BabyChess as a complete package.  If you distribute files of BabyChess
+separately, then please prepend the above copyright notice to each file.
+This also applies if the unpacked directory tree is put on a web
+server. 
+
+

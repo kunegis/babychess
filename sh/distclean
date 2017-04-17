@@ -1,0 +1,9 @@
+#! /bin/sh
+
+[ "`echo po/*.po`" = "po/*.po" ] || echo po/*.po | sed 's,po/\([^ ][^ ]*\)\.po,po/\1,g' | xargs rm -rf
+
+rm -f share/opening_book/openings.book
+find . -type f -name '*~' | xargs rm -f
+#sh/clean-dir
+rm -f TAGS
+sh/clean

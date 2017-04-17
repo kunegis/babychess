@@ -1,0 +1,61 @@
+Notes about writing C++
+=======================
+
+Source files
+------------
+
+Source files can be added, renamed and removed by just creating, renaming or
+removing files in the "src" directory.  No further change to the Makefile is
+needed.  
+
+Files that are compiled to programs have names that begin with "babychess" and
+contain dashes instead of underscores.  Other source files contain
+underscores.  
+
+
+Macros
+------
+
+The macro "NDEBUG" is defined by the configuration when compiling optimized
+versions.  When "NDEBUG" is not defined, modules enable debugging behavior
+(including the C library).  Modules do internal checks when NDEBUG is not
+defined.  The behavior of modules is the same whether NDEBUG is defined or not,
+but things will run slower when it is not defined.    
+
+Other macros can be defined by adding their definition to $CXXFLAGS, using the
+"-D" option. 
+
+
+Other
+-----
+
+Only bin/babychess uses Glib/GTK+/GnomeUI.  All other programs should be
+compileable on systems without those libs.  Use ./configure --without-gui to
+not compile bin/babychess. 
+
+GNU extensions to the C++ language are used.  The programs cannot be
+compiled with another compiler than GCC. 
+
+Template functions are defined in header files. 
+
+Exceptions are not used.  Functions that may fail return "bool".  
+
+C++ libraries are not used.  
+
+RTTI is disabled in optimized mode. 
+
+Class declaration are ordered by:
+
+    1) Access:  public, protected, private.
+    2) Declaration type:  types, members, constructors, destructor,
+                          new virtual functions, implementation of
+                          v. functions,	 normal functions, static
+                          functions. 
+
+The name of virtual function should begin with the initials of the
+class in which they are declared.  (e.g. Document::DO_Open()). 
+
+Warning:  In derived classes that implement virtual functions, a typo
+in the name of the function will be an error that the compiler cannot catch,
+because we can't tell it one of the base classes has this function as virtual.   
+

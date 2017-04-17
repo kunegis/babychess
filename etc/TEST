@@ -1,0 +1,81 @@
+Automatic tests are done on each build.
+
+Installation Tests
+==================
+
+- make (debug mode) + user tests
+- build_type=optimize build_once=1 make + user tests
+- ./configure && make + user tests
+- make install as user
+- make install as root
+
+
+User Tests
+==========
+
+- bin/babychess --play:  play a game against the BabyChess engine; save the
+  game; view using bin/babychess --edit-game FILE
+- bin/babychess --version 
+  displays in the correct charset and language in a terminal. 
+- bin/babychess --edit-game-archive canon.pgn
+  (or some other huge PGN file)
+  . Sort games by all criteria 
+  . Open a game at random 
+- bin/babychess --edit-game:  let the BabyChess engine and Phalanx think in:
+  the starting position, after 1.f4, after 1...e5 2.g4.
+- board:  choose another theme
+- position_editor:  setup some position, start a game from this position, save
+  in file and view file with cat. 
+- remove ~/.babychess.  Start bin/babychess --edit-game, check that the
+  local notation is used.  Change the notation.
+- try out all stock board themes (in tutor mode and with a visible last
+  move) 
+- Playing a game between two engines from a set-up position
+- run "bin/babychess skdjhajkshdkajsdh".  A message alert window should
+  popup. 
+- the engine must win KQ-K
+- the engine must win KR-K
+
+
+
+
+Systems
+=======
+
+List of test systems
+
+Name        OS          GTK+    Desktop Coding	Lang	void*	gcc
+----------------------------------------------------------------------------------
+tu-solaris  Solaris v?  ?       K??     Latin-1 fr	4       ?
+home        SuSE 9.1    2.2.4   K3.2.1  UTF-8   fr	4	3.3.3
+dai-64      SuSE 9.1                                            8
+dai         SuSE 9.1    ?       KDE?    UTF-8   de 	4	3.3.3
+
+
+Operating systems:
+   - Solaris v?
+   - SuSE 9.1
+
+GTK+ versions:
+   - 2.2.4
+
+Desktop:
+   - KDE:  3.2.1
+
+Encoding (only for terminal and text files; GTK+ always uses UTF-8):
+   - ASCII
+   - UTF-8   
+   - Latin-1
+
+Language:
+   - English
+   - French
+   - German
+
+sizeof (void *):
+   - 4
+   - 8 (Must use -m64 on most systems where available)
+
+gcc --version:
+   - 3.3.3
+<

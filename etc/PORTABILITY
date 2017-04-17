@@ -1,0 +1,2 @@
+SED:  Don't use + :  it's only included in extended regexps, and
+   Solaris sed only knows basic regexp. 

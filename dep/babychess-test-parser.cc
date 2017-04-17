@@ -1,0 +1,8 @@
+#include "../src/babychess-test-parser.cc"
+#include "../src/constant.cc"
+#include "../src/main.cc"
+#include "../src/moveable.cc"
+#include "../src/parser.cc"
+#include "../src/pointer.cc"
+#include "../src/string.cc"
+#include "../src/verbose.cc"

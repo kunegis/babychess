@@ -1,0 +1,321 @@
+Version 17
+----------
+
+- The board settings have been split into the board theme, the board
+  settings and the board "turnedness".  The few board themes are still
+  available, but they don't contain the board settings.  The board
+  settings include whether tutor mode in enabled, whether the last move
+  is shown, and whether the frame is visible.  Whether the board is
+  turned is never saved.
+- The notation options have been split into the language-specific part,
+  and the other settings.  
+- "Match mode" is now called "play mode".  Start using
+  "babychess --play". 
+- In the position editor, the piece to insert on the board can be chosen
+  by clicking on the piece image. 
+- While dragging a piece, the move name is displayed ni the statusbar. 
+- The default board theme is now "Wood". 
+- Incomplete support for descriptive notation was dropped. 
+- The ECO codes are displayed along with the opening name. 
+- In the play window, a custom starting position can be specified. 
+- in the play window the clocks are animated to display the side to
+  move. 
+- don't use GNOME libs. 
+
+
+Version 16
+----------
+
+- There's a manpage for the GUI program "babychess"
+- The dialogs are laid out better
+- There is now an opening book.  The names of chess openings are
+  displayed.  There is an option to show also the subvariation names. 
+- The engine plays move from the opening book.  The probability of
+  playing a move is proportional to the number of subvariations in the
+ opening book.
+- The chess notation can be set to the following languages:  Dutch,
+  English, French, German, Greek, Italian, Polish, Russian and Turkish 
+- Figurine notation is supported via the chess glyphs in Unicode.
+  However, the few fonts that were found to contains these glyphs were
+  all false:  They display the chess pieces in the same height as a
+  lowercase letter, although they should have the same height as an
+  uppercase letter.
+- Descriptive notation is partially supportted.
+- All GUI programs were merged into one executable called "babychess". 
+- The other programs have changed names, e.g. "baby_chess_evaluator" is
+  now "babychess-evaluator" 
+- The game archive editor can sort the games by all seven tags 
+- In the game editor, captures can be played in reverse, i.e. by
+  dragging the captured piece to the capturing piece. 
+- Games against can now be played using "match mode", started with
+  "babychess --match"
+- Board:  When dragging a piece, the pointer position is slowly adjusted
+  to be centered on the piece.
+- Board:  Instead of dragging and dropping the pieces, two other methods
+  can be used to play moves:  clicking on the two piece and on the
+  destination square, and keyboard navigation.
+- XBoard engines such as "gnuchess" and "phalanx" are supported. 
+- A temporary file is use when saved, which is then renamed.  This
+  avoids losing data when the program should crash just after having
+  opened the output file.
+- In the game editor, the list of legal moves now also displays the
+  opening names played by moves.
+- More Unicode symbols are used:  the multiplication sign for captures,
+  long dashes were appropriate, figurines in the notation, and special
+  math symbols to display some annotation glyphs.
+- In the gamme editor, one can go forward and backward through the game
+  using the mouse wheel.
+- The "./configure" script supports the options "--disable-gui" if the
+  GUI program "babychess" should not be compiled.  You don't need any of
+  Glib, GTK+ or GNOME in this mode.
+
+
+Version 15  (release date)
+----------
+
+Game Editor:
+
+- The game editor now has a "paner" between the side bar and the
+  board.  
+- Alternate moves can be played directly.  Example:  In the starting
+  position, play e2-e3.  Then drag Pe3 to e4, this has the effect of
+  taking back 1.e3 and playing 1.e4. 
+
+Engine:
+
+- The engine can be set to always start running. 
+- The "depth factor" is displayed.  (That's the average increase of
+  knots form one depth to another.)
+
+Board:
+
+- The dragging of chess pieces can be aborted with the Escape key.  
+- Last move highlighting on the board can be turned off.
+- The board settings can be saved and come with a few sample settings
+  in different colors. 
+- While dragging a piece, the from-square is highlighted in blue. 
+- New option:  riffled dark squares.  This looks like what is used in
+  books. 
+
+Notation:
+
+- In addition to the standard algegraic notation (SAN), french, german
+  and dutch notations are supported. 
+- Notations can be saved 
+- The bpard has a tutor mode which displays the possible destination
+  squares of the dragged piece.  Tutor is disabled by default. 
+
+Other Changes:
+
+- The user is now asked before overwriting files.
+- When clicking "Cancel" in any settings windows, the old values are
+  restored.  
+- Translations are available in german and french. 
+- The toolbars now have images. 
+- In the position editor, the position can be inverted and mirrored. 
+
+Internal Changes:
+
+- Port to GTK+ 2.0.   Doesn't compile with GTK+ 1.2.  
+- The GNOME libraries are used. 
+- Compliance with the GNOME Human Interface Guidelines
+- The number of knots is now 64 bit on 32 bit machines. (using
+  intmax_t) 
+- Now using GNOME's dialogs instead of own-made. 
+
+
+Version 14
+----------
+
+PGN Support:  
+
+- PGN comments are supported.  They are read from input files, can be
+  viewed and edited in the game editor, and are stored in PGN format.  
+- Support for recursive variations:  They can be read from PGN files,
+  written to PGN files, viewed and edited.  
+
+The Game Editor:
+
+- If a promotion is possible, radio buttons are shown to choose the
+  promotion piece. 
+
+The Position Editor:
+
+- The FEN string of the current position can be shown in an edit box.
+  This feature is disabled by default and can be activated in the
+  "View|Fen notation" menu.  Any FEN string can be pasted into that
+  box and will be used by clicking "Set".  
+- When an en passant move is possible, the last move can be chosen
+  among all possible double pawn moves. 
+- If kings and rooks are on their starting squares, possible castlings
+  can be chosen.  
+
+The Chess Board:
+
+- Anti-aliasing can be turned off in the board settings.  
+- There is now a frame around the chess board, which displays the file
+  names and rank numbers.  The frame is shown by default and can be
+  hidden in the board settings.   
+
+Other New Features:
+
+- The notation and the board settings are now saved across sessions. 
+
+
+Version 13
+----------
+
+- GUI ported to GTK+ version 1.2. 
+- Load the board faster by saving the scaled versions.  
+- When opening a PGN file that contains one chess game, also open the
+  game editor window. 
+- Added questions when closing windows:  "Do you want to save..." 
+- Don't show the evaluator widget when the game editor window is
+  opened, only make it visible when the evaluator is started. 
+- Make notation configurable. 
+- The board colors can be changed for:  light squares, dark squares
+  and last move. 
+- Add "Reset" button to board settings editor. 
+- In the game editor, The "Stop" button is now the "Pause" button, and
+  will resume the evaluator when pressed while it is paused. 
+- Added the game info editor.  The name of the players, the date,
+  etc. are saved in the PGN file.  Game info is also displayed when
+  opening files that contain such info. 
+- List of legal moves in the game editor.  This list is hidden by
+  default.  It can be made visible in the "View" menu. 
+- Evaluator settings:  New option to run the evaluator with a low
+  priority.  Enabled by default. 
+- Improved the evaluator in various ways. 
+- The XBoard engine was rewritten. 
+
+
+Version 12.3
+------------
+
+General
+.......
+
+- Memory leak in image handling fixed. 
+- Installation is now faster using Cook. 
+- Faster drag movement of chess pieces by buffering "mouse move"
+  events. 
+- In addition to the Make file, there is now a `Howto.cook' file that
+  can be used with the Cook program.  
+- Drop support for Make. 
+- Partial update of the Cygwin port. 
+
+Chess
+.....
+
+- Design changes in the "Edit position" window make it easier to use. 
+- Introduced the "Chess evaluator," which replaces the chess engine.  
+- The chess program now runs in another process, rather than in
+  another thread. 
+- New ICS client program.
+- New PGN file editor for game collections. 
+- Added a "busy indicator" to the chess game editor that blinks when
+  the evaluator is running, similar to what's in most web-browsers
+  upper right corner. 
+- Game Editor:  Moves can be taken back by taking them back on the
+  board. 
+- Game Editor:  Read and write PGN files with one game in them.  
+- Game Editor:  Display the move list.  You can go to the position
+  after a move by clicking on the move. 
+- Game Editor:  Display the piece balance. 
+- The XBoard engine has been dropped in favor of the new "chess
+  evaluator." 
+
+GUI
+...
+
+- The chess pieces are now stored in one 8 kB PNG indexed image with 
+  tRNS transparency, instead of the old 547 kB X bitmap .xbm file. 
+- Fixed bug in the "GNU GPL" window where characters would be drawn
+  over the scroll bars. 
+- New, thinner caret. 
+- Most windows are now "editors."  The "Chess program" window is now
+  the "Chess game editor." 
+- Objects such as chess games and chess positions can now be edited
+  separately. 
+
+Version 12.2
+------------
+
+- Bugfixes
+
+GUI
+...
+
+- Added anti-aliased fonts using Xft
+- Scroll bars
+
+BabyFractal
+...........
+
+- News colors dialog
+- Added undo information and back/forward commands 
+
+Version 12.1
+------------
+
+- Name changed from BabyChess to Baby. 
+
+Fractal
+.......
+
+- New program that displays the Mandelbrot set. 
+
+Chess
+.....
+
+- Added "Flip board" option
+- Added "Show square name on each square" option
+- Floating text in the "About window"
+- Radio buttons
+- New "Edit position" dialog
+- Proportional font used with XLib
+- "Copy" and "Paste" button in "Edit position" window;  the FEN description of
+  the position can be copied and pasted. 
+- Radio buttons with chess pieces in the "Edit position" window.
+- "Copy position" and "Paste position" in the "Game" menu of the "Game window".  
+- New load/save file window.
+- "Load" and "Save" in the "Position" menu of the "Edit position" window.
+- Focus follows mouse;  buttons and other widgets get activated when mouse is
+  over.  
+- Keyboard input with the X Window System. 
+- Chess board drawn faster when changing size. 
+- Anti-aliased chess pieces
+
+XBoard Engine
+.............
+
+- Think 10 s instead of 5 s. 
+
+version 12
+----------
+
+Chess
+.....
+
+- New GUI. 
+
+Xboard engine
+.............
+
+- The program is renamed from `bbch' to `babychess-xboard-engine'. 
+
+version 11.1
+------------
+
+Xboard engine
+.............
+
+- The "move now" command works. 
+- The chess Engine can play with white. 
+- "Post mode" works.  The engine outputs information about its thinking.   
+- Instead of always calculating a fixed number of knots, the engine calculates
+  during a fixed time.    
+- The engine sends information when the position is checkmate or stalemate.    
+- The engine understands the protocol version 2, but it still runs with older
+  Xboard versions.  
+- The "undo" command works

@@ -1,0 +1,21 @@
+#!/bin/sh
+##
+## Install a file.
+##
+## Invocation:   sh/install-file  SOURCE   DEST
+##
+## SOURCE:  The file to install
+##
+## DEST:    The filename or directory under which to install
+##
+
+. sh/verbose.sh
+
+dir=`echo $2 | sed 's/^\(.*\)\/[^\/]*$/\1/'`
+
+sh/do install -d "$dir"
+
+echo >&4 install $1 $2
+
+install "$1" "$2"
+

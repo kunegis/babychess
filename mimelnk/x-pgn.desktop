@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-pgn
+Icon=@ICON@
+Comment=Chess Game
+Patterns=*.pgn;*.PGN

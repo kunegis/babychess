@@ -1,0 +1,60 @@
+Release Cycle
+=============
+
+- Stuff to do at any time
+	- check profiling output in debug AND optimized mode. 
+	- check executable sizes
+	- check assembler output
+	- check inlining of functions
+	- remove files whose name begin with "+" 
+	- remove files that are "error unused". 
+	- use strace to look at the system calls. 
+	- use valgrind
+
+- Programming
+        - Review list of ideas at the end of etc/TO-DO.  (one list per
+          platform) 
+
+- Settings 
+	- integrate board and notation settings into the distribution 
+
+- Translation
+	- translate in all languages. Update all PO files and test in
+          all languages. 
+	- Check that all translations use the correct wording from the
+          glossary. 
+
+- Testing
+	- User tests
+	- Test removing all configuration files in "~/.babychess". 
+        - Check that menu accelerators are unique in each window and match
+	  etc/ACCELERATORS. 
+
+- Installation
+	[ - release a beta ]
+	- Test the installation on different computers, using the built
+	        source release:  
+
+	--> etc/TEST
+
+	[ - release a second beta ]
+
+- Proofreading
+        - Reformulate "NEWS".
+	- Read all interface elements.
+	- check that all menu entries contain an underlined letter. 
+	- Update the version number in "README".
+
+- Release
+	- Put source & RPM on download/
+	- Put announcement on front page
+	- update features/ using etc/TEST-CASE
+	- Make new screenshots on art/.  Use the default GNOME theme
+          and windowmanager. 
+	- Use new screenshots on features/
+	- Make announcement on mailing list.
+	- Put new screenshot on Freshmeat
+	- Create new browseable HTML tree of source
+	- Make announcement on "Linux game tome"
+	- Make announcement on Freshmeat
+	- Make announcement on ThinIce

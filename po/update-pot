@@ -1,0 +1,35 @@
+#!/bin/sh
+##
+## Update po/babychess.pot from all source files.  
+##
+
+##
+## Note:  this works only with GNU xgettext.  Tests on Solaris showed
+## that the Solaris xgettext is too limited:
+##   - Does not support specifying UTF-8 as input encoding (Used e.g. in
+##     "Zürich gambit" -> "Züricher Gambit"). 
+##   - Does not support aliases for the gettext function such as _()
+##     and N_(). 
+##   - Has a length limitation on input strings of 1024 characters. 
+##   - Does not support plural forms. 
+## Use GNU gettext instead. 
+##
+
+. sh/tmp.sh
+
+xgettext --version >/dev/null 2>&1 || {
+    echo >&2 "\
+Refusing to use a non-GNU version of xgettext.
+Exiting successfully."
+    exit 0
+}
+
+echo src/*.hh src/*.cc | tr ' ' '
+' >/tmp/$$.plist
+
+## $TMP/babychess.po.cc This file contains C code automatically generated for
+## xgettext to parse as strings that need translations  (e.g. the names of the
+## settings files.)   
+
+sh/do xgettext  --from-code UTF-8 -k_ -kN_ -kI_  -c -f /tmp/$$.plist $TMP/babychess.po.cc \
+    -o po/babychess.pot  

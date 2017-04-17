@@ -1,0 +1,472 @@
+.programming
+* play:  playing a game between two engines from a set-up position
+doesn't work. 
+* play: playing a game between two engines aborts when the game is
+finished. 
+* playing and losing to Phalanx fails an assertion when Phalanx mates. 
+* players_editor:  have a button to swap the players. 
+* conf:  when a stock theme was selected, it should be possible to save
+it;  it should then be saved in the user's directory.  If a custom and
+stock setting have the same name, only the custom one should be
+displayed. 
+* babychess --match:  implement the three-move-draw-rule. 
+* opening_widget:  have a popup menu. 
+* opening widget:  only the first opening name should be capitalized 
+* opening_widget:  when displaying all subvariation names, line wrapping
+does not always work. 
+* baby-xboard-evaluator:  when the engine stops, the evaluator should stop. 
+ (how do we now phalanx has finished?  It stops using CPU time)  
+* "bin/babychess sldkjslkdj" :  the inform window does not close when
+clicking OK. 
+* deprecate ASK_DIALOG in favor of NEW_ASK_DIALOG. 
+* menues must use Header Capitalization
+* have a popup window in game_move_list and move_list to set the
+notation. 
+* find translation for all words in glossary
+* the game_Archive_editor should not have a "Properties" item in the
+"File" menu. 
+* evaluator_widget:  should have the three buttons that are currently in
+the toolbar
+* game_editor:  shouldn't have the evaluator_widget buttons in the
+toolbar
+* evaluator_widget:  should not be hidden but only smaller instead with
+the buttons and clock visible (clock should be smaller.)
+* toolbar:  use a Gnome toolbar as in GEdit which can be teared off, and which
+displays an arrow when it gets too small.  (instead of never becoming smaller
+than necessary.)
+* --edit-position:  "Load"ing a FEN file fails an assertion
+** also when "Open"ing a file when the document was not modified 
+* NAG:  support "double glyphs" :  e.g. "1.e4! +="  They are probably coded
+"1.e4 $1 $2" in PGN.  Internally, just do "a | (b << 16)".
+* make choosing glyphs easier than a HUGE drop down menu. 
+* play window:  enable and disbale the toolbar buttons correctly
+* evaluator widget:  for buttons:  use the GTK_STOCK_MEDIA_* stock
+items. 
+* The "Help" menu should have a "Start Window" item. 
+* game property editor:  the headers are misaligned.
+* opening menu:  the menu is suffucient, we don't need an opening
+settings editor. 
+* position editor:  show the legal moves, empty the board, the program
+still displays "20 legal moves". 
+* play window:  implement pausing the game
+* xboard_client:  don't use the opening book when playing from a set-up
+position. 
+* play:  take back a move before the engine has responded.  The clock of
+the engine still blinks. 
+* play:  have a command "continue game later".  same these games in a
+dir in ~/.babychess, and have a menu to continue interrupted games. 
+* have an option in the new game dialog:  with/out taking bakc moves
+* option in new game dialog:  choose which "helpers" to use. 
+* board:  pressing the arrow keys when dragging should not interrupt the
+ dragging, but just move the focus. 
+* replace "board theme" by "board colors" everywhere. 
+* play:  have a mode where the engine thinks until it is stopped. 
+* board:  tutor mode should work when played with the keyboard. 
+* players_editor:  when changing the player to engine/human, the name of
+the engine should be updated. 
+* play:  being mated by the engine crashes.
+* have a framework for testing engines:  a list of positions and moves
+to find. 
+* game_editor:  search a text in comments
+* E60 is missing (identical to D70).
+* improve GAME_TEXT to be able to write correct PGN, readable text and
+HTML.  Deprecate PGN. 
+* fr:  sauvegarder→enregistrer
+* game_editor:  export
+* HTML output:  have diagrams. 
+* play:  when the user must play the first move, write "play a move to
+begin the game" in the statusbar. 
+* game editor::game list:  have a popup menu with an item "Notation
+ preferences".  See the board popup menu. 
+* game editor:  legal move list:  have a popup menu with the commands:
+remove variation, enter variation. ; and a button bar to the right with
+these buttons. (+ and -)
+* be able to export from the GUI. 
+* the CList replacement can sort by itself. 
+* write babychess-pgn2html
+* board:  when dragging with Ctrl- pressed, insert move as new
+ principal variation.  (also indicate that in the status bar.)
+* pgn2HTML:  the braces should be made using CSS, by specifying "initial
+text" and "end text". 
+* play window:  the "take back last move" button in the toolbar should
+be disabled when not playing (after mating the engine) 
+* use title_box everywhere.
+* game_editor:  game move list:  use only double clicks to go to a
+ move and highlight the current move cell.  (must use something else
+ than CList) 
+* game editor:  using phalanx in analyze mode fails an assertion. 
+* framed_radio_group:  the title should not always be a section title. 
+* evaluator_widget:  make the menu better.  
+* evaluator_widget:  test all modes.
+* play:  make pause work
+* evaluator_widget:  use stock icons for play, pause etc.  
+* board tutor:  highlight the pinning piece (and maybe the king) when a
+move is impossible. 
+* conf editors:  put the list on the left.
+* "modified" in the statusbar show be grayed instead of hidden.  Don't
+know how to do that. 
+* board statusbar:  why a piece is blocked pinned
+* board statusbar:  distinguish between tutor mode on/off
+* play window:  have a grip bar between the side bar and the board
+* board:  status bar info:  when a piece is clicked hat has no legal
+moves, indicate why in the status bar. 
+* in the notation editor, have combo boxes for some string, with useful
+default values:
+Castlings:  O-O (default), o-o, 0-0
+capture:  ×, x, :
+echecs:  +, old-style
+* setting the time control doesn't work for the BabyChess engine:  the
+time control should be passed to the engine and the engine should honour
+it. 
+* board theme editor:  set a stock theme, change a color, enter a new
+name:  the "Save" button is not enabled.  The changed signal is not sent
+for the entry. 
+* the take back toolbar button and menu item should be greyed when at
+the beginnign of the game. 
+* play full game against BabyChess in --play
+* reduce number of modules by merging
+* play:  custom starting position with BabyChess
+* play games from setup positions against phalanx. (or try another
+engine) 
+* implement "edit" in the xboard engine so that playing game from setup
+positions works.
+* when playing a game without Qd8, the opening book should not be used,
+the opening widget should display "custom starting position".
+* Handicap game mode (remove some pieces in the initial position).
+ (especially in gui_match).  Have a menu with common handicap starting
+ positions. 
+* game editor:  busy should not be in the toolbar, but the clock in the
+evaluator widget should blink
+* @DATE@ is not replaced when viewing the manpage
+* book:  madvise
+* book:  msync
+
+
+
+.release
+* make website of the opening book. 
+
+
+
+
+%next
+* support PGN opening books.
+* use another color for the stock pieces.  
+* ics:  provide an editable list of servers with sensible default
+ servers. (using configurations)
+* Make searches in the archive editor. 
+* Game editor:  replace game move list with text display and inline
+ variations. 
+* implement swiss tournament rules
+* support extern chess board input
+* read endgame books
+* export/import to/from different database formats
+* ics: be able to save the game (by asking the server to print all
+ game moves.)
+* ICS_WINDOW:  game move list.
+* ics_window:  seek dialog. (with graph, as all ICS client do)
+* ics:  configure to use other program than "telnet".  (configure the
+ telnet command.) (unnecessary)
+* game_editor:  on the board, have an arrow displaying the next
+ move. 
+* game_editor:  when a move is found to be bad, insert the appropriate
+ glyph. 
+* gprof:  .use -a when compiling.
+ .inspect annotated source generated by gprof. 
+* do "profile arcs":  search for that in the gprof docu. 
+* be able to solve problems. (mate in N, ...) 
+* Display mate as best move when found on the board.  
+ . too much info on the board.
+* Highlight next move, evaluator best move, and possible legal moves
+ on board. 
+** too much clutter.
+* game_editor:  msg_drag:  accept a move even when DRAG_TO is near the
+ destination square. (?)
+* implement position_archive_editor.(for FEN files with multiple
+ positions) 
+* undo 
+* game_editor:  display the next move using an arrow behind the
+ pieces.  When there are variations, display the variations, display
+ the arrows for the variations in different colors. 
+* board:  tutor mode:  if there is just one legal move, display an
+ arrow. 
+* evaluator_settings:  A.I. personalities
+* sound:  hook into Gnome sound?
+* notation française:  "pat" dans la notation.
+* ics/match:  allow moves to be made before the opponent has played
+ (also with the promotion piece)
+* game_archive_editor:  be able to edit whole directories. 
+* implement 3-move-draw rule. 
+* evaluator_widget:  have two states:  one where just the first
+ line is visible, and one where all is visible. 
+* start_window:  have a big animation with chess pieces flying
+ around etc...
+* use customized string hash functions for all the "if" run-on
+ statements. 
+* write an evaluator which keeps the move tree, chooses a leaf at
+ random (based on the score of each move), and thinks at that leaf for
+ a while. 
+* board:  when board is small, the font on the frame should be
+ smaller. 
+* game_editor:  in the legal move display, show the score of the
+ position after that move (used to test the evaluation function.) (or
+ only show the change in the score [e.g. -0.34]) 
+* game_editor:  option not to make "ding". (or use Gnome sound
+ system)  It would be better to configure that through the Gnome sound
+ system. 
+* board:  adapt the size of the frame to the size of the board (= no
+ normal sized frame on tiny boards)
+* material widget:  distinguish between bishops that are on light and dark
+ squares.  For light squares, display a black square line around the bishop.
+ for dark squares, display a gray filled square behind the bishop. 
+* evaluator_widget:  have a widget that displays the current score graphically.  
+* game_archive_editor:  append a column that displays the initial
+ position (either empty, or in the style of KRP-KR if less than 7
+ pieces) 
+* game_archive_editor:  sort games according to the collating sequence
+ described in the PGN docs. 
+* analyze with multiple engines simultaneously. 
+* be able to print 
+* game_editor:  have a text box where moves can be entered.
+* use valgrind. 
+* hide/show the toolbar/status bar
+* position_editor:  when the position is not legal, highlight the reason on the
+ board in red (e.g. a king that is in check, or a pawn on the first row.)
+* search for openings by name (in all languages)
+* opening name book:  fold duplicate positions.  (= recognize Zugumstellung) 
+* babychess-book, support merging a PGN with multiple games. 
+* write a program which splits a PGN file into all games. 
+* write tests that load and save all settings.  Check that the saved settings
+ are equal to the source.  Do it for all setting types. 
+* document_editor:  consider dropping the "Load" command (it's
+ non-standard). 
+* have some test positions with known predefined best moves.  Write
+ test that check how many knots are needed by the evaluator.
+* heuristical evaluator (also find a new name for it)
+* ics_account_editor:  make it a configurations_editor. 
+* maintain the opening names.
+* allow double clicking on piece to play single move. 
+* opening widget:  should have a context menu.   Probably with options. 
+* ics_account_editor:  have a checkbox that reads "Login as guest", which sets
+the username automatically to "guest", and disables the username and password
+entries. 
+* Use autoconf
+* opening_widget:  have an option to display on N levels of opening names,
+ where N is configurable. 
+* opening book editor
+* game_editor:  displaying the legal moves:  sort moves according to
+ occurences in the opening book.
+* opening book:  write a program that checks the opening book:
+** that all functions exist
+** that if a string is translated once, it is always translated. 
+* babychess-game: list of legal moves:  display the percentage of move that
+follow each move in the opening book.  (e.g. 1.e4 38%
+* board:  while dragging a piece, the destination square, name of move, and
+opening move name should be displayed.
+* board:  piece sliding
+* configurations:  when a stock config is selected and was changed, pressing
+"Save" should create a new custom config with a name based on the stock
+config. 
+* support fullscreen mode
+* board:  animated moves (when the engine plays, when stepping in the game, when
+a piece slides back to it's from square when the move is not legal) 
+* game archive editor:  support editing of the game tags directly from
+within the table (as does Juk)  
+* support gnome-vfs
+* Measure the time between starting a program and entering the main() function. 
+* game editor:  the NAG menu is unusable as an option menu.  Either group the
+entries to submenues or use a combo box. 
+* game_editor:  when editing comments:  have buttons to insert the
+following unicode characters: triangle (with the idea), half-circle
+(better is)..., see http://www.sahovski.com/other/index.php?other=6
+* have object_editor_base
+* document_editor/editor_window/object_editor:  have void *as arguments to put
+functions in the base class
+* opening book:  automatize the following check:  if a player name is
+translated once, it must be translated everywhere. 
+* opening book:  check automatically:  no variation must contain the same name
+in a comment twice. 
+* Have "tip of the day"
+* --match:  when playing against an engine for which we now only the filename,
+put the first letter of the filename in uppercase. 
+* merge babychess-evaluator, babychess-xboard-{engine,evaluator} into one
+program. 
+* support 16 bit displays. 
+* check automatically that all opening names call a function (i.e., no
+untranslated names)
+* make it work on solaris
+* babychess-position:  (Solaris) the about dialog does not display the   
+ BabyChess image.   
+** baby-position:  make sure it has the BabyChess window icon 
+** babychess-game:  toolbar:  evaluator buttons:  images arent't
+ loaded. 
+** maybe false version of libpng linked. 
+** Debug the ICON module (it receives an error message in GError) 
+* internet chess window:  use material widget consistently. 
+* internet_chess_window:  use Game::To_Move_Description(). 
+* baby-internet-chess:  an assertion fails when closing. 
+internet_window:  there's still a pointer to side_packer. 
+* test on the internet:  that the clocks work correctly in
+baby-internet-chess. 
+* evaluator widget (Sol):  the name of the BabyChess engine is displayed
+with the wrong date. (1.1.70) 
+* ics_window:  show FORMAT_LAST_MOVE() in status bar.  Need to know
+ the move number and side to move. 
+* make it work with traditional Make. 
+* usability:  is the right word "drop down list" (as in HIG) or "option
+menu" as in GTK+ ?
+* have a compile option to disable usage of the most advanced
+Unicode characters. (not displayable on Solaris)
+* fr:  Essayer d'utiliser l'espace mince avant certains signes de
+ponctuation.     
+* match:  have "aids" like list of openings, material...
+* internet_chess_window:  for the server setting, use Preferences. 
+* NAGs:  use unicode characters to represent correctly.  Linux needs for
+and better fonts for this. 
+* use the err() and warn() functions for error reporting. 
+* babychess --edit-game:  pausing and continuing the engine very often leads to
+inflated CPU time.  E.g., more than 100%.  How can this bug be
+reproduced?
+* pgn:  recognize textual NAGs when they are separated from the move by
+space. 
+* implement descriptive notation
+* game_info_editor:  Maybe use gtk_calendar (?)
+* Use fopen64() if present. define -DLARGEFILE or so.  (does that make
+ sense?) 
+* MAP the board images for faster loading:
+** deprecate ALPHA_SERVER_IMAGE and always use a single image with to
+  rows
+** find a way to map a SERVER_IMAGE (aka GdkPixmap). (may use internal
+  structures), try patching Gdk.  (must use mmap)
+** implement maps in SCALED_BOARD_IMAGE. gui_game should now load
+  instantly. (and not take ~2 seconds)
+** needs to be done with gdk-pixbuf
+* use the C++ bindings of GTK+/Gnome 
+* use register_printf_function to output square names. 
+* regroup all GTK+ widget wrappers in one module. 
+* have a build number (in --version and the about box)
+* use tear-off menues.  See game_editor.cc for a commented out tear off
+menu.  Probably not needed. 
+* instead of the game move list, display the game moves and
+subvariations and comments and NAGs in a GtkTextBuffer (see gtk-demo for
+"Multiple Views") 
+* opening name book:  remove ends whithout comments (automatically) 
+* support long options
+* have game statistics:  number of moves (in all variations, ....)  Maybe
+display in the game info widget. 
+* object_editors:  try "explicit apply" in most cases (recommended by
+ the HIG)  
+* opening a file should always check the type ad open in the correct
+editor. 
+* material widget:  make it possible to display the
+ score of the position by calling the function that CHESS_EVALUATOR
+ also uses.  May as well run the evaluator...
+* notation:  make the dash used for long moves configurable.  (why?)
+* have the same docu system as GEdit. 
+* it should be possible to have a game finish and a variation
+ continue after the last move.  This will be true when Game is
+ deprecated. 
+* provide RPMs customized for many operating systems. 
+* support generating random Fisher chess position. 
+* chess notation / board settings serializing:  use XML. (libxml)
+* notation Koch/postale, gringmuth, udemann, descriptive
+* Popular forms of notation:
+** algebraic
+** long algebraic
+** coordinate
+** descriptive	
+** correspondence
+* GNOME sound 
+* create other piece image(s).
+* board:  new option:  use background image. 
+* have game statistics such as:
+** the path of a piece through a game.
+** the number of times a certain piece was on a square (show for
+  several games in an archive.) 
+* put toolbars in a handlebox
+* convert ask_dialog, about, help_menu to GTK, and don't use Gnomeui at
+all. 
+* EPD (?):  yet another chess standard. 
+* parallel chess engine
+* ask_dialog:  use GtkMessageDialog. 
+* widget:  remove the tracking of parent/child. 
+* Remove usage of document_editor as owned_editor, and use child
+  processes. 
+* consider using C++ libraries:  string, vector, io, ...
+* GdkPixbuf migration:
+** Rewrite BOARD_IMAGE to load the file explicitely using PNG. 
+** Rewrite Image to use GdkPixbuf. (instead of GdkImage)
+** BOARD_IMAGE:  rewrite to load the image and the alpha channel from two files
+    separately.  
+** Deprecate PNG.
+** The current image loading using LibPNG is what makes BabyChess slow to
+    start. 
+* "class Managed <Type>" for widgets, and make all widgets open/close
+ in the ctor/dtor. (alternative to using the C++ binding of GTK+)
+* game_editor:  use the book format internally. 
+* be able to load files read-only (=view mode)
+** have a check box in each file chooser
+** Always call Modify() before making a change.
+** Make Modify() return false when changing is impossible, and return.  
+** have a command line option
+* book:  maybe support holes ?  Will be needed for using it in game_editor
+* if the board had its own GdkWindow, it could have its own mouse
+ pointer. (which could change)
+* usability enhancement:  in dialogs, don't use labeled frames, but bold
+ captions instead.  (see GEdit source)
+* game archive editor:  display statistics.  Such as...
+* Make CHESS_EVALUATOR write the main variation.
+* game_editor:  display the main variation in the evaluator widget
+* use argp_parse to automatize output of --help (see glibc/manual/examples/argp)
+* don't depend on the GNOME libs. 
+* bin/babychess --play:  be able to specify the players on the command line. 
+* position_editor:  "menu/new game from this position" should open the
+match window.  (contested)
+* Child_process::Close(rusage) once blocked. 
+* PGN:  support text before subvariations. 
+* the engine should save the openings played in it’s custom opening
+book, and not play bad openings again. 
+* chess_evaluator:  implement some specific endgames:  mate with
+ the queen, ....
+* in the about window, have a link to the website like the program
+"devhelp" has. 
+* notation:  have only one dialog with a list for the language and a
+special popup editor to edit/add new languages. 
+* --edit-position:  support the option "-p FEN-POSITION".  Need getopt first
+* bin/babychess:  also accept filenames using the options "-f"
+ (scripts should use it since file names may begin with "-". 
+* have settings for the evaluator which can be edited in an
+ editor_window.  (such as value of pieces and bonuses, etc...)
+* editors:  implement auto-apply.
+* implement thinking when the oppenent is to move.  In
+babychess-xboard-engine. 
+* evaluator_settings_editor:  the two spin buttons should be inside the
+radio group. 
+* evaluator_widget:  implement depth thinking. 
+* have complete manpages for all commands
+* in the about box, translate the AUTHORS file (»contains chess pieces
+based on Mérida«)
+* PGN:  in PGN files, support ";" as an alias for ")(".  (This feature
+ is often used in chess notation.)
+-R use GnomePropertyBox for settings/properties dialogs. 
+-F be able to import text which is in an other notation than SAN
+ (e.g. Dutch);  also try to ignore text between moves.  This is useful
+ for cutting & pasting chess games from web pages etc...
+-F game list:  put last move in bold.
+-R list:  use something other than CList.  (something not
+ deprecated.)  Use NEW_LIST, first in only one module
+-R deprecate vector, use std:: instead. 
+-R replace DYNAMIC by auto_ptr 
+-F export games to text.  (and have an export options dialog.) with
+ custom notation. 
+-F board:  export to file image using export options. 
+-F have a position to image converter
+-R bin/babychess:  use getopt only once on babychess.cc.  Deprecate
+Document_Editor::DE_Set_Args() 
+-F use getopt_long
+-R  deprecate ask_dialog in favor of new_ask_dialog (+rename)
+-F  document editor:  don't always say "document", but adapt to name of
+the object (e.g. "position", "game archive").  All is in function
+Ask(). 
+* play window:  the "take back move" command should be disabled when two
+engines are playing each other. 

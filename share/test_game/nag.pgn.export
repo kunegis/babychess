@@ -1,0 +1,16 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+{All NAGs in sequential order.} 1. e4 {no NAG for this move} 1... e5 $1 2. Nf3
+$2 Nc6 $3 3. Bc4 $4 Nf6 $5 4. Ng5 $6 d5 $7 5. exd5 $8 {first non-graphical NAG}
+5... Nxd5 $9 6. Nxf7 $10 Kxf7 $11 7. Qf3+ $12 Ke6 $13 8. Nc3 $14 Nb4 $15 9. Kd1
+$16 c6 $17 10. a3 $18 Na6 $19 11. Bxa6 $20 bxa6 $21 12. Re1 $22 Bb7 $23 13. d4
+$24 Kd6 $25 14. dxe5+ $26 Ke6 $27 15. Bd2 $28 Be7 $29 16. Nxd5 $30 cxd5 $31 17.
+Kc1 $32 Rf8 $33 18. Qd3 $34 Rxf2 $35 19. Kb1 $36 Rxg2 $37 20. Qh3+ $38 Kf7 $39
+21. Rf1+ $40 Ke8 $41 22. Qxg2 $42 Qd7 $43 23. Ka2 $44 d4 $45 *
+

@@ -1,0 +1,54 @@
+#! /bin/sh
+##
+## Test all games.  Test games are found in share/test_game/.  For each
+## game, we first create a book out of it, and then convert that book to
+## PGN, which should then be in export format.  We also test the opening
+## book as an example of a huge PGN file. 
+##
+
+. sh/tmp.sh
+. sh/verbose.sh
+. sh/echo-n.sh
+
+tmp_book=$TMP/$$.book
+tmp_pgn=$TMP/$$.pgn
+
+error ()
+{
+    echo >&2 "*** error:  $1"
+    exit 1
+}
+
+# Games
+[ "$verbose" = 1 ] && >&4 $echo_n "Testing games$echo_c"
+for file in share/test_game/*.pgn 
+do
+    [ "$verbose" = 1 ] && >&4 $echo_n ".$echo_c"
+    echo >&5 "Testing $file"
+    if bin/babychess-book -c $tmp_book -m $file ; then : ; else
+	error "reading $file"
+    fi
+    if >$tmp_pgn bin/babychess-book -r $tmp_book -D ; then : ; else
+	error "recreating $file"
+    fi
+    if cmp $file.export $tmp_pgn ; then : ; else
+	echo -----------------
+	cat $tmp_pgn
+	echo -----------------
+	error "normalized file $file.export doesn't match"
+    fi
+done
+[ "$verbose" = 1 ] && echo >&4
+
+# Opening
+$echo_n >&4 "Testing the opening book...$echo_c"
+if >$tmp_pgn bin/babychess-book -r share/opening_book/openings.book -D ; then : ; else
+    error "recreating the opening book"
+fi    
+if cmp share/opening_book/openings.pgn $tmp_pgn ; then : ; else
+    error "recreated opening book in PGN is differrent"
+fi
+echo done >&4
+
+exit 0
+

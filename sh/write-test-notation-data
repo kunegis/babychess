@@ -1,0 +1,14 @@
+#! /bin/sed -f
+
+# Remove empty lines
+/^[ 	]*$/d
+
+# Remove lines with C++ comments 
+/ *\/\//d
+
+# Enclose in quotes and add braces
+s/[ 	]*,[ 	]*/","/g
+s/^[ 	]*/{"/
+s/[ 	]*$/"},/
+
+

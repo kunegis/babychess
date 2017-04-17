@@ -1,0 +1,5 @@
+#! /bin/sh
+
+rm -rf dep.make dep
+rm -f po/babychess.pot
+sh/confclean

@@ -1,0 +1,6 @@
+EFence
+======
+
+$ man efence
+
+LDFLAGS=-lefence

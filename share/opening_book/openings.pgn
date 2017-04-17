@@ -1,0 +1,1476 @@
+[Event "?"]
+[Site "?"]
+[Date "2003.07.24"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+{[A00]} 1. e4 {[B00] * _(King pawn game)} (1. d4 {[A40] * _(Queen pawn game)}
+1... Nf6 {[A45] * _(Indian defense)} (1... d5
+{[D00] * _(Double queen pawn game)} 2. c4 {[D06] _(Queen’s gambit); G(Aleppo)}
+(2. Nc3 {O(Veresov); O(_(Chigorin));  O(Ponziani)} 2... Nf6 (2... Bf5
+{D(Alburt)}) (2... Bg4 {V(a(Veresov))}) (2... f5 {_(Dutch system)}) (2... g6 3.
+Nf3 Bg7 {_(Fianchetto Defense)}) (2... c5 {_(Irish gambit)}) (2... e5
+{G(Shaviliuk)}) (2... h5 {D(Shropshire)}) 3. Bg5 {[D01] S(Richter-$_(Veresov))}
+(3. e4 {G(Blackmar-Diemer); G(Hübsch)} 3... Nxe4 (3... dxe4 4. f3 exf3 5. Nxf3
+e6 {D(Euwe)}) (3... e5 {Gc(Lemberg)})) 3... Ne4 {D(Boyce)} (3... e6 4. Nf3
+{_(Classical defense)}) (3... Nbd7 4. Nf3 {_(Two knights system)} 4... g6
+{D(Grünfeld)}) (3... Bf5 4. f3 {V(Richter)} (4. Bxf6 {V(_(Veresov))}))) (2. Nf3
+{[D02] V(Zukertort)} 2... Nf6 {_(Symmetrical variation)} (2... Bg4 {V(a(Torre))}
+3. Ne5 Bf5 4. g4) (2... c5 {V(Krause)_; (Queen’s gambit reversed)} 3. g3 cxd4
+4. Bg2 {G(Chandler)}) (2... Nc6 {V(_(Chigorin))}) 3. e3 {[D04] S(Colle)} (3. Bg5
+{[D03] A(Torre)} 3... e6 (3... Ne4 {V(Gossip)}) (3... g6 {V(Grünfeld)}) 4. e3
+c5 5. c3 Qb6 {V(Breyer)}) (3. Bf4
+{_(London system);  _(Queen’s bishop opening)} 3... c5 4. e3 Qb6 5. Nc3
+{_(Poisoned pawn variation)}) (3. g3 {_(Pseudo-Catalan variation)}) (3. c4
+{_(Queen’s gambit deferred)} 3... dxc4 {_(Accepted)} (3... b5
+{V(Zilbermints)})) 3... Bf5 {_(Bishop defense); D(a(Colle))} (3... e6
+{[D05] _(Classical defense)} 4. Bd3 {V(Zukertort)} (4. Nbd2 c5 5. b3
+{V(Zukertort)}) 4... c5 5. b3 {V(Rubinstein); V(Colle-Zukertort)} (5. c3
+{S(Colle)}))) (2. e4 {G(Blackmar); G(Gedult)} 2... dxe4 {_(Accepted)} 3. Nc3
+{_(Polish gambit)} (3. Be3 {A(Diemer-Rosenberg)}) (3. Bc4 {G(Fritz)}) (3. f3
+{G(Blackmar)} 3... Nc6 {V(Mieses);  V(_(Nimzovich))} (3... f5 {V(Pohlmann)})
+(3... exf3)) 3... Nf6 {_(Vienna variation)} (3... c5 {Ac(Dries)}) (3... e5
+{Gc(Lemberger)} 4. dxe5 {_(Endgame variation)} (4. Nxe4
+{G(Lange);  _(Simple variation)}) (4. Nge2 {A(Rasmussen)}) (4. Qh5 {A(Sneider)})
+(4. Be3 {V(Soller); V(Lemberger);  A(Diemer)})) (3... e6 4. f3
+{G(Giertz-Peters)} (4. Be3 {V(Rasa-Studier)})) (3... Bd7 {D(Grosshans)}) (3...
+Nc6 {V(Mieses); V(_(Nimzovich))}) (3... f5 {_(Netherlands variation)}) (3... Bf5
+{D(Zeller)} 4. f3 Nf6 (4... exf3 5. Qxf3 Bc8) 5. Bc4 {A(Soller)}) 4. f3 (4. f4)
+(4. Be3 {G(Studier-Rasa)}) (4. Bg5 {G(Von Popiel)} 4... Bf5 5. Bxf6 exf6 6. g4
+Bg6 7. Qe2 Bb4 8. Qb5+ {V(Zilbermints)}) 4... g6
+{D(Albrecht); _(Karlsruhe defense)} (4... exf3 5. Nxf3 (5. Qxf3 {V(Ryder)} 5...
+Nc6 {D(Tautvaisis)} (5... Qd5) (5... Qxd4 6. Be3 Qg4 7. Qf2 Ne4 8. Nxe4 Qxe4 9.
+O-O-O Nc6 10. Bd3 {G(Tejler)})) 5... g6 {V(_(Bogolyubov))} (5... e6 {V(Euwe)} 6.
+Bd3 (6. Bg5 Be7 7. Bd3 Nc6 8. O-O Nxd4 9. Kh1 {G(Zilbermints)}) 6... Nc6 7. Bg5
+Be7 8. Ne4 {G(Duthilleuk)}) (5... h5 {D(Gunderam);  _(Rook pawn defense)}) (5...
+Bf5 {V(Gunderam);  V(Tartakower)}) (5... c5 {V(Kaulich)}) (5... Nc6
+{V(Pietrowsky)}) (5... b6 {D(Ritter)}) (5... Nbd7 {D(Schuttler)}) (5... Bg4
+{V(Teichmann)}) (5... c6 {D(Ziegler);  _(Gunderam’s second defense)}) 6. Bf4
+{A(Diemer)} (6. Bc4 Bg7 7. O-O (7. h4 {_(Mad dog attack)}) (7. Ne5
+{A(_(Nimzovich))}) 7... O-O 8. Kh1 {A(Kloss)} (8. Qe1 {A(Studier)})) (6. Ne5
+{A(Peters)})) (4... c5 {V(Brombacher); V(Daberitz); D(Wiesengren)}) (4... Bf5
+{V(Hans Mullers);  _(Vienna variation)} 5. fxe4 {G(Diemer)} (5. g4 Bg6 6. h4
+{A(Gunderam)} (6. g5 Nd5 7. fxe4 {G(Kampars)})) (5. Bc4
+{V(Soller); _(Vienna variation)}) (5. d5 {A(Sperling)}) (5. Bf4 {A(Tejler)}))
+(4... e5 {Gc(Elbert)}) (4... Nc6 {D(Lamb)}) (4... e3 {V(Langeheinecke)}) (4...
+c6 {V(O’Kelly)}) (4... e6 {_(Weinsbach declination)} 5. fxe4 Bb4 6. Bd3 Bxc3+
+7. bxc3 Nxe4 8. Be3 {G(Pfrang)})) (2. Qd3 {A(Amazon)} 2... Nc6 3. Nc3
+{_(Siberian attack)}) (2. Bg5 {A(Levitsky);  _(Bishop attack); O(Zot)} 2... h6
+(2... Bg4 {V(Welling)}) 3. Bh4 c6 4. Nf3 Qb6 {V(Euwe)}) (2. f4 {A(Mason)}) (2.
+Bf4 {A(Sarrat); V(Mason)} 2... c5 {Gc(Steinitz)} 3. e4 {G(Morris)} 3... dxe4
+{Gc(Morris)}) (2. c3) (2. e3 Nf6 3. Bd3 {A(Stonewall)} 3... c5 4. c3
+{A(Stonewall)}) (2. g4 {_(Zürich gambit)}) 2... dxc4 {[D20] _(Accepted)} (2...
+Nc6 {[D07] D(_(Chigorin))} 3. Nf3 (3. cxd5 Qxd5 {_(Exchange variation)} 4. e3 e5
+5. Nc3 Bb4 6. Bd2 Bxc3 7. Bxc3 exd4 8. Ne2 {Ls(Costa)}) (3. Nc3 dxc4 (3... Nf6
+4. Nf3 dxc4 {_(Modern gambit)}) (3... e5 {G(Tartakower)}) 4. Nf3 {V(Janowski)})
+3... Bg4 (3... e5 {G(Lazard)}) 4. Qa4 {V(_(Alekhine))}) (2... e5
+{[D08] Gc(Albin); V(Cavalotti)} 3. dxe5 (3. Nc3 Nf6) 3... d4 4. Nf3
+{_(Normal line)} (4. e3 Bb4+ 5. Bd2 dxe3 {T(Lasker)}) 4... Nc6 (4... c5
+{D(Tartakower)}) 5. Nbd2 {V(_(Alapin))} (5. g3 {[D09] _(Fianchetto variation)})
+5... Bg4 (5... f6 {V(Janowski)}) (5... Qe7 {V(Balogh)}) 6. h3 Bxf3 7. Nxf3 Bb4+
+8. Bd2 Qe7 {V(Krenosz)}) (2... c6 {[D10] + _(Slav defense); _(Czech defense)} 3.
+Nf3 {[D11] _(Modern line)} (3. Nc3 dxc4 (3... e5 {Gc(Winawer)} 4. e4
+{G(a(Winawer))}) 4. e4 {A(_(Alekhine))}) (3. e4 {G(Diemer)}) (3. cxd5
+{_(Exchange variation)}) (3. e3 {_(Slav pawn game)}) 3... Nf6 (3... Bf5
+{_(Slav bishop game)}) 4. cxd5 {_(Exchange variation)} (4. Nc3
+{[D15] _(Three knights variation)} 4... dxc4 {_(Two knights attack)} (4... c5
+{_(Advance system)}) (4... a6 {_(Chameleon variation)}) (4... g6
+{V(Schlechter)}) (4... Qb6 {V(Süchting)}) 5. a4
+{[D16] _(Dutch variation); V(_(Alapin))} (5. e3 {V(_(Alekhine))} 5... b5 6. a4
+b4 {V(_(Alekhine))}) (5. e4 {V(Geller); V(Geller-Tolush)} 5... b5 6. e5
+{G(Tolush-Geller)}) 5... Bf5 {[D17] _(Czech defense)} (5... Na6 {V(Smyslov)} 6.
+e4 Bg4 {V(Smyslov)}) (5... e6 {V(Soultanbeieff)}) (5... Bg4 {V(Steiner)}) 6. Nh4
+{V(Baarn);  A(Bled)} (6. Ne5 {A(Krause)} 6... Nbd7 (6... Na6 7. e4 {G(Fazekas)})
+(6... e6 {_(Wiesbaden variation)} 7. f3 Bb4 8. e4 {_(Sharp line)}) 7. Nxc4 Qc7
+8. g3 e5 {V(Carlsbad)}) (6. e3 {[D18] _(Dutch variation)} 6... e6 (6... Na6
+{V(Marschall);  V(Lasker)}) 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 {[D19] _(Main line)}
+9... Ne4 10. g4 {V(Sämisch)})) (4. e3 {[D12] _(Quiet variation)} 4... Bf5
+{D(Schallopp)} (4... Bg4 {_(Pin defense)}) 5. cxd5 cxd5 6. Nc3 (6. Qb3
+{V(Rotterdam)} 6... Qc8 7. Bd2 e6 8. Na3 {V(Landau)}) 6... e6 7. Ne5 Nfd7
+{V(Amsterdam)}) (4. Bg5 {G(Bonet)}) (4. Nbd2 {V(Breyer)}) 4... cxd5
+{[D13] _(Exchange variation)} (4... Nxd5) 5. Nc3 (5. Bf4 Bf5 {[D14]}) 5... Nc6
+6. Bf4 Bf5 {_(Symmetrical line)} 7. e3 e6 8. Qb3 Bb4 {V(Trifunovic)}) (2... e6
+{[D30] + _(Orthodox defense)} 3. Nc3 {[D31] _(Queen’s knight variation)} (3.
+Nf3 c6 (3... c5 {V(p(Tarrasch))} 4. cxd5 exd5 5. Bg5 {_(Bishop attack)}) (3...
+Nf6 4. Bg5 {_(Traditional variation)} (4. e3 c6 {V(p(Meran))} 5. Nbd2
+{_(Quiet variation)} 5... Nbd7 (5... Ne4 6. Bd3 f5 {V(Stonewall)}) (5... g6
+{V(Spielmann)}) 6. Bd3 c5 {V(Semmering)}) 4... Nbd7 (4... h6
+{V(Capablanca-Duras)} 5. Bxf6 Qxf6 6. Nc3 c6 7. Qb3 {V(Hastings)}) (4... Bb4+
+{_(Vienna variation)}) 5. e3 c6 6. Nbd2 {V(Capablanca)}) 4. Nc3 dxc4 5. g3
+{G(a(Noteboom))}) (3. cxd5 exd5 4. Nf3 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8.
+Bg5 Be6) (3. e4 {G(Diemer-Duhm)}) 3... c5 {[D32] D(Tarrasch)} (3... Nf6 {[D35]}
+4. Nf3 {[D37] _(Three knights variation)} (4. Bg5 {[D50] _(Modern variation)}
+4... Be7 {[D53]} (4... Nbd7 {[D51] _(Knight defense)} 5. Nf3 (5. e3 c6 (5... Bb4
+{V(Manhattan)} 6. Nf3 c5 {_(Westphalian variation)}) 6. Nf3 {[D52]} (6. a3
+{_(Capablanca anti-Cambridge Springs variation)}) 6... Qa5
+{V(Cambridge Springs); V(Pillsbury)} 7. Nd2 (7. Bxf6 {V(Capablanca)}) (7. cxd5
+Nxd5 {_(Yugoslav variation)}) 7... Bb4 (7... dxc4 {V(Rubinstein)}) 8. Qc2
+{V(_(Bogolyubov))} 8... O-O 9. Bh4 {V(Argentine)}) 5... h6 (5... c6 6. e4
+{V(_(Alekhine))} (6. Rc1 Qa5 7. Bd2 {V(Rochlin)})) 6. Bh4 dxc4 {G(_(Alekhine))})
+(4... c5 {V(Been-Koomen); _(Dutch and Peruvian variation)} 5. cxd5
+{V(p(Tarrasch))} (5. Nf3 cxd4 6. Qxd4 {m(V(Pillsbury))} (6. Nxd4 e5 7. Ndb5 a6
+8. Qa4 {V(Krause)})) 5... Qb6 {V(Canal); _(Venice variation)}) 5. e3 (5. Bxf6
+{V(Heral)}) (5. Nf3 h6 6. Bh4 O-O 7. Rc1 dxc4 {V(Uhlmann)}) 5... O-O (5... Ne4
+{V(Lasker)}) 6. Nf3 {[D55]} (6. Rc1 {[D54] _(Neo-orthodox variation)}) 6... h6
+{_(Neo-orthodox variation)} (6... Nbd7 {[D60] _(Orthodox variation)} 7. Qc2
+{[D61] V(Rubinstein)} (7. Rc1 {[D63]} 7... c6 {V(Rubinstein)} (7... b6 8. cxd5
+exd5 9. Bb5 {V(Capablanca)} (9. Bd3 {V(Pillsbury)})) (7... a6
+{V(Henneberger);  _(Swiss variation)} 8. cxd5 {_(Karlsbad variation)}) 8. Qc2
+{[D64] _(Tempo-struggle variation); A(Rubinstein)} (8. Bd3 {[D66]} 8... dxc4 9.
+Bxc4 (9. Nd5) 9... Nd5 {[D67]  S(Capablanca); _(Capablanca freeing maneuver)}
+(9... b5 {_(Fianchetto variation)}) 10. Bxe7 (10. h4 {V(Janowski)}) 10... Qxe7
+11. Ne4 {V(_(Alekhine))} (11. O-O Nxc3 12. Rxc3 {_(Classical variation)} 12...
+e5 {[D68]} 13. Qb1 {V(Maroczy)} (13. Qc2 {V(Vidmar)}) (13. dxe5 Nxe5 14. Nxe5
+Qxe5 {[D69]}))) 8... Ne4 {V(Wolf)} (8... a6 {_(Karlsbad variation)} 9. a3
+{V(Grünfeld)} (9. cxd5 {[D65]}))) (7. Bd3 {V(_(Botvinnik))}) (7. Qb3
+{V(Rauzer)}) 7... c5 8. cxd5 (8. dxc5 {[D62]})) (6... b6 7. Bd3 Bb7 8. cxd5 exd5
+9. Ne5 {A(Pillsbury)}) 7. Bh4 {[D56]} (7. Bxf6 {V(a(Tartakower))} 7... Bxf6 8.
+Rc1 c6 9. Bd3 Nd7 10. O-O dxc4 {V(Petrosian)} 11. Bxc4 {V(Petrosian)}) 7... Ne4
+{D(Lasker)} (7... b6 {[D58] D(Tartakower); S(Makagonov-Bondarevsky)} 8. cxd5
+Nxd5 {[D59] _(Exchange variation)} 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Be6) 8.
+Bxe7 Qxe7 {V(Lasker)} 9. cxd5 (9. Qc2 {V(Teichmann)} 9... Nf6 10. Bd3 dxc4 11.
+Bxc4 c5 12. O-O Nc6 13. Rfd1 Bd7 {_(Russian variation)}) 9... Nxc3 10. bxc3
+{[D57] S(Lasker); V(Bernstein)} 10... exd5 11. Qb3 Qd6 {V(Bernstein)}) (4. cxd5
+{_(Exchange variation)} 4... exd5 5. Bg5 {_(Positional line)} (5. Nf3 Nbd7 6.
+Bf4 {V(Sämisch)}) 5... c6 (5... Be7 6. e3 O-O 7. Bd3 Nbd7 8. Qc2 Re8 9. Nge2
+Nf8 10. O-O-O {_(Chameleon variation)}) 6. Qc2 {[D36] V(Reshevsky)}) (4. Bf4
+{A(Harrwitz); V(Rubinstein)}) 4... Bb4 {[D38] V(Ragozin)} (4... c5
+{[D40] D(e(Tarrasch));  v(D(Tarrasch))} 5. Bg5 {V(Pillsbury)} (5. cxd5 {[D41]}
+5... Nxd5 6. e4 (6. e3 Nc6 7. Bd3 {[D42]}) 6... Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+
+9. Bd2 Bxd2+ {V(San Sebastian)} (9... Qa5 {V(San Sebastian)}) 10. Qxd2 O-O 11.
+Bb5 {V(Kmoch)}) (5. e3 Nc6 6. Bd3 Bd6 7. O-O O-O {_(Symmetrical variation)} 8.
+Qe2 Qe7 9. dxc5 Bxc5 10. e4 {V(Levenfish)})) (4... c6 {[D43]} 5. Bg5
+{G(a(Meran))} (5. e3 {[D45] _(Semi-Slav defense)} 5... Nbd7
+{_(Normal variation)} (5... a6 {x(V(Meran)); V(_(Alekhine))}) (5... Ne4 6. Bd3
+f5 {D(Stonewall)}) 6. Bd3 {[D46]} (6. Qc2 {V(Stoltz)} 6... Bd6 7. e4
+{_(Center variation)} (7. g4 {A(Shabalov)}) 7... dxe4 8. Nxe4 Nxe4 9. Qxe4 e5
+10. dxe5 {L(Mikhalchishin)}) (6. Ne5 {V(Rubinstein);  V(a(Meran))}) 6... dxc4
+(6... Be7 {V(_(Bogolyubov))}) (6... Bd6 {D(_(Chigorin))}) (6... Bb4 {V(Romih)})
+7. Bxc4 {[D47]} 7... b5 {V(Meran)} 8. Bd3 a6 {[D48] V(Reynolds)} (8... Bb7
+{V(Wade)} 9. e4 b4 10. Na4 c5 {V(Larsen)}) (8... b4
+{V(Lundin);  _(Neo-Meran variation)}) 9. e4 {V(Reynolds)} (9. O-O {V(y(Meran))})
+9... c5 (9... b4 {V(Pirc)}) 10. e5 {_(Old Variation)} (10. d5 {V(ReynOlds')})
+10... cxd4 11. Bxb5 (11. Nxb5 {[D49] V(Blumenfeld)} 11... Nxe5 {V(Sozin)} (11...
+Ng4 {V(Rabinovich)}) 12. Nxe5 axb5 {V(Stahlberg)} 13. Qf3 {V(Stahlberg)} (13.
+O-O {V(Sozin)} 13... Qd5 14. Qe2 {A(Rellstab)})) (11. Nxd4 Nxe5 {V(Sozin)}))
+5... dxc4 {[D44] S(a(Meran)); _(Semi-Slav defense accepted)} (5... h6 6. Bh4
+{_(Anti-Moscow gambit)} (6. Bxf6 Qxf6 7. Qb3 {V(Hastings)})) 6. e4
+{S(Botwinnik)} 6... b5 {V(_(Botvinnik))} 7. e5 h6 8. Bh4 g5 9. Nxg5
+{_(Anti-Meran gambit)} (9. exf6 gxh4 10. Ne5 {V(Ekstrom)}) 9... Nd5
+{S(_(Alatortsev))} (9... hxg5 10. Bxg5 Nbd7 {V(Lilienthal)} 11. g3
+{V(Lilienthal)} (11. Qf3 {V(Szabo)}))) (4... Be7 5. Bf4 {A(Harrwitz)}) (4...
+dxc4 {_(Vienna variation)}) 5. Bg5 (5. Qa4+ {V(_(Alekhine))}) (5. cxd5
+{_(Vienna variation)}) 5... dxc4 {[D39] _(Vienna variation)}) (3... c6
+{_(Semi-Slav defense)} 4. Nf3 (4. e4 {G(Marshall)} 4... dxe4 5. f3 {G(Gunderam)}
+(5. Nxe4 Bb4+ 6. Bd2 Qxd4 7. Bxb4 Qxe4+ 8. Be2 c5 {V(Tolush)})) (4. e3 f5
+{_(Slave Stonewall Opening)} 5. g4 {G(Portisch)}) 4... dxc4 {V(Noteboom)} 5. a4
+(5. Bg5 {V(a(Noteboom))} 5... f6 {L(_(Beliavsky))}) 5... Bb4 6. e3 (6. e4 b5 7.
+Bd2 Qe7 {V(Koomen)} (7... Qd6 {V(Junge)}) (7... a5 {V(Abrahams)})) 6... b5 7. a5
+{V(Abrahams); V(Noteboom); V(Klaus Junge)}) (3... b6 {V(_(Alapin))}) (3... Be7
+{V(Alatortsev);  V(Petrosian); V(Charousek)} 4. e4 dxe4 5. f3 {G(Miladinovic)})
+(3... a6 {V(Janowski)}) 4. cxd5 (4. Nxd5) (4. e3 Nf6 5. Nf3 Nc6
+{_(Symmetrical variation)}) 4... exd5 (4... cxd4
+{G(Schara-Hennig);  G(Duisburg)} 5. Qd3 (5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Be6
+{G(Von Hennig)})) 5. Nf3 {_(Two knights variation)} (5. e4 {G(Marshall)}) (5.
+dxc5 d4 6. Na4 b5 {G(Tarrasch)}) 5... Nc6 6. g3
+{[D33] S(Schlechter-Rubinstein); V(Lodz)} (6. dxc5 d4 7. Na4 b5 {G(Grünfeld)})
+6... Nf6 {_(Prague variation)} (6... c4 {V(Folkestone);  _(Swedish variation)}
+7. e4 {V(Rey Ardid)}) 7. Bg2 Be7 {[D34]} (7... Bg4 {V(Wagner)}) 8. O-O O-O
+{V(Rubinstein);  _(Normal position)} 9. Bg5 (9. dxc5 d4 {b(G(Tarrasch))} (9...
+Bxc5 10. Na4 {V(Réti)})) 9... c4 {_(Advance variation)} (9... Be6
+{_(Endgame variation)} 10. Rc1 c4 {V(_(Bogolyubov))} (10... b6 {V(Stoltz)}))
+(9... cxd4 10. Nxd4 {V(Spassky)})) (2... g6 {F(_(Alekhine))} 3. f3) (2... Bf5
+{D(Grau); D(Brieger); D(Sahovic); _(Baltic defense)} 3. cxd5 (3. Nc3 e6 4. Nf3
+(4. Qb3 {_(Queen attack)}) 4... Nc6 {V(p(_(Chigorin)))} (4... c6
+{_(Pseudo-Slav variation)})) 3... Bxb1 4. Qa4+ c6 5. dxc6 Nxc6
+{_(Baltic defense)} 6. Rxb1 Qxd4 {_(Argentinian gambit)}) (2... c5
+{_(Austrian defense); _(Symmetrical defense)} 3. cxd5 (3. dxc5 d4 {Gc(Salvio)})
+3... Nf6 {Gc(Gusev)} 4. e4 Nxe4 5. dxc5 Qa5+ {V(Haberditz)}) (2... Nf6
+{D(Marshall);  _(Knight defense)} 3. cxd5 c6 {Gc(Cocquio)}) (2... b5
+{G(Zilbermints)}) 3. Nf3 {[D21] M(Blackburne); _(Normal variation)} (3. e4
+{V(Saduleto)} 3... Nf6 {S(_(Alekhine))} (3... f5
+{D(Betbeder); D(Veresov); D(Levitzsky); _(Parisian defense); D(Schwartz)}) (3...
+b5 {V(Greco)}) (3... c5 {V(Rubinstein)} 4. d5 Nf6 (4... b5 {G(Yefimov)}) 5. Nc3
+b5 {V(Linares)}) (3... e5 {D(McDonnell)} 4. Bxc4 {G(Somov)}) (3... Nc6
+{_(Modern defense)})) (3. e3 {_(Old variation)} 3... e5 4. Bxc4 exd4 5. Qb3 Qe7
+6. a3 {G(Billinger)} (6. Nf3 {G(Christensen)}) (6. Kf1 {G(Korchnoi)}) (6. Nd2
+{G(Novikov)})) (3. Nc3 c5 4. d5 Nf6 5. Nf3 e6 6. e4 exd5 7. e5
+{D(Gunsberg);  G(Prianishenmo)}) 3... a6 {D(_(Alekhine)} (3... Nf6 {[D23]} 4. e3
+{[D25]} (4. Nc3 {[D24] V(Showalter)} 4... a6 5. e4 {V(_(Bogolyubov))}) (4. Qa4+
+{_(Mannheim variation)}) 4... e6 {[D26] _(Traditional system)} (4... Be6
+{V(Flohr); V(Winawer)}) (4... Bg4 {V(Janowski-Larsen); _(Modern variation)})
+(4... g6 {V(Smyslov)}) 5. Bxc4 c5 {_(Classical defense)} 6. O-O (6. Qe2 a6 7.
+dxc5 Bxc5 8. O-O Nc6 9. e4 b5 10. e5 {V(Furman)}) 6... a6 {[D27]} (6... Nc6
+{_(Development variation)}) (6... cxd4 {V(Steinitz)}) 7. Qe2
+{[D28] S(_(Alekhine))} (7. dxc5 Bxc5 {V(Furman)}) (7. e4
+{_(Russian gambit); V(Geller)}) (7. a4 {V(Rubinstein)}) 7... b5
+{_(Accelerated fianchetto)} (7... Nc6 {_(Counter fianchetto variation)} 8. Nc3
+{_(Four knights variation)}) 8. Bb3 Bb7 {[D29]} (8... Nc6 9. Rd1 c4 10. Bc2 Nb4
+11. Nc3 Nxc2 12. Qxc2 Bb7 13. d5 Qc7 {V(Flohr)}) 9. Rd1 Nbd7 10. Nc3 Bd6
+{V(Smyslov)}) (3... Nd7 {V(Godes)}) (3... c5 {D(Gunsberg)} 4. d5 Nf6 5. Nc3 e6
+6. e4 exd5 7. e5 {G(Prianishemo)}) (3... e6 {V(Rosenthal)}) (3... b5
+{_(Slav gambit); V(Ericson)}) 4. e3 {[D22]} (4. e4 {V(Borisenko-Furman)}) 4...
+Bg4 (4... b5 {V(Haberditz)}) 5. Bxc4 e6 6. d5 {V(_(Alatortsev))}) (1... d6
+{[A41] D(Pillsbury);  _(Rat defense)} 2. c4 {_(Old Indian defense)} (2. Nf3 Bg4
+{V(Tartakower); D(Wade)}) 2... g6 (2... e5 {_(English rat)} 3. d5 (3. dxe5 Nc6
+{_(Lisbon gambit)})) 3. Nc3 Bg7 4. e4 {[A42] _(Modern defense); S(Averbakh)}
+4... c5 (4... f5 {V(Randspringer)}) (4... Nc6 {V(_(Kotov))}) 5. Nf3 Qa5
+{D(Pterodactyl)}) (1... c5 {[A43] y(D(Benoni)); G(Benoni); D(Staunton)} 2. dxc5
+{_(accepted)} (2. d5 Nf6 {_(Benoni-Indian defense)} (2... f5
+{F(Mujannah); V(Clarendon Court)} 3. e4 {G(Benoni-Staunton)}) (2... e5
+{[A44] _(Pawn thrust variation)} 3. e4 d6
+{_(Blockade variation); V(e(Benoni)); _(Russian variation)}) (2... e6 3. e4
+{D(Franco-Benoni);  _(Franco-Sicilian opening)}) (2... d6 3. Nc3 g6 {V(Schmid)})
+(2... Na6 {_(Snail variation)}) 3. Nf3 {_(Kingside move order)} (3. c4 Ne4
+{_(Vulture defense)}) (3. Nc3 Qa5 {D(Woozle)}) 3... c4 {Habichd; V(Hawk)}) (2.
+Nf3 cxd4 3. Nxd4 (3. b4 {G(Zilbermints-Benoni)} 3... e5 {Gc(Tamarkin))})) (2. b4
+cxb4 {G(Zilbermints); G(Nakamura)}) 2... b6 {G(Cormorant)} (2... Na6
+{D(Schlenker)})) (1... f5 {[A80] _(Dutch defense)} 2. e4 {[A82] G(Staunton)} (2.
+c4 {[A84]} 2... Nf6 {_(Normal variation)} (2... e6 3. e4 {G(Bellon)} (3. Nc3
+{V(Rubinstein)} 3... Nf6 4. g3 c6 5. Bg2 d5 {V(Stonewall)})) (2... g6 3. Nc3 Nh6
+{V(Bladel)}) 3. g3 {[A86] _(Fianchetto variation)} (3. Nc3
+{[A85] _(Queen’s knight variation)} 3... d6 (3... g6 4. Nf3 Bg7 5. Bg5
+{V(Ozol)}) 4. Nf3 Nc6 {V(Krause)}) 3... g6 {_(Leningrad variation)} (3... e6 4.
+Bg2 {[A90] _(Classical variation)} 4... Be7 {[A91]} (4... Bb4+
+{_(Nimzo-Dutch variation)} 5. Bd2 Be7 {V(_(Alekhine))}) 5. Nf3 (5. Nc3 O-O 6. e3
+{V(_(Botvinnik)-Bronstein)}) 5... O-O {[A92]} 6. O-O d5
+{V(Stonewall); V(_(Botvinnik))} (6... d6 {[A96] V(Iljin-Zhenevski)} 7. Nc3 Qe8
+{[A97]} 8. Re1 {V(Winter)} (8. Qc2 {[A98]}) (8. b3 {[A99]})) (6... Ne4
+{V(_(Alekhine))}) 7. b3 {[A93] V(_(Botvinnik))} (7. Nc3 c6 {[A95]} 8. Qc2 Qe8 9.
+Bg5 {V(Chekhover)}) 7... c6 8. Ba3 {[A94]}) (3... d6 4. Bg2 c6 5. Nc3 Qc7
+{V(Hort-Antoshin)}) 4. Bg2 Bg7 5. Nf3 {[A87]} 5... O-O 6. O-O d6
+{_(Fluid formation)} 7. Nc3 Nc6 {[A89] V(Matulovic)} (7... c6
+{[A88] _(Warsaw variation)})) (2. Qd3
+{V(_(Alapin));  V(Ulvestad); V(Manhattan); V(Kmoch)} 2... e6 (2... g6 3. g4
+{V(a(Leningrad))}) (2... d6 3. g4 {_(Anti-modern variation)}) (2... d5 3. g4
+{V(a(Stonewall))}) (2... Nf6 3. g4 {G(Manhattan); G(Pretzel)}) 3. g4
+{G(Von Pretzel)}) (2. g3 {[A81] _(Dutch-Indian variation);  V(Leningrad)} 2...
+Nf6 (2... g6 3. Bg2 Bg7 4. Nf3 (4. Nh3 {V(Karlsbad)}) 4... c6 5. O-O Nh6
+{V(Basman)}) 3. Bg2 d6 {V(Antoshin-Hort)} (3... e6 4. Nh3 {V(Blackburne)} (4.
+Nf3 Be7 5. O-O O-O 6. c4 d6 {V(Ilyin-Genevsky)})) (3... g6 {V(e(Leningrad))}))
+(2. Nf3 Nf6 3. c3 {V(Barcza)}) (2. g4 {_(Lisbon gambit);  G(Krejcik)} 2... e5
+{G(Hevendehl)} (2... fxg4 3. e4 d5 4. Nc3 {G(Tate)})) (2. Bg5 {A(Hopton)}) (2.
+h3 {V(_(Korchnoi)} 2... Nf6 3. g4 {G(Janzen-Korchnoi)}) (2. Nc3 {V(Raphael)}
+2... d5 (2... Nf6 3. g4 {G(Spielmann)}) 3. e4 {G(Kingfisher)}) (2. Bf4 e6 3. g4
+{G(Senechaud)}) (2. c3) 2... fxe4 {_(accepted)} (2... d6 {D(Balogh)}) 3. Nd2
+{_(American gambit)} (3. Nc3 Nf6 4. f3 {_(Blackmar’s second gambit)} (4. Bg5
+{[A83]} 4... c6 {V(_(Chigorin))} (4... g6 5. f3 {V(Lasker)} (5. h4
+{V(_(Alekhine))})) (4... b6 {V(_(Nimzovich))})) (4. g4 {V(Tartakower)}))) (1...
+c6 2. c4 (2. d5 cxd5) 2... d6 {_(Anglo-Slav opening)}) (1... g6
+{* _(Modern defense)} 2. c4 (2. h4 Nf6 3. h5
+{_(Lizard defense);  G(Pirc-Diemer)}) 2... Bg7 {D(Kotov-Robatsch)} 3. Nc3 (3. e4
+e5 {_(Neo-modern defense)} (3... d6 4. Be3 (4. Nf3 Bg4 {V(Rossolimo)}) 4... Nf6
+5. f3 {V(p(Sämisch))})) 3... d6 (3... c5 4. d5 Bxc3+ 5. bxc3 f5 {D(Beefeater)})
+4. e4 {V(Averbakh)} 4... Nc6 {V(Kotov)} (4... c5 5. Nf3 Qa5
+{_(Pterodactyl variation)}) (4... f5 {V(Randspringer)})) (1... g5) (1... e6
+{D(Horwitz)} 2. c4 (2. c3) (2. Bf4 f5 3. g4 {V(Seneschaud)}) 2... f5 (2... b5)
+(2... b6 {D(Keres)} 3. Nc3 (3. e4 Bb7 4. Bd3 (4. f3 f5 5. exf5 Nh6 {G(Poli)})
+4... Nc6 {V(Perrin)}) 3... Bb7 4. e4 f5 {G(Hartlaub)} 5. exf5 {_(accepted)} (5.
+d5 {_(declined)}) 5... Nf6) (2... c5 {_(Franco-Sicilian defense)} 3. d5 exd5 4.
+cxd5 d6 5. Nc3 g6 6. e4 Bg7 7. Nf3 Ne7 {_(Franco-Sicilian hybrid)}) (2... Bb4+
+{D(Keres);  _(Kangaroo defense); _(Franco-Indian defense)} 3. Nc3
+{_(Transpositional variation)}) (2... e5 {G(Zilbermints)}) 3. e4 {G(Bellon)})
+(1... Nc6
+{D(_(Bogolyubov)); D(Mikenas-Van Geet);  D(Lundin);  D(Kevitz-Mikenas)} 2. c4
+(2. d5 Nb8 {D(Montevideo)} 3. e4 Nf6 4. e5 Ng8 {_(Zaire defense)}) 2... e5 3. d5
+(3. dxe5 Nxe5 4. Nc3 {G(Pozarek)} 4... Nxc4) 3... Nd4 {V(Cannstatter)} (3...
+Nce7 {_(Lithuanian variation)})) (1... e5 {G(Englund); G(Charlik); G(Behting)}
+2. d5 {_(declined)} (2. dxe5 Nc6 (2... Qh4 {G(Mosquito)}) (2... f6
+{G(Soller);  G(Purchas)}) (2... d6 {G(Thuring); G(Hartlaub-Charlik)}) 3. Nf3 Qe7
+(3... Bc5 {G(Felbecker)}) (3... f6 {G(d(Soller))}) (3... h5) (3... h6) (3...
+Nge7 {G(Zilbermints)}) 4. Qd5 {_(Stockholm variation)} 4... f5 (4... f6 5. exf6
+Nxf6)) 2... Bc5 3. f4 (3. e4 Qh4 {Ac(Diemer)})) (1... b6 {_(English defense)} 2.
+c4 Bb7) (1... b5 {_(Polish defense)} 2. e4 Bb7 {G(Spassky)}) (1... a6 2. c4 b5
+3. e4 e6 4. cxb5 axb5 {G(St. George)}) (1... f6) 2. c4 {[A50]} (2. e4 {G(Omega)}
+2... Nxe4 3. Bd3 Nf6 4. Bg5 {G(Arafat)}) (2. Nf3 {[A46] A(Torre)} 2... g6
+{[A48] _(East-Indian defense)} (2... b6 {[A47] V(Capablanca)} 3. g3 (3. c3 e5
+{G(Schnepper)}) (3. Bg5 {A(Torre)}) 3... Bb7 4. Bg2 c5 {V(Marienbad)} 5. c4 cxd4
+6. Qxd4 {V(Berg)}) (2... c6 {_(Czech-Indian defense)}) (2... e6 3. Bf4
+{_(London system)} (3. Bg5 {A(Torre)} 3... h6 {V(_(Nimzovich))} (3... c5 4. e3
+(4. e4 {_(Swiss gambit);  G(Wagner)}) 4... b6 5. d5 {G(Petrosian)})) (3. e3
+{S(Yusupov-Rubinstein)})) (2... b5 {_(Polish defense)}) (2... c5
+{D(i(Spielmann))} 3. d5 b5 {G(p(Benkö))}) (2... Ne4 {D(Doery)}) 3. Nc3 (3. Bg5
+{A(Torre)} 3... Bg7 4. Nbd2 c5 {V(Euwe)}) (3. e3 Bg7 4. Bd3 d6
+{_(King’s Indian variation)}) (3. Bf4 {_(London system)} 3... Bg7 4. Nbd2
+{_(London variation)}) (3. g3 {[A49] V(Przepiorka)}) 3... d5 4. Bf4 Bg7 5. e3
+O-O 6. Be2 {A(Barry)}) (2. b3 {_(Basque opening)}) (2. f3 {A(Paleface)} 2... d5
+(2... e6 3. e4 Nxe4 {Gc(Linder)}) (2... c5 3. d5 e6 4. e4 exd5 5. e5
+{G(Webster)}) 3. e4 {G(d(Blackmar-Diemer))} (3. g4
+{A(Gedult); S(Gedult-Gunderam)}) 3... e5 4. dxe5 Nxe4 {Gc(Kraus-Muhlherr)}) (2.
+Bg5 {A(_(Trompovsky));  O(Opovcensky);  O(Ruth)} 2... Ne4 (2... c5 3. d5 Qb6 4.
+Nc3 {_(Poisoned pawn variation)} 4... Qxb2 5. Bd2 Qb6 {G(Chepukaitis)}) 3. Bf4
+(3. Bh4 {_(Edge variation)} 3... d5 (3... c6 4. Nd2 Qa5 5. c3 Nxd2 6. Qxd2 d5 7.
+e4) 4. f3 Nf6 5. Nc3 Bf5 6. e4) (3. h4 {V(Raptor)} 3... Nxg5 4. hxg5 e5
+{G(Hergert)}) 3... g5 {V(Borg)}) (2. g4
+{G(Bronstein); _(Bullfrog gambit);  G(Weidenhagen)} 2... Nxg4 {_(accepted)}
+(2... e5 {D(Oshima)}) 3. f3 (3. e4 d6 4. Be2 Nf6 5. Nc3 {G(Stummer)}) 3... Nf6
+4. e4 {_(Maltese falcon variation)}) (2. f4 {O(Canard)}) (2. Nc3 d5 (2... e5
+{G(Maddigan)}) (2... c5 {r(D(_(Chigorin)))} 3. dxc5 {V(Von Beivorseen)}) 3. e4
+{G(Hübsch)} (3. Bg5 c5 4. Bxf6 gxf6 5. e4 {G(Madlich)} 5... dxe4 6. d5)) (2.
+Nd2 e5 {G(Lazard); G(Maddigan)}) (2. d5 {_(Pawn push variation)}) (2. c3) (2. g3
+e5 {G(Überlinger)}) 2... g6 {[D70] * _(West-Indian defense)} (2... e5
+{[A51] _(Budapest gambit)} 3. dxe5 {_(accepted)} (3. d5) (3. Nc3 Bb4 4. e3 Nc6)
+3... Ng4 {[A52] _(Normal variation)} (3... Ne4 {V(Fajarowicz)} 4. a3 (4. Qc2
+{V(Steiner)}) 4... b6 {V(Bonsdorf)}) 4. e4 {V(_(Alekhine))} (4. Nf3 {V(Adler)})
+(4. Bf4 {V(Rubinstein)} 4... Nc6 5. Nf3 Bb4+ 6. Nc3 Bxc3+ {G(Kornl Richter)})
+4... Nxe5 (4... d6 {G(Balogh);  G(Tartakower)}) 5. f4 Nec6 {V(Abonyi)} (5... Bc5
+{G(Barmina)}) (5... Nbc6 {G(Wikstrom)})) (2... d6 {[A53] _(Old Indian defense)}
+3. g4 {_(Aged gibbon gambit)} (3. Nc3 Nbd7 (3... Bf5 {V(Janowski)} 4. e4
+{G(Grinberg)}) (3... e5 {_(Ukranian variation)} 4. Nf3 {[A54]} (4. e3 Nbd7 5.
+Bd3 {V(Duz-Khotimirsky)}) 4... Nbd7 5. e4 {[A55]}) 4. e3 e5 5. Bd3
+{V(Duz-Khotimirsky)}) (3. Nf3 Bg4 {D(i(Tartakower))})) (2... c5
+{[A56] D(Benoni); D(Hromadka);  G(Loose)} 3. d5 (3. dxc5 e6 {V(Weenink)}) 3...
+b5 {[A57] + G(Benkö); G(_(Volga)); G(Opocensky); G(Vaitomis)} (3... e6
+{[A60] _(Modern variation);  V(Tal)} 4. Nc3 exd5 (4... e5) 5. cxd5 d6 (5... Bd6
+{_(Snake variation)}) 6. Nf3 (6. e4
+{[A65] _(King pawn line);  _(Main variation)} 6... g6 7. f4
+{[A66] _(Pawn storm variation)} (7. Nf3 {[A70] _(Classical variation)} 7... Bg7
+8. Be2 {[A71]} 8... O-O {[A72]} 9. O-O {[A73]} 9... a6 {[A74]} (9... Re8
+{[A76] D(Czerniak)} 10. Nd2 {[A77]} 10... Na6 {[A78]} 11. f3 Nc7 {[A79]}) 10. a4
+Bg4 {[A75] A(Argentine)}) 7... Bg7 8. Bb5+
+{[A67] V(_(Taimanov)); _(Bishop check variation)} (8. Nf3 O-O
+{[A68] _(Four pawns attack)} 9. Be2 Re8 {[A69] _(Main line)}) (8. e5
+{V(Mikenas)})) 6... g6 {[A61] V(Penrose)} 7. g3 {_(Fianchetto variation)} (7.
+Nd2 {V(_(Nimzovich));  _(Knight’s tour variation)}) (7. Bg5 {V(Uhlmann)}) 7...
+Bg7 8. Bg2 {_(Fianchetto variation)} 8... O-O {[A62] _(Fianchetto variation)} 9.
+O-O Nbd7 {[A63] D(Hastings)} 10. Nd2 a6 11. a4 Re8 {[A64]}) (3... e5
+{_(Czech Benoni defense)} 4. Nc3 d6 5. e4 Be7 {_(Czech variation)} (5... g6
+{_(King’s Indian system)})) (3... d6 {S(Hromodka)} 4. Nc3 g6 5. e4 b5
+{Gc(Lundin);  Gc(Bronstein)}) (3... Ne4 {_(Vulture defense)}) 4. cxb5
+{_(Accepted)} (4. e4 {Gc(Hjoerring)}) (4. Bg5 {_(Bishop attack)}) (4. Nf3
+{_(declined)}) (4. g4 {Gc(Mutkin)}) (4. f3 {V(p(Sämisch))}) (4. Nd2
+{_(Quiet line)}) (4. a4 {V(Sosonko)}) 4... a6 5. bxa6 {[A58]} (5. f3 {V(Dlugy)})
+(5. e3 {_(Modern variation)}) (5. Nc3 {S(Zaitsev)} 5... axb5 6. e4 b4
+{A(Nescafé frappe)} 7. Nb5 d6 8. Nf3 (8. Bc4) 8... g6 9. Bc4) (5. b6
+{_(Pawn return variation)}) 5... Bxa6 6. Nc3 d6 (6... g6 7. Nf3 d6 8. g3 Bg7 9.
+Bg2 {_(Fianchetto variation)}) 7. f4 {_(Central storming variation)} (7. e4
+{[A59]} 7... Bxf1 8. Kxf1 g6 9. g3 Bg7 10. Kg2 O-O {_(King walk variation)}) (7.
+Nf3 g6 8. Nd2 (8. g3 {_(Fianchetto variation)}))) (2... e6
+{* _(East-Indian defense)} 3. g3 {[E00] _(Catalan opening)} (3. Nf3
+{[E10] _(Anti-Nimzovich-Indian variation)} 3... Bb4+
+{[E11] _(Bogolyubov-Indian defense)} (3... b6
+{[E12] _(Queen’s Indian defense)} 4. e3
+{[E14] S(Spassky); _(Closed variation)} (4. g3
+{[E15] _(Classical variation); _(Fianchetto system)} 4... Bb7
+{_(Fianchetto traditional variation)} (4... Ba6 {V(_(Nimzovich))} 5. Qa4
+{A(Nimzovich)} (5. b3 {_(Quiet line)}) (5. Qb3 {L(Timman)})) 5. Bg2 Be7
+{[E17] _(Traditional variation)} (5... c5 {V(Sämisch)} 6. d5 exd5 7. Ng5
+{V(Bürger)} (7. Nh4 {V(Rubinstein)})) (5... Bb4+ {[E16] V(Capablanca)} 6. Bd2
+Be7 {V(Riumin)} (6... a5 {V(Yates)})) (5... Qc8 6. O-O c5 7. d5 {V(Fine)}) 6.
+Nc3 {_(Anti-Queen’s Indian system)} (6. O-O {_(Classical variation)} 6... O-O
+7. b3 {V(Euwe)} (7. Re1 {V(Kramnik)}) (7. d5 exd5 8. Nh4 {G(Polugaevsky)} (8.
+Nd4 {G(_(Taimanov))})) (7. Nc3 {[E18]} 7... Na6 {D(Tiviakov)} (7... Ne4 8. Qc2
+Nxc3 9. Qxc3 {[E19]}))) 6... Ne4 7. Bd2 {V(Opocensky)}) (4. Nc3 {V(_(Kasparov))}
+4... Bb7 5. Bg5 (5. a3 {V(_(Kasparov)-Petrosian)} 5... g6
+{_(Hedgehog variation)} (5... d5 6. cxd5 Nxd5 7. e4 {G(Polovodin)})) 5... h6 6.
+Bh4 g5 (6... Bb4 {[E13]}) 7. Bg3 Nh5 {V(_(Botvinnik))}) (4. a3 {V(Petrosian)}
+4... Ba6 (4... Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. Qc2 c5 8. e4 Nxc3 9. bxc3 Nc6 10.
+Bb2 cxd4 11. cxd4 Rc8 12. Rd1 Bd6 {V(Murey)}) 5. Qc2 Bb7 {D(Farago)}) (4. Bf4
+{V(Miles)}) 4... Bb7 5. Bd3 c5 6. O-O Be7 7. b3 O-O 8. Bb2 cxd4 9. Nxd4
+{V(Averbakh)}) (3... c5 {V(Blumenfeld)} 4. d5 b5 {Gc(Blumenfeld)} (4... b6) 5.
+dxe6 {_(accepted)} (5. Bg5 {V(Duz-Chotimursky)} 5... exd5 6. cxd5 h6
+{V(Spielmann)}) (5. e4 {V(Rubinstein)}) 5... fxe6 6. cxb5 d5) (3... Ne4
+{D(Döry)}) (3... a6 {_(Dzindzi-Indian defense); D(Dzindzikhashvili)}) 4. Nbd2
+{V(Grünfeld)} (4. Bd2 Bxd2+ (4... Qe7 {V(_(Nimzovich))}) 5. Qxd2 b6 6. g3 Bb7
+7. Bg2 O-O 8. Nc3 Ne4 9. Qc2 Nxc3 10. Ng5 {T(Monticelli)})) (3. Nc3 Bb4
+{[E20] _(Nimzo-Indian defense)} 4. Nf3 {[E21] _(Three knights system)} (4. Qb3
+{[E22] V(Spielmann)} 4... c5 5. dxc5 Nc6 {[E23] G(Romanovsky)} 6. Nf3 Ne4 7. Bd2
+Nxd2 {V(Karlsbad)} (7... Nxc5 {V(San Remo)} 8. Qc2 f5 9. g3 {V(Stahlberg)}) 8.
+Nxd2 O-O 9. O-O-O {V(Stahlberg)}) (4. a3 {V(Sämisch)} 4... Bxc3+ 5. bxc3
+{[E24] x(V(Sämisch))} 5... c5 (5... O-O {[E27]} 6. e3 {[E28]} 6... c5 7. Bd3
+Nc6 {[E29]} 8. Ne2 b6 9. e4 Ne8 {V(Capablanca)}) 6. f3 (6. e3
+{[E26] l(V(Sämisch))} 6... Nc6 (6... b6 {V(O’Kelly)}) 7. Bd3 O-O 8. Ne2 b6 9.
+e4 Ne8 {V(Capablanca)}) (6. f4) 6... d5 7. cxd5 {[E25] o(V(Sämisch))} (7. e3
+O-O 8. dxc5 (8. cxd5 Nxd5 {V(_(Botvinnik))})) 7... Nxd5 8. dxc5 {V(Keres)} 8...
+f5 {V(Romanovsky)}) (4. Bg5 {[E30] _(Leningrad variation)} 4... h6 5. Bh4 c5 6.
+d5 b5 {G(Averbakh)} (6... d6 {[E31] D(Benoni)})) (4. Qc2
+{[E32] _(Classical variation)} 4... Nc6 {[E33] V(Milner-Barry)} (4... d5
+{[E34] V(Noa)} 5. cxd5 (5. a3 {[E36]} 5... Bxc3+ 6. Qxc3 Nc6 {V(_(Botvinnik))}
+(6... Ne4 7. Qc2 {[E37]} 7... Nc6 8. e3 e5 {V(San Remo)})) 5... exd5 {[E35]} 6.
+Nf3 {V(Romanishin)}) (4... c5 {[E38] _(Berlin variation)} 5. dxc5 O-O {V(Pirc)}
+(5... Bxc3+ {V(Steiner)}) 6. Nf3 {[E39]}) (4... O-O 5. a3 Bxc3+ 6. Qxc3 b6 (6...
+b5 {G(Vitolinsh-Adorjan)})) 5. Nf3 d6 {V(Milner-Barry); _(Zürich variation)} 6.
+a3 {_(Old Zürich variation)}) (4. e3 {[E40] V(Rubinstein)} 4... c5
+{[E41] S(Hübner)} (4... b6 {[E43] V(Fischer); V(St. Petersburg)} 5. Ne2
+{[E44] V(Fischer)} 5... Ba6 {[E45] V(Bronstein); V(Byrne)}) (4... O-O
+{[E46] _(Normal variation)} 5. Bd3 {[E47] _(Bishop attack)} (5. Nf3 {[E50]} 5...
+d5 {[E51] V(Ragozin)} (5... c5 {d(V(Hübner))}) 6. Bd3 (6. a3 {d(V(Sämisch))})
+6... b6 {[E52] V(Tal); D(Schlechter)} (6... c5 {[E53] D(Bernstein); S(Gligoric)}
+7. O-O dxc4 (7... Nc6 {[E56]} 8. a3 dxc4 (8... Bxc3 9. bxc3 {[E58]} 9... dxc4
+10. Bxc4 {[E59]}) 9. Bxc4 cxd4 {[E57]}) (7... b6 {V(Keres)}) (7... Nbd7) 8. Bxc4
+{[E54]} 8... Bd7 {V(Bronstein)} (8... Qe7 {V(Smyslov)}) (8... Nbd7
+{[E55] _(Parma variation)})) (6... Nc6 7. O-O dxc4)) (5. Ne2 {V(Reshevsky)} 5...
+d5 6. a3 Bd6 {V(Simagin)}) 5... d5 {[E48] _(Classical defense)} (5... c5) 6. a3
+(6. Nf3 c5 7. O-O dxc4 8. Bxc4 {V(Bronstein)} 8... b6 (8... Qe7 {V(Smyslov)}) 9.
+Qe2 Bb7 10. Rd1 Qc8 {V(Olafsson)}) 6... Bxc3+ 7. bxc3
+{[E49] l(V(Sämisch)); S(_(Botvinnik))}) (4... d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5
+exd5 8. Bd3 O-O 9. Ne2 b6 {V(Keres)}) (4... Nc6 {V(_(Taimanov))} 5. Nf3 O-O 6.
+Bd3 d5 7. O-O dxc4 {V(Ragozin)}) 5. Bd3 (5. Nf3 cxd4 6. exd4 d6 (6... d5
+{A(_(Panov))})) (5. Ne2 {[E42] V(Rubinstein)} 5... cxd4 6. exd4 O-O 7. c5
+{A(Sherbakov)}) 5... Nc6 6. Nf3 Bxc3+ {V(Hübner)} 7. bxc3 d6 {V(Hübner)}) (4.
+f3 {V(Kmoch)}) (4. g3 {V(Steiner); S(Romanishin-Kasparov)}) (4. Qd3
+{A(Mikenas)}) 4... c5 (4... d5 {V(Ragozin)}) 5. g3 (5. d5 {V(Korchnoi)} 5... Ne4
+{V(Euwe)} (5... b5 {G(Shocron)})) 5... O-O 6. Bg2 {V(Romanishin)} 6... cxd4 7.
+Nxd4 d5 8. cxd5 Nxd5 {_(English hybrid variation)}) (3. g4 {G(Devin)}) (3. Bg5
+{A(Seirawan); _(Neo-Indian attack)}) 3... Ng8 (3... d5 4. Bg2
+{[E01] _(Closed variation)} 4... dxc4 (4... Be7 5. Nf3 O-O 6. O-O (6. Nc3 c6 7.
+Qd3 {V(Botvinnik)}) (6. Qc2 c6 7. b3 b6) 6... Nbd7 {[E07]} 7. Nc3 (7. Qc2
+{[E08]} 7... c6 8. Nbd2 {[E09]} (8. Rd1 b6 9. a4 {V(Zagoriansky)}) 8... b6 9. b3
+a5 10. Bb2 Ba6 {V(Sokolsky)}) 7... c6 8. Qd3 {V(_(Botvinnik))}) (4... c5 5. Nf3
+Nc6 {D(Tarrasch)}) 5. Qa4+ {[E02] _(Open variation)} (5. Nf3
+{[E04] _(Open defense)} 5... Be7 {_(Classical line)} (5... Nc6 6. Qa4 Bb4+
+{_(Modern sharp variation)})) 5... Nbd7 6. Qxc4 {[E03]} 6... a6 7. Qc2
+{V(_(Alekhine))}) (3... e5 {_(Hungarian gambit)}) (3... d6)) (2... g5
+{G(Medusa)}) (2... Nc6
+{D(Van Geet); D(Iago); D(Kevitz-Trajkovic); _(Mexican defense)} 3. d5 Ne5 4. f4
+{G(Horsefly)}) (2... b5 {_(Pyrenées gambit)}) (2... b6
+{_(Queen’s Indian defense); _(Sämisch-Indian Defense)}) 3. Nc3 {[E61]} (3. g3
+{_(Fianchetto variation)} 3... d5 {D(Kemeri)} (3... Bg7 4. Bg2 (4. Bg5) 4... d6
+(4... d5 {_(Counterthrust variation)} 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5
+{V(Kemeri)}) (4... O-O) 5. Nf3 O-O 6. Nc3 (6. O-O Nc6 7. d5 Na5 {S(Panno)}) 6...
+c6 (6... Nc6 7. O-O a6 (7... Bg4 {V(Simagin)}) (7... Bf5 {V(Spassky)}) (7... e5
+{V(Szabo)}) 8. h3 Rb8 {V(Panno)}) (6... c5 {_(Yugoslav variation)}) 7. O-O Qa5
+{V(Bronstein)}) 4. Bg2 (4. Bg5) (4. Qb3) 4... Bg7 {_(Counterthrust variation)}
+5. Nf3 {[D73]} (5. cxd5 Nxd5 {[D71] _(Exchange variation)} 6. e4 Nb6 7. Ne2
+{[D72]}) 5... O-O 6. O-O {[D77] _(Classical variation)} (6. cxd5 Nxd5 7. O-O
+{[D74] _(Delayed exchange variation)} 7... c5 {[D75]} (7... Nb6 {[D76]}) 8. Nc3
+(8. dxc5)) 6... c6 {[D78] S(Schlechter); _(Original defense)} (6... dxc4
+{_(Modern defense)}) (6... Nc6 {V(Polgar)}) 7. cxd5
+{_(Ultra-delayed exchange variation)} 7... cxd5 {[D79]}) (3. d5
+{V(Anti-Grünfeld)} 3... b5 {_(Danube gambit); G(Adorjan)} 4. cxb5 a6 5. bxa6
+c6) (3. f3 {A(_(Nimzovich));  V(a(Grünfeld));  V(_(Alekhine))} 3... d5
+{A(Goglidze)} (3... e5 {G(Leko)})) (3. Nf3 {_(King’s knight variation)} 3...
+d5 {D(n(Grünfeld))} (3... Bg7 4. b4 {V(Santassière)})) (3. Qc2 {A(Mengarini)})
+3... d5 {_(Grünfeld-Indian defense)} (3... Bg7 {_(King’s Indian defense)} 4.
+Nf3 (4. e4 {[E70] _(Normal variation)} 4... d6 (4... e6) 5. Be2 {[E73]} (5. f4
+{[E76] _(Four pawns attack)} 5... O-O (5... Na6 {_(Modern defense)}) (5... c5 6.
+d5 O-O 7. Be2 e6 8. dxe6 fxe6 9. g4 Nc6 10. h4 {_(Six pawns attack)}) 6. Nf3 (6.
+Be2 {[E77]} 6... c5 7. Nf3 {[E78] _(Fluid attack)} (7. e5) (7. d5 e6 8. Nf3 (8.
+dxe6 fxe6 9. g4 Nc6 10. h4) 8... exd5 9. e5 {G(Florentine)}) 7... cxd4
+{_(Exchange variation)} 8. Nxd4 Nc6 9. Be3 {[E79]}) 6... c5 7. d5
+{_(Dynamic attack)}) (5. f3 {[E80] V(Sämisch)} 5... O-O
+{[E81] _(Normal defense)} (5... e5 6. d5 Nh5 7. Be3 Na6 8. Qd2 Qh4+ 9. g3 Nxg3
+10. Qf2 Nxf1 11. Qxh4 Nxe3 12. Kf2 Nxc4 {V(Bronstein)}) 6. Be3 (6. Nge2
+{V(Bobotsov-Korchnoi-Petrosian)}) (6. Bg5 {A(Steiner)}) 6... b6
+{[E82] S(Byrne); _(Double fianchetto variation)} (6... e5
+{[E85] _(Orthodox variation)} 7. d5 {[E87] _(Closed variation)} (7. Nge2 {[E86]}
+7... c6) 7... Nh5 (7... c6 {[E88]} 8. Nge2 cxd5 {[E89]}) 8. Qd2 Qh4+ 9. g3 Nxg3
+10. Qf2 Nxf1 {D(Bronstein)} 11. Qxh4 Nxe3 12. Ke2 Nxc4 {V(Bronstein)}) (6... c6
+7. Bd3 a6 {V(Byrne)}) (6... Nc6 {[E83] D(Yates)} 7. Nge2 a6 {F(Panno)} (7... Rb8
+{V(Ruban)}) 8. Qd3 (8. Qd2 Rb8 {[E84]}))) (5. Nf3
+{[E90] _(Classical variation); V(Kramer)} 5... O-O 6. Be2
+{[E91] _(Orthodox variation)} (6. Be3 {V(Larsen)}) (6. Bg5 {V(Zinnowitz)}) 6...
+e5 {[E92]} (6... Na6 {_(Kazakh variation)}) 7. d5 {V(Petrosian)} (7. O-O
+{[E94] _(Old system)} 7... Nc6
+{[E97] V(Mar del Plata); V(Aronin-Taimanov); _(Yugoslav attack)} (7... c6
+{V(Donner)}) (7... Na6 {D(Glek)}) (7... a5 {_(Ukranian defense)}) (7... Nbd7 8.
+Re1 {[E95]} 8... c6 9. Bf1 a5 {[E96]}) 8. d5 Ne7 {_(Normal variation)} 9. b4
+{A(Bayonet)} (9. Ne1 {[E98]} 9... Nd7 10. f3 {A(Benkö)} (10. Be3 f5 {G(Kozul)})
+10... f5 {[E99]} 11. g4 {V(Benkö)}) (9. Bd2 {A(Korchnoi)}) 9... Nh5 10. Re1
+{L(_(Sokolov))} (10. Qc2 {L(Yepishin)})) (7. Be3 {V(Gligoric-$_(Taimanov))}) (7.
+dxe5 {V(Andersson)}) 7... Nbd7 {[E93] S(Petrosian)} (7... a5 {D(Stein)}) 8. Bg5
+h6 9. Bh4 g5 10. Bg3 Nh5 11. h4 {V(Keres)}) (5. Bg5 {x(V(Averbakh))}) (5. g3
+{[E72] _(Deferred fianchetto variation)} 5... O-O 6. Bg2 e5 7. Nge2 {S(Pomar)})
+(5. h3 {[E71] V(_(Makagonov))}) (5. Nge2 {S(Kramer)}) 5... O-O 6. Bg5
+{S(Averbakh)} (6. Be3 {S(e(Averbakh))}) 6... c5 {[E74] V(Averbakh)} (6... Na6 7.
+Qd2 c6 {L(Burgess)}) (6... h6 {_(Flexible defense)}) (6... Nbd7 {G(Geller)})
+(6... a6 {_(Spanish defense)}) 7. d5 e6 {[E75]}) (4. Bg5 {V(Smyslov)}) 4... d6
+5. g3 {[E62] _(Delayed fianchetto variation)} (5. Bg5 {V(Smyslov)}) 5... O-O 6.
+Bg2 Nc6 {V(Carlsbad)} (6... c5 {[E64] V(Leningrad);  _(Yugoslav variation)} 7.
+O-O {[E65]} 7... Nc6 8. d5 {[E66]}) (6... Nbd7
+{[E67] _(Classical system); D(Debrecen)} 7. O-O e5 8. e4 {[E68]} 8... c6 9. h3
+{[E69]}) (6... c6 7. O-O Qb6 {D(Benjamin)} (7... Qa5 {D(Kavalek); V(Bronstein)})
+(7... Bf5 {D(Larsen)})) 7. O-O a6 {[E63] S(Panno)} (7... Bf5) (7... Bg4
+{V(Simagin)}) (7... e5 {S(Uhlmann-Szabo)})) (3... d6) 4. cxd5
+{_(Exchange variation)} (4. Bg5 {[D80] V(_(Taimanov)); V(Stockholm)} 4... Ne4 5.
+Nxe4 dxe4 (5... dxc4) 6. Qd2 c5 {V(Lundin)}) (4. Nf3
+{[D90] _(Three knights variation)} 4... Bg7 (4... Nc6) (4... c6 {V(Schlechter)})
+5. e3 {[D94] _(Quiet system); V(Burille)} (5. Qb3 {[D96] _(Russian system)} 5...
+dxc4 6. Qxc4 O-O 7. e4 {[D97]} 7... Bg4 {[D98] V(Smyslov)} (7... a6
+{_(Hungarian variation); V(_(Alekhine))}) (7... b6 {V(Levenfish)}) (7... Na6
+{V(Prins)}) (7... Nc6 {_(Russian variation); V(Simagin);  V(Byrne)}) (7... c6
+{V(Szabo);  V(Boleslavsky)}) 8. Be3 (8. Be2 Nfd7 9. Be3 Nb6 10. Qd3 Nc6 11.
+O-O-O Qc8 {V(Keres)}) 8... Nfd7 9. Qb3 {[D99] V(Smyslov)} (9. Be2 Nb6 10. Qd3
+Nc6 11. O-O-O {V(Keres)}) 9... c5 {_(Yugoslav variation)}) (5. e4) (5. Qa4+
+{V(Flohr)}) (5. Bf4 {[D92] _(Hungarian attack)} 5... O-O 6. e3 {[D93]}) (5. Bg5
+{[D91] S(Petrosian)}) 5... O-O 6. b4 {V(_(Makagonov))} (6. Bd2 {V(Opocensky)})
+(6. Bd3 c6 7. O-O Bg4 {D(Smyslov)} (7... Bf5 {D(Flohr)})) (6. Qb3 {[D95]} 6...
+e6 {V(Botvinnik)} (6... dxc4 7. Bxc4 Nbd7 8. Ng5 {V(Pachman)}))) (4. Qb3
+{[D81] _(Russian variation)}) (4. Bf4 {[D82] A(Brinckmann)} 4... Bg7 5. e3 O-O
+{[D83] G(Grünfeld)} 6. Rc1 {V(Capablanca)} (6. cxd5 Nxd5 7. Nxd5 Qxd5 8. Bxc7
+{[D84]}) 6... c6 (6... c5 7. dxc5 Be6 {V(_(Botvinnik))} (7... Qa5
+{G(Reshevsky)}))) (4. e3 Bg7 (4... Bh6) (4... c6 {V(Schlechter)}) 5. Nf3 O-O 6.
+Qb3 {_(Vienna variation)} (6. Bd3 {V(Paris)} 6... c6 {V(Schlechter)} 7. O-O Bf5
+{V(Flohr)} (7... Bg4 {V(Smyslov)})) (6. b4 {V(Makagonov)}) (6. Bd2
+{V(Opocensky)}) 6... e6 {V(_(Botvinnik))} (6... dxc4 7. Bxc4 Nbd7 8. Ng5
+{V(Pachman)})) (4. g4 {G(Gibbon);  P(Grünfeld); _(Spike gambit)}) (4. g3
+{V(Kemeri)}) (4. f3 {V(Lutikov)} 4... c5 5. cxd5 Nxd5 6. Na4 {A(Murey)}) (4. h4
+{G(Zaitsev)}) 4... Nxd5 {[D85]} 5. e4 (5. g3 {V(Kemeri)}) (5. Na4 {A(Nadanian)})
+5... Nxc3 6. bxc3 Bg7 7. Bc4 {[D86] _(Classical main line)} (7. Nf3
+{_(Modern main line)} 7... c5 8. h3 {L(Kramnik)}) 7... O-O 8. Ne2 Qd7
+{V(Larsen)} (8... c5 {[D87] V(Spassky)} 9. O-O Nc6 10. Be3
+{_(Seville variation)} 10... cxd4 (10... Bg4 11. f3 Na5 12. Bxf7+
+{_(Seville variation)}) 11. cxd4 {[D88]} 11... Bg4 12. f3 Na5 13. Bd3 {[D89]}
+13... Be6 14. d5 {V(Sokolsky)}) (8... Nc6 {v(V(Simagin))}) (8... b6
+{_(Simagin’s lesser variation)} 9. h4 Ba6 {V(Simagin)}) 9. O-O b6 {V(Larsen)})
+(1. c4 {[A10] _(English opening)} 1... e5 {[A20] * _(King’s English opening)}
+(1... c5 {[A30] * _(Symmetrical variation)} 2. Nf3 (2. Nc3 {[A34]} 2... Nc6
+{[A35] * _(Two knights variation)} (2... Nf6 3. Nf3 (3. g3
+{* _(Fianchetto variation)} 3... d5 4. cxd5 (4. Nxd5) 4... Nxd5 5. Bg2 Nc7
+{V(Rubinstein)}) 3... d5 (3... Nc6 {_(Four knights variation)}) (3... e6 4. g3
+Nc6 {S(Keres-Parma)}) 4. cxd5 Nxd5 {_(Three knights system)}) 3. g3
+{[A36] * _(Fianchetto variation)} (3. Nf3 Nf6 {* _(Four knights system)}) 3...
+g6 4. Bg2 Bg7 {_(Ultra-symmetrical variation)} 5. Nf3 {[A37]} (5. e3 e5
+{r(S(_(Botvinnik)))}) (5. e4 {V(_(Botvinnik))}) 5... Nf6
+{[A38] _(Full symmetry line)} (5... e5 {r(S(_(Botvinnik)))}) 6. O-O O-O 7. d4
+{[A39] _(Maroczy bind); V(Mecking)} (7. b3 {_(Double fianchetto variation)}) (7.
+d3 {V(Duchamp)})) (2. b4 {_(Wing variation)}) 2... Nf6 3. d4
+{[A31] V(Anti-Benoni)} (3. g3 b6 4. Bg2 Bb7 5. O-O g6
+{_(Double fianchetto variation)} (5... e6 6. Nc3 Be7 {_(Hedgehog variation)} 7.
+d4 cxd4 8. Qxd4 d6 9. Rd1 a6 10. b3 Nbd7 {_(Flexible formation)})) (3. b4
+{G(Napolitano)}) 3... cxd4 4. Nxd4 {_(Two knights variation)} 4... e6
+{[A32] D(Spielmann)} 5. Nc3 Nc6 {[A33]} 6. g3 Qb6 {V(Geller)}) (1... Nf6
+{[A15] _(Anglo-Indian defense); V(Mikenas-Carls)} 2. Nc3 {[A16]} (2. b4
+{_(English orangutan variation)}) (2. Nf3 {* _(King’s knight variation)} 2...
+e6 3. g3 a6 {V(Romanishin)}) (2. g3 h5 {V(Shirazi Shove)}) 2... e6
+{[A17] _(Hedgehog system)} (2... g6 3. Nf3 Bg7 4. e4 {V(a(a(Grünfeld)))}) (2...
+d5 {D(Golombek)} 3. cxd5 Nxd5 4. g3 (4. Nf3 g6 5. g3 (5. Qa4+ {A(Stein)}) 5...
+Bg7 6. Bg2 e5 {V(_(Korchnoi))}) 4... g6 5. Bg2 Nb6 {_(Czech defense)} (5... Nxc3
+{D(Smyslov)})) 3. e4 {[A18] V(Mikenas-Carls)} (3. Nf3 Bb4
+{_(Nimzo-English opening)} (3... b6 {_(Queen’s Indian formation)} 4. e4 Bb7 5.
+Bd3 {V(Romanishin)}) 4. g4 {A(Zviagintsev-Krasenkov)}) 3... c5
+{[A19] _(Sicilian variation)} (3... Nc6 {V(Kevitz)}) (3... d5 4. e5 {V(Flohr)})
+4. e5 Ng8 {G(Nei)}) (1... g6 {_(Great snake variation)} 2. e4 (2. Nc3 Bg7 3. d4
+c5 4. d5 Bxc3+ 5. bxc3 f5 {V(Beefeater)}) 2... e5 {D(Adorjan)}) (1... e6 {[A13]}
+2. Nf3 (2. d4 b6 {_(English defense)}) 2... d5 {V(Agincourt)} (2... Nf6 3. g3 a6
+4. Bg2 b5 {G(Romanishin)}) 3. g3 (3. b3 Nf6 4. Bb2 c5 5. e3 {S(Wimpy)}) 3... Nf6
+{_(Neo-Catalan variation)} (3... c6 {D(Kurajica)}) 4. Bg2 Be7 (4... dxc4
+{_(accepted)}) 5. O-O {[A14] _(declined)} 5... c5 6. cxd5 Nxd5 7. Nc3 Nc6
+{D(Keres)}) (1... d5 {_(Anglo-Scandinivian defense)} 2. cxd5 e6 {G(Loehn)} (2...
+Qxd5 3. Nc3 Qa5 {V(Malvinas)}) (2... Nf6 {G(Schulz)})) (1... f5
+{_(Anglo-Dutch defense)} 2. b4 {_(Anglo-Polish-Dutch variation)} (2. Nf3 d6 3.
+e4 {G(Chabanon)}) (2. g4 {_(English spike variation); G(Wade)}) (2. e4
+{G(Hickman)} 2... fxe4 3. d3 (3. Nc3 {_(Porcupine variation)} 3... Nf6 4. g4)))
+(1... Nc6 {_(Anglo-Lithuanian variation)}) (1... c6
+{[A11] _(Anglo-Slav opening); _(Caro-Kann defensive system)} 2. Nf3 d5 3. b3
+{[A12]} 3... Nf6 (3... Bg4 {V(_(Bogolyubov))}) 4. g3 (4. g4) (4. Bb2
+{_(Caro-Kann defensive system)} 4... g6 {V(Bled)} (4... Bf5
+{_(New York defensive system); _(London defensive system)}) (4... Bg4
+{V(Capablanca)})) 4... g6 {V(Bled)} (4... Bg4 {_(Torre defensive system)}) (4...
+Bf5 {_(London defensive system)})) (1... b5 {G(Jänisch); G(Halibut)}) (1... b6
+2. d4 Bb7 3. Nc3 e6 4. e4 f5 5. exf5 Nf6 {G(Hartlaub)}) (1... g5 2. d4 Bg7
+{D(Myers)} (2... e5 {G(Zilbermints)})) 2. Nc3 {[A21]} (2. f4 {V(Double Whammy)})
+(2. g3 h5 {V(Drill)}) (2. Qa4 {_(English queen variation)}) (2. e3 Nf6 3. f4
+exf4 4. Nf3 {G(Kahiko-Hula)}) (2. Nf3 {V(_(Nimzovich))} 2... e4 {V(Flohr)}) 2...
+Nc6 {[A25] * _(Reversed Sicilian opening)} (2... f5 {_(Anglo-Dutch defense)})
+(2... Nf6 {[A22] * _(Two knights variation)} 3. Nf3 (3. g4) (3. g3
+{V(Bremen); V(Carls)} 3... g6 {[A24] _(Fianchetto line)} (3... Bb4
+{S(Smyslov); V(Kapengut)}) (3... c6 {[A23] V(Keres)}) (3... d5
+{_(Reversed dragon variation)}) 4. Bg2 Bg7 5. d3 d6 6. e4 O-O 7. Nge2 c6 8. O-O
+a6 {S(Prickly pawn pass)}) (3. f4 {_(Macedonian variation)}) 3... e4 4. Ng5 b5
+{G(Bellon)} (4... Ng4 {G(Erbenheimer)})) (2... d6 3. Nf3
+{* _(General variation)} (3. g3 c6 {V(Keres)} (3... Be6 4. Bg2 Nc6
+{D(Tröger)})) 3... Bg4 {V(Smyslov)}) (2... Bb4 {Ac(Kramnik-Shirov)}) 3. Nf3
+{[A27] _(Three knights system)} (3. g3 g6 4. Bg2 Bg7 {* _(Closed system)} 5. d3
+{_(Closed system)} (5. e4 {V(_(Botvinnik))}) (5. e3 d6 6. Nge2 Be6 {V(Hort)}
+(6... Nh6 {V(_(Taimanov))})) (5. Rb1 {_(Hungarian attack)} 5... Nh6
+{V(_(Taimanov))}) 5... d6 {[A26]} 6. e4 {S(_(Botvinnik))}) 3... Nf6
+{[A28] + _(Four knights variation)} 4. e4 {V(_(Nimzovich))} (4. d4 e4
+{V(Bradley Beach)} (4... exd4 5. Nxd4 Bb4 6. Bg5 h6 7. Bh4 Bxc3+ 8. bxc3 Ne5
+{V(Nenarokov)})) (4. g3 {[A29] _(Kingside fianchetto variation)}) (4. d3
+{V(Capablanca)}) (4. e3 {_(Quiet line)} 4... Bb4 5. Qc2 O-O (5... Bxc3
+{V(_(Romanishin))}) 6. Nd5 Re8 7. Qf5 {V(Stean); V(Keene)}) (4. a3
+{L(Korchnoi)}) (4. a4 {V(Marini)})) (1. Nf3 {[A04] O(Réti);  O(Zukertort)} 1...
+d5 {[A06] _(Queen pawn defense)} (1... f5 {_(Dutch variation)} 2. d3
+{_(Improved Lisitsin G)} (2. e4 {G(Pirc-Lisitsin);  _(Polish gambit)} 2... fxe4
+3. d3 {G(Kluever)} (3. Ng5 {_(Polish gambit); G(Dalesio); G(Pirc-Lisitsin)}) (3.
+Ne5 {G(Rydel-Bloodgood)})) 2... Nf6 3. e4 {d(G(Lisitsin))}) (1... g5
+{G(Herrstroem);  G(Oberndorfer)}) (1... Nf6 {[A05]} 2. e4 {G(Lemberg)} (2. a4 g6
+3. b4 {_(Myers Polish attack)}) (2. g3 {_(King’s Indian attack)} 2... g6 (2...
+b5 {V(Spassky)}) 3. b4 {V(Réti-Smyslov)})) (1... Nc6
+{D(Lessing);  D(Black Mustang)}) (1... e5 {G(Ross)}) (1... c5 2. d4 c4 (2...
+cxd4 3. e3 {G(Speelsmet)})) (1... d6 2. d4 (2. e4 Bg4 {D(Wade)}) 2... e5
+{G(Vos)}) 2. g3 {[A07] S(Barcza)} (2. Rg1 {V(Ampel)}) (2. c4
+{[A09] G(Réti);  G(Landstrasser);  G(Wolf)} 2... d4
+{r(Benoni); _(Wing Blumenfeld variation); _(Advance variation)} (2... c6 3. b3
+{V(Bogolyubov)} 3... Nf6 4. Bb2 Bg4 {V(Capablanca)} (4... Bf5
+{_(London variation);  V(New York)})) (2... e6 3. g3 {_(Neo-Catalan opening)})
+(2... dxc4 {_(accepted)} 3. e3 Be6 {V(Keres)}) (2... b5 {G(Zilbermints)}) 3. e3
+(3. b4 {Réti Polonaise} 3... c5 {G(Michel)}) (3. Rg1 {_(Penguin variation)})
+3... c5 4. b4 {G(Blumenfeld)}) (2. b3 {A(_(Nimzovich)-Larsen)} 2... c5 3. e4
+dxe4 4. Ne5 {G(Bloodgood)}) (2. d3 {_(Old Indian attack)}) (2. a4
+{_(Potato variation)}) (2. d4) (2. Nc3 {_(Reversed Mexican defense)}) (2. b4
+{Santasière’s Folly}) (2. e4
+{G(Tennison); G(Lemberg); G(Abonyi); G(Zukertort)}) 2... g6
+{_(King’s Indian attack); _(Double fianchetto)} (2... Bg4 3. Bg2 Nd7
+{V(Keres)}) (2... e5 {G(Omega-Delta)}) (2... c5 {_(Sicilian variation)} 3. Bg2
+{[A08] S(Barcza)} 3... Nc6 4. O-O e6 5. d3 Nf6 6. Nbd2 Be7 7. e4 O-O 8. Re1
+{_(French variation)}) (2... Nf6 3. Bg2 c6 4. O-O Bg4 {_(Yugoslav variation)})
+3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 {S(Pachman)}) (1. f4
+{[A02] O(Bird); _(Dutch attack)} 1... Nf6 (1... f5 2. d4 (2. e4
+{G(Wagner-Zwitersch)} 2... fxe4 3. Nc3 Nf6 4. g4 {_(Swiss gambit)}) 2... d5
+{F(Canard); _(Double duck variation);  _(Pawn thrust attack)}) (1... d5 {[A03]}
+2. g4 {G(Dudweiller)} (2. e4 {G(Williams)} 2... dxe4 3. d3 {G(Prokofiev)} (3.
+Nc3 {G(Williams)})) (2. c4 {+ O(Mujannah); O(Sturm)}) (2. Nf3 Nf6 3. e3 c5
+{V(Lasker)})) (1... e5 {G(From)} 2. fxe5 (2. d4 exd4 3. Nf3 c5 4. c3
+{G(Siegener)}) (2. g4 Qh4# {_(Fool’s mate)}) 2... d6 (2... f6 {G(Lasker)})
+(2... Ne7 {G(Platz)}) (2... Nc6 {G(Schlechter)}) 3. exd6 Nf6 {G(Langheld)} (3...
+Bxd6 4. Nf3 g5 {V(Lasker)} (4... Nh6 5. d4 {V(Lipke)}))) (1... g5 {G(Hobbs)})
+(1... h6 2. Nf3 g5 {G(Hobbs-Zilbermints)}) (1... Nh6 {D(Horsefly)}) (1... b5
+{D(Myers)}) 2. Nf3 (2. c4 {O(Mujannah)}) 2... g6 3. b4 {A(Batavo Polish)}) (1.
+b3 {[A01] A(_(Nimzovich)-Larsen); _(Queen’s fianchetto opening)} 1... d5
+{_(Classical variation)} (1... f5 {_(Dutch variation)}) (1... c5
+{_(English variation)}) (1... Nf6 {_(Indian variation)} 2. Bb2 g6 3. g4
+{V(Spike)}) (1... e5 {_(Modern variation)} 2. Bb2 Nc6 (2... f5 3. e4
+{G(Ringelbach)}) 3. f4 {V(Paschmann)}) (1... b6 {_(Symmetrical variation)})
+(1... b5 {_(Polish variation)})) (1. Nh3
+{O(Amar); _(Paris opening); _(Drunken knight opening)} 1... e5 (1... d5 2. g3 e5
+3. f4 {_(Paris gambit); G(Amar)} 3... Bxh3 4. Bxh3 exf4) 2. f3 d5 3. Nf2
+{_(Crazy cat variation)}) (1. e3 {O(Van’t Kruijs)} 1... e5 (1... d5 2. Nc3 Nf6
+3. a3 e5 4. f4 exf4 5. Nf3 {G(Keoni-Hiva)}) (1... a5) 2. Nc3 (2. c4 d6 3. Nc3
+Nc6 4. b3 Nf6 {_(Amsterdam attack)}) (2. Bc4 b5 3. Bb3
+{_(Bouncing bishop variation)}) 2... Nf6 (2... Nc6 3. f4 exf4 4. Nf3 {V(Alua)})
+(2... d5 3. f4 exf4 4. Nf3 {V(Ekolu)}) 3. f4 exf4 4. Nf3 {V(Akahi)}) (1. g4
+{O(Grob); O(Ahlhausen); O(Colibro); O(Fric); O(Genoa); O(Spike)} 1... f5
+{G(Alessi)} (1... d5 2. Bg2 {G(Grob)} (2. h3 e5 {D(Keene)} 3. Bg2 c6 {D(Keene)})
+(2. e4 {G(Zilbermints)} 2... dxe4 3. Nc3 {G(Zilbermints)}) 2... h5 (2... Bxg4
+{_(accepted)} 3. c4 {G(Fritz)} 3... d4 {Gc(Romford)}) (2... c6 {_(declined)} 3.
+c4 (3. h3 {_(Short spike variation)}) (3. g5 {A(Spike)}) 3... dxc4 4. b3
+{G(Richter-Grob)}) 3. gxh5 {G(Basman)}) (1... Nh6 {D(Bücker)}) (1... g5
+{_(Double Grob variation)} 2. f4 {G(Coca-Cola)}) (1... e5 2. Bg2 (2. h3 Nc6
+{_(London defense)}) 2... d5 3. c4 {A(Hurst)}) (1... g6 2. d3 {d(V(Spike))}))
+(1. Nc3 {O(Dunst); O(Heinrichsen);  O(Van Geet); O(Sleipner); O(Heinrichsen)}
+1... d5 (1... g6 2. h4 {V(a(Pirc))}) (1... e5 2. a3 {O(Battambang)} (2. Nf3
+{A(Napoléon)} 2... Bc5 {G(Billockus-Johansen)} (2... Nc6 3. d4)) (2. b3 d5 3.
+e4 dxe4 4. d3 {G(Gladbacher)}) (2. e3 d5 3. Qh5 Be6 {G(Hulsemann)} (3... Nf6
+{G(Liebig)})) (2. f4 {_(Irish attack); _(Polish attack)} 2... exf4 3. e4
+{G(Nowokunski)}) (2. d4 exd4 3. Qxd4 Nc6 4. Qa4
+{_(Reversed Scandinavian opening)})) (1... Nc6 2. d4 d5 3. e4 {_(Berlin gambit)}
+3... dxe4 4. d5) (1... c5 2. b4 {G(Düsseldorf)} (2. d4 cxd4 3. Qxd4 Nc6
+{O(Novosibirsk)} 4. Qh4) (2. Rb1 {A(Twyble)})) (1... f5 2. g4 {G(Glasscoe)})
+(1... b5 {G(Laroche)}) (1... a6 {D(St. George)}) (1... Nf6 2. g4 {G(Tübingen)})
+2. e4 (2. f4 e5 {G(Damhaug)} (2... d4 3. Ne4 c5 {G(Melleby)} (3... e5
+{G(Pfeiffer)} 4. Nf3 {Gc(Sleipner)})) (2... g5 {G(Warsteiner)})) (2. e3 e5 3. d4
+Bb4 {G(Sleipner)}) 2... dxe4 3. Nxe4 (3. f3 {G(Dougherty)} 3... exf3 4. Qxf3
+{G(p(Diemer))}) (3. d3 {G(Dunst);  G(Perrenet)}) (3. Bc4 {G(Hector)}) 3... Qd6
+(3... Qd5 {_(Amazon variation)}) (3... e5 {D(Grünfeld)} 4. f4 {G(Steiner)}))
+(1. a3 {O(Anderssen)} 1... g6 (1... e5 2. h3 d5 {F(Creepy Crawly)}) (1... a5 2.
+b4 {_(Polish gambit)}) (1... d5 2. h3 e5 {O(Creepy Crawly)}) 2. g4
+{V(Andersspike)}) (1. d3 {O(Mieses);  _(Venezuelan opening)} 1... e5
+{O(Valencia); _(Reversed rat variation)} (1... g6 2. g4
+{_(Spike deferred variation); _(Myers spike attack)}) (1... c5 2. Nc3 Nc6 3. g3
+{V(Venezolana)}) 2. Nd2) (1. f3
+{O(Barnes); O(Gedult-Gunderam); O(Walkerling); O(Gedult)} 1... e5 2. Kf2
+{O(Hammerschlag); _(Pork chop opening)} (2. e4)) (1. g3
+{O(Benkö); O(Barczay); O(Bilek); _(Hungarian opening)} 1... d5 (1... h5
+{_(Lasker simul special)} 2. Nf3 h4 {G(Van Kruijk)}) (1... g5 {D(Myers)}) (1...
+e5 2. Nf3 {r(O(Alekhine))} 2... e4 3. Nh4 {_(Reversed Norwegian defense)}) 2.
+Bg2 (2. Nf3 g5 {G(Wiedenhagen-Beta)}) 2... e5 3. b4 {Gambit 59;  G(Bücker)} (3.
+d4 {V(Regan)}) (3. c4 dxc4 4. b3 {G(Winterberg)})) (1. b4
+{_(Polish opening);  _(Orangutan Opening); O(Sokolsky);  O(Hunt)} 1... c5
+{G(Birmingham)} (1... e5 2. Bb2 (2. a3 {V(Bugayev)}) (2. b5
+{_(Spike variation)}) 2... f6 (2... c5 {G(Wolferts)}) 3. e4
+{G(Schiffler-Sokolsky);  G(Tartakower)} 3... Bxb4 (3... Be7) 4. Bc4 Nc6 5. f4
+Qe7 6. f5 g6 {V(Brinckmann)}) (1... Na6 {D(Bücker)}) (1... Nc6 {V(Grigorian)})
+(1... Nh6 {V(Karniewski);  V(Tübingen)}) (1... d5 2. Bb2 c6 3. a4 {V(Myers)})
+(1... c6 {_(Outflank variation)} 2. Bb2 a5 3. b5 cxb5 4. e4 {G(Schuhler)}) (1...
+Nf6 2. Bb2 g6 3. g4 {_(Polish spike)})) (1. Na3 {A(Durkin);  _(Sodium attack)}
+1... g6 (1... e5 2. Nc4 Nc6 3. e4 f5 {G(Durkin)}) 2. g4 {V(Chenoboskian)}) (1.
+h3 {O(Clemenz); O(Mead); O(Basman); O(de Klerk)} 1... h5 (1... e5 2. a3
+{_(Global opening)}) 2. g4 {G(Spike Lee)}) (1. c3 {O(Saragossa); O(Hempel)} 1...
+e5 2. Qc2 {V(Hanham);  V(Hayward)}) (1. a4 {O(Ware);  O(Meadow Hay)} 1... b6
+(1... e5 2. a5 (2. h4 {+ _(Crab opening)}) 2... d5 3. e3 f5 4. a6 {G(Ware)})
+(1... b5 {G(Wing)}) 2. d4 d5 3. Nc3 Nd7 {_(Cologne gambit)}) (1. h4
+{O(Despres); O(Kadas)} 1... a5 {D(Koola-Koola)} (1... d5 2. d4 c5 3. e4
+{G(Myers)}) (1... g5 {G(Schneider)}) (1... f5 2. e4 fxe4 3. d3 {G(Steinbok)})
+(1... e5 2. d4 {V(Wulumulu)})) 1... e5 {[C20] * _(Double king pawn game)} (1...
+c5 {[B20] _(Sicilian defense)} 2. Nf3 {[B27]} (2. f4
+{[B21] A(Grand Prix); A(Vincken); V(Larsen-Santassière); A(McDonnell)} 2... d5
+3. exd5 Nf6 {F(Tal)}) (2. d4 {[B21] + _(Sicilian center game)} 2... cxd4 (2...
+Nf6 3. e5 {V(Wall)}) 3. c3 {+ G(Smith-Morra); G(Fleissig); G(Rivadavia)} (3. Nf3
+{G(Morphy)} 3... e5 4. c3 {G(Andreaschek)}) (3. c4) (3. f4 {G(Halasz)}) 3... Nf6
+{_(declined); F(_(Alapin))} (3... e5 {_(Center formation)}) (3... dxc3
+{_(accepted)} 4. Nxc3 d6 (4... Nc6 5. Nf3 d6 (5... e6 6. Bc4 a6 {F(Paulsen)}
+(6... Bc5 {D(Morphy)}) (6... Bb4 {_(Pin defense)}) (6... d6 7. O-O a6 8. Qe2 b5
+{F(Sozin)}) 7. O-O Qc7 (7... b5 8. Bb3 Bc5 {d(D(Morphy))}) 8. Qe2 Bd6
+{D(Larsen)}) 6. Bc4 a6 (6... e6 {F(Scheveningen)} 7. O-O a6 8. Qe2 b5 9. Bb3 Ra7
+{D(Chicago)}) 7. O-O Nf6 {_(Classical formation)}) (4... e6 5. Nf3 (5. Bc4 a6 6.
+Nf3 Ne7 {F(_(Taimanov))}) 5... g6 {_(Fianchetto defense)} (5... a6 {F(Kan)})) 5.
+Bc4 e6 6. Nf3 Nf6 7. O-O a6 {D(Chicago)}) (3... d3 {_(Push variation)} 4. c4
+{V(Dubois)}) (3... d5 {_(Scandinavian formation)}) (3... Qa5
+{_(Wing formation)})) (2. c3 {[B22] V(_(Alapin)); V(Sveshnikov)} 2... d5 (2...
+Nf6 3. e5 Nd5 4. d4 (4. Nf3 Nc6 5. Bc4 (5. Na3 {V(Heidenfeld)}) 5... Nb6 6. Bb3
+{A(Stoltz)}) 4... e6 5. Nf3 Nc6 {V(Sherzer)}) 3. exd5 Qxd5 {D(Barmen)}) (2. Nc3
+{[B23] _(Closed variation); V(_(Chigorin))} 2... Nc6 {_(Traditional variation)}
+(2... d6 3. f4 {V(Grand Prix)}) (2... e6 3. g3 (3. d4 d5 {G(Marshall)}) 3... d5
+{V(Korchnoi)}) 3. g3 {[B24] _(Fianchetto variation)} (3. Nge2
+{_(Chameleon variation)}) (3. d3 g6 4. g4 {A(Portland)}) (3. f4
+{S(Vinken);  A(Grand Prix)} 3... g6 4. Nf3 Bg7 5. Bc4 e6 6. f5 {V(Schofman)})
+3... g6 4. Bg2 Bg7 5. d3 d6 {[B25]} (5... e6 6. Be3 Nd4 7. Nce2 {V(Smyslov)}) 6.
+f4 (6. Nge2 e5 {V(_(Botvinnik))}) (6. Be3 {[B26]}) 6... e5 {V(_(Botvinnik))} 7.
+Nh3 Nge7 {_(Edge variation)}) (2. b4 {_(Wing gambit)} 2... cxb4 {_(accepted)} 3.
+Bb2 {V(Abrahams)} (3. a3 {V(Marshall)} 3... d5 (3... bxa3 {V(Carlsbad)}) 4. exd5
+Qxd5 5. Bb2 {V(Marienbad)}) (3. c4 {V(Santassière)})) (2. d3
+{_(Chameleon sicilian)} 2... Nc6 3. c3 d6 4. f4 {V(Big Clamp)}) (2. Bc4
+{A(Bowlder)}) (2. Nh3 {V(Brick)}) (2. c4 {V(Staunton-Cochrane)} 2... d6 3. Nc3
+Nc6 4. g3 h5 {V(Gloria)}) (2. Ne2
+{V(Keres);  A(Billium); _(Chameleon variation)}) (2. Ke2
+{_(King David’s opening)}) (2. a3 {V(Mengarini)} 2... Nc6 3. b4
+{G(Mengarini)}) (2. h4 {A(Myers)}) (2. b3 {V(Snyder)} 2... b6
+{_(Queen fianchetto variation)}) (2. Be2 {_(Slow sicilian)}) (2. g3
+{V(Steinitz);  V(Tartakower);  V(Lasker-Dunne)}) 2... d6 {[B50]} (2... a6
+{[B28] V(O’Kelly)} 3. Be2 {S(Aronin)} (3. c3 {_(Venice system)} 3... Nf6
+{L(Barcza)} (3... d5 4. exd5 Nf6 {_(Gambit line)}) (3... b5 {L(Ljubojevic)})
+(3... d6 {L(Steiner)})) (3. d4 {_(Normal system)} 3... cxd4 4. Bc4
+{G(Cortlever)} (4. Nxd4 e6 {L(Kan)} (4... e5 {L(_(Taimanov))})) (4. c3
+{L(Smith-Morra)}) (4. Qxd4 {L(Zagorovsky)})) (3. Nc3 {S(Yerevan)}) (3. c4
+{_(Maroczy bind)} 3... Nc6 (3... e6 {L(Paulsen)}) (3... d6 {L(Robatsch)}) 4. d4
+cxd4 5. Nxd4 e5 {L(Geller)}) (3. b3 {S(Kieseritzky)}) (3. d3 {_(Quiet system)})
+(3. g3 {S(Réti)}) (3. b4 {_(Wing gambit)})) (2... Nf6
+{[B29] V(_(Nimzovich)-Rubinstein)} 3. e5 {_(Advance variation)} 3... Nd5 4. Nc3
+e6 5. Nxd5 exd5 6. d4 Nc6 {Gc(Rubinstein)}) (2... Nc6 {[B30]} 3. Bb5
+{V(Rossolimo);  V(Nezmetdinov)} (3. d4 {[B32]} 3... cxd4 4. Nxd4 {[B33]} 4... g6
+{[B34] _(Accelerated dragon variation); _(Fianchetto variation)} (4... Nf6 5.
+Nc3 {_(Four knights variation)} 5... e5 {V(Pelikan); V(Lasker); V(Sveshnikov)}
+6. Ndb5 (6. Nf3 {_(Retreat variation)}) 6... d6 {V(Pelikan)} 7. Bg5 a6 8. Na3
+Be6 {V(Bird)} (8... b5 {V(Chelyabinsk)} 9. Bxf6 gxf6 10. Nd5 f5
+{V(Sveshnikov)})) (4... e5 {V(Labourdonnais); V(Löwenthal)} 5. Nb5 d6
+{V(Kalashnikov)}) (4... Qc7 {V(Flohr)}) (4... Qb6 {V(Godiva)}) (4... d5
+{V(_(Nimzovich)}) 5. c4 {[B36] _(Maroczy bind)} (5. Nxc6
+{_(Exchange variation)}) (5. Nc3 {_(Modern variation)} 5... Bg7 6. Be3 Nf6 7.
+Bc4 {[B35]}) 5... Bg7 {[B37]} (5... Nf6 6. Nc3 Nxd4 7. Qxd4 d6 {V(Gurgenidze)})
+6. Be3 {[B38]} (6. Nc2 d6 7. Be2 Nh6 {V(Simagin)}) 6... Nf6 7. Nc3 Ng4
+{[B39] V(Breyer)}) 3... g6 {[B31] V(Rossolimo)} (3... Na5 4. b4
+{G(San Francisco)}) 4. O-O Bg7 5. c3 (5. Re1 e5 6. b4 {V(Gurgenidze)}) 5... e5
+(5... Nf6 6. d4 {G(Lutikov)}) 6. d4 {G(Gufeld)}) (2... e6
+{[B40] _(French variation)} 3. d4 (3. c4 {V(Kramnik)}) (3. b4
+{_(Wing gambit deferred)}) 3... cxd4 {x(V(Wimpy))} (3... d5 {V(Marshall)}) 4.
+Nxd4 a6 {[B41] V(Kan); V(Paulsen)} (4... Nc6
+{[B44] V(Paulsen);  V(_(Taimanov));  V(Bastrikov)} 5. Nc3 {[B45] V(_(Taimanov))}
+(5. Nb5 {V(Szen); V(a(_(Taimanov)))} 5... d6 6. c4 Nf6 7. N1c3 a6 8. Na3 d5
+{G(Dely-$_(Kasparov))} (8... Be7 9. Be2 O-O 10. O-O b6 {_(Hedgehog variation)}))
+5... Nf6 (5... Qc7 {[B47] V(Bastrikov)} 6. Ndb5 (6. Be3 {[B48]} 6... a6 7. Be2
+{[B49]}) 6... Qb8 7. Be3 a6 8. Bb6 {G(Ponomariov)}) (5... a6 {[B46]} 6. Be2 Nge7
+{V(_(Taimanov))}) 6. Ndb5 Bb4 {V(Paulsen)} 7. Nd6+ {_(American attack)}) (4...
+Nf6 {V(Anderssen)} 5. Nc3 Nc6 {_(Four knights variation)} (5... Qb6
+{V(Gaw-Paw)}) (5... Bb4 {_(Pin variation); _(Sicilian counter-attack)} 6. Bd3
+(6. e5 {V(Koch)}) 6... e5 {V(Jaffe)}) 6. Ndb5 Bc5 {_(Cobra variation)}) (4...
+Qb6 {V(Kveinis)}) 5. c4 {_(Maroczy bind); V(Réti)} (5. Bc4 Bc5
+{V(Polugaevsky)}) (5. Bd3 {[B42]} 5... g6 {_(Swiss cheese variation)} (5... Nf6
+6. O-O d6 7. c4 g6 {V(Gipslis)}) (5... Bc5 {V(Polugaievsky)})) (5. Nc3 {[B43]})
+5... g6 {_(Hedgehog variation)} (5... Nf6 6. Nc3 Bb4 7. Bd3 Nc6 8. Bc2
+{V(Bronstein)})) (2... Qc7 {V(Quinteros); x(V(Paulsen))}) (2... g6
+{_(Hungarian variation); _(Hyperaccelerated dragon variation)} 3. c4 (3. d4 f5
+{V(Frederico); _(Sicilian Fred)} (3... Bg7
+{_(Hyperaccelerated pterodactyl variation)})) 3... Bh6 {Action extension}) (2...
+Qa5 {V(Stiletto); V(Althouse)}) (2... h6 {V(Bücker)}) (2... f5 3. exf5 Nh6
+{G(Double-Dutch)}) (2... d5) (2... e5 {V(Jalalabad)}) (2... b6 {V(Katalimov)})
+(2... b5 {_(Polish Gambit)}) 3. d4 (3. Bb5+
+{[B51] A(Canal-Sokolsky);  _(Sicilian check variation); _(Moscow variation);  V(_(Nimzovich)-Rossolimo)}
+3... Bd7 {[B52] _(Main Line)} (3... Nc6 4. O-O Bd7 5. Qe2 (5. c3 a6 6. Bxc6 Bxc6
+7. Re1 Nf6 8. d4 Bxe4 9. Bg5 {_(Moscow Gambit)}) 5... g6 6. e5 {G(Dorfman)}) 4.
+Bxd7+ Qxd7 5. O-O (5. c4 {V(Sokolsky)}) 5... Nc6 6. c3 Nf6 7. d4
+{G(Bronstein); G(Haag)}) (3. c3 {d(V(_(Alapin)))} 3... Nf6 4. Be2 Nc6 5. d4 cxd4
+6. cxd4 Nxe4 {G(Basman-Palatnik)}) (3. Bd3 {S(Kopec)}) (3. g3 b5 {G(Kotov)}) (3.
+d3) (3. b4 {_(Wing gambit deferred)}) 3... cxd4 (3... Nf6 4. dxc5 Nxe4 5. cxd6
+{V(Cortlever)}) (3... Nd7 {_(Lazy knight variation)}) 4. Nxd4 {[B54]} (4. Qxd4
+{[B53] V(Chekhover)} 4... Nc6 5. Bb5 Qd7 {V(Zaitsev)}) (4. c3 {V(Tartakower)})
+4... Nf6 5. Nc3 {[B56]} (5. Bc4 {G(Ginsberg)}) (5. f3
+{_(Moscow variation); V(Prins)} 5... e5 6. Bb5+ {[B55] _(Venice attack)}) 5...
+Nc6 (5... g6 {[B70] _(Dragon variation)} 6. f4 {[B71] V(Levenfish)} (6. Be3
+{[B72]} 6... Bg7 7. Be2 {_(Classical attack)} (7. f3 {[B75] _(Yugoslav attack)}
+7... O-O {[B76]} 8. Qd2 (8. Qd3) 8... Nc6 9. Bc4 {[B77]} (9. g4 {V(_(Panov))})
+(9. O-O-O {V(Rauser)}) 9... Nxd4 (9... Nd7 {V(Sosonko)}) (9... a5 {V(Byrne)})
+(9... Bd7 10. O-O-O {[B78]} 10... Qa5 11. Bb3 Rfc8 12. h4 {[B79]}) 10. Bxd4
+{V(Czerniak)}) 7... Nc6 8. O-O {[B73] _(Classical variation)} (8. Qd2
+{_(Amsterdam variation); _(Battery variation)} 8... O-O 9. O-O-O {V(Grigoriev)})
+(8. Nb3 {V(Nottingham)}) 8... O-O 9. Nb3 {[B74]} (9. f4 Qb6 {G(Zollner)} 10. e5
+{G(Zollner)}) (9. Qd2 {V(Richter)}) 9... a5 {V(_(Alekhine))} (9... Be6 10. f4
+Na5 {L(Maroczy)} (10... Qc8 {V(Réti-Tartakower)}) 11. f5 Bc4 12. Nxa5 (12. Bd3
+{V(Spielmann)} 12... Bxd3 13. cxd3 d5 {D(Bernard)}) 12... Bxe2 13. Qxe2 Qxa5 14.
+g4 {A(Stockholm)})) (6. Be2 Bg7 7. O-O O-O 8. Nb3 {V(_(Alekhine))}) (6. g3
+{_(Fianchetto variation)}) 6... Nbd7 {V(Flohr)}) (5... e6
+{[B80] V(Scheveningen); V(Paulsen)} 6. g4 {[B81] A(Keres); V(_(Panov))} (6. Be2
+{[B83]} 6... a6 {[B84] _(Classical variation)} (6... Nc6 {g(V(Scheveningen))} 7.
+O-O Be7 8. Be3 O-O 9. f4 Bd7 10. Nb3) 7. O-O Qc7 (7... Nbd7) 8. f4 Nc6 {[B85]}
+9. Kh1 (9. Be3 {_(Classical variation)} 9... Be7 10. Qe1 O-O) 9... Be7 10. a4
+{S(Maroczy)}) (6. Bc4 {[B86] A(Sozin)} 6... a6 (6... Nc6 {[B88] V(Leonhardt)} 7.
+Be3 {[B89]} (7. Bb3 Be7 8. Be3 O-O 9. f4 {V(Fisher)}) 7... Be7 8. Bb3 (8. Qe2
+{A(Velimirovic)}) 8... O-O 9. O-O Na5 10. f4 b6 {V(Sherbakov)}) 7. Bb3 b5
+{[B87] _(Flank variation)} (7... Nc6 {V(Najdorf)})) (6. Be3 a6 7. g4
+{f(A(Keres))} (7. f3 {_(English attack)}) (7. Qd2 {_(English variation)}) 7...
+e5 8. Nf5 g6 9. g5 {G(Perenyi)}) (6. g3 {_(Fianchetto variation)}) (6. f4
+{[B82] A(Matanovic)} 6... Nc6 7. Be3 Be7 8. Qf3 {V(Tal)}) (6. Bb5+
+{V(Vitolins)})) (5... a6 {[B90] V(Najdorf)} 6. Bg5 {[B94]} (6. h3 {A(Adams)})
+(6. f4 {[B93] _(Amsterdam variation)}) (6. Be3 {V(Byrne); _(English attack)}
+6... Ng4 {_(Anti-English variation)}) (6. Rg1 {A(Freak)}) (6. Bc4
+{A(Lipnitzky)}) (6. Be2 {[B92] V(Opovcensky)} 6... e5 7. Nf3) (6. g3
+{[B91] _(Zagreb variation); _(Fianchetto variation)}) 6... e6 {[B95]} (6... Nbd7
+7. Bc4 Qa5 8. Qd2 e6 9. O-O-O b5 10. Bb3 Bb7 11. Rhe1 Nc5 12. e5 {V(Ivkov)}) 7.
+f4 {[B96]} 7... Qb6 {[B97]} (7... Be7 {[B98]} 8. Qf3 h6 (8... Qc7 9. O-O-O Nbd7
+{[B99]}) 9. Bh4 g5 {V(Göteborg); V(Argentine)} (9... Qc7 {V(Browne)})) (7... b5
+{V(Polugayevsky)} 8. e5 dxe5 9. fxe5 Qc7 10. Qe2 {V(Simagin)}) 8. Qd2
+{_(Poisoned pawn variation)} 8... Qxb2 {_(accepted)} 9. Rb1 Qa3) (5... Bd7
+{V(Kupreichik)}) (5... e5 6. Bb5+ {_(Venice attack)}) 6. Bc4
+{[B57] V(Sozin);  A(Velimirovic)} (6. Be2 {[B58] _(Classical variation)} 6... e5
+{V(Boleslavsky)} 7. Nb3 {[B59]} (7. Nxc6 {V(Louma)})) (6. Bg5
+{[B60] A(Richter-Rauzer)} 6... g6 {V(Bondarevsky)} (6... e6 {[B62]} 7. Nxc6
+{A(Richter)} (7. Qd2 {[B63] A(Rauzer)} 7... Qb6 {V(Ivanov)} (7... Be7 8. O-O-O
+O-O 9. f4 {[B64]} 9... e5 {V(Geller)} (9... Nxd4 10. Qxd4 {[B65]})) (7... a6
+{[B66]} 8. O-O-O Bd7 {[B67]} 9. f4 Be7 {[B68]} 10. Nf3 b5 11. Bxf6 {[B69]})) (7.
+Bb5 {V(Margate);  V(_(Alekhine)); V(Vitolins)}) (7. Nb3 {V(Podvebrady)}) (7. Qd3
+{V(Keres)})) (6... Bd7 {V(Larsen)} 7. Qd2 {[B61]})) (6. g3
+{_(Fianchetto variation)}) (6. Nde2 {V(Spielmann)}) (6. Bd3 {V(Yates)}) 6... Qb6
+{V(Benkö)} (6... g6 $2 {T(Magnus Smith)} 7. Nxc6 bxc6 8. e5)) (1... e6
+{[C00] _(French defense)} 2. d4 (2. d3 {_(King’s Indian attack)} 2... f5
+{G(Franco-Hiva)} (2... d5 3. Nd2 Nf6 4. Ngf3 Nc6 {r(V(Philidor))} 5. Be2)) (2.
+b4 {G(Banzai-Leong)} 2... Bxb4 3. e5 {G(Pinova)}) (2. Bb5 {_(Bird invitation)})
+(2. f4 {V(Labourdonnais)} 2... d5 3. Nf3 dxe4 4. Ng5 {G(Reuter)}) (2. Qe2
+{V(_(Chigorin))}) (2. Nf3 d5 3. Nc3 {_(Two knights variation)} (3. e5 c5 4. b4
+{_(Wing gambit)})) (2. c4 {V(Steiner)} 2... d5 3. cxd5 exd5 4. Qb3
+{V(Orthoschapp)}) (2. b3 {V(Réti);  V(Spielmann); V(Horwitz)} 2... d6 (2... d5
+3. Bb2 {G(Papa-Ticulat)})) (2. Nc3 {_(Queen’s knight variation)} 2... d5 3. f4
+{V(Pelikan)} (3. Nf3 {+ _(Two knights variation)})) (2. g3 {A(Réti-Spielmann)})
+(2. e5 {A(Steinitz)}) (2. Ne2) 2... d5 (2... b5 {G(Bäuerle)}) (2... f5
+{G(Franco-Hiva)}) (2... Nf6 {_(Mediterranean defense)}) (2... d6
+{S(Lengfellner)}) (2... a6 {D(St. George)}) 3. exd5 {_(Exchange variation)} (3.
+e5 {[C02] _(Advance variation)} 3... Bd7 {V(Steinitz); _(Extended bishop swap)}
+(3... c5 4. c3 (4. b4 {G(Frenkel)}) (4. Qg4 {V(_(Nimzovich))}) (4. Nf3
+{S(_(Nimzovich))} 4... cxd4 5. Bd3 {G(Ruisdonk)}) (4. dxc5 {V(Steinitz)}) 4...
+Nc6 (4... Qb6 5. Nf3 Bd7 {V(Wade)}) 5. Nf3 {A(Paulsen)} 5... Bd7 {V(Euwe)} (5...
+Qb6 6. a3 (6. Bd3 {G(Milner-Barry)} 6... cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4)
+6... Nh6 {V(Lputian)}))) (3. Nd2 {[C03] V(Tarrasch)} 3... Nc6 {V(Guimard)} (3...
+Nf6 {[C05] _(Closed variation)} 4. e5 (4. exd5 Qxd5 5. Ngf3) 4... Nfd7 5. Bd3 c5
+6. c3 b6 {V(_(Botvinnik))} (6... Nc6 7. Ne2 cxd4 8. cxd4 {[C06]} 8... Nb6
+{_(Leningrad variation)})) (3... c5 {[C07] _(Open system)} 4. exd5 Qxd5
+{D(Chistiakov))} (4... Nf6 {G(Shaposhnikov)}) (4... exd5 {[C08]} 5. Ngf3 Nc6
+{[C09]}) 5. Ngf3 cxd4 6. Bc4 Qd8 {V(Eliskases)}) (3... f5 {V(Haberditz)}) (3...
+Be7 {V(Morozevich)}) 4. Ngf3 (4. exd5) 4... Nf6 {[C04]} 5. e5 Nd7) (3. Nc3
+{[C10] * V(Paulsen)} 3... Nf6 {[C11]} (3... Bb4
+{[C15] V(Winawer); V(_(Nimzovich))} 4. Ne2 {G(_(Alekhine)); G(Maroczy)} (4. e5
+{[C16] _(Advance variation)} 4... c5 {[C17]} (4... Qd7 {V(Petrosian)}) 5. a3 (5.
+Bd2 {V(Bogolyubov)} 5... Ne7 6. f4 {_(Icelandic defense)}) (5. Qg4
+{_(Moscow variation); _(Russian variation)}) 5... Ba5
+{_(Swiss variation);  _(Retreat variation)} (5... cxd4 {V(Rauzer)} 6. axb4 dxc3
+{V(Maroczy-Willis)} 7. Nf3) (5... Bxc3+ 6. bxc3 {[C18]} 6... Ne7 {[C19]} (6...
+Qc7 {_(Classical Variation)}) 7. Qg4 {_(Poisoned Pawn variation)} (7. a4
+{V(Smyslov)}) (7. Nf3 {_(Positional main line)}) 7... Qc7 8. Qxg7 Rg8 9. Qxh7
+cxd4 10. Kd1 {V(Euwe-Gligoric)} (10. Ne2 {V(Konstantinopolsky)})) 6. b4 cxd4
+{_(Armenian line)}) (4. exd5 {_(Delayed exchange variation)} 4... exd5 5. Bd3
+Ne7 6. Qh5 {A(Canal)}) (4. Bd2 {_(Fingerslip variation)} 4... dxe4 (4... Ne7 5.
+Nb1 {L(Schwarz)}) 5. Qg4 Qxd4 {_(Kunin double gambit)}) (4. Bd3 c5 5. exd5 Qxd5
+6. Bd2 {V(Kondratiyev)}) (4. a3 {G(Winckelmann-Riemer)}) 4... dxe4 5. a3 Bxc3+
+(5... Be7 6. Nxe4 Nf6 7. N2g3 O-O 8. Be2 Nc6 {V(Alatortsev)}) 6. Nxc3 Nc6
+{V(Kan)}) (3... dxe4 {V(Rubinstein)} 4. Nxe4 (4. Be3 {G(Rasa-Studier)}) 4... Nd7
+{D(Blackburne)} (4... e5 {G(Ellis)}) (4... Bd7 5. Nf3 Bc6 {V(Fort Knox)}) (4...
+Qd5 {V(Frere); V(Becker); V(Katilimov); V(Maric)}) 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7.
+Ne5 {L(Capablanca)}) (3... c5 {V(Marshall)}) 4. Bg5 (4. e5 {V(Steinitz)} 4...
+Nfd7 5. f4 (5. Qg4 {A(Gledhill)}) 5... c5 6. Nf3 (6. dxc5 Bxc5 (6... Nc6 7. a3
+Bxc5 8. Qg4 O-O 9. Nf3 f6 {V(Brodsky-Jones)}) 7. Qg4 {A(Bradford)}) 6... Nc6 7.
+Be3 {V(Boleslavsky)}) (4. Be3 {V(Henneberger)}) (4. exd5 {V(Svenonius)}) (4. Bd3
+{_(Swiss variation)}) 4... Bb4 {[C12] V(MacCutcheon)} (4... Be7 {[C13]} 5. e5
+(5. Bxf6 {V(Anderssen)} 5... Bxf6 6. e5 Be7 7. Qg4 {V(Anderssen-Richter)}) 5...
+Nfd7 (5... Ng8 {V(Vistaneckis);  V(_(Nimzovich))} 6. Be3 b6
+{_(Frankfurt variation)}) (5... Ne4 {V(Tartakower)}) 6. Bxe7
+{_(Classical variation)} (6. h4 {A($_(Alekhine)-Chatard); A(Albin)} 6... Bxg5
+(6... c5 {V(Breyer)}) (6... a6 {V(Maroczy)}) (6... f6 {V(Teichmann)}) (6... O-O
+{V(Spielmann)}) 7. hxg5 Qxg5 {G(Albin-Chatard)}) 6... Qxe7 {[C14]} 7. Nb5
+{V(_(Alapin))} (7. Qg4 {V(Pollock)}) (7. Qd2 {V(Rubinstein)}) (7. f4
+{V(Steinitz)} 7... O-O 8. Nf3 c5 9. Qd2 Nc6 10. O-O-O c4 {V(Stahlberg)}) (7. Bd3
+{V(Tarrasch)})) (4... dxe4 {V(Burn)}) 5. e5 {_(Advance variation)} (5. Ne2
+{G(Wolf)}) (5. exd5 Qxd5 6. Bxf6 gxf6 7. Qd2 Qa5 {V(Bogolyubov)}) 5... h6 6. Bh4
+{V(Bernstein)} (6. exf6 {V(_(Chigorin))} 6... hxg5 7. fxg7 Rg8 8. h4 gxh4 9. Qg4
+{V(Grigoriev)}) (6. Bd2 Bxc3 {V(Lasker)} (6... Nfd7 {V(Tartakower)}) 7. bxc3 Ne4
+8. Qg4 Kf8 (8... g6) 9. Bc1 {V(Duras)}) (6. Be3 {V(Janowski)}) (6. Bc1
+{V(Dr. Olland); _(Dutch variation)})) (3. Be3 {G(_(Alapin)); G(Witaker)} 3...
+dxe4 4. f3 {G(_(Alapin)-Diemer)}) (3. Nf3 {G(Carlson); G(Perseus)}) (3. c4
+{G(Diemer-Duhm)}) (3. Qe2 e5 4. f4 exf4 {G(Hoffman)}) (3. Nh3 {G(Morphy)}) (3.
+Bd3 {V(Schlechter)}) 3... exd5 {[C01] _(Exchange variation)} 4. c4
+{V(Monte Carlo)} (4. Nc3 Nf6 5. Bg5 {V(Svenonius)} 5... Nc6 {V(Bogolyubov)}))
+(1... c6 {[B10] D(Caro-Kann)} 2. d4 {[B12]} (2. Nf3 d5 3. Nc3
+{_(Two knights variation)} 3... Bg4 {[B11]}) (2. d3
+{V(Breyer); _(Closed variation)} 2... d5 3. Nd2 g6 4. g3 Bg7 5. Bg2 e5 6. Ngf3
+Ne7 7. O-O O-O 8. b4 {A(Stein)}) (2. Nc3 d5 3. Qf3 {V(Goldman); V(Spielmann)}
+(3. Nf3 {_(Two knights variation)} 3... dxe4 (3... Bg4 {V(Mindeno)} 4. h3 Bh5
+{_(Retreat line)}) 4. Ng5 {G(Hector)}) (3. d3 dxe4 4. Bg5 {G(Scorpion-Horus)}))
+(2. Bc4 {A(Hillbilly)}) (2. c4
+{_(Modern variation);  _(English variation);  x(V(_(Panov))); _(Anti-Caro-Kann defense)}
+2... d5) 2... d5 (2... Na6 {D(De Bruycker)} 3. Nc3 Nc7) (2... e5) (2... d6)
+(2... Nf6 {D(Caro-Masi)}) (2... f5 {D(Massachussets)}) 3. exd5
+{_(Exchange variation)} (3. Nc3 {[B15]} 3... dxe4 (3... Nf6 {A(Campomanes)})
+(3... g6 {S(Gurgenidze)} 4. e5 Bg7 5. f4 h5) (3... b5 {Ac(Gurgenidze)}) 4. Nxe4
+(4. f3 {G(Milner-Barry);  G(Rasa-Studier)}) (4. Bc4 {G(Von Hennig)}) 4... Nf6
+{_(Knight variation)} (4... Bf5 {[B18] _(Classical variation)} 5. Ng3 Bg6 6. Nh3
+{V(Flohr)} (6. h4 h6 7. Nf3 Nd7 {[B19]} 8. Ne5 (8. h5 {V(Spassky)}) 8... Bh7 9.
+Bd3 Bxd3 10. Qxd3 {V(Seirawan)}) (6. f4 {A(Maroczy)})) (4... h6
+{_(Finnish variation)}) (4... Nd7 {[B17] V(Steinitz); V(_(Karpov))} 5. Ng5 (5.
+Nf3 Ngf6 6. Ng3 {A(_(Kasparov))}) (5. Bc4 Ngf6 6. Ng5 (6. Nxf6+ Nxf6
+{A(Tiviakov-Fischer)}) 6... e6 7. Qe2 Nb6 {V(Smyslov)}) 5... Ndf6 {D(Ivanchuk)})
+5. Nxf6+ (5. Nf3 Nxe4) (5. Bd3 {G(Tarrasch);  G(_(Alekhine))}) 5... gxf6
+{[B16] V(Bronstein-Larsen); V(_(Nimzovich))} (5... exf6
+{V(Tartakower); V(_(Nimzovich))} 6. Bc4 {V(Forgacs)})) (3. e5
+{_(Advance variation)} 3... Bf5 (3... c5 {D(_(Botvinnik)-Carls)}) 4. g4
+{A(Bayonet)} (4. Ne2 {V(Bronstein)}) (4. Nc3 {A(Van der Wiel)} 4... Qb6
+{D(Dreyev)}) (4. b4 {A(Prins)}) (4. Nf3 {V(Short)}) (4. h4 {V(Tal)}) (4. c3 e6
+5. Be2 {V(Short)})) (3. c4 {G(Diemer-Duhm)}) (3. Nd2 {_(Modern variation)} 3...
+Qb6 {V(Edinburgh)} (3... g6 {_(New Caro-Kann)})) (3. f3
+{_(Fantasy variation); V(Lilienfisch); V(Maroczy); V(Tartakower)} 3... dxe4 4.
+fxe4 e5 5. Nf3 exd4 6. Bc4 {G(Maroczy)}) (3. Bd3 Nf6 4. e5 Nfd7 5. e6
+{G(Landau)}) (3. Be3 {G(Mieses)}) (3. Nf3 {G(Ulysses)} 3... dxe4 4. Ng5) 3...
+cxd5 {[B13]} 4. c4 {A(_(Panov)-$_(Botvinnik))} (4. Bd3 Nc6 5. c3 Nf6 6. Bf4
+{V(Rubinstein)}) 4... Nf6 5. Nc3 {[B14] A(_(Panov)-$_(Botvinnik))} (5. c5
+{A(Gunderam)}) 5... Nc6 (5... e6) (5... g6) 6. Bg5 e6 {_(Carlsbad line)} (6...
+Qa5 {V(Czerniak)}) (6... Qb6 {L(Reifir); L(Spielmann)}) (6... dxc4 7. d5 Na5
+{D(Herzog)})) (1... d5 {[B01] _(Scandinavian defense); _(Center counter)} 2.
+exd5 (2. Nc3 {_(closed)}) (2. b4 {G(Zilbermints)}) 2... Qxd5 {V(Mieses-Kotroc)}
+(2... c6 3. dxc6 e5 {V(Atkinson); V(Kloosterboer); G(Blackburne-Kloosterboer)}
+(3... Nxc6 {G(Blackburne)})) (2... e5 {G(Böhnke)} 3. dxe6 Bxe6) (2... Nf6 3. d4
+(3. c4 e6 {_(Icelandic gambit); _(Icelandic-Palme gambit)} (3... c6
+{_(Scandinavian gambit); _(Panov transfer variation)})) 3... Nxd5 {V(Marshall)}
+(3... c6 4. dxc6 e5 {G(Kadas)}) (3... Bg4 {_(Portuguese variation)} 4. f3 Bf5 5.
+Bb5+ Nbd7 {_(Portuguese gambit)}) (3... g6 {V(Richter)} 4. c4 b5
+{_(Wing gambit)}) 4. Nf3 (4. c4 Nb4 {_(Kiel variation)} (4... Nf6 5. Nc3 c5
+{G(Tomalty)})) 4... Bg4 {V(Gipslis)} (4... g6 {V(Richter)})) (2... Qd6) 3. Nc3
+Qa5 (3... Qd6 {D(Gubinsky-Melts); V(Pytel-Wade)} 4. d3 (4. d4 Nf6 (4... c6
+{V(Schiller-Pytel)}) 5. Nf3 a6 {V(Bronstein)})) 4. d4 (4. b4
+{G(Leonhardt);  G(Rosen); G(Mieses-Kotrvc)}) 4... e5 {V(Anderssen)} (4... Nf6
+{V(Mieses)} 5. Nf3 Bf5 (5... Bg4 6. h3 {V(Lasker)}) 6. Ne5 c6 7. g4
+{V(Grünfeld)}) 5. Nf3 {S(Göteborg)} (5. dxe5 Bb4 6. Bd2 Nc6 7. Nf3
+{_(Orthodox attack)}) 5... Bg4 {V(Collijn)}) (1... Nf6 {[B02] D(_(Alekhine))} 2.
+e5 (2. Bc4 {G(Krejcik)} 2... Nxe4 3. Bxf7+) (2. Nc3 d5
+{_(Scandinavian variation)} 3. exd5 {G(Noch)} (3. d3 dxe4 4. Bg5 {G(Myers)}) (3.
+e5 Nfd7 4. e6 {V(Spielmann)}) 3... c6 {G(Geshev)}) (2. Nf3 {G(John Tracy)}) (2.
+d3 {V(Maroczy)}) (2. d4) 2... Nd5 (2... Ng8 {D(Brooklyn);  _(Retreat variation)}
+3. d4 f5 {D(Everglades)}) (2... Ne4
+{V(Mokele Mbembe);  V(Bücker); _(Knight’s tour variation)}) 3. d4 {[B03]} (3.
+Na3 {A(Buckley)}) (3. e6 {G(Buntin)}) (3. c4 {G(Hunt); _(Two pawns attack)} 3...
+Nb6 4. c5 {A(Lasker); _(Two pawns attack)} (4. b3 {V(Steiner)}) 4... Nd5 5. Nc3
+(5. e6) (5. Bc4 e6 6. Nc3 d6 {V(Mikenas)} 7. Nxd5 exd5 8. Bxd5) 5... Nxc3 (5...
+e6) 6. bxc3 (6. dxc3 d6 7. Bg5 {G(Matsukevich)}) 6... d6) (3. Bc4 Nb6 4. Bb3 c5
+5. d3 {V(Kmoch)}) (3. Nc3 {A(Sämisch)}) (3. b3 {V(Welling)}) 3... d6 (3... c5
+{V(Wall)}) (3... b5 {G(O’Sullivan)}) 4. Nf3 {[B04] _(Modern variation)} (4.
+Bc4 {V(Balogh)}) (4. c4 Nb6 5. f4 {_(Four pawns attack); _(Chase variation)} (5.
+c5 {V(Hunt)}) (5. exd6 {_(Exchange variation)} 5... cxd6 6. Nf3 g6 7. Be2 Bg7 8.
+O-O O-O 9. h3 Nc6 10. Nc3 Bf5 11. Bf4 {V(_(Karpov))}) (5. f3) 5... g5
+{V(Planinc); G(Cambridge)} (5... Bf5 {V(Trifunovic)}) (5... dxe5 6. fxe5 Bf5
+(6... Nc6 7. Nf3 (7. Be3 Bf5 8. Nc3 e6 9. Nf3 Qd7 10. Be2 O-O-O 11. O-O Be7
+{V(Tartakower)}) 7... Bg4 8. e6 fxe6 9. c5 {V(Ilyin-Genevsky)}) 7. Nc3 e6 8. Nf3
+Be7 9. Be2 O-O 10. O-O f6 {V(Kortchnoi)}) (5... g6 {_(Fianchetto variation)}))
+4... g6 {V(Alburt); _(Fianchetto variation)} (4... Bg4 {[B05]} 5. c4
+{V(_(Alekhine))} (5. Be2 c6 {V(Flohr)}) (5. h3 {V(_(Panov))}) 5... Nb6 6. d5
+{A(Vitolins)}) (4... dxe5 {V(Larsen)}) (4... Nb6 {V(Schmid)}) 5. c4 (5. Bc4 Nb6
+6. Bb3 Bg7 7. a4 {V(Keres)}) 5... Nb6 6. h3 Bg7 7. Be2 {V(_(Karpov))}) (1... g6
+{[B06] D(Robatsch); _(Modern defense); _(King pawn fianchetto)} 2. d4 (2. c4 Bg7
+3. Nc3 d6) (2. Bc4 Bg7 3. Qf3 e6 4. d4 {Monkey’s bum variation}) 2... Bg7
+(2... f5 {_(Fianchetto gambit)}) (2... Nh6 3. Nc3 f5 4. Bxh6 Bxh6 5. exf5 O-O
+{G(Masur)}) (2... Nf6 {_(Norwegian defense)} 3. e5 Nh5 4. g4 Ng7) (2... d6
+{D(Pirc)}) 3. Nf3 (3. Nc3 d6 (3... c6 4. f4 (4. f3) 4... d5 5. e5 h5
+{V(Gurgenidze)}) (3... d5 {G(Mittenberger)}) (3... c5 {V(Pterodactyl)}) 4. Bc4
+(4. f4 {_(Pseudo-Austrian attack)}) (4. Nf3 {_(Two knights variation)} 4... c6
+{V(Suttles)}) 4... c6 5. Qe2 {_(Anti-modern variation)}) (3. Bc4
+{_(Bishop attack)} 3... b5 {G(Bücker)}) (3. c4 d5 (3... c5 4. Nf3 Qb6
+{_(Polish variation)}) 4. exd5 c6 5. dxc6 Bxd4 {V(Dunworth)}) (3. f4
+{_(Three pawns attack)}) (3. Bd2 {G(Westermann)}) (3. Bd3 {G(Wind)}) 3... d6
+(3... b6 {D(Mongredien)}) 4. Nc3 (4. c3 {S(Geller)}) (4. c4 Bg4 {V(Rossolimo)})
+4... c6 {x(V(Gurgenidze))} (4... e6 {_(Small center variation)})) (1... d6
+{D(Pirc)} 2. d4 Nf6 {[B07] D(Pirc)} (2... f5 {D(Balogh)}) (2... e5 {D(Maroczy)}
+3. dxe5 Bd7 {G(Philidor)}) (2... e6 {_(Small center defense)}) 3. Nc3 (3. f3
+{Lion’s jaw variation}) (3. Nf3 {G(Roscher)}) 3... g6 {D(Ufimtsev);  D(Antal)}
+(3... Nbd7 4. f4 {V(a(Philidor))}) (3... c6
+{_(Czech defense); V(Ufimtsev-Pytel)}) 4. Nf3
+{[B08] _(Classical system);  _(Two knights system)} (4. f4
+{[B09] _(Austrian attack)} 4... Bg7 5. Nf3 (5. Bc4 {V(Ljubojevic)}) 5... c5
+{_(Dragon formation)} (5... O-O 6. Be3 {V(Kurajica)} (6. e5 {A(Unzicker)}) (6.
+Bd3 {V(Weiss)}))) (4. Be2 Bg7 5. h4 {A(Bayonet); A(Mariotti)} (5. g4
+{_(Chinese variation)})) (4. Bc4 {S(Kholmov)}) (4. Bg5
+{V(_(Panov));  V(Opatijav);  V(Byrne)}) (4. Be3 c6 5. h3 {A(Sveshnikov-Jansa)}
+(5. Qd2 {A(150)})) (4. g3 {S(Sveshnikov)}) 4... Bg7 5. Be2 {_(Quiet system)} (5.
+h3 {V(Schlechter)}) 5... O-O 6. O-O Nc6 (6... c6 {_(Czech defense)}) (6... Bg4
+{_(Parma defense)})) (1... Nc6 {D(_(Nimzovich))} 2. d4 (2. Nc3 Nf6 {D(Breyer)})
+(2. Nf3 f5 {D(Colorado); V(Lean)} (2... Nf6 3. e5 Ng4 {D(El Columpio)}) (2... e6
+{_(Franco-Nimzovich variation)}) (2... d6 {V(Williams)}) 3. exf5 {_(accepted)})
+(2. d3) (2. Bb5 {_(Pseudo-Spanish variation)}) (2. b4 {G(Wheeler)} 2... Nxb4 3.
+c3 Nc6 4. d4) 2... d5 {_(Aachen gambit); _(Scandinavian variation)} (2... e5
+{V(Kennedy)} 3. dxe5 (3. d5) 3... Bc5 {G(Bielefeld)} (3... d6 {G(Burgar)}) (3...
+f6 {G(Hammer)}) (3... Qh4 {G(Herford)}) (3... Nxe5 4. Nc3 {A(Keres)} (4. Nf3
+{A(Paulsen)}) (4. f4 Nc6 {D(Riemann)}))) (2... e6 {_(French connection)}) (2...
+d6 {V(Mikenas)}) (2... f6 {_(Neo-Mongoloid defense)}) (2... g6
+{_(Pirc connection)}) 3. exd5 (3. Nc3 {V(Bogolyubov)} 3... e5
+{V(Alekseev); G(Heinola-Deppe)} (3... a6 {G(Brandics)}) (3... g6 {G(Erben)})
+(3... dxe4 4. d5 Ne5 {G(_(Nimzovich))} (4... Nb8 5. f3 {G(Richter)})) (3... Nf6
+{V(Vehre)})) (3. Bd3) (3. Be3 {G(Hornung)}) 3... Nb4 (3... Qxd5 4. Nc3
+{G(Marshall)})) (1... Nh6 {D(Adams); _(Wild bull defense)} 2. d3 (2. d4 g6 3. c4
+f6 {_(Hippopotamus defense)})) (1... f6 {D(Barnes)} 2. d4 Kf7
+{Fried fox defense}) (1... g5 {D(Basman); Macho Grob; D(Borg); r(D(Grob))} 2. d4
+h6 (2... Bg7) (2... e5 {G(Zilbermints)}) 3. h4 g4 {G(Troon)}) (1... h6 {D(Carr)}
+2. d4 e5 {G(Zilbermints)}) (1... a5 {D(Corn stalk); D(Ware)} 2. d4 Nc6
+{D(Snagkeouss)}) (1... f5
+{D(Fred); r(O(From)); O(Mao Tse Tung); O(Duras); Gc(Tiers)}) (1... b6
+{D(Owen);  _(Greek defense)} 2. d4 Ba6 {D(Guatemala)} (2... c5 3. dxc5 Nc6
+{G(Hekili-Loa)}) (2... Bb7 3. Bd3 (3. Bh6) (3. Bg5 {V(Naselwaus)}) (3. Nf3
+{G(Smith)}) (3. f3 e5 {G(Wind)}) 3... f5 {G(Matovinsky)} 4. exf5 Bxg2 5. Qh5+
+g6)) (1... Na6 {D(Lemming)}) (1... h5 {D(Pickering);  D(Goldsmith)} 2. d4 Nf6
+{D(Picklepuss)}) (1... a6 {D(St. George); D(Birmingham); D(Baker)} 2. d4 b5
+{_(Polish variation)} (2... e6 3. c4 {_(Three pawns attack)} 3... b5
+{G(Sankt-Georg)}) (2... Nc6 {V(Woodchuck)}) (2... e5 {G(Zilbermints)}) 3. Nf3
+Bb7 4. Bd3 e6 (4... d6 5. O-O g6 6. c3 Bg7 {V(San Jorge)})) 2. Nf3
+{[C40] * _(King’s knight opening)} (2. f4 {[C30] _(King’s gambit)} 2... exf4
+{[C33] _(accepted)} (2... d5 {[C31] Gc(Falkbeer)} 3. exd5 {_(accepted)} (3.
+fxe5) (3. Nf3 {V(Tartakower); A(Blackburne)}) (3. d4 {G(Hinrichsen)}) (3. Nc3
+{V(Milner-Barry)}) 3... e4 {L(Staunton)} (3... c6
+{Gc(_(Nimzovich)); Gc(Marshall)} 4. dxc6 Bc5 {G(Pickler)}) (3... Bc5 {G(Miles)})
+(3... exf4 {_(Modern transfer)}) 4. d3 {V(Réti);  V(Charousek)} (4. Bb5+
+{V(_(Nimzovich));  A(Anderssen)}) (4. Nc3 Nf6 5. Qe2 {V(Rubinstein)}) 4... Nf6
+{[C32]} 5. Nd2 {V(Keres)} (5. Nc3 Bb4 6. Bd2 e3 {G(Morphy)}) (5. Qe2 {V(Réti)})
+(5. dxe4 Nxe4 6. Nf3 (6. Qe2 {G(Charousek)} 6... Qxd5 7. Nd2 f5 8. g4
+{V(Charousek)}) 6... Bc5 7. Qe2 Bf2+ (7... Bf5 8. g4 O-O {V(Tarrasch)}) 8. Kd1
+Qxd5+ 9. Nfd2 {V(_(Alapin))})) (2... Bc5 {_(Classical variation)} 3. Nf3 d6
+(3... g5 {Gc(Senechaud)}) 4. b4 {V(Heath)} (4. c3 Bg4 (4... f5
+{Gc(Rubinstein); _(Classical couter-gambit)} 5. fxe5 dxe5 6. d4 exd4 7. Bc4
+{V(Réti)}) 5. fxe5 dxe5 6. Qa4+ {A(Marshall);  A(Euwe)}) (4. Nc3 Nf6 (4... Nd7
+{V(Hanham)}) 5. Bc4 Nc6 6. d3 Bg4 {V(Svenonius)} 7. h3 Bxf3 8. Qxf3 exf4) (4.
+fxe5 {V(Soldatenkov)})) (2... Qh4+ {D(Keene)} 3. g3 Qe7) (2... c5 {D(Mafia)})
+(2... Nc6 {_(Queen’s knight defense)} 3. Nf3 f5 {D(Miles)} (3... g5
+{Zilbermints double gambit})) (2... Qf6 {V(Norwalde)} 3. Nc3 (3. Nf3 Qxf4 4. Nc3
+Bb4 5. Bc4 {G(Bücker)}) 3... Qxf4 4. d4 {V(Schubert)}) (2... f5
+{Gc(Panteldakis)}) (2... Nf6 {V(_(Petrov))}) (2... Qe7) (2... f6 3. fxe5 Nc6
+{G(Soller-Zilbermints)}) (2... g5 {_(Zilbermints double countergambit)}) 3. Nf3
+{[C34] _(King’s knight gambit)} (3. Bc4 {_(Bishop’s gambit)} 3... g5
+{D(Anderssen)} (3... d5 {Gc(Bledow); D(Morphy)} 4. Bxd5 Nf6 {V(Morphy)} (4...
+Qh4+ 5. Kf1 g5 (5... Bd6) 6. g3 {V(Gifford)}) (4... c6 {V(Anderssen)})) (3...
+Qh4+ 4. Kf1 Nc6 {D(Boden)} (4... b5 {Gc(Bryan); G(Kieseritzky)}) (4... g5
+{_(Classical defense)} 5. Qf3 {A(Cozio)} (5. Nc3 Bg7 6. g3 {A(McDonnell)} (6. d4
+d6 (6... Ne7 {_(Classical defense)} 7. g3 {A(McDonnell)}) 7. e5 {A(Grimm)}) 6...
+fxg3 7. Qf3 {V(Fraser)})) (4... d6 {V(Cozio)}) (4... Bc5 {V(Greco)}) (4... Nf6
+{V(Jänisch)}) (4... Qf6 {V(Jänisch)}) (4... d5 5. Bxd5 g5 6. g3
+{A('(_(Chigorin)))})) (3... Nf6
+{V(Cozio); V(Hanneken); _(Prussian variation); V(Lichtenhein); D(Morphy)} 4. Nc3
+{V(_(Bogolyubov))} 4... c6 {V(Jänisch)} (4... Bb4 5. e5 {A(Paulsen)})) (3... f5
+{Gc(Gianutio)} 4. Qe2 Qh4+ 5. Kd1 fxe4 6. Nc3 Kd8 {V(Hein)}) (3... b5
+{Gc(Bryan); G(Kieseritzky)}) (3... c6 {D(Ruy Lopez)}) (3... Nc6
+{_(Maurian defense)}) (3... Ne7 {D(Steinitz)})) (3. Qe2
+{G(Carrera); G(Basman); V(Bilguer-Mirage)}) (3. Qf3
+{G(Breyer); _(Hungarian gambit)}) (3. Qh5 {G(Carrera)}) (3. d4
+{G(Polerio); G(Willemson); G(Steinitz)}) (3. Qg4 {G(Dodo)}) (3. Kf2
+{_(Drunken king variation);  V(Tumbleweed);  _(King’s own variation)}) (3. Nh3
+{V(Eisenberg)}) (3. g3 {G(Gaga)} 3... fxg3 4. Nf3 {G(Gama)}) (3. Nc3
+{G(Keres);  G(Mason-Steinitz);  G(Parnu);  G(Requena)} 3... Qh4+) (3. h4
+{G(Leonardo);  G(Stamma); _(Pawn’s Gambit)}) (3. Be2
+{_(Lesser bishop’s gambit); G(Tartakower); G(Petroff-Jänisch-Tartakower)}
+3... f5 4. exf5 d6 {D(Weiss)}) (3. b3 {G(Orsini)}) (3. Ne2 {_(Paris gambit)})
+(3. Bb5 {G(Schurig)}) (3. Bd3 {G(Schurig)}) 3... g5 {[C37]} (3... Be7
+{[C35] D(Cunningham)} 4. Bc4 Bh4+ {_(Wild Cunningham gambit)} (4... Nf6
+{D(Euwe)}) 5. g3 {G(Bertin)} 5... fxg3 6. O-O gxh2+ 7. Kh1
+{_(Three pawns gambit)}) (3... d5
+{[C36] D(Abbazia); _(Classical defense); _(Modern defense); _(Scandinavian variation)}
+4. exd5 Nf6 {_(Modern variation)} 5. Bb5+ c6 6. dxc6 bxc6 7. Bc4
+{V(_(Botvinnik))}) (3... h6 {V(Becker); V(a(Kieseritzky))}) (3... Ne7
+{V(Bonsch-$_(Osmolovsky))}) (3... d6 {D(Fischer)} 4. b4 {G(Schulder)} (4. Bc4 h6
+5. h4 Nf6 6. Nc3 Bg4 7. d4 Nh5 8. Ne5)) (3... f5 {Gc(Gianutio)}) (3... Nc6
+{D(MacLeod)}) (3... Nf6 {D(Schallop)} 4. e5 Nh5 5. g4 {A(Tashkent)}) 4. Bc4
+{G(Koch)} (4. h4 {[C39] V(Kieseritzky)} 4... g4 5. Ng5 {G(Allgaier); G(Cotter)}
+(5. Ne5 Nf6 {_(Berlin defense)} (5... d5 {V(Campbell);  V(Brentano); V(Morphy)}
+6. d4 Nf6 7. exd5 (7. Bxf4 Nxe4 8. Nd2 {V(Caro)}) 7... Qxd5 8. Nc3 Bb4 9. Kf2
+{V(Kaplanek)}) (5... h6 6. Nxf7 {G(Cotter)}) (5... d6 {V(Kolisch); V(Green)})
+(5... h5 {D(Long whip); D(Stockwhip); _(Classical defense)} 6. Bc4 Rh7 7. d4 Bh6
+8. Nc3 {V(Jänisch)}) (5... Nc6 {D(Neumann)}) (5... Bg7 {D(Paulsen)}) (5... Qe7
+{D(Salvio); V(Rosenthal); V(Stockwhip)} 6. d4 f5 7. Bc4 {V(Cozio)}) (5... Be7
+{D(Polerio)}) 6. Bc4 (6. Nxg4 d5 {V(De Rivière)}) (6. d4 {V(Rubinstein)}) 6...
+d5 7. exd5 Bd6 {D(Anderssen)} (7... Bg7 {d(D(Paulsen))}) 8. d4 (8. O-O {G(Rice)}
+8... Bxe5 {_(accepted)}) 8... Nh5 9. Bxf4 {G(Anderssen-Cordel)} 9... Nxf4) 5...
+h6 (5... Nf6 {D(Schlechter)}) 6. Nxf7 Kxf7 7. Qxg4 (7. d4 {V(Thorold)} 7... d5
+8. Bxf4 dxe4 9. Bc4+ Kg7 10. Be5+ {V(Cook)}) (7. Bc4+ {A(Walker)} 7... d5 8.
+Bxd5+ Ke8 (8... Kg7 9. d4 {A(_(Urusov))}) 9. d4 {A(Urusov)}) (7. Nc3
+{G(Blackburne)}) 7... Nf6 8. Qxf4 Bd6 {D(Horny)}) (4. d4 {G(Rosentreter)} 4...
+g4 5. Ne5 {G(Sørensen)} (5. Bxf4 {G(Rosentreter-Testa)}) 5... Qh4+ 6. g3
+{G(Bird)}) (4. Nc3 {G(Quaade); V(Taylor)}) 4... g4 (4... Bg7
+{[C38] _(Traditional variation)} 5. h4 {G(Philidor)} (5. O-O {G(Hanstein)}) (5.
+d4 d6 6. c3 {G(Mayet)}) 5... h6 6. d4 d6 7. hxg5 (7. Qd3 {V(Schultz)}) (7. Nc3
+c6 8. hxg5 hxg5 9. Rxh8 Bxh8 10. Ne5 {G(Greco)}) 7... hxg5 8. Rxh8 Bxh8 9. Nc3
+{G(Greco);  _(Calabrian gambit)}) (4... Nc6 {G(Blachly)}) (4... d6 5. O-O Bg4 6.
+h3 h5 7. hxg4 {Gc(Middleton)}) 5. O-O {G(Muzio); G(Muzio-Polerio)} (5. Ne5
+{G(Salvio)} 5... Qh4+ 6. Kf1 Nh6 (6... f3 {G(Cochrane)}) (6... Nc6
+{G(Herzfeld);  _(Portuguese variation); _(Vienna variation)}) (6... Nf6
+{D(Santa Maria)}) 7. d4 d6 {Ac(Anderssen)} (7... f3 {G(Silberschmidt)})) (5. h4
+{_(Australian gambit)}) (5. d4 {G(Ghulam Kassim)} 5... gxf3 6. Qxf3
+{G(Ghulam-Kassim)} (6. Bxf4 {G(_(Kotov))})) (5. Bxf7+
+{G(Lolli);  _(Wild Muzio gambit)} 5... Kxf7 6. O-O gxf3 7. Qxf3 Qf6 8. d4 Qxd4+
+9. Be3 Qf6 10. Nc3 {V(Young)}) (5. Nc3 {G(McDonnell)}) 5... gxf3 (5... d5
+{D(Brentano)}) (5... Qe7 {_(Kling and Horwitz counterattack)}) 6. Qxf3 Qf6
+{D(Sarratt)} (6... Qe7 {D(From)}) (6... Nc6 {D(Holloway)}) 7. Nc3 {G(Bello)} (7.
+e5 Qxe5 8. Bxf7+ {_(Double Muzio Gambit)} (8. d3 Bh6 9. Nc3 Ne7 10. Bd2
+{V(Paulsen)} 10... Nbc6 11. Rae1)) (7. Bxf7+ Kxf7 8. d4 Qxd4+ 9. Be3 Qf6
+{G(Young)}) 7... Qd4+ 8. Kh1 Qxc4 9. Nd5 {G(Baldwin)}) (2. d4 {_(Centre game)}
+2... exd4 {[C21]} (2... d5 {G(Beyer)}) (2... d6 3. dxe5 Bd7 {G(Philidor)}) 3.
+Qxd4 (3. c3 {+ _(Danish gambit)} 3... dxc3 {_(accepted)} (3... d5
+{D(Sørensen)}) (3... Ne7 {D(Svenonius)}) 4. Bc4 cxb2 5. Bxb2 Qe7
+{D(Collijn); D(_(Chigorin))} (5... Nf6 {_(Classical defense)}) (5... Bb4+
+{D(Copenhagen)}) (5... d5 {D(Schlechter)})) (3. f4 {G(Halasz)} 3... Bc5 4. Nf3
+Nc6 5. c3 {_(Crocodile variation)}) (3. Nf3 Bc5 (3... c5 4. Bc4 b5
+{V(Kieseritzky)}) 4. c3 {G(Lanc-Arnold)} 4... dxc3 5. Bc4 {G(Scippler)}) (3. Bd3
+{G(Ross)}) (3. Bc4 {G(Von der Lasa)}) 3... Nc6 {[C22]} 4. Qe3 {A(Paulsen)} (4.
+Qc4 {V(Hall)}) 4... Nf6 {V(Berger)} (4... Bb4+ {V(Charousek)} 5. c3 Be7) (4...
+f5 {V(L'Hermet)}) 5. Nc3 Bb4 6. Bd2 O-O 7. O-O-O Re8 8. Bc4 {V(Kupreichik)} 8...
+d6 9. Nh3 {V(Kupreichik)}) (2. Bc4 {[C23] _(Bishop’s opening)} 2... b5 (2...
+Nf6 {[C24] _(Berlin defense)} 3. Nc3 (3. f4 {G(Greco)}) (3. d3 Nc6 (3... Be7 4.
+Nf3 O-O {Kitchner folly}) (3... Bc5 4. Nc3 {A(Spielmann)}) 4. Nc3
+{_(Vienna hybrid)} 4... Bb4 5. Ne2 {V(Hromadka)}) (3. d4 {G(Ponziani)} 3... exd4
+4. Nf3 {G(Urusov); G(Keidansky)} (4. c3 {_(Warsaw gambit)}) 4... Nxe4 (4... d5
+5. exd5 Bb4+ 6. c3 Qe7+ {V(_(Panov))}) 5. Qxd4 {G(Keidansky)}) (3. f3 Bc5 4. Ne2
+Nc6 5. b4 {G(Kreijcik)}) (3. Ne2 {G(Paschman)} 3... Nxe4 4. Nec3) 3... Nxe4
+{G(Blanel)} (3... b5 {G(Horwitz)})) (2... Bc5 {_(Classical variation)} 3. b4
+{G(Labourdonnais-Denker);  _(Wing gambit)} (3. c3 {V(Philidor)} 3... d5
+{Gc(Lewis)} (3... Nf6 4. d4 exd4 5. e5 d5 6. exf6 dxc4 7. Qh5 O-O {V(Pratt)})
+(3... Qg5 {V(Del Rio)}) 4. Bxd5 Nf6 5. d4 {V(Walker)}) (3. d4 {G(Lewis)}) (3.
+Qe2 {V(Lopez)} 3... f6 (3... Nc6 4. c3 Nf6 5. f4 {G(Lopez)}) 4. Nf3 f5
+{G(Lopez)}) (3. f4 {G(Stein)}) (3. Qh5 Nf6 4. Qxf7# {_(Scholar’s mate)}) 3...
+Bxb4 4. c3 (4. f4 {_(McDonnell double gambit)} 4... exf4 5. Nf3 Be7 6. d4 Bh4+
+7. g3 fxg3 8. O-O gxh2+ 9. Kh1 {_(Four pawns gambit)})) (2... d5 {G(Khan)})
+(2... f5 {_(Calabrese counter-gambit); _(King’s gambit reversed)} 3. d3
+{V(Jänisch)}) (2... d6 3. Nf3 Bg4 4. Nc3 g6 $2 5. Nxe5 Bxd1 6. Bxf7+ Ke7 7.
+Nd5# {M(Légall)}) (2... Nc6 3. Qh5 Nf6 4. Qxf7#) (2... c6 {Ac(Philidor)} 3. d4
+{V(Lisitsyn)} 3... d5 4. exd5 cxd5 5. Bb5+ Bd7 6. Bxd7+ Nxd7 7. dxe5 Nxe5 8.
+Ne2) 3. Bxb5 c6 {G(Anderssen)} (3... f5 {G(Thorold)})) (2. Nc3
+{[C25] _(Vienna game);  O(Hamppe)} 2... Nf6 {[C26]V(Falkbeer)} (2... Nc6
+{D(Max Lange)} 3. f4 {_(Vienna gambit); V(_(Alapin))} (3. Bc4 Nf6 (3... Bc5 4.
+Qg4 Qf6 5. Nd5 {G(Meitner-Mieses)}) 4. f4 Nxe4 5. Nf3 {G(Bronstein)}) (3. d4
+{G(Fyfe)} 3... f5 {Gc(Philidor)}) (3. g3 {V(Paulsen)} 3... Bb4 (3... Bc5 4. Bg2
+h5 5. Nf3 h4 {G(Mariotti)})) 3... exf4 (3... Bc5 4. fxe5 d6 {G(Quelle)}) 4. Nf3
+{_(Knight variation)} (4. d4 {G(Steinitz)} 4... Qh4+ 5. Ke2 b6
+{V(Fraser-Minckwitz)} (5... d6 {D(Paulsen)}) (5... g5 {D(Sørensen)}) (5... d5
+{D(Zukertort)})) 4... Be7 {D(Cunningham)} (4... g5 5. h4 (5. Bc4 g4 6. O-O
+{G(Hamppe-Muzio)} 6... gxf3 7. Qxf3 Ne5 8. Qxf4 Qf6 {V(Dubois)}) (5. d4
+{G(Pierce)} 5... g4 6. Bc4 gxf3 7. O-O d5 8. exd5 Bg4 9. dxc6 {A(Rushmere)})
+5... g4 6. Ng5 {G(Hamppe-Allgaier)} 6... h6 (6... d6 {V(_(Alapin))}) 7. Nxf7
+Kxf7 8. d4 {G(Hamppe-Allgaier-Thorold)})) (2... Bc5 {D(Anderssen)} 3. Qg4
+{_(Giraffe Attack)} (3. Na4 {V(Hamppe-Mietner)})) (2... d6 3. f4 {G(Omaha)})
+(2... Bb4 3. Qg4 Nf6 {Gc(Zhuravlev)}) 3. Bc4 {V(Stanley)} (3. f4 d5
+{[C29] _(Vienna gambit)} 4. fxe5 (4. d3 {V(Steinitz)}) 4... Nxe4 5. Qf3
+{A(Paulsen)} (5. Nf3 Be7 {V(Breyer)} (5... Bg4 6. Qe2 {V(Kaufmann)})) (5. d3
+{V(Oxford)} 5... Qh4+ 6. g3 Nxg3 7. Nf3 Qh5 8. Nxd5 {T(Würzburger)}) 5... f5
+{V(Bardeleben)} 6. d4 {V(Heyde)}) (3. g3 {V(Paulsen-Mieses)} 3... d5 (3... Bc5
+4. Bg2 Nc6 5. Nge2 d5 6. exd5 {G(Polluck)}) 4. exd5 c6 {G(Erben)}) (3. a3
+{V(Mengarini)}) 3... Nxe4 {[C27]} (3... Bc5 {_(Bishop variation)} 4. Nge2 b5
+{G(Eifel)}) (3... Bb4 {_(Reversed Spanish opening)}) (3... Nc6
+{[C28] _(Three knights variation)}) 4. Qh5 {V(Frankenstein-Dracula)} (4. Nf3
+{G(Boden-Kieseritzky)} 4... d5 {D(Lichtenhein)}) (4. Nxe4) 4... Nd6 5. Bb3 Be7
+{_(Monster variation)} (5... Nc6 6. Nb5 (6. d4 {G(Adams)}) 6... g6 7. Qf3 f5 8.
+Qd5 Qe7 9. Nxc7+ Kd8 10. Nxa8 b6) 6. Nf3 Nc6 7. Nxe5 {V(_(Alekhine))}) (2. Ne2
+{O(_(Alapin))}) (2. c3 {O(Lopez); A(MacLeod);  O(Staunton)} 2... f5 {G(Lasa)}
+(2... d5 3. Qh5 Bd6 {G(Norwalder)})) (2. c4 {O(Whale)} 2... d5
+{_(Bavarian gambit)}) (2. d3 { _(Indian opening); V(Clam);  V(Leonardis)} 2...
+f5 {_(King’s gambit reversed)} (2... Nf6 3. f4 Bc5 {G(Radisch)}) (2... d5 3.
+exd5 c6 {G(Weber)} 4. dxc6 Nxc6)) (2. f3 {_(King’s head opening)} 2... Nf6
+{V(Walkerling)} 3. Nc3 (3. Bc4 Bc5 4. Ne2 Nc6 5. b4 {G(Krejcik)})) (2. Qh5
+{O(Patzer); Wayward Queen; O(Danvers); O(Parnham)} 2... Qf6 {Gc(Kiddie)} (2...
+Nc6 3. Bc4 Nh6 4. d3 g6 5. Qf3 f6 6. Ne2 d5 {G(Mellon)})) (2. Bb5
+{_(Portuguese opening)} 2... Bc5 3. b4 {G(Miguel)}) (2. Qf3 {O(Napoléon)}) (2.
+Bd3 {_(Tortoise opening)}) (2. a3 {O(Mengarini)}) (2. Qe2) (2. b3) 2... Nc6
+{[C44]} (2... d6 {[C41] D(Philidor)} 3. d4 (3. Bc4 f5 {Gc(Lopez)} (3... Be7 4.
+c3 {V(Steinitz)}) 4. d4 exd4 5. Ng5 Nh6 6. Nxh7 {V(Jänisch)}) (3. h3
+{V(Greco)}) 3... Bg4 (3... exd4 {_(Exchange variation)} 4. c3 {G(Bird)} (4. Qxd4
+Bd7 {V(Boden)}) (4. Nxd4 g6 {V(Larsen)} (4... d5 5. exd5 {A(Paulsen)}) (4... Nf6
+5. Nc3 Be7 6. Be2 O-O 7. O-O c5 8. Nf3 Nc6 9. Bg5 Be6 10. Re1 {V(Berger)})) (4.
+Bc4 {G(Morphy)})) (3... Nd7 {V(Hanham);  V(Lord)} 4. Bc4 (4. Nc3 Ngf6 {V(Lion)})
+4... c6 (4... Nb6 {_(Sharp variation)}) 5. c3 {V(Delmar)} (5. O-O {V(Krause)}
+5... Be7 6. dxe5 {V(Steiner)}) (5. Nc3 {V(Schlechter)}) (5. Ng5 {V(Kmoch)} 5...
+Nh6 6. f4 Be7 7. O-O O-O 8. c3 d5 {V(Berger)})) (3... Nf6
+{ V(_(Nimzovich)); V(Jänisch)} 4. Bc4 {V(Klein)} (4. Nc3 Nbd7
+{_(Improved Hanham variation)} 5. Bc4 Be7 6. O-O O-O 7. Qe2 (7. Bxf7+
+{V(Larobok)}) 7... c6 8. a4 exd4 {V(Sozin)}) (4. Ng5 {V(Locock)} 4... h6 5. Nxf7
+{V(Locock)}) (4. dxe5 {V(_(Nimzovich))} 4... Nxe4 5. Qd5 {V(Rellstab)} (5. Nbd2
+{V(Sokolsky)}))) (3... f5 {Ac(Philidor)} 4. Nc3 {V(Zukertort)} (4. dxe5 fxe4 5.
+Ng5 d5 6. e6 {A(Del Rio)} 6... Bc5 7. Nc3)) (3... Bd7 {G(Philidor)}) 4. dxe5 Nd7
+{G(_(Alapin)-Blackburne)}) (2... Nf6 {[C42] _(Petrov defense; Russian defense)}
+3. Nxe5 (3. d4 {[C43] _(Modern Attack); A(Steinitz)} 3... exd4 (3... Nxe4
+{_(Symmetrical variation)} 4. Bd3 Nc6 {V(Murret)} (4... d5 5. Nxe5 Bd6 6. O-O
+O-O 7. c4 Bxe5 {V(Trifunovic)})) (3... d5 {_(Symmetrical variation)}) 4. e5 (4.
+Bc4 {G(Urusov); G(Suchting)}) 4... Ne4 5. Qxd4 (5. Bb5 {G(Tal)}) (5. Qe2
+{V(Steinitz)} 5... Nc5 6. Nxd4 Nc6 {V(Bardeleben)})) (3. Bc4
+{G(Urosov); _(Italian variation)} 3... Nxe4 4. Nc3 {G(Boden-Kieseritzky)} 4...
+d5 {D(Lichtenhein)}) (3. Qe2 Nc6 4. d4 {G(Moody)}) (3. Nc3
+{_(Petrov three knights game)}) 3... d6 (3... d5) (3... Nxe4 {V(Damiano)} 4. Qe2
+Qe7 {G(Kholmov)}) (3... Nc6 {G(Stafford)}) 4. Nf3 (4. Nxf7 {G(Cochrane)}) (4.
+Nd3 {V(Karklins-Martinovsky)}) (4. Nc4 {A(Paulsen)}) (4. d4 {V(Steinitz)} 4...
+dxe5 5. Bc4 {G(Urusov)}) 4... Nxe4 5. d4 {* _(Classical attack)} (5. Qe2
+{A(Cozio); A(Lasker)}) (5. d3 {_(French attack)}) (5. b4) (5. c4 {V(Kaufmann)})
+(5. Bd3 {A(Millenium)}) (5. Nc3 {A(_(Nimzovich))}) 5... d5 (5... Nf6) 6. Bd3 Be7
+(6... Bd6 {V(Marshall)} 7. O-O O-O 8. c4 c6 {V(Staunton)} (8... Bg4
+{V(Tarrasch)} 9. cxd5 f5 10. Re1 Bxh2+ {T(Marshall)})) (6... Nc6
+{V(Mason-Showalter)}) 7. O-O Nc6 (7... O-O {V(Mason)}) 8. Re1 {V(_(Chigorin))}
+(8. c4 {V(Jänisch)}) 8... Bg4 9. c3 f5 10. Nbd2 {V(Berger)} (10. c4 {V(Krause)}
+10... Bh4 {V(Maroczy)})) (2... d5
+{_(Elephant gambit); _(Queen’s pawn countergambit)} 3. exd5 (3. Nxe5 dxe4 4.
+Bc4 Qg5 {V(Wasp)}) 3... Bd6 {G(Maroczy); G(Halasz-Jacobsen)} (3... e4
+{Gc(Paulsen)})) (2... f5 {_(Latvian gambit); Gc(Greco)} 3. Nxe5 (3. d3 Nc6 4.
+exf5 {G(Clam)}) (3. c4 {Gc(Diepstraten)}) (3. Bc4 {A(Mayet)} 3... fxe4 (3... Nf6
+{D(Morgado)}) (3... b5 {G(Strautins)}) 4. Nxe5 Qg5 (4... d5
+{V(Polerio); V(Polerio-Svedenborg)}) (4... Nf6 {_(Corkscrew counter-gambit)}) 5.
+d4 (5. Nf7 Qxg2 6. Rf1 d5 7. Nxh8 {V(Behting)}) 5... Qxg2
+{_(Poisoned pawn variation)} 6. Qh5+ g6 7. Bf7+ Kd8 8. Bxg6 Qxh1+
+{V(Duke of Courland)}) (3. exf5 {accepted}) (3. g4 {G(Lobster)}) (3. d4
+{Gc(Mason)}) (3. Nc3 {V(Mlotowski)}) (3. b4 {G(Senechaud)}) 3... Qf6 (3... Nf6
+4. Bc4 f4 (4... fxe4 5. Nf7 Qe7 6. Nxh8 d5 {Gc(Corkscrew)})) (3... Nc6
+{D(Fraser)}) (3... Qe7 {V(Greco)}) 4. d4 (4. Nc4 {V(Foltys-Leonhardt)} 4... fxe4
+5. d3 {V(Foltys)} (5. Nc3 {V(Leonhardt)}) (5. Ne3 {A(_(Nimzovich)})) 4... d6 5.
+Nc4 {V(Bilguer)} 5... fxe4 6. Be2 {A(Bronstein)} (6. Qh5+ g6 7. Qe2
+{G(Bronstein)}) (6. Ne3 {V(_(Nimzovich))})) (2... f6 {D(Damiano)} 3. Nxe5 Qe7
+(3... fxe5 4. Qh5+ g6 5. Qxe5+ Qe7 6. Qxh8 {G(Damiano)}) 4. d4 (4. Nf3 d5
+{G(_(Chigorin))})) (2... Bc5 {G(Glatz);  G(Busch-Gass)} 3. Nxe5 (3. Na3) 3...
+Nc6 {G(Chiodini)}) (2... c5 {D(Jalalabad)}) (2... Qf6 {D(Greco); D(McDonnell)}
+3. Bc4 Qg6 4. O-O {G(Labourdonnais)}) (2... c6 {G(Gunderam)}) (2... Qe7
+{  D(Gunderam); D(Levenstein);  _(Queen’s defense);  _(Brazilian defense)} 3.
+Bc4 g6 (3... f5 {G(Gunderam)})) 3. Bb5 {[C60] _(Ruy Lopez; Spanish opening)} (3.
+Bc4 {[C50]} 3... Bc5 {_(Italian game)} (3... Nf6
+{[C55] + _(Two knights defense)} 4. Ng5
+{[C57] _(Prussian game); _(Knight attack))} (4. c3 {G(De Rivière)}) (4. d4
+{_(Open variation); _(Center play variation)} 4... exd4 5. O-O
+{_(Scotch gambit)} (5. Ng5 {V(Perreux); V(Anderssen)} 5... Ne5 6. Bb3
+{V(Schiffers)}) (5. Nxd4 {_(Scotch game); V(Mieses)} 5... d6
+{_(Closed variation)}) (5. e5 {V(Dufresne)} 5... d5 6. Bb5 Ne4 7. Nxd4 Bc5 8.
+Nxc6 Bxf2+ 9. Kf1 Qh4 {V(Keidanz)}) 5... Nxe4 {[C56] _(Double gambit accepted)}
+(5... Bc5 6. e5 {A(Max Lange)} 6... d5 (6... Ng4 {V(steinitz)} 7. c3
+{V(Krause)
+}) 7. exf6 dxc4 8. Re1+ (8. fxg7 {V(Paulsen)}) 8... Be6 (8... Be7
+{V(Marshall)} 9. Ng5 Qd5 10. Nc3 Qf5 {V(Marshall)}) 9. Ng5 (9. fxg7
+{V(Schlechter)}) 9... g6 {D(Loman)} (9... Qd5 {V(Teichmann)} 10. Nc3 Qf5 11. g4
+(11. Nce4 {V(Marshall)} 11... Bf8 {V(Rubinstein)}) 11... Qg6 12. Nce4 Bb6 13. f4
+O-O-O {V(Berger)})) (5... d5 {V(Kolisch)} 6. exd5 Nxd5 7. Nxd4 {V(Tarrasch)})
+(5... d6 {V(Blackburne)} 6. Nxd4 Be7 {V(Pillsbury)}) (5... Be7 {V(Knorre)}) 6.
+Re1 {V(Jordansky)} (6. Nc3 {G(Nachmanson)}) 6... d5 (6... f5 {V(Andersson)}) 7.
+Bxd5 (7. Nc3 {V(Canal)}) 7... Qxd5 {V(_(Alapin))} 8. Nc3 Qa5 9. Nxe4 Be6 10. Bg5
+{A(Jordansky); V(Kohtz)} 10... h6 11. Bh4 g5 12. Nf6+ Ke7 13. b4
+{A(_(Yurdansky))}) (4. d3 {_(Modern bishop’s opening); V(Pianissimo)} 4... Bc5
+{V(De Rivière)} 5. c3 {V(Albin)} (5. Nc3 d6 {V(Showalter)}) (5. Be3
+{V(Mason)})) (4. Nc3 {_(Four knights variation)}) (4. O-O Nxe4
+{_(Transitional variation)} (4... Bc5 5. d4 Bxd4 6. Nxd4 Nxd4 7. Bg5 h6 (7... d6
+8. f4 Qe7 9. fxe5 dxe5 10. Nc3 {A(Holzhausen)}) 8. Bh4 g5 9. f4
+{V(Rosentreter)})) 4... d5 (4... Nxe4 {G(Ponziani-Steinitz)}) (4... Bc5
+{V(Wilkes-Barre); V(Traxler)} 5. Bxf7+ Ke7 6. d4 {G(Trencianske-Teplice)}) 5.
+exd5 Nxd5 (5... Na5 {[C58] D(Polerio)} 6. Bb5+ (6. d3
+{V(Kieseritzky);  V(Morphy); _(Magdeburg variation)} 6... h6 7. Nf3 e4 8. Qe2
+Nxc4 9. dxc4 Bc5 {V(Yankovich)} (9... Bb4+ {V(Yates)}) (9... Bd6 {V(Boden)})
+(9... Be7 {V(Maroczy)}) 10. Nfd2 {V(Yankovich)}) (6. d4) 6... c6 (6... Bd7
+{V(Polerio)}) 7. dxc6 bxc6 8. Qf3 {V(_(Bogolyubov)); V(Staunton)} (8. Be2 h6
+{[C59] D(Suhle)} 9. Nf3 (9. Nh3 {V(Steinitz)}) 9... e4 10. Ne5 {V(Goering)}
+10... Qc7 {V(Göring); V(Von der Lasa)} (10... Qd4 {V(Max Lange)}) (10... Bd6
+{V(Knorre)} 11. f4 (11. d4 Qc7 12. Bd2) 11... exf3 {_(Exchange variation)}) 11.
+f4 {V(_(Chigorin))} (11. Ng4 {V(Bird)}) 11... Bc5 {V(Tenner)}) (8. Ba4
+{V(Anderssen)}) (8. Bd3 {V(Bird)}) (8. Bf1 {V(Steinitz)}) 8... Rb8 {V(Colman)}
+(8... cxb5 {V(Blackburne)}) (8... Qb6 {V(Elijah Williams)}) (8... Qc7 {V(Paoli)}
+9. Bd3) (8... Be7 {V(Von Bardeleben)})) (5... Nd4 {V(Fritz)} 6. c3 b5 7. Bf1
+Nxd5 8. Ne4 {V(Gruber)} 8... Qh4 {_(Berlin variation)}) (5... Nb4 {G(Kloss)})
+(5... b5 {V(Ulvestad)} 6. Bf1 h6 7. Nxf7 {G(Kurkin)}) 6. Nxf7
+{A(Fegatello); _(Fried liver attack)} (6. d4 {A(Lolli)} 6... Bb4+ {V(Pinkus)})
+6... Kxf7 7. Qf3+ Ke6 8. Nc3 Nb4 (8... Ne7 {D(Polerio)} 9. d4 {V(Von der Lasa)})
+9. Qe4 c6 10. a3 Na6 11. d4 {V(Leonhardt)} 11... Nc7 {V(Leonhardt)}) (3... Nd4
+{_(Blackburne shilling Gambit); G(Kostic)} 4. Nxe5 Qg5 5. Nxf7 Qxg2 6. Rf1 Qxe4+
+7. Be2 Nf3#) (3... d6 {_(Half Giuoco piano); _(Semi-Italian opening)}) (3... Be7
+{_(Hungarian defense)} 4. d4 exd4 5. c3 Nf6 6. e5 Ne4 {V(Tartakower)}) (3... f5
+{G(Rousseau)}) 4. b4 {[C51] + G(Evans)} (4. c3 {[C53] Giuoco piano} 4... Nf6
+(4... f5 {G(Alexandre)}) (4... Qe7 {D(Lewis);  _(Closed variation)} 5. d4 Bb6
+{_(Center holding variation)} 6. Bg5 {V(Mestel)} (6. O-O Nf6 7. a4 a6 8. Re1 d6
+9. h3 {V(Tarrasch)}) (6. d5 Nb8 7. d6 {V(Eisinger)})) (4... d6 5. d4 exd4 6.
+cxd4 Bb6 {V(Labourdonnais)}) 5. O-O {G(Albin)} (5. b4 {A(Bird)}) (5. d4
+{_(Center attack)} 5... exd4 6. cxd4 {[C54] G(Grevo)} (6. O-O {G(Mason)}) (6. e5
+Ne4 (6... d5 7. Bb5 Ne4 8. cxd4 Bb4+ {V(Anderssen)}) 7. Bd5 Nxf2 8. Kxf2 dxc3+
+9. Kg3 {V(Ghulam Kassim)}) 6... Bb4+ 7. Kf1 {_(Cracow variation)} (7. Nc3
+{A(Greco)} 7... Nxe4 8. O-O Nxc3 {V(Greco)} (8... Bxc3 9. d5
+{A(Möller);  A(Therkatz)} (9. bxc3 d5 10. Ba3 {V(Steinitz)}) 9... Bf6 10. Re1
+Ne7 {V(Therkatz-Herzog)} 11. Rxe4 d6 12. Bg5 (12. g4 {_(Bayonet attack)}) 12...
+Bxg5 13. Nxg5 O-O 14. Nxh7 {V(Therkatz-Herzog)}) 9. bxc3 Bxc3 10. Qb3 (10. Ba3
+{V(Aitken)}) 10... d5 {V(Bernstein)}) (7. Bd2 Nxe4 8. Bxb4 Nxb4 9. Bxf7+ Kxf7
+10. Qb3+ d5 11. Ne5+ Kf6 12. f3 {V(Krause)})) (5. d3 {Giuoco pianissimo})) (4.
+d3 {Giuoco pianissimo} 4... Nf6 (4... f5 {G(Lucchini)} 5. Ng5 f4 {V(Dubois)}) 5.
+Nc3 {_(Italian four knights variation)} 5... d6 6. Bg5 {V(Canal)}) (4. O-O Nf6
+5. d4 {G(Deutz)}) (4. Nc3 Nf6 {_(Four knights variation)}) (4. Bxf7+
+{G(Jérôme);  O(Kentucky)}) (4. d4 {G(Rosentreter)}) 4... Bxb4 {_(accepted)}
+(4... d5 {Gc(Hein); Gc(Evans)}) (4... Bb6 5. b5 (5. a4 a6 6. Nc3 {V(Showalter)})
+(5. Bb2 {V(Cordel)}) 5... Na5 6. Nxe5 Nh6 {V(Lange)} (6... Qg5 {V(Hirschbach)}
+7. Bxf7+ (7. Qf3 Qxe5 8. Qxf7+ Kd8 9. Bb2 {V(Hicken)}) 7... Ke7 8. Qh5
+{V(Vasquez)}) 7. d4 d6 8. Bxh6 dxe5 9. Bxg7 Rg8 10. Bxf7+ Kxf7 11. Bxe5 Qg5 12.
+Nd2 {V(_(Pavlov))}) 5. c3 Ba5 {[C52]} (5... Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6
+9. Nc3 {A(Morphy)} (9. d5 Na5 10. Bb2 {V(Ulvestad)} 10... Ne7 {V(Paulsen)}) 9...
+Bg4 (9... Na5 10. Bg5 {A(Göring)} 10... f6 11. Be3 {V(Steinitz)}) 10. Qa4
+{A(Fraser)} 10... Bd7 11. Qb3 Na5 12. Bxf7+ Kf8 13. Qc2 {A(Fraser-Mortimer)})
+(5... Be7 {V(Anderssen)} 6. d4 Na5 {V(Cordel)}) (5... Bd6 {V(Stone-Ware)}) (5...
+Bf8 {D(Mayet)}) 6. d4 (6. O-O {_(Slow variation)} 6... Nf6 (6... d6 7. d4 exd4
+(7... Bb6 {D(Lasker)}) (7... Bd7 {V(Sanders-$_(Alapin))}) (7... Bg4
+{V(_(Alapin)-Steinitz)}) 8. Qb3 {A(Waller)}) 7. d4 O-O 8. Nxe5 {A(Richardson)})
+6... exd4 {D(Pierce)} (6... d6 7. O-O (7. Bg5 {V(Sokolsky)}) (7. Qb3
+{A(Tartakower)} 7... Qd7 8. dxe5 dxe5 9. O-O Bb6 10. Ba3 Na5 11. Nxe5
+{V(Levenfish)}) 7... Bb6 {D(Lasker)}) (6... b5 {V(Leonhardt)}) 7. O-O dxc3
+{_(Compromised defense)} (7... Nge7 {D(Mieses)}) (7... b5 {D(Schulen)}) (7... d6
+8. Qb3 {A(Waller)}) 8. Qb3 Qf6 9. e5 Qg6 10. Nxc3 Nge7 11. Ba3 {V(Paulsen)} (11.
+Re1 {V(Potter)})) (3. d4 {_(Scotch game)} 3... exd4 (3... Nxd4 {V(Lolli)} 4.
+Nxd4 (4. Nxe5 Ne6 5. Bc4 c6 6. O-O Nf6 7. Nxf7 {V(Cochrane)}) 4... exd4 5. Bc4
+{G(Napoléon)}) 4. Nxd4 {[C45]} (4. c3 {G(Göring)} 4... dxc3 (4... d5
+{_(declined)}) 5. Nxc3 (5. Bc4 {_(Double pawn sacrifice)}) 5... Bb4 (5... d6 6.
+Bc4 Bg4 7. O-O Ne5 8. Nxe5 Bxd1 9. Bxf7+ Ke7 10. Nd5# {_(Sea-cadet mate)}) 6.
+Bc4 Nf6 {V(Bardeleben)}) (4. Bc4 {_(Scotch gambit)} 4... Be7 {D(Benima)} (4...
+Bb4+ {_(London defense)} 5. c3 dxc3 6. O-O (6. bxc3 Ba5 7. e5 {V(Cochrane)})
+6... cxb2 7. Bxb2 Nf6 8. Ng5 O-O 9. e5 Nxe5 {V(Hanneken)}) (4... Bc5 5. O-O (5.
+Ng5 Nh6 6. Qh5 {A(Vitzhum)} (6. Nxf7 Nxf7 7. Bxf7+ Kxf7 8. Qh5+ g6 9. Qxc5 d5
+{D(Cochrane-Shumov)})) 5... d6 6. c3 Bg4
+{Ac(Paulsen);  Ac(Anderssen); Ac(Suhle)}) (4... Nf6 {D(Dubois-Réti)})) (4. Bb5
+{G(Relfsson); V(MacLopez)}) 4... Nf6 (4... Bc5 5. Be3 (5. Nb3 {V(Potter)} 5...
+Bb6 (5... Bb4+ {V(_(Romanishin))}) 6. a4 a6 7. Nc3 Nf6 {V(Geller)}) (5. Nxc6 Qf6
+{V(Intermezzo)}) 5... Qf6 6. c3 (6. Nb5 {A(Blumenfeld)}) 6... Nge7 (6... Qg6
+{V(Millenium)}) 7. Qd2 {A(Blackburne)} (7. Nd2) (7. Nc2
+{V(Fleissner);  V(Meitner)}) (7. Bb5 {A(Paulsen)} 7... Nd8 {D(Gunsberg)}) 7...
+d5 8. Nb5 Bxe3 9. Qxe3 O-O 10. Nxc7 Rb8 11. Nxd5 Nxd5 12. exd5 Nb4
+{V(Gottschall)}) (4... Qh4 {V(Steinitz);  V(Pulling)} 5. Be3 {V(Braune)} (5. Nf3
+{A(Fraser)}) (5. Nb5 {A(Horwitz)} 5... Bb4+ 6. Nd2 (6. Bd2 Qxe4+ 7. Be2 Kd8 8.
+O-O Bxd2 9. Nxd2 Qg6 {V(Rosenthal)}) 6... Qxe4+ 7. Be2 Qxg2 8. Bf3 Qh3 9. Nxc7+
+Kd8 10. Nxa8 Nf6 11. a3 {V(Berger)}) (5. Nc3 {V(Steinitz)} 5... Bb4
+{_(Modern defense)}) (5. Nf5 {V(Paulsen)})) (4... Bb4+ {V(Malaniuk)}) (4... Nxd4
+5. Qxd4 d6 6. Bd3 {V(Ghulam Kassim)}) 5. e5 {G(_(Alekhine))} (5. Nxc6
+{V(Mieses)} 5... bxc6 6. Nd2 {V(Tartakower)} (6. e5 {V(Mieses)})) (5. Nc3
+{V(Schmidt)})) (3. Nc3 {[C46] _(Three knights game)} 3... Nf6
+{+ _(Four knights game)} (3... g6 {D(Steinitz)} 4. d4 exd4 5. Nd5
+{V(Rosenthal)}) (3... Bb4 4. Nd5 Nf6 {V(Schlechter)}) (3... f5
+{D(Winawer); _(Gothic defense)}) 4. d4
+{[C47] _(Scotch variation); V(_(Bogolyubov))} (4. Bb5
+{[C48] _(Spanish variation)} 4... Bb4 {_(Double Ruy Lopez opening)} (4... Bc5
+{_(Classical defense)} 5. Nxe5 (5. O-O O-O 6. Nxe5 Nxe5 (6... Nd4 {V(Marshall)})
+7. d4 Bd6 8. f4 Nc6 9. e5 Bb4 {V(Bardeleben)}) 5... Nd4 6. Ba4 {G(Marshall)})
+(4... a6 5. Bxc6 {V(Ranken)} 5... dxc6 6. Nxe5 Nxe4 7. Nxe4 Qd4 8. O-O Qxe5 9.
+Re1 Be6 10. d4 Qd5 {V(Spielmann)}) (4... Nd4 {[C49] Gc(Rubinstein)} 5. Nxe5 (5.
+Be2 Nxf3+ 6. Bxf3 Bc5 7. O-O O-O 8. d3 d6 9. Na4 Bb6 {V(Maroczy)}) (5. Nxd4
+{_(Exchange variation)}) (5. O-O {V(Henneberger)}) 5... Qe7 6. f4
+{V(_(Bogolyubov))}) 5. O-O O-O 6. d3 (6. Nd5 Bc5 (6... Nxd5 7. exd5 e4
+{Ac(Gunsberg)}) 7. d4 {A(Blackburne)}) (6. Bxc6 {V(_(Nimzovich)); V(Paulsen)})
+6... d6 {_(Symmetrical variation)} (6... Bxc3 7. bxc3 d6 (7... d5
+{V(Svenonius)}) 8. Re1 {V(Janowski)}) (6... Qe7 7. Ne2 d5 {V(_(Alatortsev))}) 7.
+Bg5 (7. Ne2 {S(Maroczy)}) 7... Bxc3 (7... Ne7 {V(Pillsbury)} 8. Nh4 c6 9. Bc4 d5
+10. Bb3 Qb6 {V(Blake)}) (7... Be6 {V(Tarrasch)}) 8. bxc3 Ne7 {V(Bernstein)}
+(8... Qe7 {_(Metger unpin variation)} 9. Re1 Nd8 {_(Metger unpin variation)} 10.
+d4 Bg4 {V(Capablanca)})) (4. a3 {V(Gunsberg)} 4... d6 5. h3
+{_(Provincial opening)}) (4. Nxe5 {G(Schultze-Müller); G(Halloween)}) (4. Bc4
+{_(Italian variation)} 4... Nxe4 5. Bxf7+ {G(Noa)}) 4... exd4 (4... Bb4 5. Nxe5
+{V(Krause)} (5. d5 Nd4 {G(Oxford)}) 5... Qe7 {D(Leonhardt)}) 5. Nd5
+{_(Belgrade gambit)} (5. Nxd4 Nxe4 {G(Schmid)})) (3. Be2
+{_(Inverted Hungarian opening)} 3... Nf6 4. d4 {O(Taylor)} (4. d3 d5 5. Nbd2
+{_(Inverted Hanham opening)}) 4... exd4 5. e5 {G(Basman)}) (3. c3
+{O(Ponziani);  O(Staunton);  _(English knights opening)} 3... Nf6 {Ac(Jänisch)}
+(3... d5 4. Qa4 (4. Bb5 {_(Spanish variation)} 4... dxe4 5. Nxe5 Qd5 6. Qa4
+{G(Nikitin)}) 4... Qe7 (4... Bd7 {V(Caro)}) (4... Nf6 {V(Leonhardt)}) (4... f6
+{V(Steinitz)})) (3... f5 {Gc(Ponziani)} 4. d4 d6 5. d5 {A(Schmidt)} 5... fxe4 6.
+Ng5 Nb8 7. Nxe4 Nf6 8. Bd3 Be7 {V(Cordel)}) (3... Nge7 {V(Réti)}) (3... Be7
+{V(_(Romanishin))}) 4. d3 (4. Bc4 {G(Neumann)}) (4. d4 Nxe4 5. d5 Bc5
+{G(Vukovic); D(Fraser)}) 4... Be7 5. b4 {O(Breyer)}) (3. Bd3) (3. Ng1 Nb8 4.
+Ne2) (3. Nxe5 Nxe5 4. d3 (4. d4
+{_(Irish gambit); G(Chicago); G(Schulze-Müller)})) (3. c4 {_(Dresden opening)})
+(3. g3 {O(Konstantinopolsky)}) (3. b4 {_(Paschman wing gambit)}) (3. Ba6) 3...
+a6 {D(Morphy)} (3... d6 {[C62] D(Steinitz)} 4. d4 exd4 (4... Bd7 5. Nc3 (5. c4
+{V(Semi-Duras)}) 5... Nf6 6. Bxc6 {A(_(Nimzovich))}) 5. O-O {_(Center gambit)})
+(3... f5 {[C63] G(Schliemann);  G(Jänisch)} 4. Nc3 {V(Berger); V(Dyckhoff)} (4.
+Bxc6 {_(Exchange variation)}) (4. exf5 {_(accepted)}) (4. d4 {A(Schönemann)})
+4... fxe4 (4... Nf6 5. exf5 Bc5 {V(Kostic)}) (4... Nd4 5. O-O
+{_(Soviet youth variation)}) 5. Nxe4 Be7 {D(Kostic)} (5... d5 6. Nxe5 dxe4 7.
+Nxc6 Qd5 {V(Möhring)}) (5... Nf6 {V(Tartakower)})) (3... Bc5
+{[C64] D(Cordel); _(Classical defense)} 4. c3 (4. b4 {_(Spanish wing gambit)})
+(4. O-O Nd4 (4... Nf6 5. c3 {G(Zukertort)}) 5. b4 {V(Zaitsev)}) 4... Nf6 (4...
+Qe7 {V(Boden)}) (4... Bb6 {V(Charousek)}) (4... f5 {G(Cordel)}) (4... d5
+{G(Konikowski)}) 5. d4 (5. O-O O-O 6. d4 Bb6 {_(Benelux variation)}) 5... Bb6 6.
+O-O O-O {V(Benelux)}) (3... Nf6 {[C65] _(Berlin defense)} 4. d3 (4. O-O Nxe4
+{[C67] _(Open variation)} (4... Bc5 {V(Beverwijk)}) (4... d6
+{[C66] v(D(Steinitz))} 5. d4 Bd7 (5... Nd7 {V(_(Chigorin))}) 6. Nc3 Be7
+{_(Hedgehog variation)} (6... exd4 {V(Wolf)}) 7. Bg5 {V(Bernstein)} (7. Bxc6
+{V(Showalter)}) (7. Re1 O-O {T(Tarrasch)})) (4... Ng4
+{_(Fishing Pole variation)}) 5. d4 Be7 (5... Nd6 {V(L’Hermet)} 6. Bxc6 (6.
+dxe5 {V(L’Hermet)}) (6. Ba4 {V(Showalter)}) 6... dxc6 7. dxe5 Ne4
+{L(Westerinen)}) (5... a6 {V(Rosenthal)}) 6. Qe2 (6. dxe5 {V(Minckwitz)}) 6...
+Nd6 (6... d5 {V(Trifunovic)}) 7. Bxc6 bxc6 8. dxe5 Nb7 (8... Nf5 {V(Cordel)}) 9.
+Nc3 (9. b3 {V(Pillsbury)}) (9. Nd4 {A(Winawer)} 9... O-O) (9. c4 {V(Zukertort)})
+9... O-O 10. Re1 {_(Berlin variation)} 10... Nc5 11. Nd4 Ne6 12. Be3 Nxd4 13.
+Bxd4 c5 {V(Rio de Janeiro)}) 4... d6 (4... Bc5 5. Be3 {V(Kaufmann)}) (4... Ne7
+{V(Mortimer)} 5. Nxe5 c6 {T(Mortimer)}) 5. Bxc6+ {V(Anderssen)} (5. c4
+{V(Duras)})) (3... Bb4 {D(_(Alapin))} 4. c3 Ba5 5. Bxc6 dxc6 {G(_(Alapin))})
+(3... Nd4 {[C61] D(Bird)} 4. Nxd4 exd4 5. O-O Ne7 {V(Paulsen)}) (3... g6
+{V(_(Smyslov)); V(Barnes); _(Fianchetto variation)}) (3... g5 {D(Brentano)})
+(3... a5 {_(Bulgarian variation)}) (3... Nge7 {D(Cozio)} 4. Nc3 (4. d4 exd4 5.
+Nxd4 g6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2 d5 {G(Tartakower)}) 4... g6 {V(Paulsen)})
+(3... Qf6 {_(Frankfort variation);  V(Gunderam)}) (3... d5
+{G(Sawyer);  _(Spanish counter-gambit)} 4. Nxe5 Qg5 5. O-O {G(Fricke)} (5. Nxc6
+{G(Harding)})) (3... Be7 {D(Lucena)}) (3... f6 {_(Nuremberg defense)}) (3... Nb8
+{_(Retreat variation)}) (3... b6 {G(Rotary-Albany)}) (3... Qe7
+{V(_(Vinogradov))}) (3... Na5 {D(Pollock)}) 4. Ba4 {[C70]} (4. Bxc6
+{[C68] _(Exchange variation)} 4... dxc6 (4... bxc6 {V(Lutikov)} 5. Nc3
+{V(Keres)} 5... f6 6. d3 {V(Romanovsky)}) 5. O-O {[C69] V(Barendregt-Fischer)}
+(5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd6 {V(_(Alekhine))} (7... Bd7
+{V(_(Alekhine))})) (5. Nc3 {V(Keres)} 5... f6 6. d3 {V(_(Romanovsky))}) 5... Bg4
+(5... Qd6 {V(Bronstein)}) (5... f6 {V(Gligoric)}) (5... Bd6
+{_(King’s bishop variation)}) 6. h3 h5 {G(_(Alapin))}) 4... Nf6
+{[C77] D(Morphy)} (4... Bb4 {d(D(_(Alapin)))}) (4... d6
+{[C71] _(Modern Steinitz defense)} 5. Bxc6+ (5. c4 {V(Keres); V(Duras)}) (5. c3
+{[C74]} 5... f5 {V(Siesta)} (5... Bd7 {[C75]} 6. d4 Nge7 {V(Rubinstein)} (6...
+g6 {[C76] V(Bronstein);  _(Fianchetto variation)})) 6. exf5 Bxf5 7. O-O
+{V(_(Kopayev))}) (5. d4 b5 6. Bb3 exd4 (6... Nxd4 7. Nxd4 exd4 8. Qxd4 c5
+{_(Noah’s ark trap)}) 7. Nxd4 Nxd4 8. Qxd4 c5 9. Qd5 Be6 10. Qc6+ Bd7
+{_(Noah’s ark trap)}) (5. Nc3 {_(Three knights variation)}) (5. O-O {[C72]})
+5... bxc6 6. d4 {[C73] V(Richter)} 6... f6 {V(_(Alapin))}) (4... b5 {V(Caro)} 5.
+Bb3 Bc5 {_(Graz variation)} (5... Na5
+{V(_(Taimanov)); _(Chase variation); _(Wing variation); _(Accelerated counterthrust variation)}
+6. Bxf7+ {_(Nightingale gambit)})) (4... f5 {d(G(Jänisch)); d(D(Schliemann))})
+(4... g6 {_(Fianchetto defense deferred)}) (4... Nge7
+{_(Cozio defense deferred)}) (4... Nd4 {_(Bird’s defense deferred)}) (4... Bc5
+{_(Classical defense deferred)}) 5. O-O {[C78]} (5. c3 {G(Jaffe)}) (5. d4
+{V(Mackenzie)}) (5. Nc3 {V(_(Nimzovich));  V(Tarrasch)}) (5. Bxc6
+{V(Treybal);  _(Bayreuth variation); V(Flohr);  _(Exchange variation deferred)})
+(5. Qe2 {A(Wormald); A(Alapin)} 5... b5 6. Bb3 Be7 7. d4 d6 8. c3 Bg4
+{V(Grünfeld)}) (5. d3 {V(Anderssen)} 5... d6 6. c4 {V(Duras)}) 5... Be7 {[C84]}
+(5... Nxe4 {[C80] V(Tarrasch);  _(Open variation)} 6. d4 (6. Nc3 {V(Knorre)})
+(6. Re1 d5 {G(Skipworth)}) (6. Qe2 {V(Tartakower)}) 6... b5 (6... exd4
+{V(Riga)}) 7. Bb3 (7. d5 {V(Richter)}) (7. Nxe5 {A(Friess)}) 7... d5 8. c4
+{G(Harksen)} (8. dxe5 {V(Malkin)} 8... Be6
+{V(Keres);  _(Estonian variation); V(Howell); _(Moscow variation)} (8... Ne7
+{V(Zukertort)}) 9. Qe2 {[C81] A(Howell)} (9. c3 {[C82]} 9... Bc5
+{_(Italian variation)} (9... Nc5 {_(Berlin variation)}) (9... Be7
+{[C83] _(Classical defense)} 10. Nbd2 (10. Re1 O-O 11. Nd4 Qd7 (11... Nxe5
+{_(Breslau variation)}) 12. Nxe6 fxe6 13. Rxe4 {T(Tarrasch)}) 10... O-O 11. Qe2
+{V(Malkin)}) 10. Qd3 {V(Motzko)} (10. Nbd2 {_(St. Petersburg variation)} 10...
+O-O 11. Bc2 Nxf2 {V(Dilworth)}) 10... Ne7 {V(_(Nenarokov))}) (9. Nbd2
+{V(Bernstein)} 9... Nc5 10. c3 d4 {G(_(Karpov))} 11. Ng5 {G(_(Karpov))}) 9...
+Be7 10. Rd1 (10. c4 {V(Adam)}) 10... O-O 11. c4 bxc4 12. Bxc4 Qd7 {V(Ekstroem)})
+(8. a4 Nxd4 {D(Schlechter)} 9. Nxd4 exd4 10. Nc3 {V(Berger)})) (5... Bc5
+{V(Möller)}) (5... b5 6. Bb3 d6 {D(n(Steinitz))} (6... Bb7
+{V(Archangelsk); _(Counterthrust variation)} 7. Ng5 d5 {G(Shannon)}) (6... Be7
+7. a4 {_(Wing attack)}) 7. Ng5 d5 8. exd5 Nd4 9. Re1 Bc5 10. Rxe5+ Kf8
+{V(_(Rabinovich))}) (5... d6 {[C79] _(Russian defense); d(D(Steinitz))} 6. Bxc6+
+bxc6 7. d4 Bg4 {V(Lipnitsky)} (7... Nxe4 {V(Rubinstein)} 8. Re1 f5 9. dxe5 d5
+10. Nc3 {V(_(Boleslavsky))})) (5... d5 {V(Kolisch)}) 6. Re1 (6. Nc3
+{_(Lopez four knights opening)}) (6. Qe2 {[C86] A(Worrall)} 6... b5 7. Bb3 O-O
+(7... d6) 8. c3 d5 {V(Schlechter)}) (6. d4 {_(Center attack)} 6... exd4 7. e5
+Ne4 8. c3 {_(Basque gambit)}) (6. Bxc6 dxc6 {[C85]}) 6... b5 (6... d6
+{[C87] V(Averbach)} 7. c3 O-O 8. d4 Bd7 9. Nbd2 Be8 {V(Kacsemet); V(Timbuktu)}
+(9... exd4 10. cxd4 Nb4 {V(Romanovsky)})) 7. Bb3 {[C88]} 7... O-O (7... d6 8. c3
+(8. d4 {A(Rosen)} 8... Nxd4 9. Nxd4 exd4 10. Qxd4 c5 {_(Noah’s ark trap)})
+8... O-O (8... Kf8) (8... Na5 9. Bc2 c5 10. d4 Qc7 11. h3 (11. a4 {V(Balla)})
+11... Nc6 12. d5 Nb8 13. Nbd2 g5 {V(Leonhardt)}) 9. h3 (9. Bc2 {V(Lutikov)}) (9.
+d3 {V(Pilnik)}) (9. a3 {V(Suetin)}) (9. d4 {V(Yates)}) 9... Nd7 {D(Keres)} (9...
+a5 {V(Keres)}) (9... Na5 10. Bc2 c5 11. d4 Nd7 {V(Keres)} (11... Qc7 12. Nbd2
+(12. d5 {_(Spanish Benoni)}) 12... Nc6 13. dxe5 dxe5 14. a4 {V(Rauzer)})) (9...
+Be6 {V(Kholmov)}) (9... Nb8 10. d4 Nbd7 11. Nbd2 (11. Nh4 {V(Simagin)}) 11...
+Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Bg5 {V(Romanishin)}) (9... h6 {V(Smyslov)})
+(9... Re8 {S(Zaitsev)})) (7... Bb7 {Ac(Trajkovic)} 8. c3 d5 9. exd5 Nxd5 10.
+Nxe5 Nxe5 {V(p(Marshall))}) 8. c3 (8. a4 {V(a(Marshall))}) 8... d5
+{[C89] G(Marshall)} (8... Na5 9. Bc2 c5 10. d4 Qc7 11. h3 Nc6 12. d5 Nd8 13.
+Nbd2 g5 {V(Leonhardt)}) (8... d6 {[C90]} 9. Bc2 {V(_(Lutikov))} (9. a3
+{V(Suetin)}) (9. d3 {V(Pilnik)}) (9. d4 {[C91]} 9... Bg4 {V(_(Bogolyubov))}) (9.
+h3 {[C92]} 9... a5 {V(Keres)} (9... Be6 {V(_(Kholmov))}) (9... Nd7
+{V(Ragozin-Petrosian)}) (9... Bb7 {S(Flohr-Zaitsev); V(Lenzerheide)}) (9... h6
+{[C93] D(_(Smyslov))}) (9... Nb8 {[C94] D(Breyer)} 10. d4 {[C95]} (10. Bc2 c6
+(10... c5 11. d4 Nc6 {D(Borisenko)} (11... Nbd7 {D(Keres)}) (11... Qc7
+{D(_(Chigorin))} 12. Nbd2 Bd7 (12... Nc6 13. dxc5 {A(Rauzer)}) (12... cxd4 13.
+cxd4) 13. Nf1 Re8 14. Ne3 g6 {_(Yugoslav system)})) 11. d4 Qc7 {D(Rossolimo)})
+10... Nbd7 {V(Borisenko)} 11. Nbd2 (11. Nh4 {V(Simagin)}) 11... Bb7 12. Bc2 c5
+{V(Gligoric)}) (9... Na5 10. Bc2 {[C96]} 10... c5 11. d4 Qc7
+{[C97] V(_(Tchigorin))} 12. Nbd2 Nc6 {[C98]} (12... cxd4 13. cxd4 {[C99]})))) 9.
+exd5 (9. d4 {Ac(Marshall)}) 9... Nxd5 (9... e4 {V(Steiner)}) 10. Nxe5 Nxe5 11.
+Rxe5 c6 12. d4 (12. Bxd5 cxd5 13. d4 Bd6 14. Re3 {V(Kevitz)}) 12... Bd6 13. Re1
+Qh4 14. g3 Qh3 {V(Geller)} 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. a4 Qh5
+{V(_(Spassky))} *
+

@@ -1,0 +1,31 @@
+/*   -*-c-*-
+ * Stylesheet for the HTML representation of PGN.  
+ */	
+
+/* Comments */ 
+.pgn_comment {
+}
+
+/* Main variation */ 
+.pgn_level_0 {
+  font-weight: bold;
+}
+
+/* First level subvariation */ 
+.pgn_level_1 {
+}
+
+/* Second level subvariation */ 
+.pgn_level_2 {
+  font-style: italic;
+}
+
+/* ... */
+.pgn_level_3 {
+  font-style: italic;
+}
+
+.pgn_level_4 {
+  font-size:  smaller;
+  font-size:  italic;
+}

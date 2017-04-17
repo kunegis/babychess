@@ -1,0 +1,84 @@
+#!/bin/sh
+##
+## Build a binary RPM package.  (RedHat Package Management)
+##
+## $PLATFORM:  e.g. i586 
+##
+## More info on RPM at <http://www.rpm.org/>. 
+##
+## All files must be built. 
+##
+
+. sh/tmp.sh
+. sh/version-number.sh
+. sh/verbose.sh
+. sh/info.sh
+
+[ "$PLATFORM" ] || {
+    echo >&2 "*** error:  \$PLATFORM must be set"
+    exit 1
+}
+
+##
+## Install in an empty root directory
+##
+install_root=$TMP/babychess.sh.build-rpm.$$
+install_dir=/usr
+skip_home=1
+export install_root skip_home install_dir
+rm -rf "$install_root"
+echo >&4 \$install_root=$install_root
+sh/install
+#echo 'install!...'
+#read install
+
+##
+## Build the specfile for RPM
+##
+specfile="$TMP/babychess-$BABYCHESS_VERSION_NUMBER-1.spec"
+echo >&4 \$specfile=$specfile
+{
+    echo "\
+Summary:     A chess application
+Name:        babychess
+Version:     $BABYCHESS_VERSION_NUMBER
+Release:     1
+Copyright:   GPL
+Group:       Games
+Source:      $BABYCHESS_WEBSITE
+BuildRoot:   $install_root.2
+
+%description
+A GUI chess application.  It is used to edit the PGN and FEN formats. 
+Contains an own chess engine, and the ability to use other engines.
+
+%prep
+
+%build
+
+%install
+cp -r $install_root/* $install_root.2
+%clean
+
+%files"
+
+    find "$install_root/" -not -type d |
+    sed 's|^/[^ /]*/[^ /]*\(.*\)$|\1|' |
+    {
+	while read file
+	do
+	    if echo $file | grep '/baby[-a-z0-9]*' >/dev/null
+	    then
+		echo '%defattr(755,root,root)'
+	    else
+		echo '%defattr(644,root,root)'
+	    fi
+	    echo \"$file\"
+	done
+    }
+} >$specfile
+
+sh/do rpmbuild -bb $specfile || {
+    echo >&2 "*** error:  rpmbuild -bb failed"
+    exit 1 ; }
+

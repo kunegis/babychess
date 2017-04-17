@@ -1,0 +1,14 @@
+PGN files for testing.
+
+Files come in pairs:   "NAME.pgn" and "NAME.pgn.export".  The first is in
+import format, and the second is the same PGN file but in export format.  Doing
+
+       $ babychess-book -a -m NAME.pgn -D
+
+should produce exactly the content of "NAME.pgn.export". 
+
+The *.pgn files are not all in export format and should therefore not be edited
+using BabyChess.
+
+
+

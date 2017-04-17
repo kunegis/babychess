@@ -1,0 +1,36 @@
+#!/bin/sh
+## 
+## Merge new messages into the PO file of language $1. 
+##
+
+if [ -z "$1" ] 
+then
+    echo "$0:  ***: error: language not passed as argument"
+    exit 1
+fi
+
+## Never lose the .po file. 
+cp po/$1.po po/$1.po.backup || {
+    echo >&2 *** failed:  cp po/$1.po po/$1.po.backup
+    exit 1
+}
+
+msgmerge --version >/dev/null 2>&1 || {
+    echo 'Refusing to use non-GNU version of msgmerge.'
+    exit 1
+}
+
+# check that GNU msgmerge is new enough to support plurals 
+#version="`msgmerge --version | sed -e 's,^.* \([^ ]*\)$,\1,' -e q`"
+#echo VERSION=$version
+
+msgmerge po/$1.po po/babychess.pot -o po/$1.po || {
+    echo "Msgmerge failed.  Restoring old $1.po."
+    rm po/$1.po 
+    cp po/$1.po.backup po/$1.po
+    exit 0
+}
+
+exit 0
+
+

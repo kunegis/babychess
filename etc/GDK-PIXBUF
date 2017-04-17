@@ -1,0 +1,34 @@
+GdkPixbuf
+=========
+
+To load the board image the following is done:
+
+- the image is located in a PGN file with an alpha channel
+- the image is loaded into memory as two GdkImages, one for the image
+  and one for the alpha channel (as graytones, black= transparent,
+  white= opaque) [module PNG]
+- the images are stretched [module CLIENT_IMAGE]
+- the images are sent to the X Server [module CLIENT_IMAGE]
+- the pieces are drawn using boolean operators: [module SERVER_IMAGE]
+
+  ----------------         ------------             -----
+  BACKGROUND IMAGE         ALPHA CHANNEL            IMAGE
+  ----------------         -------------            -----
+         |                   |    |                   |
+         `------AND NOT------'    `-------AND---------'
+                   |                       |
+		   `-----------OR----------'
+                               |
+			       |
+		        --------------
+  		        COMPOSED IMAGE
+			--------------
+
+
+To do that with GdkPixbuf, the alpha channel must be separated from
+the images.  It's not enough to used gdk_draw_pixbuf(), because that
+would load the images from X client space everytime a piece is drawn. 
+
+How can two X GdkPixmaps be generated from a PGN file that has an
+alpha channel using GdxPixbuf?
+
