@@ -1,7 +1,8 @@
 This is an historical archive of the program "BabyChess", which I wrote
 approximately between 1999 and 2006, i.e., during my time at TU Berlin.
 
-All files except 'README.2017' are original.  
+All files except 'README.2017' and the directory 'screenshots' are
+original.    
 
 The program plays chess, and consists of an engine (the part that
 calculates moves), and a GUI written in GTK+.  The GUI was quite
